@@ -1,3 +1,3 @@
 # Mada-Bat-CoV
 
-This github repo contains documentation of analyses for the Madagascar bat coronavirus paper
+This github repo contains documentation of analyses for the Madagascar bat coronavirus paper. Goal of this repo is to document analysis to define which samples from fecal and urine datasets have detectable coronavirus signal, to build a phylogeny of those CoVs, and to assemble full genomes for as many as possible. Additionally, we will undertake a few simple ecological analyses to highlight the seasonality of bat virus shedding.
