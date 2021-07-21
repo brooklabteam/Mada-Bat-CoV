@@ -13,7 +13,7 @@ This github repo contains documentation of analyses for the Madagascar bat coron
 makeblastdb –in NCBI_all_CoV_nt.fasta –dbtype nucl –parse_seqids
 ```
 
-Note that you will need to have the command line version of NCBI-Blast installed on your computer to do this. See here for directions.
+Note that you will need to have the command line version of NCBI-Blast installed on your computer to do this. See [here](https://www.ncbi.nlm.nih.gov/books/NBK569861/) for directions.
 
 4. Then, we kicked off a command line blast for each contig subset on the two above databases (so six runs in total). I ran these on the UC Berkeley computing cluste. Basically, I am re-doing a more focused version of IDseq to see if any other "hits" to CoVs specifically shake out.
 
