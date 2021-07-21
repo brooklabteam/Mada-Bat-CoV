@@ -11,11 +11,29 @@ This github repo contains documentation of analyses for the Madagascar bat coron
 2. Now, because many of the contigs will overlap in sequences and slow our mapping down, we can deduplicate the compiled .fasta for each of the tissues using the program [CD-HIT](http://weizhong-lab.ucsd.edu/cd-hit/). You'll need to [install this](https://github.com/weizhongli/cdhit/wiki/2.-Installation) on your home computer first. If using MacOS, I recommend using bioconda to do it--see [here](https://anaconda.org/bioconda/cd-hit). Once installed, you can deduplicate each of the contig files via the following command line script in the same folder as the downloaded contigs (here shown just for the fecal contigs file -- you will need to run it for all three tissue types). This command :
 
 ```
-cd-hit-est -i rr034b1_feces_all_non_host_contigs.fasta -c 0.95 -o rr034b1_feces_all_non_host_contigs_DEDUP.fasta -M 5000
+cd-hit-est -i rr034b1_feces_all_non_host_contigs.fasta -c 0.95 -o rr034b1_feces_all_non_host_contigs_DEDUP.fasta -M 0
 
 ```
 
-I ran the above on the UC Berkeley computing cluster. It can be run locally but it is extremeley slow.
+I ran the above on the UC Berkeley computing cluster (Savio). It can be run locally but it is extremely slow. The fecal sample run took about 5 hours on my personal computer and about 2 hours on Savio. The throat and urine hav fewer contigs and are much faster.
+
+Here's the bash script I used on Savio to run the fecal example:
+
+```
+#!/bin/bash
+#SBATCH --job-name=cdhit-feces
+#SBATCH --account=fc_sirmodel
+#SBATCH --partition=savio3
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --ntasks=1
+#SBATCH --time=24:00:00
+
+module load gcc/7.4.0
+module load cmake/3.15.1
+
+/global/home/users/cbrook/cd-hit/cd-hit-est -i rr034b1_feces_all_non_host_contigs.fasta -c 0.95 -o rr034b1_feces_all_non_host_contigs_DEDUP.fasta -M 0
+```
 
 ---
 
@@ -23,11 +41,13 @@ I ran the above on the UC Berkeley computing cluster. It can be run locally but 
 
 ---
 
-4. Now, make sure that the command line version of NCBI-Blast is installed on your computer. See [here](https://www.ncbi.nlm.nih.gov/books/NBK569861/) for directions. If you are using Mac OS X, running the .dmg installer will probably give you the most success. To test if your installation worked, from anywhere in the command line, try typing 'blastn' and hitting enter. If you receive the following message, then you should be good to go:
+4. Now, you need to make sure that the command line version of NCBI-Blast is installed on your computer. See [here](https://www.ncbi.nlm.nih.gov/books/NBK569861/) for directions. If you are using Mac OS X, running the .dmg installer will probably give you the most success. To test if your installation worked, from anywhere in the command line, try typing 'blastn' and hitting enter. If you receive the following message, then you should be good to go:
 
 ```
 BLAST query/options error: Either a BLAST database or subject sequence(s) must be specified
 ```
+
+Also, note that I ran all the blast searches on Savio, as well. If you go this route, you will need to install Blast to the computing cluster.
 
 ---
 
@@ -42,5 +62,37 @@ Note that you may have to delete and retype the dashes above in your own command
 
 ---
 
-5. Now, that the reference sequence is in hand and the non-host contigs deduplicated, you can kick off a command line blast for each contig subset on the two above databases (so six runs in total). I again ran these on the UC Berkeley computing cluste. Basically, I am re-doing a more focused version of IDseq to see if any other "hits" to CoVs specifically shake out.
+5. Now that the reference sequence is in hand and the non-host contigs deduplicated, you can kick off a command line blast for each contig subset on the two above databases (so six runs in total). I again ran these on the UC Berkeley computing cluster. Basically, I am re-doing a more focused version of IDseq to see if any other "hits" to CoVs specifically shake out.
 
+You will run six BLASTs in total: 3 nucleotide and 3 protein BLASTs, one for each of the deduplicated contigs above. First, run a "blastn"" alignment of deduplicated set of contigs with the CoV_nt database, then run a "blastx" alignment of the deduplicated set of contigs with the CoV_aa database. Scripts for both are listed below (make sure that you upload ALL the CoV_aa and CoV_nt files into the same folder for this to be able to run):
+
+```
+blastn -word_size 10 -evalue 0.001 -query rr034b1_feces_all_non_host_contigs_DEDUP.fasta -db CoV_nt -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle'  -max_target_seqs 10 -out 20210721_Mada_Bat_CoV_blast_nt.txt
+
+blastx -word_size 3 -evalue 0.001 -query rr034b1_feces_all_non_host_contigs_DEDUP.fasta -db CoV_aa -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle' -max_target_seqs 10 -out 20210721_Mada_Bat_CoV_blast_prot.txt
+
+```
+
+Again, these can be run locally, but I used Savio to speed things up. The searches did not take so long (minutes!) after the deduplication step above for the throat and urine. The fecal search was longer.
+
+Here is the bash script for the deduped fecal contigs for the nucleotide blast:
+
+```
+#!/bin/bash
+#SBATCH --job-name=blastn-feces
+#SBATCH --account=fc_sirmodel
+#SBATCH --partition=savio3
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --ntasks=1
+#SBATCH --time=24:00:00
+
+module load gcc/7.4.0
+module load cmake/3.15.1
+
+/global/home/users/cbrook/ncbi-blast/bin/blastn -word_size 10 -evalue 0.001 -query rr034b1_feces_all_non_host_contigs_DEDUP.fasta -db /global/scratch/cbrook/NCBI-databases/CoV_nt -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle'  -max_target_seqs 10 -out 20210721_Mada_Bat_CoV_blast_feces_nt.txt
+```
+
+---
+
+6.  After the blast finishes, now link back the hits to the samples of interest... (in progress)
