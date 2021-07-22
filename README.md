@@ -119,5 +119,5 @@ cat 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt | awk -F\_ '{print $1"_"$
 
 ```
 
-And do the same for the other sample types and for the blastx outputs.
+And do the same for the other sample types and for the blastx outputs. Load the outputs into R and determine which samples with meta-data were infected at various times/places.
 
