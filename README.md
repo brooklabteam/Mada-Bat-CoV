@@ -105,7 +105,14 @@ module load cmake/3.15.1
 
 ---
 
-6.  After the blast finishes, now link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of throat samples):
+6.  After the blast finishes, you'll want to curate a bit to the high quality hits. After Amy's lead, I went ahead and parsed the nucelotide blastn runs for alignments that show 70% or more % identity and alignment length > 75 ntes and the protein blastx runs for alignments that show alignment length > 100 aa and bit score > 100.
+
+Here's the script for the nt parse (feces as example):
+
+And for the protein parse (feces again):
+
+---
+7. Once the blast results have beeen sub-selected a bit, you can summarize them to link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of throat samples):
 
 ```
 cat 20210721_Mada_Bat_CoV_blast_throat_nt.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt
