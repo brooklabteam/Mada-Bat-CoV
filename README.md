@@ -4,7 +4,19 @@ This github repo contains documentation of analyses for the Madagascar bat coron
 
 ---
 
-1. First, we downloaded all non-host contigs derived from fecal, urine, or saliva and mapping to ANY taxon from IDseq in the 'RR034B1_feces' project, the 'RR034B2_urine_wholeblood_novaseq' project, and the 'RR034B_throat_swab_raw_RNASeq_NovaSeq'project. (Note that we did not take contigs from HeLa controls or water, and in the case of the 'RR034B2_urine_wholeblood_novaseq' project, we only looked at urine samples). We concatenated each of these into a compiled fasta of non-host reads for each tissue type. Note that these files are too big to include in the GitHub repo.
+1. First, we downloaded all non-host contigs derived from fecal, urine, or saliva and mapping to ANY taxon from IDseq in the 'RR034B1_feces' project, the 'RR034B2_urine_wholeblood_novaseq' project, and the 'RR034B_throat_swab_raw_RNASeq_NovaSeq'project. (Note that we did not take contigs from HeLa controls or water, and in the case of the 'RR034B2_urine_wholeblood_novaseq' project, we only looked at urine samples). This can be done in bulk, manually, on IDseq.net in the top right-hand corner.
+
+Note that when you download all the non-host contigs, it will produce a folder with a separate fasta file for each sample, which lists the contigs by node number but does not include the sample ID. Before joining all the contigs (nodes) together, you need to distinguish them by sample ID. One simple way to do this is to incporate a part of each fasta filename in the contig names within it. To do this, you should (a) first, edit all the fasta files such that the using the following:
+
+```
+
+for f in 'ls *.fasta' awk '/>/{sub(">","&"FILENAME"_");sub(/\.fasta/,x)}1' sample_1.fasta cd "$OLDPWD" done
+
+```
+
+
+
+We concatenated each of these into a compiled fasta of non-host reads for each tissue type. Note that these files are too big to include in the GitHub repo.
 
 ---
 
@@ -95,4 +107,19 @@ module load cmake/3.15.1
 
 ---
 
-6.  After the blast finishes, now link back the hits to the samples of interest... (in progress)
+6.  After the blast finishes, now link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of throat samples):
+
+```
+cat 20210721_Mada_Bat_CoV_blast_throat_nt.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt
+
+```
+
+And here to save the unique sample IDs for the same example:
+
+```
+cat 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_throat_nt.txt
+
+```
+
+And do the same for the other sample types and for the blastx outputs.
+
