@@ -148,3 +148,7 @@ cat 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt | awk -F\_ '{print $1"_"$2
 sh -e curate-blast-output.txt
 ```
 
+---
+
+9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script for further comparison of manual pipeline hits for fecal and urine samples.
+
