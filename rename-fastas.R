@@ -16,7 +16,8 @@ new_names <- as.list(new_names)
 all_names <- as.list(all_names)
 #now load and rename
 
-rename.func <- function(old, new){
+#write the renaming function
+rename.func <- function(old){
   input = read.fasta(old, as.string=T, forceDNAtolower = F)
   names_input = names(input)
   names_input = strsplit(names_input, split = "_cov")
@@ -31,5 +32,8 @@ rename.func <- function(old, new){
   
 }
 
+#now apply the function over the entire list of files
+
+lapply(all_names, rename.func)
 
 
