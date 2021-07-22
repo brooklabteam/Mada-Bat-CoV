@@ -8,10 +8,10 @@ library(seqinr)
 all_names <- c(unlist(list.files()))
 
 #all the names except this R file
-all_names <- all_names[all_names!="rename-fastas.R"]
+all_names <- all_names[all_names!="rename-fastas-urine.R"]
 
 #now make new names
-new_names <- paste0(sapply(strsplit(all_names, split="_fecRa"), '[',1),".fasta")
+new_names <- paste0(sapply(strsplit(all_names, split="_ua"), '[',1),".fasta")
 new_names <- as.list(new_names)
 all_names <- as.list(all_names)
 #now load and rename
@@ -22,7 +22,7 @@ rename.func <- function(old){
   names_input = names(input)
   names_input = strsplit(names_input, split = "_cov")
   names_input = c(unlist(sapply(names_input, '[', 1)))
-  new_slim = sapply(strsplit(old, split="_fecRa"), '[',1)
+  new_slim = sapply(strsplit(old, split="_ua"), '[',1)
   
   names_output = paste(new_slim, names_input, sep="_")
   
