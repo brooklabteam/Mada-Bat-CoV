@@ -1,0 +1,52 @@
+#!/bin/bash
+
+#This script is meant to curate the output files from protein and nt blasts for feces/throat/urine samples. First, sub-select output to alignment length > 100 aa (or nt) and bit score > 100.
+
+#Here for the nt blastn runs:
+
+cat 20210721_Mada_Bat_CoV_blast_feces_nt.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt
+
+cat 20210721_Mada_Bat_CoV_blast_urine_nt.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210721_Mada_Bat_CoV_blast_urine_nt_results_100len5eval.txt
+
+cat 20210721_Mada_Bat_CoV_blast_throat_nt.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210721_Mada_Bat_CoV_blast_throat_nt_results_100len5eval.txt
+
+#And here for the protein blastx runs:
+
+cat 20210721_Mada_Bat_CoV_blast_feces_prot.txt | awk -F\t '($4>99 && $6>99) {print $1,$3, $4,$5,$8,$9}' > 20210721_Mada_Bat_CoV_blast_feces_prot_results_100len100bit.txt
+
+cat 20210721_Mada_Bat_CoV_blast_urine_prot.txt | awk -F\t '($4>99 && $6>99) {print $1,$3, $4,$5,$8,$9}' > 20210721_Mada_Bat_CoV_blast_urine_prot_results_100len100bit.txt
+
+cat 20210721_Mada_Bat_CoV_blast_throat_prot.txt | awk -F\t '($4>99 && $6>99) {print $1,$3, $4,$5,$8,$9}' > 20210721_Mada_Bat_CoV_blast_throat_prot_results_100len100bit.txt
+
+#Now that they are sub-selected, summarize the hits to unique contigIDs and sampleIDs:
+
+#here all the contigs:
+
+cat 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt
+
+cat 20210721_Mada_Bat_CoV_blast_throat_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt
+
+cat 20210721_Mada_Bat_CoV_blast_urine_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_urine_nt.txt
+
+
+cat 20210721_Mada_Bat_CoV_blast_feces_prot_results_100len100bit.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_feces_prot.txt
+
+cat 20210721_Mada_Bat_CoV_blast_throat_prot_results_100len100bit.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_prot.txt
+
+cat 20210721_Mada_Bat_CoV_blast_urine_prot_results_100len100bit.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_urine_prot.txt
+
+#and the sampleIDs:
+
+cat 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_feces_nt.txt
+
+cat 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_throat_nt.txt
+
+cat 20210721_Mada_Bat_CoV_unique_contigs_urine_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_urine_nt.txt
+
+
+cat 20210721_Mada_Bat_CoV_unique_contigs_feces_prot.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_feces_prot.txt
+
+cat 20210721_Mada_Bat_CoV_unique_contigs_throat_prot.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_throat_prot.txt
+
+cat 20210721_Mada_Bat_CoV_unique_contigs_urine_prot.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_urine_prot.txt
+
