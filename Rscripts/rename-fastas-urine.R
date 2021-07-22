@@ -20,8 +20,7 @@ all_names <- as.list(all_names)
 rename.func <- function(old){
   input = read.fasta(old, as.string=T, forceDNAtolower = F)
   names_input = names(input)
-  names_input = strsplit(names_input, split = "_cov")
-  names_input = c(unlist(sapply(names_input, '[', 1)))
+  
   new_slim = sapply(strsplit(old, split="_ua"), '[',1)
   
   names_output = paste(new_slim, names_input, sep="_")
