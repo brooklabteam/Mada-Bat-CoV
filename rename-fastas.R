@@ -8,7 +8,7 @@ library(seqinr)
 all_names <- c(unlist(list.files()))
 
 #all the names except this R file
-all_names <- all_names[-1]
+all_names <- all_names[all_names!="rename-fastas.R"]
 
 #now make new names
 new_names <- paste0(sapply(strsplit(all_names, split="_fecRa"), '[',1),".fasta")
