@@ -148,7 +148,16 @@ cat 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt | awk -F\_ '{print $1"_"$2
 sh -e curate-blast-output.txt
 ```
 
+You can see from investigating the "unique_contigs" folders that there is LOTS of cool stuff going on. We have a whole bunch of big contigs that are full genome of the virus(es):
+
+- RR034B_010_NODE_1_length_29122 (Pteropus rufus, sample AMB130, 2/26/2018)
+- RR034B_232_NODE_1_length_28926 (Rousettus madagascariensis, sample MIZ178, 4/14/2018)
+- RR034B_288_NODE_2_length_28980 (Rousettus madagascariensis, sample MIZ240, 9/11/2018)
+
+There are Eidolon hits in the urine, but none at full genome. The three above are HUGE contributions.I think the paper will have two trees: one small sequence RdRp tree of our samples and closely related CoVs and one full genome phylogeny of all CoVs that includes the three megasamples above.
+
+
 ---
 
-9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script ('CoV-hits-vs-metadata.R') for further comparison of manual pipeline hits for fecal and urine samples.
+9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script ('CoV-hits-vs-metadata.R') for further comparison of manual pipeline hits for fecal and urine samples. There are differences, so I am going through them individually IDseq to check.
 

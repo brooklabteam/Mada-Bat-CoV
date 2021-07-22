@@ -40,29 +40,85 @@ IDseq.unique <- rbind(IDseq.pos.fec, IDseq.pos.ur)
 
 #those in my pipeline but not on IDseq:
 setdiff(all.unique$sampleID[all.unique$tissue=="feces"], IDseq.unique$sampleID[IDseq.unique$tissue=="feces"])
-#"RR034B_019"
+#"RR034B_019". actually does come up on IDseq but as a trace hit. 
+#contig is good (216 bp in length), so we will keep it
 
 #and those in IDseq but not my pipeline:
 setdiff(IDseq.unique$sampleID[IDseq.unique$tissue=="feces"], all.unique$sampleID[all.unique$tissue=="feces"])
 
-#lots. should mannually double-check
+#lots. should manually double-check
 
-#[1] "RR034B_004" "RR034B_016" "RR034B_057" "RR034B_058" "RR034B_060" "RR034B_061" "RR034B_062"
-#[8] "RR034B_064" "RR034B_070" "RR034B_074" "RR034B_099" "RR034B_101" "RR034B_111" "RR034B_112"
-#[15] "RR034B_113" "RR034B_121" "RR034B_122" "RR034B_126" "RR034B_129" "RR034B_143" "RR034B_145"
-#[22] "RR034B_148" "RR034B_155" "RR034B_156" "RR034B_158" "RR034B_160" "RR034B_162" "RR034B_164"
-#[29] "RR034B_165" "RR034B_167" "RR034B_168" "RR034B_174" "RR034B_175" "RR034B_176" "RR034B_186"
-#[36] "RR034B_188" "RR034B_218" "RR034B_220" "RR034B_228" "RR034B_239" "RR034B_242" "RR034B_244"
-#[43] "RR034B_250" "RR034B_256" "RR034B_260" "RR034B_262"
 
-#and urine
+
+#"RR034B_004" - keep, was missed, 18 reads, 2 contigs
+#"RR034B_016"-
+#"RR034B_057"
+#"RR034B_058" 
+#"RR034B_060"
+#"RR034B_061" 
+#"RR034B_062"
+#"RR034B_064"
+#"RR034B_070"
+#"RR034B_074"
+#"RR034B_099"
+#"RR034B_101"
+#"RR034B_111"
+#"RR034B_112"
+#"RR034B_113" 
+#"RR034B_121"
+#"RR034B_122"
+#"RR034B_126"
+#"RR034B_129"
+#"RR034B_143"
+#"RR034B_145"
+#"RR034B_148"
+#"RR034B_155"
+#"RR034B_156"
+#"RR034B_158"
+#"RR034B_160"
+#"RR034B_162"
+#"RR034B_164"
+#"RR034B_165"
+#"RR034B_167"
+#"RR034B_168"
+#"RR034B_174"
+#"RR034B_175" - 
+#"RR034B_176" - 14 reads, maybe 1 contig           revisit
+#"RR034B_186" - 0 reads, 0 contigs, discard
+#"RR034B_188" - 2 reads, 0 contigs, discard
+#"RR034B_218" - 39 reads, maybe 2 contigs               revisit
+#"RR034B_220" - 185 reads, 17 contigs, include
+#"RR034B_228" - 25 reads, no contig,                    revisit
+#"RR034B_239" - 1 contig, 11K reads, great hits, include
+#"RR034B_242" - 4 contigs, 96 reads, include
+#"RR034B_244" - 26 contigs, 292 reads, must include
+#"RR034B_250" - 4 reads, no contigs
+#"RR034B_256" - 4 reads, no contigs
+#"RR034B_260" - 2 reads only, no contigs - discard
+#"RR034B_262" - hits to DeltaCoV, 2 reads, no contigs - discard
+
+#and urine - in mine but not Gwen's
 setdiff(all.unique$sampleID[all.unique$tissue=="urine"], IDseq.unique$sampleID[IDseq.unique$tissue=="urine"])
-#"RR034B_342" "RR034B_401" "RR034B_404" "RR034B_421" "RR034B_449" "RR034B_506"
+#"RR034B_342" -  4 reads, maybe 1 contig. low cov. discard
+#"RR034B_401" - 2 reads, 0 contigs. low cov. discard
+# "RR034B_404" - 4 reads, 1 contig. low cov. discard
+# "RR034B_421" - 4 reads, 0 contig. low cov. discard
+# "RR034B_449" - 10 reads, 1 contig. low cov. discard
+# "RR034B_506" - 28 reads, 2 contigs, should be real. keep
 
-#and 
+#and in Gwen's but not mine
 setdiff(IDseq.unique$sampleID[IDseq.unique$tissue=="urine"], all.unique$sampleID[all.unique$tissue=="urine"])
-# "RR034B_351" "RR034B_358" "RR034B_362" "RR034B_374" "RR034B_377" "RR034B_395" "RR034B_402"
-# "RR034B_465" "RR034B_474" "RR034B_488" "RR034B_495"
+# "RR034B_351"
+# "RR034B_358"
+# "RR034B_362"
+# "RR034B_374"
+# "RR034B_377"
+# "RR034B_395"
+# "RR034B_402"
+# "RR034B_465"
+# "RR034B_474"
+# "RR034B_488"
+# "RR034B_495"
 
 
-#upon mannual inspection...
+#upon manual inspection...
