@@ -129,14 +129,14 @@ cat 20210721_Mada_Bat_CoV_blast_feces_prot.txt | awk -F\t '($4>99 && $6>99) {pri
 7. Once the blast results have beeen sub-selected a bit, you can summarize them to link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of fecal samples):
 
 ```
-cat 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt
+cat 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt
 
 ```
 
 And here to save the unique sample IDs for the same example:
 
 ```
-cat 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_throat_nt.txt
+cat 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_feces_nt.txt
 
 ```
 
