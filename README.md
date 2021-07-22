@@ -150,5 +150,5 @@ sh -e curate-blast-output.txt
 
 ---
 
-9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script for further comparison of manual pipeline hits for fecal and urine samples.
+9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script ('CoV-hits-vs-metadata.R') for further comparison of manual pipeline hits for fecal and urine samples.
 
