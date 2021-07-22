@@ -105,7 +105,7 @@ module load cmake/3.15.1
 
 ---
 
-6.  After the blast finishes, you'll want to curate a bit to the high quality hits. After Amy's lead, I went ahead and parsed for alignments that show alignment length > 100 aa and bit score > 100.
+6.  After the blast finishes, you'll want to curate a bit to the high quality hits. After Amy's lead, I went ahead and parsed for alignments that show alignment length > 100 aa and bit score > 100. 
 
 Here's the script for the nt parse (feces as example):
 
@@ -129,20 +129,20 @@ cat 20210721_Mada_Bat_CoV_blast_feces_prot.txt | awk -F\t '($4>99 && $6>99) {pri
 7. Once the blast results have beeen sub-selected a bit, you can summarize them to link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of fecal samples):
 
 ```
-cat 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt
+cat 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_feces_nt_hiqual.txt
 
 ```
 
 And here to save the unique sample IDs for the same example:
 
 ```
-cat 20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_feces_nt.txt
+cat 20210721_Mada_Bat_CoV_unique_contigs_feces_nt_hiqual.txt | awk -F\_ '{print $1"_"$2}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_sampleID_feces_nt_hiqual.txt
 
 ```
 
 ---
 
-8. And do the same for the other sample types and for the blastx outputs. Load the outputs into R and determine which samples with meta-data were infected at various times/places. I put a bash script ('curate-blast-output.txt') in the 'blast-output' folder that runs through steps 6 through 8 for all of the blast output from this project. You can run it with:
+8. And do the same for the other sample types and for the blastx outputs. Load the outputs into R and determine which samples with meta-data were infected at various times/places. I put a bash script ('curate-blast-output.txt') in the 'blast-output' folder that runs through steps 6 through 8 for all of the blast output from this project. It saves summary files from both the curated sample set (those ending in "hiqual") and those from any kind of hit (lacking the suffix). You can run it with:
 
 ```
 sh -e curate-blast-output.txt
@@ -160,4 +160,7 @@ There are Eidolon hits in the urine, but none at full genome. The three above ar
 ---
 
 9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script ('CoV-hits-vs-metadata.R') for further comparison of manual pipeline hits for fecal and urine samples. There are differences, so I am going through them individually IDseq to check.
+
+---
+10. For calling positives in cases where there was a discrepancy between this (stringent) pipeline and IDseq (see spreadsheet [here](https://docs.google.com/spreadsheets/d/1p8f8ojWAqySijWPIxAqG1uj67iLF6REPtIJdpevyjQo/edit?usp=sharing)), we will accept them as positive hits if (and only if!) the reads from that sample assembled into one or more contigs. In this case, contigs should only be acceptable if the average read depth at that contig is 2 or more reads (per Amy's rule). So, in manually curating any positive samples from IDseq, check the broad (not hiqual) contig summary file for that sample (for feces, "20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt") and only call it as positive if it has at least one contig with >2 reads for average coverage.
 
