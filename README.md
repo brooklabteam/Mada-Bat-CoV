@@ -105,17 +105,31 @@ module load cmake/3.15.1
 
 ---
 
-6.  After the blast finishes, you'll want to curate a bit to the high quality hits. After Amy's lead, I went ahead and parsed the nucelotide blastn runs for alignments that show 70% or more % identity and alignment length > 75 ntes and the protein blastx runs for alignments that show alignment length > 100 aa and bit score > 100.
+6.  After the blast finishes, you'll want to curate a bit to the high quality hits. After Amy's lead, I went ahead and parsed for alignments that show alignment length > 100 aa and bit score > 100.
 
 Here's the script for the nt parse (feces as example):
 
-And for the protein parse (feces again):
+```
+cat 20210721_Mada_Bat_CoV_blast_feces_nt.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt
 
----
-7. Once the blast results have beeen sub-selected a bit, you can summarize them to link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of throat samples):
 
 ```
-cat 20210721_Mada_Bat_CoV_blast_throat_nt.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt
+
+And for the protein parse (feces again):
+
+```
+
+cat 20210721_Mada_Bat_CoV_blast_feces_prot.txt | awk -F\t '($4>99 && $6>99) {print $1,$3, $4,$5,$8,$9}' > 20210721_Mada_Bat_CoV_blast_feces_prot_results_100len100bit.txt
+
+
+```
+
+---
+
+7. Once the blast results have beeen sub-selected a bit, you can summarize them to link back the hits to the samples of interest. Within the same folder as your output, try the following script to save the unique contig IDs which align to CoVs (example here for blastn alignment of fecal samples):
+
+```
+cat 20210721_Mada_Bat_CoV_blast_feces_nt_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt
 
 ```
 
@@ -126,5 +140,11 @@ cat 20210721_Mada_Bat_CoV_unique_contigs_throat_nt.txt | awk -F\_ '{print $1"_"$
 
 ```
 
-And do the same for the other sample types and for the blastx outputs. Load the outputs into R and determine which samples with meta-data were infected at various times/places.
+---
+
+8. And do the same for the other sample types and for the blastx outputs. Load the outputs into R and determine which samples with meta-data were infected at various times/places. I put a bash script ('curate-blast-output.txt') in the 'blast-output' folder that runs through steps 6 through 8 for all of the blast output from this project. You can run it with:
+
+```
+sh -e curate-blast-output.txt
+```
 
