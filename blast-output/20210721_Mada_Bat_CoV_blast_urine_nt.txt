@@ -1,0 +1,1113 @@
+RR034B_303_NODE_470_length_218_cov_3.723926	38	84.444	45	2.00e-05	43.6	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_306_NODE_833_length_232_cov_1.028249	27	90.000	30	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_306_NODE_991_length_222_cov_3.035928	25	96.154	26	7.35e-05	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_306_NODE_1210_length_212_cov_1.159236	38	84.444	45	6.99e-05	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_308_NODE_184_length_449_cov_1.005076	26	92.857	28	5.59e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_308_NODE_249_length_395_cov_1.811765	29	90.625	32	1.36e-04	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_308_NODE_780_length_277_cov_1.189189	23	95.833	24	3.35e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_308_NODE_780_length_277_cov_1.189189	23	95.833	24	3.35e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_308_NODE_1382_length_263_cov_1.750000	26	92.857	28	3.16e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_308_NODE_1437_length_263_cov_0.875000	39	82.979	47	3.16e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_308_NODE_2710_length_245_cov_1.157895	28	90.323	31	8.18e-05	41.7	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_308_NODE_2824_length_244_cov_0.962963	27	96.429	28	6.30e-06	45.4	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_308_NODE_3038_length_241_cov_0.978495	34	85.000	40	2.89e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_308_NODE_3543_length_235_cov_0.855556	34	85.000	40	2.81e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_308_NODE_3543_length_235_cov_0.855556	34	85.000	40	2.81e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_308_NODE_3543_length_235_cov_0.855556	34	85.000	40	2.81e-04	39.9	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_308_NODE_3841_length_231_cov_1.119318	37	86.047	43	7.68e-05	41.7	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_308_NODE_4107_length_228_cov_1.092486	25	92.593	27	0.001	38.1	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_308_NODE_4507_length_224_cov_1.076923	29	87.879	33	0.001	38.1	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_308_NODE_4552_length_223_cov_1.464286	32	84.211	38	0.001	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_308_NODE_4700_length_222_cov_1.089820	23	95.833	24	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_308_NODE_4807_length_221_cov_1.096386	21	100.000	21	2.63e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_308_NODE_5990_length_209_cov_1.181818	21	100.000	21	2.47e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_309_NODE_721_length_284_cov_1.213974	29	87.879	33	3.44e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_309_NODE_3576_length_231_cov_1.034091	27	90.000	30	2.76e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_309_NODE_3656_length_230_cov_1.565714	27	90.000	30	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_309_NODE_5502_length_210_cov_1.174194	30	85.714	35	8.95e-04	38.1	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_310_NODE_1326_length_265_cov_0.866667	40	83.333	48	8.87e-05	41.7	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_310_NODE_3511_length_232_cov_1.389831	37	84.091	44	2.77e-04	39.9	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_310_NODE_4138_length_224_cov_1.076923	24	92.308	26	0.001	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_310_NODE_4623_length_217_cov_1.123457	25	92.593	27	2.58e-04	39.9	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_311_NODE_172_length_683_cov_4.417197	30	90.909	33	1.85e-05	45.4	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_312_NODE_1659_length_236_cov_2.674033	21	100.000	21	2.83e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_312_NODE_1850_length_229_cov_1.729885	24	92.308	26	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_312_NODE_1910_length_227_cov_1.238372	23	95.833	24	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_312_NODE_2430_length_211_cov_1.166667	24	92.308	26	8.99e-04	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_314_NODE_593_length_299_cov_1.118852	32	86.486	37	1.01e-04	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_314_NODE_2336_length_245_cov_1.915789	30	88.235	34	2.94e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_314_NODE_4111_length_220_cov_1.103030	22	95.652	23	0.001	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_323_NODE_114_length_634_cov_1.761658	21	100.000	21	7.98e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_323_NODE_114_length_634_cov_1.761658	21	100.000	21	7.98e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_323_NODE_114_length_634_cov_1.761658	21	100.000	21	7.98e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_323_NODE_571_length_300_cov_2.697959	22	100.000	22	1.01e-04	41.7	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_323_NODE_784_length_266_cov_1.194313	32	88.889	36	2.48e-05	43.6	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_323_NODE_1559_length_218_cov_1.895706	27	90.000	30	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_323_NODE_1804_length_207_cov_1.197368	23	95.833	24	2.45e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_323_NODE_1837_length_202_cov_2.408163	21	100.000	21	2.38e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_325_NODE_199_length_521_cov_1.070815	30	88.235	34	6.53e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_325_NODE_338_length_412_cov_1.070028	23	95.833	24	5.11e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_325_NODE_387_length_392_cov_1.000000	30	90.909	33	1.04e-05	45.4	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_325_NODE_1113_length_280_cov_1.617778	25	92.593	27	3.39e-04	39.9	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_325_NODE_1303_length_273_cov_1.495413	32	88.889	36	2.55e-05	43.6	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_325_NODE_1802_length_266_cov_0.862559	28	90.323	31	8.91e-05	41.7	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_325_NODE_1882_length_265_cov_0.866667	33	86.842	38	3.19e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_325_NODE_1965_length_264_cov_0.870813	23	95.833	24	3.18e-04	39.9	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_325_NODE_2667_length_256_cov_0.905473	27	93.103	29	8.55e-05	41.7	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_325_NODE_4288_length_238_cov_1.480874	21	100.000	21	2.85e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_325_NODE_5433_length_228_cov_1.052023	34	85.000	40	0.001	38.1	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_325_NODE_5541_length_227_cov_1.058140	34	85.000	40	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_325_NODE_5592_length_226_cov_1.801170	32	86.486	37	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_325_NODE_5933_length_223_cov_1.083333	22	95.652	23	0.001	38.1	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_325_NODE_6138_length_221_cov_2.192771	20	100.000	20	0.001	38.1	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_325_NODE_6138_length_221_cov_2.192771	20	100.000	20	0.001	38.1	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_325_NODE_6138_length_221_cov_2.192771	20	100.000	20	0.001	38.1	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_325_NODE_6190_length_221_cov_1.096386	20	100.000	20	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_325_NODE_6360_length_219_cov_2.365854	24	92.308	26	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_325_NODE_7555_length_209_cov_1.181818	22	95.652	23	8.90e-04	38.1	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_325_NODE_7580_length_209_cov_1.181818	21	100.000	21	2.47e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_325_NODE_7764_length_207_cov_2.394737	26	92.857	28	6.81e-05	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_326_NODE_1105_length_216_cov_0.987578	23	95.833	24	0.001	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_327_NODE_107_length_1469_cov_2.215700	22	100.000	22	5.24e-04	41.7	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_327_NODE_530_length_617_cov_2.005338	26	92.857	28	7.76e-04	39.9	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_327_NODE_1064_length_405_cov_1.371429	37	84.091	44	5.01e-04	39.9	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_327_NODE_1064_length_405_cov_1.371429	37	84.091	44	5.01e-04	39.9	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_327_NODE_2241_length_265_cov_2.714286	21	100.000	21	3.19e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_327_NODE_3131_length_233_cov_1.022472	26	92.857	28	2.79e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_327_NODE_3903_length_210_cov_1.116129	24	92.308	26	8.95e-04	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_327_NODE_3903_length_210_cov_1.116129	24	92.308	26	8.95e-04	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_328_NODE_199_length_276_cov_3.411765	28	90.323	31	3.33e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_331_NODE_215_length_380_cov_3.707692	23	95.833	24	4.69e-04	39.9	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_331_NODE_403_length_300_cov_5.355102	22	100.000	22	1.01e-04	41.7	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_331_NODE_403_length_300_cov_5.355102	21	100.000	21	3.65e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_331_NODE_1805_length_228_cov_3.069364	25	92.593	27	2.72e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_331_NODE_1956_length_223_cov_3.958333	33	84.615	39	0.001	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_332_NODE_352_length_703_cov_1.683642	22	100.000	22	2.47e-04	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_332_NODE_352_length_703_cov_1.683642	22	100.000	22	2.47e-04	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_332_NODE_718_length_526_cov_1.042463	24	96.000	25	6.59e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_332_NODE_1276_length_419_cov_1.214286	21	100.000	21	5.20e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_332_NODE_2149_length_337_cov_1.443262	21	100.000	21	4.13e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_332_NODE_2716_length_306_cov_1.087649	39	82.979	47	1.04e-04	41.7	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_332_NODE_3600_length_270_cov_0.855814	28	93.333	30	2.52e-05	43.6	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_332_NODE_3912_length_266_cov_0.862559	23	95.833	24	3.20e-04	39.9	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_332_NODE_3964_length_265_cov_0.866667	25	92.593	27	3.19e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_332_NODE_4112_length_263_cov_0.875000	30	90.909	33	2.45e-05	43.6	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_332_NODE_4862_length_253_cov_0.919192	35	87.500	40	6.52e-06	45.4	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_332_NODE_5704_length_242_cov_0.973262	27	93.103	29	2.25e-05	43.6	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_332_NODE_5726_length_242_cov_0.973262	30	88.235	34	2.90e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_332_NODE_5779_length_241_cov_0.978495	31	88.571	35	8.04e-05	41.7	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_332_NODE_6265_length_235_cov_1.011111	21	100.000	21	2.81e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_332_NODE_6986_length_227_cov_0.976744	23	95.833	24	2.71e-04	39.9	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_332_NODE_7447_length_222_cov_1.047904	41	82.000	50	0.001	38.1	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_332_NODE_7595_length_220_cov_1.890909	21	100.000	21	2.62e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_332_NODE_7608_length_220_cov_1.236364	22	95.652	23	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_332_NODE_8161_length_214_cov_1.358491	25	92.593	27	2.54e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_332_NODE_8178_length_214_cov_1.144654	28	87.500	32	0.001	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_332_NODE_8479_length_211_cov_1.166667	22	95.652	23	8.99e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_332_NODE_8652_length_209_cov_1.181818	30	85.714	35	8.90e-04	38.1	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_332_NODE_8662_length_209_cov_1.181818	22	95.652	23	8.90e-04	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_332_NODE_8710_length_208_cov_1.647059	36	83.721	43	8.85e-04	38.1	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_333_NODE_661_length_254_cov_2.170854	23	95.833	24	3.05e-04	39.9	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_333_NODE_661_length_254_cov_2.170854	23	95.833	24	3.05e-04	39.9	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_333_NODE_1275_length_220_cov_1.539394	24	96.000	25	2.62e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_333_NODE_1407_length_215_cov_1.137500	26	89.655	29	0.001	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_333_NODE_1407_length_215_cov_1.137500	26	89.655	29	0.001	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_334_NODE_403_length_270_cov_2.897674	27	93.103	29	9.05e-05	41.7	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_336_NODE_212_length_541_cov_1.761317	32	88.889	36	1.89e-04	41.7	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_336_NODE_247_length_501_cov_1.854260	26	92.857	28	6.26e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_336_NODE_306_length_461_cov_2.598522	32	86.486	37	5.74e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_336_NODE_799_length_311_cov_1.968750	33	84.615	39	3.79e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_336_NODE_1151_length_276_cov_1.647059	26	92.857	28	3.33e-04	39.9	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_336_NODE_1282_length_271_cov_0.842593	21	100.000	21	3.27e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_336_NODE_1291_length_270_cov_2.539535	29	93.548	31	7.00e-06	45.4	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_336_NODE_1529_length_261_cov_1.349515	24	96.000	25	8.73e-05	41.7	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_336_NODE_1929_length_247_cov_3.229167	21	100.000	21	2.97e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_336_NODE_2068_length_243_cov_1.500000	26	92.857	28	2.92e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_336_NODE_2505_length_232_cov_1.762712	20	100.000	20	0.001	38.1	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_336_NODE_2584_length_230_cov_1.862857	27	90.000	30	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_336_NODE_2584_length_230_cov_1.862857	27	90.000	30	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_336_NODE_3568_length_209_cov_2.363636	20	100.000	20	8.90e-04	38.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_336_NODE_3568_length_209_cov_2.363636	20	100.000	20	8.90e-04	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_336_NODE_3585_length_209_cov_1.350649	23	95.833	24	8.90e-04	38.1	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_338_NODE_697_length_276_cov_1.642534	31	88.571	35	2.58e-05	43.6	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_338_NODE_721_length_274_cov_1.662100	27	90.000	30	3.31e-04	39.9	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_338_NODE_1074_length_260_cov_0.887805	29	90.625	32	8.69e-05	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_338_NODE_2061_length_233_cov_7.219101	31	88.571	35	2.79e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_338_NODE_2214_length_230_cov_1.040000	37	82.222	45	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_338_NODE_2300_length_228_cov_2.104046	21	100.000	21	2.72e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_338_NODE_3577_length_205_cov_3.140000	20	100.000	20	8.71e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_338_NODE_3577_length_205_cov_3.140000	20	100.000	20	8.71e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_339_NODE_186_length_519_cov_1.642241	30	88.235	34	6.50e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_339_NODE_513_length_326_cov_1.236162	33	86.842	38	3.99e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_339_NODE_2463_length_213_cov_1.151899	29	87.879	33	0.001	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_339_NODE_2463_length_213_cov_1.151899	29	87.879	33	0.001	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_340_NODE_235_length_1114_cov_2.811143	33	89.189	37	3.06e-05	45.4	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_340_NODE_235_length_1114_cov_2.811143	33	89.189	37	3.06e-05	45.4	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_340_NODE_263_length_1074_cov_3.411187	31	88.571	35	3.81e-04	41.7	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_340_NODE_552_length_785_cov_2.631507	26	92.857	28	0.001	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_340_NODE_604_length_745_cov_1.855072	21	100.000	21	0.001	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_340_NODE_629_length_723_cov_2.061377	27	93.103	29	7.07e-05	43.6	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_340_NODE_629_length_723_cov_2.061377	27	93.103	29	7.07e-05	43.6	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_340_NODE_705_length_678_cov_3.075441	21	100.000	21	8.56e-04	39.9	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_340_NODE_705_length_678_cov_3.075441	21	100.000	21	8.56e-04	39.9	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_340_NODE_830_length_617_cov_2.393238	29	90.625	32	2.16e-04	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_340_NODE_955_length_557_cov_1.191235	26	96.296	27	5.41e-05	43.6	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_340_NODE_1006_length_534_cov_2.759916	33	86.842	38	6.69e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_340_NODE_1190_length_475_cov_1.404762	34	87.179	39	4.58e-05	43.6	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_340_NODE_1448_length_413_cov_1.776536	21	100.000	21	5.12e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_340_NODE_2034_length_326_cov_1.546125	26	92.857	28	3.99e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_340_NODE_2369_length_296_cov_0.688797	22	100.000	22	9.99e-05	41.7	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_340_NODE_2640_length_275_cov_1.109091	33	86.842	38	3.32e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_340_NODE_2863_length_264_cov_1.330144	23	95.833	24	3.18e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_340_NODE_3308_length_248_cov_2.119171	25	96.154	26	8.29e-05	41.7	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_340_NODE_3360_length_247_cov_0.947917	30	88.235	34	2.97e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_340_NODE_3366_length_247_cov_0.880208	30	88.235	34	2.97e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_340_NODE_3396_length_246_cov_0.952880	29	90.625	32	8.22e-05	41.7	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_340_NODE_3680_length_237_cov_0.840659	45	81.818	55	6.10e-06	45.4	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_340_NODE_3680_length_237_cov_0.840659	45	81.818	55	6.10e-06	45.4	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_340_NODE_3680_length_237_cov_0.840659	46	80.702	57	2.84e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_340_NODE_3950_length_229_cov_1.045977	20	100.000	20	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_340_NODE_4017_length_227_cov_1.220930	31	86.111	36	0.001	38.1	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_340_NODE_4017_length_227_cov_1.220930	31	86.111	36	0.001	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_340_NODE_4017_length_227_cov_1.220930	31	86.111	36	0.001	38.1	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_340_NODE_4190_length_223_cov_0.803571	30	88.235	34	2.66e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_340_NODE_4209_length_222_cov_1.119760	25	92.593	27	2.64e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_340_NODE_4209_length_222_cov_1.119760	25	92.593	27	2.64e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_340_NODE_4210_length_222_cov_1.101796	31	86.111	36	2.64e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_340_NODE_4354_length_218_cov_1.368098	25	92.593	27	0.001	38.1	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_340_NODE_4519_length_214_cov_1.144654	24	92.308	26	0.001	38.1	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_340_NODE_4533_length_213_cov_2.303797	24	92.308	26	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_340_NODE_4629_length_211_cov_2.391026	24	96.000	25	2.50e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_340_NODE_4652_length_211_cov_1.166667	26	89.655	29	8.99e-04	38.1	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_340_NODE_4652_length_211_cov_1.166667	20	100.000	20	8.99e-04	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_340_NODE_4652_length_211_cov_1.166667	20	100.000	20	8.99e-04	38.1	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_340_NODE_4652_length_211_cov_1.166667	20	100.000	20	8.99e-04	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_340_NODE_4652_length_211_cov_1.166667	20	100.000	20	8.99e-04	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_340_NODE_4652_length_211_cov_1.166667	20	100.000	20	8.99e-04	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_340_NODE_4742_length_209_cov_1.181818	27	90.000	30	2.47e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_340_NODE_4822_length_207_cov_1.197368	24	96.000	25	6.81e-05	41.7	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_340_NODE_4822_length_207_cov_1.197368	23	95.833	24	2.45e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_340_NODE_4822_length_207_cov_1.197368	23	95.833	24	2.45e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_340_NODE_4898_length_206_cov_0.788079	22	100.000	22	6.77e-05	41.7	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_341_NODE_517_length_254_cov_0.914573	33	86.842	38	3.05e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_342_NODE_658_length_260_cov_1.180488	100	75.188	133	1.85e-11	63.9	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_342_NODE_658_length_260_cov_1.180488	62	77.500	80	5.19e-07	49.1	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_342_NODE_837_length_249_cov_1.876289	29	87.879	33	3.00e-04	39.9	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_343_NODE_385_length_294_cov_2.054393	21	100.000	21	3.57e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_343_NODE_802_length_237_cov_1.000000	24	96.000	25	2.84e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_344_NODE_1882_length_242_cov_1.866310	33	86.842	38	2.90e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_344_NODE_2893_length_225_cov_1.070588	38	82.609	46	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_344_NODE_2893_length_225_cov_1.070588	38	82.609	46	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_344_NODE_3270_length_219_cov_1.109756	25	92.593	27	2.60e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_344_NODE_3304_length_218_cov_1.858896	31	86.111	36	0.001	38.1	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_344_NODE_3434_length_216_cov_2.260870	29	87.879	33	0.001	38.1	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_344_NODE_3616_length_214_cov_0.943396	20	100.000	20	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_344_NODE_3719_length_212_cov_1.159236	27	90.000	30	0.001	38.1	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_344_NODE_3751_length_212_cov_1.159236	20	100.000	20	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_345_NODE_1908_length_231_cov_1.034091	24	92.308	26	0.001	38.1	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_345_NODE_2184_length_222_cov_1.089820	24	92.308	26	0.001	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_345_NODE_2184_length_222_cov_1.089820	24	92.308	26	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_346_NODE_743_length_214_cov_1.716981	29	87.879	33	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_346_NODE_767_length_212_cov_1.159236	29	87.879	33	0.001	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_347_NODE_1105_length_246_cov_1.392670	21	100.000	21	2.96e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_347_NODE_1424_length_232_cov_1.598870	28	93.333	30	5.96e-06	45.4	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_347_NODE_2055_length_209_cov_1.181818	32	88.889	36	6.88e-05	41.7	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_349_NODE_876_length_250_cov_1.866667	23	95.833	24	3.01e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_350_NODE_301_length_268_cov_1.281690	81	80.198	101	8.85e-15	75.0	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_350_NODE_301_length_268_cov_1.281690	44	80.000	55	3.23e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_350_NODE_301_length_268_cov_1.281690	83	79.048	105	1.15e-13	71.3	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	122	84.138	145	1.09e-33	137	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	114	81.429	140	5.11e-27	115	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	107	81.679	131	2.38e-25	110	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	107	81.679	131	2.38e-25	110	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	126	78.261	161	3.98e-23	102	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	116	79.452	146	3.98e-23	102	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	114	79.167	144	1.43e-22	100	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	130	77.844	167	1.43e-22	100	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	124	77.500	160	6.66e-21	95.3	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_350_NODE_342_length_263_cov_0.875000	115	78.767	146	6.66e-21	95.3	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_350_NODE_577_length_231_cov_1.034091	30	88.235	34	0.001	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_350_NODE_887_length_175_cov_0.900000	20	100.000	20	7.31e-04	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_350_NODE_887_length_175_cov_0.900000	20	100.000	20	7.31e-04	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	390	73.864	528	7.96e-53	202	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	279	76.022	367	2.88e-47	183	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	93	75.000	124	1.82e-09	58.4	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	21	100.000	21	6.60e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	46	83.636	55	3.05e-07	51.0	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	138	71.134	194	1.42e-05	45.4	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	45	81.818	55	1.42e-05	45.4	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	85	74.561	114	5.10e-05	43.6	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	49	79.032	62	5.10e-05	43.6	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	46	79.310	58	1.84e-04	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	45	78.947	57	6.60e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_352_NODE_119_length_527_cov_1.156780	45	78.947	57	6.60e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_352_NODE_122_length_520_cov_1.369892	98	76.562	128	8.31e-13	69.4	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_122_length_520_cov_1.369892	58	77.333	75	5.03e-05	43.6	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_154_length_468_cov_2.334140	68	76.404	89	9.69e-07	49.1	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_154_length_468_cov_2.334140	31	88.571	35	1.62e-04	41.7	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_352_NODE_154_length_468_cov_2.334140	31	88.571	35	1.62e-04	41.7	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_352_NODE_154_length_468_cov_2.334140	28	90.323	31	5.83e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	345	80.986	426	1.70e-93	337	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	326	80.893	403	6.15e-88	318	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	248	78.981	314	1.39e-54	207	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	275	76.177	361	1.81e-48	187	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	227	78.547	289	6.51e-48	185	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	242	76.825	315	5.07e-44	172	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	243	76.899	316	5.07e-44	172	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	303	74.815	405	6.56e-43	169	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	265	75.499	351	8.48e-42	165	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_352_NODE_188_length_432_cov_2.649867	247	76.471	323	1.10e-40	161	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_352_NODE_190_length_428_cov_2.252011	204	77.567	263	5.06e-39	156	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_190_length_428_cov_2.252011	300	72.993	411	5.09e-34	139	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_190_length_428_cov_2.252011	26	92.857	28	1.48e-04	41.7	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_352_NODE_190_length_428_cov_2.252011	21	100.000	21	5.31e-04	39.9	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_352_NODE_201_length_415_cov_1.016667	38	95.000	40	3.05e-11	63.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_205_length_410_cov_1.538028	62	86.111	72	3.87e-15	76.8	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_205_length_410_cov_1.538028	44	83.019	53	8.44e-07	49.1	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_205_length_410_cov_1.538028	63	81.818	77	3.01e-11	63.9	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	269	75.775	355	8.86e-46	178	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	246	73.433	335	1.51e-28	121	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	103	79.231	130	4.27e-19	89.8	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	105	78.947	133	1.99e-17	84.2	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	100	78.125	128	3.33e-15	76.8	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	100	78.125	128	3.33e-15	76.8	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	115	76.159	151	4.30e-14	73.1	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	39	82.979	47	3.37e-05	43.6	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	113	75.333	150	2.00e-12	67.6	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	69	79.310	87	9.31e-11	62.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	199	71.583	278	3.35e-10	60.2	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_352_NODE_278_length_355_cov_1.680000	82	76.636	107	3.35e-10	60.2	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_352_NODE_281_length_354_cov_1.377926	105	80.153	131	7.08e-22	99.0	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_281_length_354_cov_1.377926	130	76.923	169	9.15e-21	95.3	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	216	80.000	270	1.67e-52	200	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	212	76.259	278	6.12e-37	148	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	231	73.802	313	2.23e-26	113	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	204	73.646	277	3.73e-24	106	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	227	72.990	311	8.08e-21	95.3	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	224	72.026	311	4.87e-18	86.1	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	206	72.028	286	2.93e-15	76.8	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	221	71.753	308	3.79e-14	73.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	112	74.667	150	8.20e-11	62.1	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_352_NODE_353_length_315_cov_1.230769	120	73.620	163	3.81e-09	56.5	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	157	86.740	181	4.36e-53	202	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	208	79.693	261	1.22e-48	187	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	77	78.571	98	7.73e-11	62.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_352_NODE_383_length_298_cov_0.872428	77	78.571	98	7.73e-11	62.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_352_NODE_383_length_298_cov_0.872428	54	81.818	66	1.29e-08	54.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	114	72.152	158	7.78e-06	45.4	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	41	82.000	50	2.80e-05	43.6	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	41	82.000	50	2.80e-05	43.6	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	98	72.593	135	1.01e-04	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_352_NODE_383_length_298_cov_0.872428	41	80.392	51	3.62e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_352_NODE_419_length_282_cov_1.273128	198	80.162	247	1.15e-48	187	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_419_length_282_cov_1.273128	189	78.099	242	1.17e-38	154	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_419_length_282_cov_1.273128	61	78.205	78	1.58e-07	51.0	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_352_NODE_516_length_263_cov_0.937500	119	73.457	162	2.43e-10	60.2	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_516_length_263_cov_0.937500	50	80.645	62	5.26e-07	49.1	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_553_length_258_cov_1.241379	36	83.721	43	8.62e-05	41.7	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_558_length_258_cov_0.832512	28	90.323	31	8.62e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_352_NODE_777_length_231_cov_1.079545	26	89.655	29	0.001	38.1	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	169	77.169	219	2.60e-29	122	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	165	76.389	216	1.21e-27	117	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	154	77.000	200	5.63e-26	111	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	105	80.769	130	3.39e-23	102	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	153	76.119	201	1.22e-22	100	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	101	77.692	130	1.59e-16	80.5	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	83	79.048	105	2.66e-14	73.1	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	83	79.048	105	2.66e-14	73.1	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	101	75.940	133	4.45e-12	65.8	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_352_NODE_845_length_226_cov_1.409357	99	76.154	130	4.45e-12	65.8	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_352_NODE_1010_length_212_cov_1.254777	29	87.879	33	0.001	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	158	84.043	188	3.89e-47	182	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	160	81.218	197	1.82e-40	159	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	162	77.885	208	1.85e-30	126	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	162	77.885	208	1.85e-30	126	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	132	80.000	165	1.11e-27	117	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	131	79.394	165	4.00e-27	115	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	140	78.212	179	5.17e-26	111	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	134	77.457	173	8.65e-24	104	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	134	77.011	174	1.12e-22	100	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_352_NODE_1051_length_209_cov_1.006494	132	77.193	171	4.03e-22	99.0	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_353_NODE_991_length_279_cov_1.575893	28	90.323	31	3.37e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_353_NODE_2683_length_208_cov_1.993464	24	96.000	25	6.84e-05	41.7	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_354_NODE_735_length_267_cov_1.716981	25	92.593	27	3.22e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_354_NODE_735_length_267_cov_1.716981	25	92.593	27	3.22e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_354_NODE_1518_length_218_cov_1.116564	24	92.308	26	0.001	38.1	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_354_NODE_1631_length_212_cov_1.713376	22	95.652	23	0.001	38.1	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_354_NODE_1671_length_210_cov_2.432258	23	95.833	24	2.49e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_354_NODE_1703_length_208_cov_2.379085	29	87.879	33	2.46e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_355_NODE_459_length_215_cov_1.137500	27	90.000	30	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_356_NODE_29_length_1199_cov_2.754371	22	100.000	22	4.27e-04	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_356_NODE_29_length_1199_cov_2.754371	22	100.000	22	4.27e-04	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_356_NODE_123_length_613_cov_7.602151	22	100.000	22	2.14e-04	41.7	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_356_NODE_251_length_461_cov_2.142857	35	85.366	41	1.60e-04	41.7	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_356_NODE_251_length_461_cov_2.142857	57	78.082	73	5.74e-04	39.9	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_356_NODE_302_length_433_cov_1.722222	31	88.571	35	5.38e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_356_NODE_370_length_402_cov_1.850144	23	95.833	24	4.98e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_356_NODE_419_length_384_cov_2.404255	21	100.000	21	4.74e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_356_NODE_618_length_333_cov_3.266187	26	92.857	28	4.08e-04	39.9	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_356_NODE_679_length_320_cov_5.294340	34	85.000	40	3.91e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_356_NODE_853_length_292_cov_2.016878	33	86.842	38	9.85e-05	41.7	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_356_NODE_929_length_282_cov_1.083700	29	87.879	33	3.41e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_356_NODE_1438_length_253_cov_1.287879	30	88.235	34	8.44e-05	41.7	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_356_NODE_1576_length_248_cov_1.704663	27	90.000	30	2.98e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_356_NODE_1750_length_242_cov_1.705882	39	82.979	47	2.90e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_356_NODE_1873_length_237_cov_3.824176	32	86.486	37	2.84e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_356_NODE_2112_length_230_cov_1.040000	27	90.000	30	0.001	38.1	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_356_NODE_2383_length_222_cov_3.101796	24	100.000	24	5.68e-06	45.4	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_356_NODE_2650_length_215_cov_1.137500	27	90.000	30	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_356_NODE_3016_length_198_cov_5.342657	33	86.842	38	6.48e-05	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_357_NODE_112_length_366_cov_2.636656	23	95.833	24	4.51e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_359_NODE_732_length_414_cov_1.763231	32	88.889	36	1.43e-04	41.7	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_359_NODE_1005_length_363_cov_1.237013	34	85.000	40	4.47e-04	39.9	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_359_NODE_3407_length_224_cov_0.816568	24	92.308	26	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_359_NODE_3669_length_217_cov_1.123457	26	89.655	29	0.001	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_359_NODE_3669_length_217_cov_1.123457	26	89.655	29	0.001	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_359_NODE_3669_length_217_cov_1.123457	26	89.655	29	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_359_NODE_3744_length_215_cov_2.275000	29	87.879	33	0.001	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_359_NODE_3782_length_215_cov_1.137500	27	93.103	29	7.10e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_359_NODE_4055_length_208_cov_1.189542	27	93.103	29	6.84e-05	41.7	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_359_NODE_4055_length_208_cov_1.189542	27	93.103	29	6.84e-05	41.7	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_360_NODE_2365_length_225_cov_0.847059	29	87.879	33	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_360_NODE_2615_length_219_cov_0.878049	21	100.000	21	2.60e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_360_NODE_2731_length_216_cov_0.888199	27	93.103	29	7.13e-05	41.7	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_360_NODE_2731_length_216_cov_0.888199	27	93.103	29	7.13e-05	41.7	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_360_NODE_2784_length_215_cov_0.956250	28	90.323	31	2.55e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_360_NODE_2784_length_215_cov_0.956250	27	90.000	30	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_360_NODE_2877_length_212_cov_2.095541	33	84.615	39	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_361_NODE_1764_length_276_cov_1.375566	33	86.842	38	9.27e-05	41.7	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_361_NODE_2114_length_264_cov_0.870813	22	100.000	22	8.84e-05	41.7	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_361_NODE_3240_length_235_cov_0.994444	24	96.000	25	2.81e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_361_NODE_4354_length_211_cov_1.166667	31	86.111	36	8.99e-04	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_361_NODE_4354_length_211_cov_1.166667	31	86.111	36	8.99e-04	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_361_NODE_4505_length_208_cov_1.189542	20	100.000	20	8.85e-04	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_361_NODE_4521_length_208_cov_1.176471	27	93.103	29	6.84e-05	41.7	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_362_NODE_286_length_385_cov_1.981818	25	92.593	27	4.75e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_362_NODE_286_length_385_cov_1.981818	25	92.593	27	4.75e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_362_NODE_569_length_288_cov_1.622318	27	93.103	29	2.70e-05	43.6	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_362_NODE_1205_length_234_cov_2.111732	36	85.714	42	2.16e-05	43.6	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_362_NODE_1660_length_210_cov_1.554839	33	84.615	39	8.95e-04	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_364_NODE_729_length_462_cov_2.235872	24	96.000	25	1.60e-04	41.7	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_364_NODE_772_length_451_cov_1.575758	28	90.323	31	5.61e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_364_NODE_1289_length_350_cov_1.183051	37	86.047	43	3.32e-05	43.6	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_364_NODE_1290_length_350_cov_1.142373	26	92.857	28	4.30e-04	39.9	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_364_NODE_2809_length_252_cov_0.923858	25	96.154	26	8.40e-05	41.7	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_364_NODE_2902_length_249_cov_1.407216	23	95.833	24	3.00e-04	39.9	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_364_NODE_3693_length_232_cov_1.028249	23	95.833	24	0.001	38.1	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_364_NODE_3773_length_230_cov_1.040000	29	87.879	33	0.001	38.1	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_364_NODE_4373_length_217_cov_2.246914	23	95.833	24	0.001	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_364_NODE_4503_length_215_cov_1.137500	20	100.000	20	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_365_NODE_973_length_261_cov_0.883495	28	90.323	31	3.14e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_365_NODE_1223_length_253_cov_0.919192	21	100.000	21	3.03e-04	39.9	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_365_NODE_1966_length_232_cov_1.028249	22	95.652	23	0.001	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_365_NODE_2472_length_220_cov_1.103030	27	90.000	30	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_365_NODE_2477_length_220_cov_1.103030	21	100.000	21	2.62e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_365_NODE_2477_length_220_cov_1.103030	21	100.000	21	2.62e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_365_NODE_2579_length_217_cov_2.913580	41	80.392	51	0.001	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_365_NODE_2597_length_217_cov_1.123457	24	92.308	26	0.001	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_367_NODE_470_length_236_cov_1.005525	23	95.833	24	2.83e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_370_NODE_1080_length_229_cov_4.965517	28	90.323	31	7.60e-05	41.7	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_370_NODE_1223_length_219_cov_3.097561	23	95.833	24	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_371_NODE_973_length_207_cov_2.644737	25	92.593	27	8.81e-04	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_374_NODE_2629_length_362_cov_3.055375	21	100.000	21	4.45e-04	39.9	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_374_NODE_2729_length_354_cov_1.642140	25	92.593	27	4.35e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_374_NODE_5577_length_238_cov_1.579235	30	93.750	32	4.74e-07	49.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_374_NODE_5577_length_238_cov_1.579235	30	90.909	33	6.13e-06	45.4	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_374_NODE_5577_length_238_cov_1.579235	29	90.625	32	2.21e-05	43.6	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_374_NODE_6352_length_222_cov_1.520958	22	95.652	23	0.001	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_374_NODE_6577_length_218_cov_1.116564	22	95.652	23	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_374_NODE_6967_length_211_cov_0.794872	20	100.000	20	8.99e-04	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_375_NODE_220_length_223_cov_2.892857	28	90.323	31	2.66e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_375_NODE_220_length_223_cov_2.892857	28	90.323	31	2.66e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_379_NODE_2088_length_229_cov_5.149425	22	95.652	23	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_380_NODE_1146_length_265_cov_0.866667	28	90.323	31	3.19e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_380_NODE_2927_length_210_cov_1.174194	24	96.000	25	6.92e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_382_NODE_252_length_277_cov_2.977477	27	90.000	30	3.35e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_382_NODE_574_length_243_cov_0.962766	27	93.103	29	2.26e-05	43.6	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_383_NODE_471_length_215_cov_8.456250	21	100.000	21	2.55e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_385_NODE_283_length_256_cov_4.393035	22	100.000	22	8.55e-05	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_385_NODE_541_length_219_cov_2.018293	23	95.833	24	0.001	38.1	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_386_NODE_219_length_228_cov_3.190751	26	92.857	28	2.72e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_391_NODE_1260_length_228_cov_3.057803	29	87.879	33	0.001	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_393_NODE_93_length_950_cov_1.512849	22	100.000	22	3.36e-04	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_393_NODE_93_length_950_cov_1.512849	22	100.000	22	3.36e-04	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_393_NODE_584_length_409_cov_1.398305	23	95.833	24	5.07e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_393_NODE_1141_length_321_cov_1.951128	21	100.000	21	3.92e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_393_NODE_1175_length_317_cov_1.835878	30	88.235	34	3.87e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_393_NODE_1773_length_274_cov_1.488584	31	86.111	36	3.31e-04	39.9	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_393_NODE_2514_length_260_cov_0.887805	33	86.842	38	8.69e-05	41.7	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_393_NODE_2514_length_260_cov_0.887805	33	86.842	38	8.69e-05	41.7	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_393_NODE_3182_length_250_cov_0.933333	21	100.000	21	3.01e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_393_NODE_3542_length_245_cov_0.957895	25	92.593	27	2.94e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_393_NODE_4170_length_236_cov_1.005525	28	90.323	31	2.83e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_393_NODE_4677_length_230_cov_1.040000	22	95.652	23	0.001	38.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_393_NODE_5049_length_227_cov_1.046512	26	92.857	28	2.71e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_393_NODE_5207_length_225_cov_1.070588	22	95.652	23	0.001	38.1	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_393_NODE_5623_length_221_cov_1.078313	22	95.652	23	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_393_NODE_5668_length_220_cov_1.103030	28	90.323	31	2.62e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_393_NODE_5953_length_217_cov_1.123457	23	95.833	24	2.58e-04	39.9	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_393_NODE_7054_length_202_cov_3.183673	21	100.000	21	2.38e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_395_NODE_345_length_255_cov_1.605000	31	91.176	34	6.58e-06	45.4	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_397_NODE_1008_length_219_cov_1.109756	23	95.833	24	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_399_NODE_517_length_280_cov_2.080000	24	96.000	25	3.39e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_399_NODE_973_length_259_cov_0.892157	33	86.842	38	3.11e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_399_NODE_1232_length_249_cov_1.876289	29	93.548	31	6.44e-06	45.4	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_399_NODE_2106_length_219_cov_3.243902	22	95.652	23	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_399_NODE_2209_length_216_cov_2.260870	27	90.000	30	2.57e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_399_NODE_2244_length_215_cov_2.031250	28	90.323	31	7.10e-05	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_399_NODE_2376_length_211_cov_1.166667	25	92.593	27	8.99e-04	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_399_NODE_2376_length_211_cov_1.166667	25	92.593	27	8.99e-04	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_400_NODE_258_length_375_cov_1.231250	26	92.857	28	4.62e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_400_NODE_1655_length_236_cov_1.005525	26	92.857	28	2.83e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_400_NODE_2371_length_216_cov_1.130435	28	90.323	31	7.13e-05	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_400_NODE_2381_length_216_cov_1.130435	23	95.833	24	0.001	38.1	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_400_NODE_2428_length_215_cov_1.137500	26	92.857	28	7.10e-05	41.7	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_400_NODE_2428_length_215_cov_1.137500	26	92.857	28	7.10e-05	41.7	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_401_NODE_1316_length_236_cov_1.005525	114	74.026	154	1.01e-08	54.7	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_401_NODE_1316_length_236_cov_1.005525	46	83.636	55	1.31e-07	51.0	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_402_NODE_1045_length_223_cov_1.083333	27	90.000	30	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_402_NODE_1223_length_210_cov_1.174194	23	95.833	24	8.95e-04	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_402_NODE_1299_length_202_cov_2.448980	21	100.000	21	2.38e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_402_NODE_1299_length_202_cov_2.448980	21	100.000	21	2.38e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_403_NODE_397_length_320_cov_1.977358	25	96.154	26	1.09e-04	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_403_NODE_942_length_269_cov_2.579439	26	92.857	28	3.24e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_403_NODE_1350_length_260_cov_0.887805	27	96.429	28	6.72e-06	45.4	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_403_NODE_1496_length_256_cov_2.129353	33	86.842	38	3.07e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_403_NODE_1863_length_248_cov_2.512953	23	95.833	24	2.98e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_403_NODE_2349_length_238_cov_3.262295	29	87.879	33	2.85e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_403_NODE_2759_length_230_cov_3.742857	31	86.111	36	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_403_NODE_2807_length_229_cov_4.258621	24	96.000	25	7.60e-05	41.7	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_403_NODE_2960_length_227_cov_1.465116	30	88.235	34	2.71e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_403_NODE_2960_length_227_cov_1.465116	30	88.235	34	2.71e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_403_NODE_3003_length_226_cov_1.853801	21	100.000	21	2.70e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_403_NODE_3315_length_221_cov_1.096386	22	95.652	23	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_403_NODE_3627_length_217_cov_1.123457	27	90.000	30	0.001	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_403_NODE_4067_length_209_cov_2.870130	27	90.000	30	8.90e-04	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_403_NODE_4186_length_208_cov_1.228758	22	95.652	23	8.85e-04	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_403_NODE_4331_length_206_cov_2.410596	25	92.593	27	8.76e-04	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	209	80.077	261	2.92e-49	189	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	198	78.261	253	2.29e-40	159	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	195	76.172	256	6.46e-31	128	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	119	82.639	144	3.00e-29	122	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	193	74.231	260	1.09e-23	104	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	149	76.804	194	1.09e-23	104	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	150	76.923	195	1.41e-22	100	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	108	80.597	134	5.06e-22	99.0	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	150	76.142	197	5.06e-22	99.0	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_404_NODE_743_length_259_cov_1.784314	149	76.020	196	5.06e-22	99.0	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_405_NODE_252_length_491_cov_2.628440	25	92.593	27	6.13e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_405_NODE_252_length_491_cov_2.628440	25	92.593	27	6.13e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_405_NODE_478_length_422_cov_3.277929	25	92.593	27	5.24e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_405_NODE_578_length_403_cov_2.683908	28	90.323	31	4.99e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_405_NODE_595_length_400_cov_2.904348	29	90.625	32	1.38e-04	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_405_NODE_950_length_351_cov_6.209459	22	100.000	22	1.20e-04	41.7	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_405_NODE_1426_length_311_cov_1.968750	27	93.103	29	1.05e-04	41.7	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_405_NODE_1766_length_289_cov_8.970085	26	92.857	28	3.50e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_405_NODE_1824_length_286_cov_2.341991	44	80.000	55	3.46e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_405_NODE_2982_length_256_cov_3.258706	21	100.000	21	3.07e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_405_NODE_3124_length_253_cov_2.868687	29	87.879	33	3.03e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_405_NODE_4040_length_235_cov_2.161111	33	86.842	38	7.82e-05	41.7	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_405_NODE_4214_length_231_cov_4.869318	24	96.000	25	7.68e-05	41.7	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_405_NODE_4232_length_231_cov_3.102273	33	84.615	39	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_405_NODE_4232_length_231_cov_3.102273	33	84.615	39	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_405_NODE_4402_length_228_cov_3.537572	27	90.000	30	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_405_NODE_4402_length_228_cov_3.537572	27	90.000	30	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_405_NODE_4464_length_227_cov_3.098837	20	100.000	20	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_405_NODE_4664_length_224_cov_2.633136	21	100.000	21	2.67e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_405_NODE_4783_length_222_cov_2.323353	32	86.486	37	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_405_NODE_4789_length_222_cov_1.892216	27	90.000	30	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_405_NODE_5032_length_218_cov_3.208589	25	92.593	27	0.001	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_405_NODE_5067_length_217_cov_8.580247	29	90.625	32	1.99e-05	43.6	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_405_NODE_5215_length_215_cov_2.468750	36	83.721	43	2.55e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_405_NODE_5388_length_212_cov_3.305732	27	90.000	30	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_405_NODE_5551_length_210_cov_1.174194	43	79.630	54	8.95e-04	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_405_NODE_5671_length_208_cov_2.052288	26	89.655	29	8.85e-04	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_405_NODE_5690_length_208_cov_1.183007	22	95.652	23	8.85e-04	38.1	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_405_NODE_5817_length_206_cov_1.490066	22	100.000	22	6.77e-05	41.7	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_405_NODE_5817_length_206_cov_1.490066	22	100.000	22	6.77e-05	41.7	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_405_NODE_5817_length_206_cov_1.490066	22	95.652	23	8.76e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_405_NODE_5913_length_108_cov_4.000000	24	92.308	26	4.22e-04	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_405_NODE_5913_length_108_cov_4.000000	24	92.308	26	4.22e-04	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_406_NODE_3596_length_230_cov_2.080000	31	88.571	35	7.64e-05	41.7	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_406_NODE_3950_length_220_cov_3.018182	21	100.000	21	2.62e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_406_NODE_3950_length_220_cov_3.018182	21	100.000	21	2.62e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_407_NODE_643_length_209_cov_1.181818	27	90.000	30	8.90e-04	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_408_NODE_1276_length_212_cov_1.859873	22	95.652	23	0.001	38.1	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_408_NODE_1281_length_212_cov_1.159236	27	90.000	30	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_408_NODE_1290_length_212_cov_1.057325	23	95.833	24	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_409_NODE_600_length_219_cov_1.109756	30	88.235	34	2.60e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_410_NODE_1727_length_208_cov_1.189542	25	92.593	27	8.85e-04	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_411_NODE_728_length_222_cov_1.089820	42	80.769	52	2.64e-04	39.9	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_412_NODE_1088_length_212_cov_1.159236	24	96.000	25	6.99e-05	41.7	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_413_NODE_211_length_662_cov_28.383855	26	96.296	27	1.79e-05	45.4	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_413_NODE_1018_length_309_cov_2.633858	21	100.000	21	3.76e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_413_NODE_2375_length_229_cov_1.045977	31	88.571	35	7.60e-05	41.7	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_414_NODE_161_length_519_cov_5.719828	30	88.235	34	6.50e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_414_NODE_892_length_262_cov_0.879227	44	83.019	53	5.24e-07	49.1	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_414_NODE_1547_length_233_cov_1.387640	28	90.323	31	2.79e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_414_NODE_1559_length_232_cov_2.564972	29	90.625	32	7.71e-05	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_415_NODE_629_length_480_cov_2.035294	31	88.571	35	5.99e-04	39.9	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_415_NODE_1015_length_387_cov_1.843373	23	95.833	24	4.78e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_415_NODE_1296_length_354_cov_2.906355	21	100.000	21	4.35e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_415_NODE_1733_length_315_cov_1.384615	32	86.486	37	3.84e-04	39.9	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_415_NODE_1870_length_305_cov_1.456000	30	88.235	34	3.71e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_415_NODE_2699_length_268_cov_0.854460	25	92.593	27	3.23e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_415_NODE_3292_length_258_cov_0.896552	24	96.000	25	3.10e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_415_NODE_3968_length_247_cov_0.947917	33	86.842	38	8.26e-05	41.7	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_415_NODE_4423_length_239_cov_2.559783	32	88.889	36	2.22e-05	43.6	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_415_NODE_4423_length_239_cov_2.559783	32	88.889	36	2.22e-05	43.6	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_415_NODE_4618_length_237_cov_1.000000	31	88.571	35	7.89e-05	41.7	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_415_NODE_5143_length_230_cov_0.925714	31	86.111	36	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_415_NODE_5200_length_229_cov_1.045977	29	87.879	33	0.001	38.1	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_415_NODE_5390_length_226_cov_1.684211	31	86.111	36	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_415_NODE_5789_length_221_cov_1.662651	21	100.000	21	2.63e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_415_NODE_5806_length_221_cov_1.096386	24	92.308	26	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_415_NODE_6056_length_218_cov_1.116564	27	90.000	30	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_415_NODE_6170_length_217_cov_1.117284	36	83.721	43	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_415_NODE_6313_length_215_cov_1.137500	27	90.000	30	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_415_NODE_6473_length_213_cov_1.151899	20	100.000	20	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_415_NODE_6518_length_212_cov_2.000000	22	95.652	23	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_416_NODE_179_length_764_cov_3.741890	23	95.833	24	0.001	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_416_NODE_1246_length_337_cov_0.968085	32	88.889	36	3.19e-05	43.6	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_416_NODE_1246_length_337_cov_0.968085	32	88.889	36	3.19e-05	43.6	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_416_NODE_3007_length_254_cov_0.914573	23	95.833	24	3.05e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_416_NODE_3565_length_245_cov_0.957895	27	90.000	30	2.94e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_416_NODE_4464_length_230_cov_1.405714	22	100.000	22	7.64e-05	41.7	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_416_NODE_4490_length_230_cov_1.040000	22	95.652	23	0.001	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_416_NODE_4490_length_230_cov_1.040000	33	84.615	39	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_416_NODE_5022_length_222_cov_0.982036	29	87.879	33	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_416_NODE_5121_length_220_cov_1.103030	25	92.593	27	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_416_NODE_5288_length_218_cov_1.030675	30	88.235	34	0.001	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_416_NODE_5763_length_211_cov_0.948718	33	84.615	39	8.99e-04	38.1	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_416_NODE_5764_length_211_cov_0.923077	22	95.652	23	8.99e-04	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_416_NODE_6128_length_202_cov_2.374150	21	100.000	21	2.38e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_417_NODE_166_length_672_cov_1.594814	30	88.235	34	8.48e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_417_NODE_624_length_367_cov_1.894231	29	90.625	32	1.26e-04	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_417_NODE_842_length_325_cov_1.011111	33	86.842	38	1.10e-04	41.7	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_417_NODE_842_length_325_cov_1.011111	33	86.842	38	1.10e-04	41.7	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_417_NODE_1889_length_253_cov_0.919192	29	87.879	33	3.03e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_417_NODE_1889_length_253_cov_0.919192	29	87.879	33	3.03e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_417_NODE_2047_length_249_cov_0.938144	21	100.000	21	3.00e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_417_NODE_2246_length_243_cov_0.968085	28	90.323	31	2.92e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_417_NODE_2711_length_231_cov_1.034091	23	95.833	24	2.76e-04	39.9	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_417_NODE_2780_length_229_cov_1.045977	20	100.000	20	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_417_NODE_2886_length_227_cov_0.936047	33	86.842	38	2.71e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_417_NODE_3080_length_221_cov_2.192771	36	85.714	42	5.65e-06	45.4	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_417_NODE_3126_length_220_cov_1.551515	34	85.000	40	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_417_NODE_3245_length_217_cov_1.123457	30	88.235	34	2.58e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_417_NODE_3493_length_211_cov_1.166667	39	82.979	47	8.99e-04	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_418_NODE_657_length_594_cov_1.508349	21	100.000	21	7.46e-04	39.9	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_418_NODE_657_length_594_cov_1.508349	21	100.000	21	7.46e-04	39.9	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_418_NODE_1250_length_427_cov_1.965054	26	92.857	28	5.30e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_418_NODE_3018_length_280_cov_0.960000	30	90.909	33	7.28e-06	45.4	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_418_NODE_3569_length_264_cov_2.177033	21	100.000	21	3.18e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_418_NODE_4714_length_244_cov_0.962963	25	96.154	26	2.27e-05	43.6	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_418_NODE_5535_length_231_cov_0.857955	27	90.000	30	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_418_NODE_5758_length_227_cov_1.058140	31	86.111	36	2.71e-04	39.9	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_418_NODE_6283_length_219_cov_1.109756	24	92.308	26	0.001	38.1	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_418_NODE_6660_length_214_cov_1.144654	20	100.000	20	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_419_NODE_261_length_599_cov_2.500000	21	100.000	21	7.53e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_419_NODE_449_length_465_cov_2.948780	35	85.366	41	5.80e-04	39.9	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_419_NODE_449_length_465_cov_2.948780	35	85.366	41	5.80e-04	39.9	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_419_NODE_545_length_434_cov_2.216359	25	92.593	27	5.39e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_419_NODE_545_length_434_cov_2.216359	25	92.593	27	5.39e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_419_NODE_548_length_434_cov_1.453826	22	100.000	22	1.50e-04	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_419_NODE_2204_length_274_cov_1.662100	32	88.889	36	2.56e-05	43.6	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_419_NODE_3386_length_257_cov_1.801980	27	93.103	29	8.58e-05	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_419_NODE_3386_length_257_cov_1.801980	27	93.103	29	8.58e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_419_NODE_5400_length_234_cov_2.033520	30	90.909	33	2.16e-05	43.6	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_419_NODE_6392_length_224_cov_2.183432	37	84.091	44	2.67e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_419_NODE_6411_length_224_cov_1.810651	22	95.652	23	0.001	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_419_NODE_6453_length_224_cov_1.076923	22	95.652	23	0.001	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_419_NODE_6552_length_223_cov_1.083333	20	100.000	20	0.001	38.1	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_419_NODE_6552_length_223_cov_1.083333	20	100.000	20	0.001	38.1	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_419_NODE_6584_length_222_cov_2.802395	35	83.333	42	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_419_NODE_6732_length_221_cov_2.030120	27	93.103	29	7.31e-05	41.7	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_419_NODE_6769_length_221_cov_1.096386	20	100.000	20	0.001	38.1	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_419_NODE_6787_length_221_cov_1.072289	20	100.000	20	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_419_NODE_6787_length_221_cov_1.072289	20	100.000	20	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_419_NODE_7130_length_218_cov_0.852761	21	100.000	21	2.59e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_419_NODE_7317_length_216_cov_1.739130	30	88.235	34	2.57e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_419_NODE_7846_length_211_cov_2.256410	26	92.857	28	6.95e-05	41.7	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_419_NODE_7902_length_211_cov_1.166667	22	100.000	22	6.95e-05	41.7	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_419_NODE_7923_length_211_cov_0.788462	25	92.593	27	8.99e-04	38.1	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_419_NODE_7941_length_210_cov_2.548387	22	95.652	23	8.95e-04	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_419_NODE_8122_length_209_cov_1.597403	33	84.615	39	8.90e-04	38.1	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_419_NODE_8122_length_209_cov_1.597403	33	84.615	39	8.90e-04	38.1	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_419_NODE_8183_length_209_cov_1.032468	35	89.744	39	4.11e-07	49.1	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_419_NODE_8295_length_208_cov_1.189542	27	90.000	30	8.85e-04	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_419_NODE_8368_length_207_cov_2.381579	26	92.857	28	2.45e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_420_NODE_337_length_1447_cov_4.231322	36	85.714	42	1.43e-04	43.6	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_420_NODE_818_length_733_cov_3.271386	26	92.857	28	0.001	39.9	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_421_NODE_601_length_598_cov_3.639042	27	93.103	29	5.81e-05	43.6	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_421_NODE_863_length_497_cov_3.762443	25	92.593	27	6.21e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_421_NODE_863_length_497_cov_3.762443	25	92.593	27	6.21e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_421_NODE_934_length_481_cov_1.284038	22	100.000	22	1.67e-04	41.7	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_421_NODE_934_length_481_cov_1.284038	22	100.000	22	1.67e-04	41.7	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_421_NODE_934_length_481_cov_1.284038	22	100.000	22	1.67e-04	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_421_NODE_1149_length_433_cov_2.272487	23	95.833	24	5.38e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_421_NODE_1199_length_424_cov_1.680217	23	95.833	24	5.26e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_421_NODE_1567_length_376_cov_2.012461	23	95.833	24	4.64e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_421_NODE_2113_length_329_cov_1.328467	28	90.323	31	4.02e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_421_NODE_2915_length_277_cov_1.229730	24	96.000	25	3.35e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_421_NODE_3944_length_255_cov_1.820000	31	88.571	35	8.51e-05	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	192	77.108	249	6.22e-36	145	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	184	76.987	239	4.85e-32	132	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	138	78.409	176	6.31e-26	111	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	132	75.000	176	6.40e-16	78.7	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	82	78.846	104	1.07e-13	71.3	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	66	81.481	81	1.39e-12	67.6	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	66	81.481	81	1.39e-12	67.6	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	72	78.261	92	2.32e-10	60.2	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	79	76.699	103	1.08e-08	54.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_421_NODE_4246_length_251_cov_0.928571	80	75.472	106	1.40e-07	51.0	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_421_NODE_4877_length_240_cov_0.983784	27	93.103	29	8.00e-05	41.7	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_421_NODE_5558_length_229_cov_1.045977	28	93.333	30	5.88e-06	45.4	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_421_NODE_5982_length_223_cov_1.083333	27	90.000	30	2.66e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_421_NODE_6119_length_221_cov_1.096386	22	95.652	23	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_421_NODE_6445_length_216_cov_1.130435	22	95.652	23	0.001	38.1	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_421_NODE_7084_length_207_cov_1.197368	24	92.308	26	8.81e-04	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_421_NODE_7224_length_198_cov_1.461538	36	83.721	43	8.39e-04	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_422_NODE_218_length_699_cov_2.959627	21	100.000	21	8.83e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_422_NODE_727_length_383_cov_0.966463	29	90.625	32	1.31e-04	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_422_NODE_1933_length_265_cov_0.866667	28	93.333	30	2.47e-05	43.6	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_422_NODE_3357_length_228_cov_1.052023	31	86.111	36	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_422_NODE_3991_length_214_cov_1.144654	24	92.308	26	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_422_NODE_4383_length_202_cov_3.394558	21	100.000	21	2.38e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_423_NODE_265_length_677_cov_1.245981	23	95.833	24	8.54e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_423_NODE_573_length_442_cov_1.046512	28	90.323	31	5.50e-04	39.9	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_423_NODE_3177_length_223_cov_2.023810	22	95.652	23	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_423_NODE_3177_length_223_cov_2.023810	22	95.652	23	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_424_NODE_263_length_489_cov_1.447005	21	100.000	21	6.11e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_424_NODE_263_length_489_cov_1.447005	21	100.000	21	6.11e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_424_NODE_263_length_489_cov_1.447005	21	100.000	21	6.11e-04	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_424_NODE_1538_length_251_cov_1.392857	25	92.593	27	3.02e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_424_NODE_1631_length_247_cov_1.604167	28	90.323	31	2.97e-04	39.9	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_424_NODE_2186_length_224_cov_2.680473	34	85.000	40	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_424_NODE_2475_length_214_cov_1.144654	25	96.154	26	7.06e-05	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_431_NODE_23_length_269_cov_3.130841	23	95.833	24	3.24e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_431_NODE_23_length_269_cov_3.130841	23	95.833	24	3.24e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_431_NODE_23_length_269_cov_3.130841	23	95.833	24	3.24e-04	39.9	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_439_NODE_1821_length_243_cov_0.968085	27	90.000	30	2.92e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_440_NODE_260_length_306_cov_1.733068	25	92.593	27	3.72e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_440_NODE_937_length_227_cov_1.941860	31	86.111	36	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_441_NODE_504_length_216_cov_1.130435	22	95.652	23	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_441_NODE_551_length_211_cov_1.166667	29	87.879	33	8.99e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_442_NODE_410_length_222_cov_1.089820	25	92.593	27	2.64e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_445_NODE_566_length_245_cov_0.957895	35	87.500	40	2.28e-05	43.6	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_445_NODE_1153_length_207_cov_1.197368	40	83.333	48	2.45e-04	39.9	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_445_NODE_1153_length_207_cov_1.197368	40	83.333	48	2.45e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_446_NODE_2443_length_268_cov_1.718310	30	88.235	34	3.23e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_446_NODE_2443_length_268_cov_1.718310	30	88.235	34	3.23e-04	39.9	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_446_NODE_3681_length_258_cov_0.896552	28	90.323	31	3.10e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_446_NODE_5378_length_244_cov_0.962963	28	90.323	31	2.93e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_446_NODE_5797_length_241_cov_0.978495	29	90.625	32	2.24e-05	43.6	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_446_NODE_6956_length_233_cov_1.022472	37	84.091	44	7.75e-05	41.7	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_446_NODE_7552_length_229_cov_1.793103	22	100.000	22	7.60e-05	41.7	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_446_NODE_7635_length_229_cov_1.045977	26	89.655	29	0.001	38.1	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_446_NODE_7635_length_229_cov_1.045977	26	89.655	29	0.001	38.1	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_446_NODE_8351_length_224_cov_1.278107	26	92.857	28	7.42e-05	41.7	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_446_NODE_8351_length_224_cov_1.278107	26	92.857	28	7.42e-05	41.7	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_446_NODE_8881_length_221_cov_1.096386	22	95.652	23	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_446_NODE_9238_length_219_cov_1.109756	29	87.879	33	0.001	38.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_446_NODE_9631_length_217_cov_1.123457	24	92.308	26	0.001	38.1	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_446_NODE_9631_length_217_cov_1.123457	24	92.308	26	0.001	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_446_NODE_9631_length_217_cov_1.123457	24	92.308	26	0.001	38.1	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_446_NODE_9631_length_217_cov_1.123457	24	92.308	26	0.001	38.1	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_446_NODE_10901_length_210_cov_1.174194	20	100.000	20	8.95e-04	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_446_NODE_11420_length_207_cov_1.197368	29	90.625	32	6.81e-05	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_447_NODE_129_length_632_cov_2.870017	21	100.000	21	7.96e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	168	75.000	224	1.25e-22	100	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	74	84.091	88	3.50e-18	86.1	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	62	81.579	76	5.89e-11	62.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	52	83.871	62	7.62e-10	58.4	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	55	82.090	67	2.74e-09	56.5	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	51	82.258	62	3.55e-08	52.8	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	46	83.636	55	3.55e-08	52.8	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	52	82.540	63	3.55e-08	52.8	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	62	78.481	79	1.28e-07	51.0	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_449_NODE_1592_length_231_cov_1.034091	88	73.333	120	2.13e-05	43.6	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_449_NODE_1713_length_226_cov_2.754386	28	90.323	31	2.70e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_449_NODE_1713_length_226_cov_2.754386	28	90.323	31	2.70e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_449_NODE_1752_length_225_cov_2.141176	20	100.000	20	0.001	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_449_NODE_1752_length_225_cov_2.141176	20	100.000	20	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_450_NODE_1216_length_224_cov_2.952663	20	100.000	20	0.001	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_450_NODE_1490_length_209_cov_1.961039	24	96.000	25	2.47e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_450_NODE_1542_length_205_cov_5.060000	21	100.000	21	2.42e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_451_NODE_885_length_215_cov_4.587500	24	92.308	26	0.001	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_452_NODE_1012_length_214_cov_2.855346	20	100.000	20	0.001	38.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_453_NODE_445_length_223_cov_1.863095	22	95.652	23	0.001	38.1	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_453_NODE_517_length_213_cov_5.189873	27	90.000	30	2.53e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_454_NODE_150_length_657_cov_9.885382	21	100.000	21	8.28e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_454_NODE_596_length_335_cov_1.450000	33	86.842	38	4.10e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_454_NODE_924_length_276_cov_3.294118	22	100.000	22	9.27e-05	41.7	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_454_NODE_1085_length_267_cov_0.858491	24	96.000	25	3.22e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_454_NODE_1801_length_239_cov_0.989130	27	90.000	30	2.87e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_454_NODE_2116_length_227_cov_2.116279	36	83.721	43	0.001	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_454_NODE_2477_length_215_cov_1.137500	31	86.111	36	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_454_NODE_2799_length_178_cov_1.398374	31	86.111	36	7.45e-04	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_454_NODE_2848_length_136_cov_2.839506	22	95.652	23	5.48e-04	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_454_NODE_2848_length_136_cov_2.839506	22	95.652	23	5.48e-04	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_455_NODE_405_length_264_cov_4.119617	23	100.000	23	2.46e-05	43.6	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_455_NODE_405_length_264_cov_4.119617	23	100.000	23	2.46e-05	43.6	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_455_NODE_616_length_235_cov_3.700000	28	90.323	31	2.81e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_455_NODE_686_length_229_cov_2.563218	24	92.308	26	0.001	38.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_457_NODE_41_length_409_cov_1.957627	34	87.179	39	3.92e-05	43.6	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_459_NODE_409_length_266_cov_0.843602	23	100.000	23	2.48e-05	43.6	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_459_NODE_409_length_266_cov_0.843602	23	100.000	23	2.48e-05	43.6	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_459_NODE_887_length_219_cov_1.109756	31	86.111	36	0.001	38.1	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_459_NODE_1020_length_210_cov_1.174194	25	92.593	27	8.95e-04	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_460_NODE_634_length_218_cov_2.717791	22	95.652	23	0.001	38.1	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_461_NODE_84_length_1600_cov_3.107443	32	88.889	36	5.71e-04	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_461_NODE_346_length_809_cov_2.274536	29	90.625	32	2.85e-04	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_461_NODE_432_length_711_cov_8.414634	33	86.842	38	8.99e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_461_NODE_586_length_606_cov_1.245009	25	96.154	26	2.12e-04	41.7	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_461_NODE_589_length_605_cov_1.550909	23	95.833	24	7.61e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_461_NODE_742_length_542_cov_2.020534	26	92.857	28	1.89e-04	41.7	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_461_NODE_745_length_539_cov_5.714876	23	95.833	24	6.76e-04	39.9	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_461_NODE_1275_length_418_cov_1.049587	29	90.625	32	1.44e-04	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_461_NODE_1275_length_418_cov_1.049587	29	90.625	32	1.44e-04	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_461_NODE_1855_length_350_cov_3.088136	29	87.879	33	4.30e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_461_NODE_2395_length_312_cov_1.003891	28	90.323	31	3.80e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_461_NODE_3494_length_264_cov_1.641148	26	96.296	27	6.83e-06	45.4	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_461_NODE_4045_length_252_cov_0.923858	28	90.323	31	3.02e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_461_NODE_4194_length_248_cov_2.186528	21	100.000	21	2.98e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_461_NODE_4299_length_247_cov_0.947917	27	93.103	29	8.26e-05	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_461_NODE_4807_length_236_cov_1.447514	31	88.571	35	7.86e-05	41.7	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_461_NODE_5030_length_232_cov_0.813559	29	87.879	33	2.77e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_461_NODE_5030_length_232_cov_0.813559	29	87.879	33	2.77e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_461_NODE_5030_length_232_cov_0.813559	29	87.879	33	2.77e-04	39.9	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_461_NODE_5536_length_222_cov_1.227545	31	86.111	36	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_461_NODE_5536_length_222_cov_1.227545	31	86.111	36	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_461_NODE_5618_length_221_cov_1.096386	22	95.652	23	0.001	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_461_NODE_5639_length_220_cov_1.848485	25	92.593	27	2.62e-04	39.9	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_461_NODE_5643_length_220_cov_1.521212	24	92.308	26	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_461_NODE_5652_length_220_cov_1.103030	23	95.833	24	0.001	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_461_NODE_5712_length_219_cov_1.500000	27	90.000	30	0.001	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_461_NODE_5712_length_219_cov_1.500000	29	87.879	33	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_461_NODE_5913_length_216_cov_1.130435	20	100.000	20	0.001	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_461_NODE_5916_length_216_cov_1.130435	28	87.500	32	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_461_NODE_6194_length_211_cov_1.506410	39	82.979	47	2.50e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_461_NODE_6194_length_211_cov_1.506410	42	82.353	51	2.50e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_461_NODE_6333_length_208_cov_3.065359	28	90.323	31	2.46e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_461_NODE_6335_length_208_cov_2.947712	30	88.235	34	2.46e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_461_NODE_6351_length_208_cov_1.784314	25	92.593	27	8.85e-04	38.1	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_461_NODE_6523_length_206_cov_1.205298	23	95.833	24	2.44e-04	39.9	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_461_NODE_6666_length_112_cov_1.333333	28	90.323	31	1.22e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_461_NODE_6666_length_112_cov_1.333333	27	90.000	30	4.40e-04	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_463_NODE_47_length_1292_cov_5.184317	29	90.625	32	4.60e-04	41.7	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_463_NODE_153_length_667_cov_4.903595	27	90.000	30	8.41e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_463_NODE_1282_length_269_cov_1.850467	29	87.879	33	3.24e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_463_NODE_1866_length_244_cov_0.957672	25	96.154	26	8.15e-05	41.7	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_463_NODE_2487_length_219_cov_2.128049	27	90.000	30	2.60e-04	39.9	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_463_NODE_2504_length_219_cov_0.963415	20	100.000	20	0.001	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_463_NODE_2521_length_218_cov_2.294479	24	92.308	26	0.001	38.1	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_464_NODE_590_length_214_cov_1.144654	22	95.652	23	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_464_NODE_644_length_208_cov_2.816993	20	100.000	20	8.85e-04	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_464_NODE_664_length_178_cov_1.211382	20	100.000	20	7.45e-04	38.1	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_465_NODE_1627_length_207_cov_2.138158	25	92.593	27	8.81e-04	38.1	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_469_NODE_305_length_555_cov_1.308000	25	92.593	27	6.97e-04	39.9	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_469_NODE_336_length_530_cov_3.075789	28	90.323	31	6.64e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_469_NODE_533_length_429_cov_1.104278	25	92.593	27	5.33e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_469_NODE_1067_length_323_cov_2.212687	32	88.889	36	1.10e-04	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_469_NODE_1734_length_262_cov_2.188406	23	95.833	24	3.15e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_469_NODE_2773_length_227_cov_1.523256	24	92.308	26	0.001	38.1	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_469_NODE_2778_length_227_cov_1.058140	24	96.000	25	2.71e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_469_NODE_2778_length_227_cov_1.058140	24	96.000	25	2.71e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_469_NODE_3454_length_209_cov_1.181818	24	92.308	26	8.90e-04	38.1	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_469_NODE_3566_length_206_cov_1.814570	24	92.308	26	8.76e-04	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_469_NODE_3569_length_206_cov_1.596026	25	92.593	27	8.76e-04	38.1	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_469_NODE_3596_length_206_cov_1.205298	26	89.655	29	8.76e-04	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	165	77.830	212	1.88e-31	130	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	194	72.388	268	5.33e-17	82.4	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	94	76.423	123	5.37e-12	65.8	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	100	75.188	133	8.99e-10	58.4	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	58	80.556	72	4.18e-08	52.8	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	62	77.500	80	5.41e-07	49.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	48	81.356	59	1.95e-06	47.3	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	96	72.727	132	2.52e-05	43.6	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	88	72.727	121	9.05e-05	41.7	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_470_NODE_215_length_270_cov_0.846512	78	73.585	106	3.26e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_470_NODE_277_length_266_cov_0.862559	23	100.000	23	2.48e-05	43.6	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_470_NODE_277_length_266_cov_0.862559	21	100.000	21	3.20e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_470_NODE_1531_length_212_cov_1.159236	69	80.233	86	4.15e-12	65.8	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_471_NODE_953_length_223_cov_1.083333	20	100.000	20	0.001	38.1	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_472_NODE_373_length_308_cov_2.019763	34	87.179	39	2.90e-05	43.6	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_472_NODE_1050_length_235_cov_1.011111	24	96.000	25	7.82e-05	41.7	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_474_NODE_923_length_211_cov_1.166667	22	95.652	23	8.99e-04	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_475_NODE_74_length_712_cov_2.757991	26	92.857	28	2.50e-04	41.7	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_475_NODE_127_length_460_cov_1.696296	21	100.000	21	5.73e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_475_NODE_978_length_231_cov_1.034091	25	92.593	27	0.001	38.1	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_475_NODE_1421_length_207_cov_1.197368	26	89.655	29	8.81e-04	38.1	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_475_NODE_1421_length_207_cov_1.197368	26	89.655	29	8.81e-04	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_475_NODE_1421_length_207_cov_1.197368	26	89.655	29	8.81e-04	38.1	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_476_NODE_538_length_273_cov_3.793578	21	100.000	21	3.30e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_476_NODE_538_length_273_cov_3.793578	21	100.000	21	3.30e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_476_NODE_1303_length_241_cov_2.112903	28	90.323	31	2.89e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_476_NODE_1303_length_241_cov_2.112903	28	90.323	31	2.89e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_476_NODE_1637_length_228_cov_3.364162	20	100.000	20	0.001	38.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_476_NODE_1637_length_228_cov_3.364162	20	100.000	20	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_476_NODE_1906_length_219_cov_2.750000	24	92.308	26	0.001	38.1	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_477_NODE_41_length_740_cov_1.921168	29	90.625	32	2.60e-04	41.7	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_477_NODE_88_length_417_cov_1.005525	25	96.154	26	4.00e-05	43.6	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_477_NODE_424_length_249_cov_0.938144	28	90.323	31	3.00e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_477_NODE_825_length_214_cov_1.144654	25	92.593	27	0.001	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_479_NODE_1463_length_226_cov_1.046784	30	88.235	34	0.001	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_480_NODE_122_length_764_cov_2.623413	23	95.833	24	0.001	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_480_NODE_122_length_764_cov_2.623413	23	95.833	24	0.001	39.9	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_480_NODE_185_length_618_cov_2.028419	25	92.593	27	7.78e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_480_NODE_1541_length_246_cov_1.581152	25	96.154	26	8.22e-05	41.7	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_480_NODE_1802_length_237_cov_1.000000	21	100.000	21	2.84e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_480_NODE_2259_length_225_cov_1.023529	25	92.593	27	2.68e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_480_NODE_2368_length_222_cov_1.089820	22	95.652	23	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_480_NODE_2730_length_213_cov_1.151899	41	82.000	50	2.53e-04	39.9	0	NC_046964	|Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015, complete genome
+RR034B_481_NODE_342_length_403_cov_1.324713	34	87.179	39	3.86e-05	43.6	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_482_NODE_375_length_364_cov_3.055016	21	100.000	21	4.48e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_482_NODE_375_length_364_cov_3.055016	21	100.000	21	4.48e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_482_NODE_532_length_313_cov_1.740310	45	81.818	55	3.82e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_482_NODE_771_length_269_cov_0.850467	30	88.235	34	3.24e-04	39.9	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_482_NODE_1442_length_235_cov_0.888889	25	92.593	27	2.81e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_482_NODE_2047_length_213_cov_1.145570	22	95.652	23	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_482_NODE_2086_length_211_cov_0.794872	23	100.000	23	1.93e-05	43.6	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_483_NODE_234_length_390_cov_1.400000	29	90.625	32	1.34e-04	41.7	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_483_NODE_2133_length_228_cov_2.104046	33	89.189	37	5.85e-06	45.4	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_483_NODE_2133_length_228_cov_2.104046	33	89.189	37	5.85e-06	45.4	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_483_NODE_2133_length_228_cov_2.104046	33	89.189	37	5.85e-06	45.4	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_483_NODE_2207_length_227_cov_0.837209	31	91.176	34	1.62e-06	47.3	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_483_NODE_2673_length_215_cov_1.137500	36	83.721	43	2.55e-04	39.9	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_483_NODE_2924_length_208_cov_1.189542	29	87.879	33	8.85e-04	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_484_NODE_479_length_265_cov_0.866667	28	90.323	31	3.19e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_484_NODE_2039_length_226_cov_0.842105	28	90.323	31	2.70e-04	39.9	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_484_NODE_2545_length_216_cov_1.130435	29	87.879	33	2.57e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_484_NODE_3102_length_206_cov_1.000000	22	95.652	23	8.76e-04	38.1	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_484_NODE_3102_length_206_cov_1.000000	22	95.652	23	8.76e-04	38.1	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_485_NODE_53_length_1781_cov_10.610660	38	86.364	44	4.92e-05	45.4	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_485_NODE_708_length_470_cov_2.272289	27	93.103	29	1.63e-04	41.7	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_485_NODE_2068_length_297_cov_1.082645	28	90.323	31	3.61e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_485_NODE_2703_length_269_cov_2.000000	38	84.444	45	3.24e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_485_NODE_3175_length_261_cov_0.883495	35	85.366	41	8.73e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_485_NODE_3244_length_260_cov_0.887805	21	100.000	21	3.13e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_485_NODE_3244_length_260_cov_0.887805	21	100.000	21	3.13e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_485_NODE_4008_length_247_cov_0.947917	26	92.857	28	2.97e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_485_NODE_4126_length_245_cov_0.952632	21	100.000	21	2.94e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_485_NODE_4242_length_242_cov_2.919786	26	96.296	27	6.24e-06	45.4	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_485_NODE_5487_length_223_cov_2.166667	29	87.879	33	0.001	38.1	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_485_NODE_5506_length_223_cov_1.232143	29	87.879	33	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_485_NODE_6415_length_210_cov_1.129032	25	92.593	27	2.49e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_485_NODE_6572_length_207_cov_2.394737	29	87.879	33	8.81e-04	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_485_NODE_6938_length_112_cov_1.315789	25	96.154	26	9.46e-06	43.6	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_487_NODE_230_length_672_cov_1.379254	23	95.833	24	8.48e-04	39.9	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_487_NODE_366_length_521_cov_2.195279	24	96.000	25	6.53e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_487_NODE_413_length_493_cov_1.369863	31	91.176	34	1.32e-05	45.4	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_487_NODE_413_length_493_cov_1.369863	31	91.176	34	1.32e-05	45.4	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_487_NODE_488_length_455_cov_2.100000	28	90.323	31	5.67e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_487_NODE_488_length_455_cov_2.100000	28	90.323	31	5.67e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_487_NODE_675_length_390_cov_1.194030	30	88.235	34	4.82e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_487_NODE_2121_length_228_cov_1.052023	22	95.652	23	0.001	38.1	0	NC_028833	|BtNv-AlphaCoV/SC2013, complete genome
+RR034B_487_NODE_2164_length_226_cov_1.596491	22	95.652	23	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_487_NODE_2263_length_222_cov_1.634731	22	95.652	23	0.001	38.1	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_487_NODE_2315_length_220_cov_1.951515	39	82.979	47	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_487_NODE_2318_length_220_cov_1.781818	24	96.000	25	2.62e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_487_NODE_2318_length_220_cov_1.781818	20	100.000	20	0.001	38.1	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_487_NODE_2318_length_220_cov_1.781818	20	100.000	20	0.001	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_487_NODE_2318_length_220_cov_1.781818	20	100.000	20	0.001	38.1	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_487_NODE_2378_length_218_cov_1.116564	26	89.655	29	0.001	38.1	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_487_NODE_2546_length_211_cov_1.852564	28	90.323	31	2.50e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_487_NODE_2551_length_211_cov_1.307692	20	100.000	20	8.99e-04	38.1	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_488_NODE_83_length_1589_cov_1.589309	24	96.000	25	5.67e-04	41.7	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_488_NODE_83_length_1589_cov_1.589309	24	96.000	25	5.67e-04	41.7	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_488_NODE_83_length_1589_cov_1.589309	24	96.000	25	5.67e-04	41.7	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_488_NODE_261_length_765_cov_2.185915	26	92.857	28	2.69e-04	41.7	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_488_NODE_420_length_543_cov_1.752049	36	85.714	42	1.89e-04	41.7	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_488_NODE_486_length_495_cov_1.877273	33	86.842	38	1.72e-04	41.7	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_488_NODE_592_length_443_cov_1.914948	21	100.000	21	5.51e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_488_NODE_647_length_415_cov_1.344444	28	90.323	31	5.14e-04	39.9	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_488_NODE_670_length_405_cov_1.508571	29	87.879	33	5.01e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_488_NODE_832_length_362_cov_0.745928	24	96.000	25	4.45e-04	39.9	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_488_NODE_1082_length_319_cov_1.628788	33	84.615	39	3.89e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_488_NODE_1082_length_319_cov_1.628788	33	84.615	39	3.89e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_488_NODE_1473_length_275_cov_1.027273	35	87.500	40	2.57e-05	43.6	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_488_NODE_3056_length_227_cov_0.883721	33	86.842	38	7.53e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_488_NODE_3120_length_225_cov_1.600000	25	92.593	27	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_488_NODE_3149_length_225_cov_0.841176	20	100.000	20	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_488_NODE_3274_length_222_cov_1.173653	27	90.000	30	0.001	38.1	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_488_NODE_3296_length_222_cov_1.089820	29	87.879	33	2.64e-04	39.9	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_488_NODE_3396_length_219_cov_1.695122	33	86.842	38	2.60e-04	39.9	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_488_NODE_3953_length_208_cov_1.189542	29	87.879	33	2.46e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_488_NODE_4037_length_206_cov_1.629139	25	92.593	27	2.44e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_488_NODE_4037_length_206_cov_1.629139	23	95.833	24	8.76e-04	38.1	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_488_NODE_4038_length_206_cov_1.629139	25	92.593	27	8.76e-04	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_488_NODE_4084_length_206_cov_0.801325	26	92.857	28	2.44e-04	39.9	0	NC_028811	|BtMr-AlphaCoV/SAX2011, complete genome
+RR034B_489_NODE_804_length_337_cov_3.446809	23	95.833	24	4.13e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_489_NODE_1416_length_278_cov_1.919283	29	90.625	32	9.34e-05	41.7	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_489_NODE_2826_length_257_cov_0.900990	26	92.857	28	8.58e-05	41.7	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_489_NODE_3569_length_247_cov_2.640625	29	90.625	32	8.26e-05	41.7	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_489_NODE_3681_length_246_cov_1.905759	25	92.593	27	2.96e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_489_NODE_3681_length_246_cov_1.905759	25	92.593	27	2.96e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_489_NODE_4360_length_239_cov_0.989130	27	90.000	30	2.87e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_489_NODE_6344_length_217_cov_1.123457	27	90.000	30	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_489_NODE_6581_length_214_cov_2.289308	30	88.235	34	2.54e-04	39.9	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_489_NODE_6745_length_212_cov_3.089172	24	92.308	26	0.001	38.1	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_489_NODE_7311_length_207_cov_1.855263	20	100.000	20	8.81e-04	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_490_NODE_429_length_275_cov_5.068182	24	96.000	25	3.32e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_490_NODE_485_length_266_cov_4.047393	25	92.593	27	3.20e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_490_NODE_485_length_266_cov_4.047393	25	92.593	27	3.20e-04	39.9	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_490_NODE_921_length_226_cov_1.064327	21	100.000	21	2.70e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_490_NODE_921_length_226_cov_1.064327	21	100.000	21	2.70e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_490_NODE_921_length_226_cov_1.064327	21	100.000	21	2.70e-04	39.9	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_491_NODE_117_length_458_cov_0.744417	24	96.000	25	1.59e-04	41.7	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_491_NODE_145_length_406_cov_1.854701	33	86.842	38	5.03e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_491_NODE_737_length_229_cov_1.045977	22	95.652	23	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_491_NODE_992_length_209_cov_1.181818	33	86.842	38	6.88e-05	41.7	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_491_NODE_1055_length_142_cov_1.436782	20	100.000	20	5.76e-04	38.1	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_494_NODE_567_length_271_cov_0.842593	32	86.486	37	3.27e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_494_NODE_1675_length_248_cov_0.880829	30	88.235	34	2.98e-04	39.9	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_494_NODE_1896_length_244_cov_0.867725	21	100.000	21	2.93e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_494_NODE_3089_length_227_cov_1.052326	24	96.000	25	2.71e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_494_NODE_3660_length_220_cov_1.103030	22	95.652	23	0.001	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_494_NODE_3824_length_219_cov_0.878049	20	100.000	20	0.001	38.1	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_494_NODE_4629_length_211_cov_1.166667	24	92.308	26	8.99e-04	38.1	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_494_NODE_4970_length_209_cov_0.935065	29	87.879	33	8.90e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_494_NODE_5381_length_206_cov_0.947020	29	87.879	33	8.76e-04	38.1	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_495_NODE_740_length_271_cov_1.402778	23	95.833	24	3.27e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_495_NODE_740_length_271_cov_1.402778	23	95.833	24	3.27e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_495_NODE_2011_length_239_cov_4.701087	23	95.833	24	2.87e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_495_NODE_2147_length_237_cov_1.467033	28	90.323	31	2.84e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_495_NODE_2964_length_222_cov_2.143713	24	92.308	26	0.001	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_495_NODE_3214_length_218_cov_3.006135	20	100.000	20	0.001	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_495_NODE_3619_length_212_cov_3.146497	31	93.939	33	4.18e-07	49.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_495_NODE_3619_length_212_cov_3.146497	28	90.323	31	2.51e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_495_NODE_3619_length_212_cov_3.146497	27	90.000	30	0.001	38.1	0	NC_023760	|Mink coronavirus strain WD1127, complete genome
+RR034B_495_NODE_4000_length_207_cov_1.855263	22	95.652	23	8.81e-04	38.1	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_496_NODE_170_length_432_cov_1.204244	23	100.000	23	4.15e-05	43.6	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_496_NODE_175_length_426_cov_0.816712	21	100.000	21	5.29e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_497_NODE_313_length_445_cov_1.776923	29	90.625	32	1.54e-04	41.7	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_497_NODE_2792_length_258_cov_0.891626	23	95.833	24	3.10e-04	39.9	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_497_NODE_3338_length_252_cov_0.923858	23	100.000	23	2.34e-05	43.6	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_497_NODE_4036_length_246_cov_0.643979	23	95.833	24	2.96e-04	39.9	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_497_NODE_4036_length_246_cov_0.643979	23	95.833	24	2.96e-04	39.9	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_497_NODE_4036_length_246_cov_0.643979	23	95.833	24	2.96e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_497_NODE_4036_length_246_cov_0.643979	23	95.833	24	2.96e-04	39.9	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_497_NODE_6570_length_223_cov_2.166667	22	95.652	23	0.001	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_497_NODE_6832_length_221_cov_1.728916	30	88.235	34	2.63e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_497_NODE_6838_length_221_cov_1.644578	27	90.000	30	0.001	38.1	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_497_NODE_7177_length_219_cov_1.109756	27	90.000	30	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_497_NODE_8091_length_211_cov_1.166667	33	84.615	39	8.99e-04	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_497_NODE_8266_length_210_cov_1.077419	30	88.235	34	8.95e-04	38.1	0	NC_009988	|Bat coronavirus HKU2, complete genome
+RR034B_497_NODE_8672_length_206_cov_1.807947	22	95.652	23	8.76e-04	38.1	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_498_NODE_4865_length_227_cov_1.395349	25	92.593	27	0.001	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_498_NODE_5186_length_224_cov_1.076923	27	90.000	30	0.001	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_498_NODE_5643_length_219_cov_1.615854	35	83.333	42	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_498_NODE_5811_length_218_cov_1.116564	22	95.652	23	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_498_NODE_6008_length_216_cov_1.130435	25	92.593	27	0.001	38.1	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_498_NODE_6501_length_211_cov_1.282051	22	95.652	23	8.99e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_499_NODE_305_length_292_cov_2.303797	23	95.833	24	3.54e-04	39.9	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_499_NODE_1074_length_248_cov_0.943005	30	90.909	33	2.31e-05	43.6	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_499_NODE_1074_length_248_cov_0.943005	30	90.909	33	2.31e-05	43.6	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_499_NODE_1675_length_229_cov_1.045977	23	95.833	24	2.74e-04	39.9	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_499_NODE_1760_length_227_cov_1.046512	29	87.879	33	2.71e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_499_NODE_2191_length_214_cov_1.144654	28	90.323	31	2.54e-04	39.9	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_499_NODE_2440_length_207_cov_1.197368	27	93.103	29	6.81e-05	41.7	0	NC_028752	|Camel alphacoronavirus isolate camel/Riyadh/Ry141/2015, complete genome
+RR034B_500_NODE_212_length_733_cov_15.053097	32	86.486	37	0.001	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_500_NODE_612_length_423_cov_1.910326	21	100.000	21	5.25e-04	39.9	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_500_NODE_2299_length_237_cov_1.500000	25	96.154	26	7.89e-05	41.7	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_500_NODE_2299_length_237_cov_1.500000	25	96.154	26	7.89e-05	41.7	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_500_NODE_2752_length_221_cov_1.096386	23	95.833	24	0.001	38.1	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_501_NODE_1412_length_264_cov_1.239234	32	86.486	37	8.84e-05	41.7	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_501_NODE_1750_length_259_cov_0.892157	21	100.000	21	3.11e-04	39.9	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_501_NODE_2627_length_247_cov_0.901042	24	96.000	25	2.97e-04	39.9	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_501_NODE_3842_length_231_cov_1.034091	24	92.308	26	0.001	38.1	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_501_NODE_3921_length_231_cov_0.857955	20	100.000	20	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_501_NODE_3921_length_231_cov_0.857955	20	100.000	20	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_501_NODE_4603_length_223_cov_1.083333	24	92.308	26	0.001	38.1	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_501_NODE_4603_length_223_cov_1.083333	24	92.308	26	0.001	38.1	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_501_NODE_5556_length_212_cov_1.745223	27	90.000	30	0.001	38.1	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_501_NODE_5556_length_212_cov_1.745223	27	90.000	30	0.001	38.1	0	NC_038294	|Betacoronavirus England 1 isolate H123990006, complete genome
+RR034B_501_NODE_6142_length_207_cov_0.960526	23	95.833	24	2.45e-04	39.9	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_502_NODE_1410_length_230_cov_2.080000	26	92.857	28	2.75e-04	39.9	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_502_NODE_1787_length_214_cov_1.685535	27	90.000	30	0.001	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_504_NODE_450_length_265_cov_0.866667	23	95.833	24	3.19e-04	39.9	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_504_NODE_700_length_248_cov_0.943005	32	86.486	37	8.29e-05	41.7	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_504_NODE_1357_length_210_cov_1.174194	20	100.000	20	8.95e-04	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	182	78.788	231	3.02e-39	156	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	201	76.426	263	3.05e-34	139	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	75	83.333	90	5.21e-17	82.4	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	49	90.741	54	3.13e-14	73.1	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	86	78.899	109	1.13e-13	71.3	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	47	88.679	53	5.24e-12	65.8	0	NC_017083	|Rabbit coronavirus HKU14, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	83	76.852	108	6.78e-11	62.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	46	86.792	53	2.44e-10	60.2	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	43	82.692	52	2.46e-05	43.6	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	48	85.714	56	2.44e-10	60.2	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	41	82.000	50	8.84e-05	41.7	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_506_NODE_1982_length_264_cov_1.741627	44	86.275	51	3.16e-09	56.5	0	NC_019843	|Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012, complete genome
+RR034B_506_NODE_2188_length_258_cov_3.300493	31	88.571	35	8.62e-05	41.7	0	NC_026011	|Betacoronavirus HKU24 strain HKU24-R05005I, complete genome
+RR034B_506_NODE_2188_length_258_cov_3.300493	31	86.111	36	3.10e-04	39.9	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_506_NODE_2188_length_258_cov_3.300493	31	86.111	36	3.10e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_506_NODE_2188_length_258_cov_3.300493	31	86.111	36	3.10e-04	39.9	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_506_NODE_2188_length_258_cov_3.300493	31	86.111	36	3.10e-04	39.9	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_506_NODE_3227_length_232_cov_1.988701	25	92.593	27	2.77e-04	39.9	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_506_NODE_3475_length_226_cov_2.847953	24	92.308	26	0.001	38.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_506_NODE_3959_length_216_cov_3.900621	25	92.593	27	0.001	38.1	0	NC_006577	|Human coronavirus HKU1, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	163	76.887	212	8.82e-29	121	0	NC_030886	|Rousettus bat coronavirus isolate GCCDC1 356, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	143	76.882	186	2.47e-24	106	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	47	88.679	53	4.19e-12	65.8	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	47	87.037	54	5.42e-11	62.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	49	83.051	59	9.07e-09	54.7	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	76	76.000	100	1.17e-07	51.0	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	51	82.258	62	4.22e-07	49.1	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	57	79.167	72	4.22e-07	49.1	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	66	76.744	86	5.46e-06	45.4	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_506_NODE_4082_length_214_cov_2.289308	72	75.789	95	5.46e-06	45.4	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_506_NODE_4117_length_213_cov_3.101266	24	96.000	25	7.03e-05	41.7	0	AC_000192	|Murine hepatitis virus strain JHM, complete genome
+RR034B_506_NODE_4516_length_206_cov_2.827815	25	92.593	27	2.44e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_506_NODE_4520_length_206_cov_2.476821	21	100.000	21	2.44e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_510_NODE_162_length_305_cov_1.092000	21	100.000	21	3.71e-04	39.9	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_512_NODE_223_length_725_cov_2.200000	28	90.323	31	0.001	39.9	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_512_NODE_403_length_538_cov_2.120083	29	90.625	32	1.88e-04	41.7	0	NC_032730	|Lucheng Rn rat coronavirus isolate Lucheng-19, complete genome
+RR034B_512_NODE_553_length_466_cov_2.700730	21	100.000	21	5.81e-04	39.9	0	NC_030292	|Ferret coronavirus isolate FRCoV-NL-2010, complete genome
+RR034B_512_NODE_3421_length_238_cov_1.693989	28	90.323	31	2.85e-04	39.9	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_512_NODE_3755_length_231_cov_1.034091	26	92.857	28	2.76e-04	39.9	0	NC_028806	|Swine enteric coronavirus strain Italy/213306/2009, complete genome
+RR034B_512_NODE_4562_length_216_cov_3.024845	24	92.308	26	0.001	38.1	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_512_NODE_5093_length_208_cov_1.065359	24	92.308	26	8.85e-04	38.1	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_515_NODE_347_length_216_cov_2.204969	21	100.000	21	2.57e-04	39.9	0	NC_009020	|Pipistrellus bat coronavirus HKU5, complete genome
+RR034B_517_NODE_121_length_339_cov_1.940141	36	83.721	43	4.15e-04	39.9	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_517_NODE_345_length_219_cov_1.109756	29	87.879	33	0.001	38.1	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_517_NODE_365_length_215_cov_1.137500	29	87.879	33	0.001	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_517_NODE_365_length_215_cov_1.137500	29	87.879	33	0.001	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_518_NODE_259_length_750_cov_2.473381	21	100.000	21	0.001	39.9	0	NC_022103	|Bat coronavirus CDPHE15/USA/2006, complete genome
+RR034B_518_NODE_315_length_686_cov_1.500792	39	82.979	47	8.66e-04	39.9	0	NC_035191	|Wencheng Sm shrew coronavirus isolate Xingguo-101 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_518_NODE_315_length_686_cov_1.500792	42	82.353	51	8.66e-04	39.9	0	NC_048211	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds
+RR034B_518_NODE_683_length_474_cov_1.441527	26	92.857	28	5.91e-04	39.9	0	NC_028824	|BtRf-AlphaCoV/YN2012, complete genome
+RR034B_518_NODE_1107_length_386_cov_2.483384	25	92.593	27	4.77e-04	39.9	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome
+RR034B_518_NODE_1284_length_361_cov_1.209150	30	88.235	34	4.44e-04	39.9	0	NC_009021	|Rousettus bat coronavirus HKU9, complete genome
+RR034B_518_NODE_1426_length_345_cov_0.941379	25	92.593	27	4.23e-04	39.9	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_518_NODE_1684_length_321_cov_1.443609	33	86.842	38	3.92e-04	39.9	0	NC_025217	|Bat Hp-betacoronavirus/Zhejiang2013, complete genome
+RR034B_518_NODE_1922_length_302_cov_1.230769	28	90.323	31	1.02e-04	41.7	0	NC_038861	|Transmissible gastroenteritis virus complete genome, genomic RNA
+RR034B_518_NODE_2153_length_286_cov_1.675325	32	88.889	36	2.68e-05	43.6	0	NC_045512	|Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+RR034B_518_NODE_2562_length_268_cov_1.544601	23	95.833	24	3.23e-04	39.9	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_518_NODE_2685_length_265_cov_1.733333	23	95.833	24	3.19e-04	39.9	0	NC_028814	|BtRf-AlphaCoV/HuB2013, complete genome
+RR034B_518_NODE_2942_length_260_cov_0.887805	23	100.000	23	2.42e-05	43.6	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_518_NODE_3043_length_258_cov_0.896552	26	92.857	28	3.10e-04	39.9	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_518_NODE_4114_length_238_cov_0.994536	23	95.833	24	2.85e-04	39.9	0	NC_018871	|Rousettus bat coronavirus HKU10, complete genome
+RR034B_518_NODE_4205_length_236_cov_1.635359	24	96.000	25	7.86e-05	41.7	0	NC_034972	|Coronavirus AcCoV-JC34, complete genome
+RR034B_518_NODE_4468_length_232_cov_1.028249	20	100.000	20	0.001	38.1	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_518_NODE_4562_length_230_cov_2.651429	24	92.308	26	0.001	38.1	0	NC_010437	|Bat coronavirus 1A, complete genome
+RR034B_518_NODE_4658_length_229_cov_1.045977	20	100.000	20	0.001	38.1	0	NC_004718	|SARS coronavirus Tor2, complete genome
+RR034B_518_NODE_4658_length_229_cov_1.045977	20	100.000	20	0.001	38.1	0	NC_014470	|Bat coronavirus BM48-31/BGR/2008, complete genome
+RR034B_518_NODE_4780_length_227_cov_1.058140	25	96.154	26	2.09e-05	43.6	0	NC_003045	|Bovine coronavirus isolate BCoV-ENT, complete genome
+RR034B_518_NODE_4780_length_227_cov_1.058140	24	92.308	26	0.001	38.1	0	NC_006213	|Human coronavirus OC43 strain ATCC VR-759, complete genome
+RR034B_518_NODE_4804_length_226_cov_2.128655	22	95.652	23	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_518_NODE_4952_length_224_cov_1.076923	24	92.308	26	0.001	38.1	0	NC_002645	|Human coronavirus 229E, complete genome
+RR034B_518_NODE_5405_length_217_cov_1.123457	24	92.308	26	0.001	38.1	0	NC_009657	|Scotophilus bat coronavirus 512, complete genome
+RR034B_518_NODE_5510_length_215_cov_1.681250	34	85.000	40	0.001	38.1	0	NC_048216	|NL63-related bat coronavirus strain BtKYNL63-9b, complete genome
+RR034B_518_NODE_5598_length_214_cov_1.144654	25	92.593	27	0.001	38.1	0	NC_001846	|Murine hepatitis virus strain MHV-A59 C12 mutant, complete genome
+RR034B_518_NODE_5598_length_214_cov_1.144654	25	92.593	27	0.001	38.1	0	NC_012936	|Rat coronavirus Parker, complete genome
+RR034B_518_NODE_5598_length_214_cov_1.144654	25	92.593	27	0.001	38.1	0	NC_048217	|Murine hepatitis virus strain A59, complete genome
+RR034B_518_NODE_5723_length_212_cov_1.159236	20	100.000	20	0.001	38.1	0	NC_039207	|Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012, complete genome
+RR034B_518_NODE_5799_length_211_cov_1.166667	20	100.000	20	8.99e-04	38.1	0	NC_010438	|Bat coronavirus HKU8, complete genome
+RR034B_518_NODE_5860_length_210_cov_1.174194	25	92.593	27	8.95e-04	38.1	0	NC_003436	|Porcine epidemic diarrhea virus, complete genome
+RR034B_518_NODE_6010_length_208_cov_1.111111	25	92.593	27	8.85e-04	38.1	0	NC_009019	|Tylonycteris bat coronavirus HKU4, complete genome
+RR034B_518_NODE_6136_length_206_cov_1.205298	20	100.000	20	8.76e-04	38.1	0	NC_002306	|Feline infectious peritonitis virus, complete genome
+RR034B_518_NODE_6178_length_205_cov_1.686667	22	95.652	23	8.71e-04	38.1	0	NC_005831	|Human Coronavirus NL63, complete genome
+RR034B_518_NODE_6178_length_205_cov_1.686667	22	95.652	23	8.71e-04	38.1	0	NC_032107	|NL63-related bat coronavirus strain BtKYNL63-9a, complete genome

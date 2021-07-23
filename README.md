@@ -162,5 +162,6 @@ There are Eidolon hits in the urine, but none at full genome. The three above ar
 9. Now, import the curated contigs into R and compare them against the IDseq hits for what is CoV positive and how it maps into the meta-data. It looks like no throat samples were CoV hits, as is consistent with what is recovered from IDseq. See R script ('CoV-hits-vs-metadata.R') for further comparison of manual pipeline hits for fecal and urine samples. There are differences, so I am going through them individually IDseq to check.
 
 ---
+
 10. For calling positives in cases where there was a discrepancy between this (stringent) pipeline and IDseq (see spreadsheet [here](https://docs.google.com/spreadsheets/d/1p8f8ojWAqySijWPIxAqG1uj67iLF6REPtIJdpevyjQo/edit?usp=sharing)), we will accept them as positive hits if (and only if!) the reads from that sample assembled into one or more contigs. In this case, contigs should only be acceptable if the average read depth at that contig is 2 or more reads (per Amy's rule). So, in manually curating any positive samples from IDseq, check the broad (not hiqual) contig summary file for that sample (for feces, "20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt") and only call it as positive if it has at least one contig with >2 reads for average coverage.
 
