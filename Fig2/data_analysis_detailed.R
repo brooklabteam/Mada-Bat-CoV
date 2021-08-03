@@ -13,7 +13,7 @@ library(lmodel2)
 #load data 
 homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV"
 setwd(paste0(homewd, "/Fig2"))
-dat <- read.csv(file=paste0(homewd, "/metadata/all_NGS_8_3_2021_distribute.csv"), header = T, stringsAsFactors = F)
+dat <- read.csv(file=paste0(homewd, "/metadata/all_NGS_8_3_2021.csv"), header = T, stringsAsFactors = F)
 
 #add an age bin category
 dat$age_bin <- round(dat$age/.5)*.5
@@ -194,7 +194,6 @@ Eid.dat = subset(dat.sum, species=="Eidolon dupreanum")
 Rou.dat = subset(dat.sum, species=="Rousettus madagascariensis")
 
 
-
 gam1 <- gam(cbind(pos,neg) ~ s(as.numeric(epiwk),k=7, bs="tp"),
                                family=binomial, data=Pter.dat)
 summary(gam1)
@@ -291,11 +290,20 @@ p6 <-  ggplot(data=dat.sum) +
 p6
 
 
+#and save plot
+ggsave(file = paste0(homewd, "/final-figures/Fig2_seasonal_CoV_prev_by_species.png"),
+       plot = p6,
+       units="mm",  
+       width=70, 
+       height=40, 
+       scale=3, 
+       dpi=300)
 
 #plot prevalence by age class and sex
 
 #clean class
 unique(dat$bat_age_class)
+
 
 #and rank by rough age
 unique(dat$young_of_year)
@@ -303,6 +311,18 @@ dat$age_class <- dat$bat_age_class
 dat$age_class[dat$age_class=="P" | dat$age_class=="L"] <- "A"
 dat$age_class[dat$age_class=="NL" | dat$young_of_year=="no"] <- "A"
 dat$age_class[dat$young_of_year=="yes"] <- "J"
+
+
+#by repro class
+prev.dat <- ddply(dat, .(species, bat_sex, bat_age_class), summarise, pos=sum(CoV), N=length(CoV))
+prev.dat$prevalence = prev.dat$pos/prev.dat$N
+
+p7 <- ggplot(data=prev.dat) + 
+      geom_bar(aes(x=bat_age_class, y=prevalence, fill=bat_sex), stat = "identity", position = "dodge" ) +
+      facet_grid(~species)
+
+p7
+
 
 #by age class
 prev.dat <- ddply(dat, .(species, bat_sex, age_class), summarise, pos=sum(CoV), N=length(CoV))
@@ -332,7 +352,7 @@ prev.dat$uci <- c(unlist(sapply(CIs, '[',2)))
 
 #seems to be higher prevalence in juveniles -- could be driving transmission
 colz = c("female" ="pink", "male" = "cornflowerblue")
-p7 <- ggplot(data=prev.dat, aes(x=age_class, y=prevalence, fill=bat_sex)) + 
+p8 <- ggplot(data=prev.dat, aes(x=age_class, y=prevalence, fill=bat_sex)) + 
   scale_fill_manual(values=colz) +
   geom_bar( stat = "identity", position =position_dodge(.9) ) +
   facet_grid(~species) + theme_bw() + 
@@ -340,21 +360,113 @@ p7 <- ggplot(data=prev.dat, aes(x=age_class, y=prevalence, fill=bat_sex)) +
   theme(panel.grid = element_blank(), strip.background = element_rect(fill="white"),
         strip.text = element_text(face="italic"), legend.position = c(.9,.8), 
         legend.title = element_blank(), axis.title.x = element_blank())
-p7
-
-
-ggsave(file = paste0(homewd, "/final-figures/Fig2_seasonal_CoV_prev_by_species.png"),
-       plot = p6,
-       units="mm",  
-       width=70, 
-       height=40, 
-       scale=3, 
-       dpi=300)
+p8
 
 
 
-########################################################
-########################################################
+#and at look at mass per forearm --
+#is infection associated with low body mass individuals?
+
+#forearm
+
+#get BMI
+
+Pter.dat.adultF = subset(dat, age_class=="A" & species=="Pteropus rufus" &  bat_sex=="female")
+Pter.dat.adultM = subset(dat, age_class=="A" & species=="Pteropus rufus"&  bat_sex=="male")
+Eid.dat.adultF = subset(dat, age_class=="A" & species=="Eidolon dupreanum" &  bat_sex=="female")
+Eid.dat.adultM = subset(dat, age_class=="A" & species=="Eidolon dupreanum" &  bat_sex=="male")
+Rou.dat.adultF = subset(dat, age_class=="A" & species=="Rousettus madagascariensis" &  bat_sex=="female")
+Rou.dat.adultM = subset(dat, age_class=="A" & species=="Rousettus madagascariensis" &  bat_sex=="male")
+
+
+modPterF <- lmodel2(log10(bat_weight_g)~log10(bat_forearm_mm), data=Pter.dat.adultF,nperm= 99)
+modPterM <- lmodel2(log10(bat_weight_g)~log10(bat_forearm_mm), data=Pter.dat.adultM,nperm= 99)
+
+modEidF <- lmodel2(log10(bat_weight_g)~log10(bat_forearm_mm), data=Eid.dat.adultF,nperm= 99)
+modEidM <- lmodel2(log10(bat_weight_g)~log10(bat_forearm_mm), data=Eid.dat.adultM,nperm= 99)
+
+modRouF <- lmodel2(log10(bat_weight_g)~log10(bat_forearm_mm), data=Rou.dat.adultF,nperm= 99)
+modRouM <- lmodel2(log10(bat_weight_g)~log10(bat_forearm_mm), data=Rou.dat.adultM,nperm= 99)
+
+#save function y=mx+b
+
+mPterF = modPterF$regression.results[3,3]
+bPterF = modPterF$regression.results[3,2]
+mPterM = modPterM$regression.results[3,3]
+bPterM = modPterM$regression.results[3,2]
+
+
+mEidF = modEidF$regression.results[3,3]
+bEidF = modEidF$regression.results[3,2]
+mEidM = modEidM$regression.results[3,3]
+bEidM = modEidM$regression.results[3,2]
+
+mRouF = modRouF$regression.results[3,3]
+bRouF = modRouF$regression.results[3,2]
+mRouM = modRouM$regression.results[3,3]
+bRouM = modRouM$regression.results[3,2]
+
+
+# predict function y = mx+b
+#but rewrite for log
+regress.func <- function(x,m,b){
+  log10y = m*log10(x)+b
+  y=10^(log10y)
+  return(y)
+  
+}
+
+
+#and now predict across your dataset
+
+Pter.dat.adultF$predicted_mass <- regress.func(x= Pter.dat.adultF$bat_forearm_mm, m=mPterF, b=bPterF)
+Pter.dat.adultM$predicted_mass <- regress.func(x= Pter.dat.adultM$bat_forearm_mm, m=mPterM, b=bPterM)
+
+Eid.dat.adultF$predicted_mass <- regress.func(x= Eid.dat.adultF$bat_forearm_mm, m=mEidF, b=bEidF)
+Eid.dat.adultM$predicted_mass <- regress.func(x= Eid.dat.adultM$bat_forearm_mm, m=mEidM, b=bEidM)
+
+Rou.dat.adultF$predicted_mass <- regress.func(x= Rou.dat.adultF$bat_forearm_mm, m=mRouF, b=bRouF)
+Rou.dat.adultM$predicted_mass <- regress.func(x= Rou.dat.adultM$bat_forearm_mm, m=mRouM, b=bRouM)
+
+#and join
+adult.dat <- rbind(Pter.dat.adultF, Pter.dat.adultM,
+             Eid.dat.adultF, Eid.dat.adultM,
+             Rou.dat.adultF, Rou.dat.adultM)
+
+#and plot mass per forearm
+adult.dat$mass_resid <- adult.dat$bat_weight_g-adult.dat$predicted_mass
+adult.dat$CoV[adult.dat$CoV==0] <- "neg"
+adult.dat$CoV[adult.dat$CoV==1] <- "pos"
+adult.dat$CoV <- as.factor(adult.dat$CoV)
+
+colz = c("Eidolon dupreanum"="steelblue1", "Pteropus rufus" = "violetred", "Rousettus madagascariensis" = "seagreen" )
+
+p9 <- ggplot(data=adult.dat, aes(x=CoV, y=mass_resid)) +
+      geom_boxplot(aes(fill=species)) + 
+      scale_fill_manual(values=colz) +
+      facet_grid(~species) + geom_hline(aes(yintercept=0))
+
+p9
+
+#no obvious effect on body mass, but dataset is small
+#need to redo with the entire sample set
+#pteropus data is suggestive of an effect
+
+
+#and also check out any patterns with numeric age
+head(dat)
+age.bin <- ddply(dat, .(species, age_bin), summarise, N= length(CoV), pos=sum(CoV))
+
+age.bin$prevalence= age.bin$pos/age.bin$N
+
+p10 <- ggplot(data=subset(age.bin, species!="Rousettus madagascariensis")) + 
+  geom_bar(aes(x=age_bin, y=prevalence), stat = "identity", position = "dodge" ) +
+  facet_grid(~species)
+
+p10
+
+#again, not really enough patterns in the age data to say much... but could try again with bigger dataset
+
 
 #also check any recaps
 head(dat)
@@ -419,6 +531,3 @@ p10
 #most bats just stayed CoV negative, but two Eidolon progressed from negative to positive
 #neg= Jul 2018, pos = Jan 2019
 #neg= Feb 2018, pos = Apr 2018
-
-#save the table
-write.csv(plot.recap, file = "recap_table.csv", row.names = F)
