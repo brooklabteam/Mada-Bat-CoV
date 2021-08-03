@@ -15,8 +15,6 @@ homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV"
 setwd(paste0(homewd, "/Fig2"))
 dat <- read.csv(file=paste0(homewd, "/metadata/all_NGS_8_3_2021_distribute.csv"), header = T, stringsAsFactors = F)
 
-#add an age bin category
-dat$age_bin <- round(dat$age/.5)*.5
 
 #get into date form
 dat$collection_date <- as.Date(dat$collection_date,format = "%m/%d/%y")
