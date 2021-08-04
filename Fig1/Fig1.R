@@ -5,6 +5,7 @@ library(sf)
 library(mapplots)
 library(scatterpie)
 library(maptools)
+library(plyr) 
 library(dplyr) 
 library(tidyr)
 library(ggplot2)
@@ -116,15 +117,17 @@ p2<-p1+geom_point(aes(x=longitude_e, y=latitude_s),color="#97B5CC",size=1,data=d
 #          scale=3, 
 #          dpi=300)
 # # 
-
+coordinate$label <- coordinate$species
+coordinate$label[coordinate$label=="Rousettus madagascariensis"] <- "Rousettus\nmadagascariensis"
+coordinate$label[coordinate$label=="Eidolon dupreanum"] <- "Eidolon\ndupreanum"
 #load GPS point and label
 p2b<-p1+geom_point(aes(x=longitude_e, y=latitude_s),color="black",size=1,data=coordinate)+
   geom_text(data= coordinate,                       #### Labeling
-            aes(x=longitude_e, y=latitude_s, label=species),
+            aes(x=longitude_e, y=latitude_s, label=label),
             fontface="italic",
             color = "#1B262C", size=3,
-            nudge_x = c(-1,-2.5,4),
-            nudge_y = c(1.5,.5,0),
+            nudge_x = c(-2,-3.6,8),
+            nudge_y = c(3,-1.1,-.3),
             check_overlap = T)+
   annotation_scale(location = "bl", width_hint = 0.05) +    #scale
   annotation_north_arrow(location = "tl", which_north = "true",#north arrow     
@@ -177,20 +180,30 @@ dat$plot_class[dat$age_class=="J" & dat$CoV==0] <- "juvenile: CoV neg"
 dat$plot_class[dat$age_class=="A" & dat$CoV==1] <- "adult: CoV pos"
 dat$plot_class[dat$age_class=="A" & dat$CoV==0] <- "adult: CoV neg"
 
-pies <- ddply(dat, .(species, roost_site, latitude_s, longitude_e, plot_class), summarise, value=length(sampleid))
+pies <- ddply(dat, .(species, roost_site, latitude_s, longitude_e, age_class, plot_class), summarise, value=length(sampleid))
 
-tot_sum = ddply(pies,.(species), summarise,N=sum(value))
 
-pies <- merge(pies, tot_sum, by="species", all.x=T)
+
+tot_sum = ddply(pies,.(species, age_class), summarise,N=sum(value))
+
+pies <- merge(pies, tot_sum, by=c("species", "age_class"), all.x=T)
 
 pies$plot_class <- factor(pies$plot_class, levels=c( "juvenile: CoV neg", "adult: CoV neg", "juvenile: CoV pos", "adult: CoV pos"))
+
+#now split into two pies
+piesJ = subset(pies, age_class=="J")
+piesA = subset(pies, age_class=="A")
+
+
 ###Get the pie data in the right format###
 colz = c('adult: CoV neg' ="dodgerblue4", 'adult: CoV pos' ="firebrick4", 'juvenile: CoV neg' ="dodgerblue", 'juvenile: CoV pos' ="firebrick1")
 
 
 p3<-ggplot() + 
   geom_scatterpie(aes(x=longitude_e, y=latitude_s, r=(N/1000)), 
-                  data = pies, cols="plot_class", long_format=TRUE) +
+                  data = piesA, cols="plot_class", long_format=TRUE) +
+  geom_scatterpie(aes(x=longitude_e, y=latitude_s, r=(N/1000)), 
+                  data = piesJ, cols="plot_class", long_format=TRUE) +
   scale_fill_manual(values=colz)
 
 
@@ -207,43 +220,68 @@ p3<-ggplot() +
 # #  
 # 
 # # copie of latitude (x.) and longitude (y.)
- pies$x2 <- pies$longitude_e
- pies$y2 <- pies$latitude_s
+ piesA$x2 <- piesA$longitude_e
+ piesA$y2 <- piesA$latitude_s
 # 
 # #manually move the pie chart in case there is an overlap (change x and y)
 # 
- pies$x2[pies$species== "Pteropus rufus"] <- pies$longitude_e[pies$species== "Pteropus rufus"] + 1.5
- pies$y2[pies$species== "Pteropus rufus"] <- pies$latitude_s[pies$species== "Pteropus rufus"] + 1.5
+ piesA$x2[piesA$species== "Pteropus rufus"] <- piesA$longitude_e[piesA$species== "Pteropus rufus"] -2
+ piesA$y2[piesA$species== "Pteropus rufus"] <- piesA$latitude_s[piesA$species== "Pteropus rufus"] + 1
  
  
- pies$x2[pies$species== "Eidolon dupreanum"] <- pies$longitude_e[pies$species== "Eidolon dupreanum"] - 1.5
- pies$y2[pies$species== "Eidolon dupreanum"] <- pies$latitude_s[pies$species== "Eidolon dupreanum"] - 1.5
+ piesA$x2[piesA$species== "Eidolon dupreanum"] <- piesA$longitude_e[piesA$species== "Eidolon dupreanum"] - .5
+ piesA$y2[piesA$species== "Eidolon dupreanum"] <- piesA$latitude_s[piesA$species== "Eidolon dupreanum"] - 3
  
- pies$x2[pies$species== "Rousettus madagascariensis"] <- pies$longitude_e[pies$species== "Rousettus madagascariensis"] + 1.5
- pies$y2[pies$species== "Rousettus madagascariensis"] <- pies$latitude_s[pies$species== "Rousettus madagascariensis"] - 1.5
+ piesA$x2[piesA$species== "Rousettus madagascariensis"] <- piesA$longitude_e[piesA$species== "Rousettus madagascariensis"] + 4
+ piesA$y2[piesA$species== "Rousettus madagascariensis"] <- piesA$latitude_s[piesA$species== "Rousettus madagascariensis"] - 0
  
- head(pies)
+ head(piesA)
+ 
+ 
+ 
+ 
+ # # copie of latitude (x.) and longitude (y.)
+ piesJ$x2 <- piesJ$longitude_e
+ piesJ$y2 <- piesJ$latitude_s
+ # 
+ # #manually move the pie chart in case there is an overlap (change x and y)
+ # 
+ piesJ$x2[piesJ$species== "Pteropus rufus"] <- piesJ$longitude_e[piesJ$species== "Pteropus rufus"] + 1
+ piesJ$y2[piesJ$species== "Pteropus rufus"] <- piesJ$latitude_s[piesJ$species== "Pteropus rufus"] + 3
+ 
+ 
+ piesJ$x2[piesJ$species== "Eidolon dupreanum"] <- piesJ$longitude_e[piesJ$species== "Eidolon dupreanum"] - 4.5
+ piesJ$y2[piesJ$species== "Eidolon dupreanum"] <- piesJ$latitude_s[piesJ$species== "Eidolon dupreanum"] - 3
+ 
+ piesJ$x2[piesJ$species== "Rousettus madagascariensis"] <- piesJ$longitude_e[piesJ$species== "Rousettus madagascariensis"] + 3
+ piesJ$y2[piesJ$species== "Rousettus madagascariensis"] <- piesJ$latitude_s[piesJ$species== "Rousettus madagascariensis"] - 3
+ 
+ head(piesJ)
 
 #plot pie chart 
 #loko<-c("Rousettus madagascariensis"="#B200ED","Eidolon dupreanum"="#7FFF00","Pteropus rufus"="#0000FF")
 
-p4 <- p2b+annotate("segment", x=pies$longitude_e, xend=pies$x2,y=pies$latitude_s,yend=pies$y2,size=.7,alpha=.5)+ # put the lines
-  geom_scatterpie(aes(x=x2, y=y2, r=(N/100)), 
-                          data = pies, cols="plot_class", long_format=TRUE) +
+p4 <- p2b+
+  annotate("segment", x=piesA$longitude_e, xend=piesA$x2,y=piesA$latitude_s,yend=piesA$y2,size=.7,alpha=.5)+ # put the lines
+  annotate("segment", x=piesJ$longitude_e, xend=piesJ$x2,y=piesJ$latitude_s,yend=piesJ$y2,size=.7,alpha=.5)+ # put the lines
+  geom_scatterpie(aes(x=x2, y=y2, r=(log10(N))), 
+                          data = piesA, cols="plot_class", long_format=TRUE) +
+  geom_scatterpie(aes(x=x2, y=y2, r=(log10(N))), 
+                  data = piesJ, cols="plot_class", long_format=TRUE) +
   theme_bw() +theme(panel.grid = element_blank(),
                     plot.title = element_text(color="black", size=12, face="bold"),
                     plot.margin = unit(c(0,.6,0,.3),"cm"),
                     axis.title.x = element_text(color="black", size=12),
                     axis.title.y = element_text(color="black", size=12),
-                    legend.position=c(.77,.77),
+                    legend.position=c(.8,.8),
                     legend.margin = margin(),
                     legend.title=element_blank(),
                     legend.text = element_text(size = 7.5)) +
   scale_fill_manual(values=colz) +
-  geom_scatterpie_legend(c(50,100,150)/100,
-                         x=54, y=-22.5, 
-                         n=3,
-                         labeller = function(x) paste(x*100,"indiv"))
+  geom_scatterpie_legend(log10(c(10,100)),
+                         x=54.5, y=-23.5, 
+                         n=2,
+                         labeller = function(x) paste(10^(x),"indiv"))
 
 #print(p4)
 
