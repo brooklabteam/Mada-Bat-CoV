@@ -52,7 +52,7 @@ class(orotl_shp)
 # (save script is commented out below the plot)
 
 p1<-ggplot() +  
-  geom_sf(color = "#EAF4F8", fill = "#EAF4F8",data = orotl_shp)+
+  geom_sf(color = "lightgoldenrod1", fill = "lightgoldenrod1",data = orotl_shp)+
   coord_sf(xlim = c(42, 60), ylim = c(-26, -11.5), expand = FALSE)+
   theme_bw()+
   xlab("Longitude") + ylab("Latitude") 
@@ -69,46 +69,38 @@ p1<-ggplot() +
 
 
 #import CoV data
-dat <- read.csv(file = paste0(homewd,"all_NGS_8_3_2021_distribute.csv"), header = T, stringsAsFactors = F )
+dat <- read.csv(file = paste0(homewd,"/metadata/all_NGS_8_3_2021_distribute.csv"), header = T, stringsAsFactors = F )
 head(dat)
 names(dat)
 
+#add age class
+#clean class
+unique(dat$bat_age_class)
+
+#and rank by rough age
+unique(dat$young_of_year)
+dat$age_class <- dat$bat_age_class
+dat$age_class[dat$age_class=="P" | dat$age_class=="L"] <- "A"
+dat$age_class[dat$age_class=="NL" | dat$young_of_year=="no"] <- "A"
+dat$age_class[dat$young_of_year=="yes"] <- "J"
 
 # now subset the data to just include the columns of interest
 
-data1 <- dplyr::select(dat,roost_site,latitude_s, longitude_e, 
-                       collection_date,
-                       bat_species, sampleid)
+dat <- dplyr::select(dat,roost_site,latitude_s, longitude_e,
+                       collection_date, age_class, bat_sex,
+                       species, sampleid, CoV)
 
-#and just the three fruit bat species
-unique(dat$bat_species)
-dat <- subset(dat, bat_species!="Hipposideros commersoni" & bat_species!="Mormopterus jugularis" & bat_species!="Asio madagascariensis")
 head(dat)
-
-#group all the ankarana sites together (and Moramanga)
-dat$roost_site[dat$roost_site=="Ankarana_Canyon" |dat$roost_site=="Ankarana_Cathedral" | dat$roost_site=="Ankarana_Chauves_Souris"] <- "Ankarana"
-dat$roost_site[dat$roost_site=="AngavoBe"  |dat$roost_site=="AngavoKely" |dat$roost_site=="Angavokely"] <- "Moramanga"
-dat$roost_site[dat$roost_site=="Mangarivotra"| dat$roost_site=="Marovitsika"| dat$roost_site=="Maromizaha"] <- "Moramanga"
-dat$roost_site[dat$roost_site=="Marotsipohy" |  dat$roost_site=="Ambakoana"| dat$roost_site=="Mahialambo"| dat$roost_site=="Lakato"] <- "Moramanga"
-head(dat)
-
 unique(dat$roost_site)
 
-###import GPS (latitude and longitude for Ankarana, Makira, Moramanga, Mahabo)
-coordinate<-read.csv("siteGPS.csv")
+#get sites
+coordinate <- ddply(dat, .(roost_site), summarise, latitude_s=unique(latitude_s), longitude_e=unique(longitude_e))
+coordinate <-subset(coordinate, roost_site=="Ambakoana" | roost_site=="AngavoKely" | roost_site=="Maromizaha")
+coordinate$species <- c("Pteropus rufus", "Eidolon dupreanum", "Rousettus madagascariensis")
 head(coordinate)
 
-#group Ankarana GPS together (and Moramanga)
-coordinate$roost_site[coordinate$roost_site=="Ankarana_Cathedral"] <- "Ankarana"
-coordinate = subset(coordinate, roost_site !="Ankarana_Canyon" & roost_site != "Ankarana_Chauves_Souris" )
-
-coordinate$roost_site[coordinate$roost_site=="Lakato"] <- "Moramanga"
-coordinate = subset(coordinate, roost_site !="AngavoKely" & roost_site != "Angavokely" & roost_site != "AngavoBe" & roost_site != "Marovitsika" & roost_site != "Maromizaha" & roost_site != "Ambakoana" & roost_site != "Mahialambo")
-
-head(coordinate)
-
-#load GPS point
-p2<-p1+geom_point(aes(x=x,y=y),color="#97B5CC",size=1,data=coordinate)+
+#plot sites on map
+p2<-p1+geom_point(aes(x=longitude_e, y=latitude_s),color="#97B5CC",size=1,data=dat)+
   annotation_scale(location = "bl", width_hint = 0.05) +    # scale
   annotation_north_arrow(location = "tl", which_north = "true",#north arrow     
                          pad_x = unit(0.02, "cm"), 
@@ -116,22 +108,23 @@ p2<-p1+geom_point(aes(x=x,y=y),color="#97B5CC",size=1,data=coordinate)+
                          style = north_arrow_fancy_orienteering)
 #print(p2)
 
- # ggsave(file = "tmp_map_2.pdf",
- #        plot = p2,
- #        units="mm",  
- #        width=40, 
- #        height=60, 
- #        scale=3, 
- #        dpi=300)
-# 
+#  ggsave(file = "tmp_map_2.pdf",
+#         plot = p2,
+#          units="mm",  
+#          width=40, 
+#          height=60, 
+#          scale=3, 
+#          dpi=300)
+# # 
 
 #load GPS point and label
-p2b<-p1+geom_point(aes(x=x,y=y),color="#651441",size=1,data=coordinate)+
+p2b<-p1+geom_point(aes(x=longitude_e, y=latitude_s),color="black",size=1,data=coordinate)+
   geom_text(data= coordinate,                       #### Labeling
-            aes(x=x, y=y, label=roost_site), 
-            color = "#1B262C", size=3.5,
-            nudge_x = c(-1.5,-2,0,-1.4,-2,-1.5),
-            nudge_y = c(0,0,.5,0,.3,0),
+            aes(x=longitude_e, y=latitude_s, label=species),
+            fontface="italic",
+            color = "#1B262C", size=3,
+            nudge_x = c(-1,-2.5,4),
+            nudge_y = c(1.5,.5,0),
             check_overlap = T)+
   annotation_scale(location = "bl", width_hint = 0.05) +    #scale
   annotation_north_arrow(location = "tl", which_north = "true",#north arrow     
@@ -149,167 +142,115 @@ p2b<-p1+geom_point(aes(x=x,y=y),color="#651441",size=1,data=coordinate)+
                     legend.background = element_rect(color="gray",size = .1),
                     legend.text = element_text(size = 9,face = "italic"))
 #print(p2b)
-# # 
-#   ggsave(file = "tmp_map_2b.pdf",
-#          plot = p2b,
-#          units="mm",  
-#          width=40, 
-#          height=60, 
-#          scale=3, 
-#          dpi=300)
-# # 
+# # # 
+#     ggsave(file = "tmp_map_2b.pdf",
+#            plot = p2b,
+#            units="mm",  
+#            width=40, 
+#            height=60, 
+#            scale=3, 
+#            dpi=300)
+# # # 
 
 
-###Grouping data###
-binned_sites <- dat %>%
-  dplyr::select(roost_site, bat_species) %>%
-  group_by(roost_site, bat_species) %>%
-  summarize(n = n())
+#plot one site per species
+dat$roost_site[dat$species=="Pteropus rufus"] <- "Ambakoana"
+dat$roost_site[dat$species=="Eidolon dupreanum"] <- "AngavoKely"
+dat$roost_site[dat$species=="Rousettus madagascariensis"] <- "Maromizaha"
+
+dat$longitude_e[dat$roost_site=="Ambakoana"] <- coordinate$longitude_e[coordinate$roost_site=="Ambakoana"]
+dat$longitude_e[dat$roost_site=="AngavoKely"] <- coordinate$longitude_e[coordinate$roost_site=="AngavoKely"]
+dat$longitude_e[dat$roost_site=="Maromizaha"] <- coordinate$longitude_e[coordinate$roost_site=="Maromizaha"]
 
 
-###Adding identifiers for merge###
-dat <- as.data.frame(binned_sites)
-head(dat)
-
-dat[sapply(dat, is.character)] <- lapply(dat[sapply(dat, is.character)],as.factor)
-colnames(dat)[[1]] <- "roost_site"
-colnames(dat)[[2]] <- "bat_species"
-colnames(dat)[[3]] <- "n_indiv"
-head(dat)
-dat$nombre<-dat$n_indiv # DUplication 
+dat$latitude_s[dat$roost_site=="Ambakoana"] <- coordinate$latitude_s[coordinate$roost_site=="Ambakoana"]
+dat$latitude_s[dat$roost_site=="AngavoKely"] <- coordinate$latitude_s[coordinate$roost_site=="AngavoKely"]
+dat$latitude_s[dat$roost_site=="Maromizaha"] <- coordinate$latitude_s[coordinate$roost_site=="Maromizaha"]
 
 
-############################################################################################
-#sums of individuals per site
-############################################################################################
-
-#calcul of radius 
-
-dat1<-dat%>% 
-  group_by(roost_site) %>% 
-  mutate(somme = sum(nombre))
-
-#View(dat1)
-
-############################################################################################
-##Sum of bats captured for all sites
-###########################################################################################
-#Proportion 
-rehetra<-c()
-
-for (i in length(dat1$roost_site)) { 
-  rehetra<-append(rehetra, sum(dat1$n_indiv))
-  print(rehetra)
-}
-
-dat1$rehetra<-rehetra
-head(dat1)
 
 
+###Grouping data for scatterpie
+dat$plot_class <- NA
+dat$plot_class[dat$age_class=="J" & dat$CoV==1] <- "juvenile: CoV pos"
+dat$plot_class[dat$age_class=="J" & dat$CoV==0] <- "juvenile: CoV neg"
+dat$plot_class[dat$age_class=="A" & dat$CoV==1] <- "adult: CoV pos"
+dat$plot_class[dat$age_class=="A" & dat$CoV==0] <- "adult: CoV neg"
+
+pies <- ddply(dat, .(species, roost_site, latitude_s, longitude_e, plot_class), summarise, value=length(sampleid))
+
+tot_sum = ddply(pies,.(species), summarise,N=sum(value))
+
+pies <- merge(pies, tot_sum, by="species", all.x=T)
+
+pies$plot_class <- factor(pies$plot_class, levels=c( "juvenile: CoV neg", "adult: CoV neg", "juvenile: CoV pos", "adult: CoV pos"))
 ###Get the pie data in the right format###
-pies <- dat %>% 
-  group_by(roost_site) %>% 
-  mutate(total = n(),
-         radius  = length(unique(bat_species)))%>%
-  group_by(roost_site, bat_species) %>% 
-  summarise(prop = n_indiv/total,
-            radius = mean(radius)) %>% 
-  distinct()
-
-#View(pies)
+colz = c('adult: CoV neg' ="dodgerblue4", 'adult: CoV pos' ="firebrick4", 'juvenile: CoV neg' ="dodgerblue", 'juvenile: CoV pos' ="firebrick1")
 
 
-#pie calcul
-pies$prop <- pies$prop
-pies$value <- dat1$n_indiv
-pies$nombre<-dat1$nombre
-pies$nombre<-dat1$somme
-pies$rehetra<-dat1$rehetra
-
-#now give the pies xy coordinates by mergeing with the "coordinate" dataset
-pies <- merge(pies, coordinate, by = "roost_site", all.x=T, sort =F)
-names(pies)
-#View(pies)
-
-head(pies)
+p3<-ggplot() + 
+  geom_scatterpie(aes(x=longitude_e, y=latitude_s, r=(N/1000)), 
+                  data = pies, cols="plot_class", long_format=TRUE) +
+  scale_fill_manual(values=colz)
 
 
-# Calculation of proportion and new radius
-pies$proportion<-pies$value/pies$rehetra*100 #Proportion
-#View(pies)
-pies$propt<-pies$value/pies$nombre
-
-pies$rayon<-pies$nombre/pies$rehetra
-
-###Get the pie data in the right format###
-p3<-ggplot(data=pies) + 
-  geom_scatterpie(aes(x=x, y=y, group = roost_site, r = log10(rayon)), 
-                  data = pies, cols = "bat_species", long_format=TRUE, color = NA)
 
 #print(p3)
 # # 
-#   ggsave(file = "tmp_map_3.pdf",
-#          plot = p3,
-#          units="mm",  
-#          width=40, 
-#          height=60, 
-#          scale=3, 
-#          dpi=300)
-#  
-
-# copie of latitude (x.) and longitude (y.)
-pies$x. <- pies$x
-pies$y. <- pies$y
-
-#manually move the pie chart in case there is an overlap (change x and y)
-
-pies$x. <- ifelse(pies$roost_site == "Moramanga", pies$x. + 3.2, pies$x.)
-pies$y. <- ifelse(pies$roost_site == "Moramanga", pies$y. + 1, pies$y.)
-
-pies$x. <- ifelse(pies$roost_site == "Mahabo", pies$x. -0.5, pies$x.)
-pies$y. <- ifelse(pies$roost_site == "Mahabo", pies$y. -1, pies$y.)
-
-pies$x. <- ifelse(pies$roost_site == "Makira", pies$x. - 0.7, pies$x.)
-pies$y. <- ifelse(pies$roost_site == "Makira", pies$y. - 1, pies$y.)
-
-
-pies$x. <- ifelse(pies$roost_site == "Ankarana", pies$x. + 2.5, pies$x.)
-pies$y. <- ifelse(pies$roost_site == "Ankarana", pies$y. + 0.07, pies$y.)
-
-
-head(pies)
+#    ggsave(file = "tmp_map_3.pdf",
+#           plot = p3,
+#           units="mm",  
+#           width=40, 
+#           height=60, 
+#           scale=3, 
+#           dpi=300)
+# #  
+# 
+# # copie of latitude (x.) and longitude (y.)
+ pies$x2 <- pies$longitude_e
+ pies$y2 <- pies$latitude_s
+# 
+# #manually move the pie chart in case there is an overlap (change x and y)
+# 
+ pies$x2[pies$species== "Pteropus rufus"] <- pies$longitude_e[pies$species== "Pteropus rufus"] + 1.5
+ pies$y2[pies$species== "Pteropus rufus"] <- pies$latitude_s[pies$species== "Pteropus rufus"] + 1.5
+ 
+ 
+ pies$x2[pies$species== "Eidolon dupreanum"] <- pies$longitude_e[pies$species== "Eidolon dupreanum"] - 1.5
+ pies$y2[pies$species== "Eidolon dupreanum"] <- pies$latitude_s[pies$species== "Eidolon dupreanum"] - 1.5
+ 
+ pies$x2[pies$species== "Rousettus madagascariensis"] <- pies$longitude_e[pies$species== "Rousettus madagascariensis"] + 1.5
+ pies$y2[pies$species== "Rousettus madagascariensis"] <- pies$latitude_s[pies$species== "Rousettus madagascariensis"] - 1.5
+ 
+ head(pies)
 
 #plot pie chart 
-loko<-c("Rousettus madagascariensis"="#B200ED","Eidolon dupreanum"="#7FFF00","Pteropus rufus"="#0000FF")
+#loko<-c("Rousettus madagascariensis"="#B200ED","Eidolon dupreanum"="#7FFF00","Pteropus rufus"="#0000FF")
 
-p4 <- p2b+geom_path(data = pies, mapping = aes(x = x, y = y, group = roost_site), size = 0.25) + #tsy misy haiko aloha ny tena ilaina azy
-  scale_size_identity() +
+p4 <- p2b+annotate("segment", x=pies$longitude_e, xend=pies$x2,y=pies$latitude_s,yend=pies$y2,size=.7,alpha=.5)+ # put the lines
+  geom_scatterpie(aes(x=x2, y=y2, r=(N/100)), 
+                          data = pies, cols="plot_class", long_format=TRUE) +
   theme_bw() +theme(panel.grid = element_blank(),
                     plot.title = element_text(color="black", size=12, face="bold"),
+                    plot.margin = unit(c(0,.6,0,.3),"cm"),
                     axis.title.x = element_text(color="black", size=12),
                     axis.title.y = element_text(color="black", size=12),
-                    legend.position=c(.8,.85),
+                    legend.position=c(.77,.77),
                     legend.margin = margin(),
-                    legend.title=element_text(face = 'bold', size = 8),
-                    legend.background = element_rect(color="light grey",size = .1),
-                    legend.text = element_text(size = 6,face = "italic"))+
-  annotate("segment", x=pies$x, xend=pies$x.,y=pies$y,yend=pies$y.,size=.7,alpha=.5)+ # put the lines
-  new_scale_fill() +
-  geom_scatterpie(aes(x=x., y=y., group = roost_site, r = log10(nombre/20)), data = pies,
-                  cols=c("bat_species"), long_format=TRUE, color = NA)+ 
-  scale_fill_manual(values = loko,name="Bat species")+
-  geom_scatterpie_legend(log10(c(44.959,50,200,1500)/25),
-                         x=51.8, y=-23.5, 
+                    legend.title=element_blank(),
+                    legend.text = element_text(size = 7.5)) +
+  scale_fill_manual(values=colz) +
+  geom_scatterpie_legend(c(50,100,150)/100,
+                         x=54, y=-22.5, 
                          n=3,
-                         labeller = function(x) paste(((x)^2)*500,"indiv"))
-
+                         labeller = function(x) paste(x*100,"indiv"))
 
 #print(p4)
 
-ggsave(file = paste0(homewd, "final-figures/Fig1B_final_map.pdf"),
+ggsave(file = paste0(homewd, "final-figures/Fig1.pdf"),
        plot=p4,
        units="mm",  
-       width=40, 
+       width=50, 
        height=60, 
        scale=3, 
        dpi=300)
