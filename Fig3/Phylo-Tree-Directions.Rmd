@@ -24,9 +24,9 @@ This tutorial outlines methods for building a maximum-likelihood phylogenetic tr
 http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&retmode=text&id=KY417142, MN611520, MG596802, MG596803, KJ473820, KJ473812, KJ473811, KJ473813, MK211374, MK211375, MK211376, MK211377, MK211378, KJ473815, KJ473814, KJ473816, MK211379, KJ473822, JX993988, KU973692, MT350598, NC_030886, KU762338, MN611519, KF569996, KX442565, MN996532, DQ412042, KY417145, MW719567, DQ412043, MG762674, JX993987, DQ071615, KC881006, KY417143, KY417144, KY417146, KY417147, KY417148, KY417149, KY417150, FJ588686, KY417151, KY417152, KC881005, MW218395, KF367457, KT444582, KX442564, KP886808, KP886809, NC_025217, KF636752, MG772933, MG772934, NC_014470, NC_009019, NC_009020, NC_009021, MZ081376, MZ081377, MZ081378, MZ081379, MZ081380, MZ081381, MZ081382, MZ190137, MZ190138, LC556375, KY352407, MF593268, KJ473821, KC869678, HM211098, HM211099, HM211100, HM211101, GU190215, EF065505, EF065506, EF065507, EF065508, EF065509, EF065510, EF065511, EF065512, EF065513, EF065514, EF065515, EF065516, MH002340, MH002341, MH002337, MH002338, MH002339, MH002342, DQ648794, NC_003045, NC_039207, NC_038294, NC_019843, NC_006577, NC_004718, NC_045512, NC_048217, NC_006213, NC_026011, AC_000192, NC_017083, NC_012936, NC_001846, MN611522, MN611523, MN611524, JQ989271, NC_018871, JQ989270, MN611517, MN611518, MT663548, KJ473795, KJ473799, KJ473797, KJ473800, KJ473798, KJ473796, NC_028811, KJ473806, KJ473810, NC_028833, KJ473809, NC_028814, KJ473807, NC_028824, KJ473808, MK211373, MK211369, MK211370, MK211371, MK211372, MN611525, MN611521, JQ989269, JQ989267, JQ989268, JQ989272, JQ989273, JQ989266, NC_048216, NC_046964, NC_032107, NC_022103, MZ081383, MZ081384, MZ081385, MZ081386, MZ081387, MZ081388, MZ081389, MZ081390, MZ081391, MZ081392, MZ081393, MZ081394, MZ081395, MZ081396, MZ081397, MZ081398, MZ081399, MN065811, MK720944, MK720945, MK720946, MH938448, MH938449, MH938450, MH687934, MH687935, MH687936, MH687937, MH687938, MH687939, MH687940, MH687941, MH687942, MH687943, MH687944, MH687945, MH687946, MH687947, MH687948, MH687949, MH687950, MH687951, MH687952, MH687953, MH687954, MH687955, MH687956, MH687957, MH687958, MH687959, MH687960, MH687961, MH687962, MH687963, MH687964, MH687965, MH687966, MH687967, KY799179, KY073744, KY073745, KY073746, KY073747, KY073748, KF430219, NC_010437, NC_010438, NC_009988, NC_009657, MG742313, EU420137, EU420138, EU420139, EF203064, EF203065, EF203066, EF203067, NC_002306, NC_034972, NC_030292, NC_032730, NC_038861, NC_035191, NC_048211, NC_028752, NC_028806, NC_023760, NC_005831, NC_003436, NC_002645
 ```
 
-2. Next, I downloaded one I added our three full-genome Madagascar bat-CoVs from IDseq. These are the contig names:
- - RR034B_010_NODE_1_length_29122_cov_127.557574 (*Pteropus rufus*)
- - RR034B_232_NODE_1_length_28926_cov_14.641786 (*Rousettus madagascariensis*)
+2. Next, I downloaded one I added our three full-genome Madagascar bat-CoVs from IDseq (Project RR034B1_feces). These are the contig names:
+ - RR034B_010_NODE_1_length_29122_cov_127.557574 (*Pteropus rufus*, AMB130)
+ - RR034B_232_NODE_1_length_28926_cov_14.641786 (*Rousettus madagascariensis*, )
  - RR034B_288_NODE_2_length_28980_cov_27.781642  (*Rousettus madagascariensis*)
  
 3. Finally, I wanted to include a full-genome CoV that was neither an AlphaCoV nor a BetaCoV as an outgroup in my RAxML tree, so I picked a bird GammaCoV from NCBI (Turkey coronavirus, Accession Number: NC_010800.1). I placed these all in the same folder as my Alpha/BetaCoV references above, then "cd"ed into the folder on the command line and concatenated with:
@@ -37,23 +37,44 @@ cat *fasta > AlphaBetaFullGenomePhylo_CoVs.fasta
 
 This .fasta file is included in our GitHub repo.
 
-4. From there, I uploaded the concentenated fasta into the MAFFT program online for alignment, using default parameter values. Note that the alignment will take several hours in this case.
+4. From there, I uploaded the concentenated fasta into the [MAFFT program online](https://mafft.cbrc.jp/alignment/server/) for alignment, using default parameter values. Note that the alignment will take around 30-60 minutes in this case. After the alignment returns, download it as a .fasta file and save to your computer. I saved my version of the alignment file in the GitHub repo.
 
-5. After the alignment returns, next step is to compare nucleotide substitution models
+5. Next, use the alignemnt to compare nucleotide substitution models in the program [ModelTest-NG](https://github.com/ddarriba/modeltest). I run this on the command line. See GitHub documentation for how to set it up on your computing cluster or personal computer (Note: these phylogenies are sufficiently large that running it on your desktop/laptop is not advisable). After uploading this file to the Berkeley computing cluster, Savio, I kicked off ModelTest-NG using the following batch script:
 
-4. .fasta file in R (see script) and saved it
-I used the MAFFT program online to align the .fasta files under the default parameter values:
+```{r cars}
+#!/bin/bash
+#SBATCH --job-name=batCoV
+#SBATCH --account=fc_sirmodel
+#SBATCH --partition=savio3
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=1
+#SBATCH --time=24:00:00
 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+module load vim/7.4 
+module load java/1.8.0_121
+module load emacs/25.1 
+module load cmake/3.15.1
+module load python/3.6 
+module load gcc/7.4.0
+module load openmpi/4.0.1-gcc
+
+export CC=`which gcc`
+export CXX=`which c++`
 
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+./modeltest-ng -i batCoV/alignment_fullgenomeCoVs_8_7.fasta -t ml -p 8
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that if you want to **test** this process on your home computer, you can do so by simply reducing the number of genomes in the alignment. I recommend 20 or fewer in this case!
+
+6. Once ModelTest-NG finishes (it will take several hours), it is time to build a maximum likelihood tree using [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/). See documentation on their website for how to get this running on your home computer and/or computing cluster.
+
+### Partial genome RdRp from positive samples
+
+To make Fig3b, I did the following:
+1. Downloaded all the non-host reads off of IDseq from all 30 positive bats in our dataset (actually all 27 for which we did not already have full genome).
+2. Re-uploaded these into IDseq, checking the appropriate species as the host.
+3. Clicked on the "consensus genome" option after upload
+2. Loaded into Geneious and did a multi-sequence alignment to get an idea of what we were looking at.

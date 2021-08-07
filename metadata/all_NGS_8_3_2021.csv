@@ -1,4 +1,4 @@
-czb_id,sampleid,sample_type,CoV,roost_site,latitude_s,longitude_e,collection_date,species,bat_sex,unique_tag_id,recap,bat_age_class,young_of_year,pupmom_pair,pup_or_mom,sampleid_pupmom_pair,bat_weight_g,bat_forearm_mm,age
+﻿czb_id,sampleid,sample_type,CoV,roost_site,latitude_s,longitude_e,collection_date,species,bat_sex,unique_tag_id,recap,bat_age_class,young_of_year,pupmom_pair,pup_or_mom,sampleid_pupmom_pair,bat_weight_g,bat_forearm_mm,age
 RR034B_002_fecRa,AMB122,feces,0,Ambakoana,-18.513,48.1665,2/23/18,Pteropus rufus,male,442,no,A,no,no,NA,NA,680,164,NA
 RR034B_003_fecRa,AMB123,feces,0,Ambakoana,-18.513,48.1665,2/23/18,Pteropus rufus,male,500,no,A,no,no,NA,NA,750,174,NA
 RR034B_004_fecRa,AMB124,feces,1,Ambakoana,-18.513,48.1665,2/23/18,Pteropus rufus,female,1333,no,NL,yes,no,NA,NA,470,156,0.4
@@ -106,8 +106,8 @@ RR034B_109_fecRa,KEL179,feces,0,AngavoKely,-18.9327,47.7578,2/16/18,Eidolon dupr
 RR034B_110_fecRa,KEL180,feces,1,AngavoKely,-18.9327,47.7578,4/9/18,Eidolon dupreanum,female,1055,no,NL,no,no,NA,NA,270,128.3,NA
 RR034B_111_fecRa,KEL181,feces,0,AngavoKely,-18.9327,47.7578,4/9/18,Eidolon dupreanum,male,1054,no,A,no,no,NA,NA,350,132.4,NA
 RR034B_112_fecRa,KEL182,feces,0,AngavoKely,-18.9327,47.7578,4/9/18,Eidolon dupreanum,female,1053,no,NL,no,no,NA,NA,310,124.9,NA
-RR034B_113_uaRa,KEL183,urine,1,AngavoKely,-18.9327,47.7578,4/9/18,Eidolon dupreanum,female,1051,no,NL,no,no,NA,NA,245,132.2,NA
-RR034B_114_uaRa,KEL184,urine,1,AngavoKely,-18.9327,47.7578,4/9/18,Eidolon dupreanum,female,1050,no,NL,no,no,NA,NA,295,129.25,NA
+RR034B_506_uaRa,KEL234,urine,1,AngavoKely,-18.9327,47.7578,7/27/18,Eidolon dupreanum,male,985,no,A,no,no,NA,NA,270,117,NA
+RR034B_352_uaRa,KEL184,urine,1,AngavoKely,-18.9327,47.7578,4/9/18,Eidolon dupreanum,female,1050,no,NL,no,no,NA,NA,295,129.25,NA
 RR034B_115_fecRa,KEL185,feces,0,AngavoKely,-18.9327,47.7578,4/10/18,Eidolon dupreanum,female,1049,no,NL,no,no,NA,NA,345,130.4,3
 RR034B_116_fecRa,KEL186,feces,0,AngavoKely,-18.9327,47.7578,4/10/18,Eidolon dupreanum,female,1048,no,NL,no,no,NA,NA,265,131.1,5
 RR034B_118_fecRa,KEL188,feces,0,AngavoKely,-18.9327,47.7578,4/10/18,Eidolon dupreanum,female,1046,no,NL,no,no,NA,NA,330,128.1,1
