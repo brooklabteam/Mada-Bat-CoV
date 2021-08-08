@@ -107,8 +107,19 @@ Once RAxML finished (>12 hours later), I imported the resulting tree into R and 
 
 ### B. Partial genome RdRp from positive samples
 
-To make Fig3b, I did the following:
-1. Downloaded all the non-host reads off of IDseq from all 30 positive bats in our dataset (actually all 27 for which we did not already have full genome).
-2. Re-uploaded these into IDseq, checking the appropriate species as the host.
-3. Clicked on the "consensus genome" option after upload
-2. Loaded into Geneious and did a multi-sequence alignment to get an idea of what we were looking at.
+To make Fig3B, a partial RdRP phylogeny from all 30 positive samples, I did the following:
+1. Downloaded all the non-host contigs off of IDseq from all 30 positive bats in our dataset.
+2. Deduped them as described on the homepage, using CD-HIT.
+3. Built an nt blast database for the RdRp gene of several CoVs.  To do this, I (a) aligned all alpha- and betaCoV reference genomes from GenBank + the three full genome Madagascar sequences + SARS-CoV-1/AY291315 (used as the reference sequence in [Drexler et al. 2010](https://doi.org/10.1128/JVI.00650-10)), (b) sub-selected the RdRP region spanning from bp 14781 to 15596 of SARS-CoV-1/AY291315, and (c) sent this RdRp chunk of all the genomes to blast as an nt database using the following script:
+
+```
+makeblastdb –in NCBI_all_CoV_nt.fasta –dbtype nucl –parse_seqids -out CoV_nt
+```
+
+4. Once I had the above RdRp database, I blasted all the non-host contigs from the positives against this it, and collected those which were positive hits. I then took those "positive" contigs and did a multiple sequence alignment with them and all the fragments from the reference database in Geneious.
+
+5. After visually confirming that these aligned in a reasonable manner, I sent the contigs and reference fragments to MAFFT online for another alignment.
+
+6. I then queried the best nt substitution model using ModelTest-NG (it was XXXX), and built a bootstraped maximum likelihood phylogeny using RAxML.
+
+7. I imported the resulting phylogeny into R to make the tree seen in Figure 3B.
