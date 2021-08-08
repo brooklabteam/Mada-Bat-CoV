@@ -4,6 +4,8 @@ This github repo contains documentation of analyses for the Madagascar bat coron
 
 ---
 
+### Finding positive CoV samples after mNGS + IDseq
+
 1. First, we downloaded all non-host contigs derived from fecal, urine, or saliva and mapping to ANY taxon from IDseq in the 'RR034B1_feces' project, the 'RR034B2_urine_wholeblood_novaseq' project, and the 'RR034B_throat_swab_raw_RNASeq_NovaSeq'project. (Note that we did not take contigs from HeLa controls or water, and in the case of the 'RR034B2_urine_wholeblood_novaseq' project, we only looked at urine samples). This can be done in bulk, manually, on IDseq.net in the top right-hand corner.
 
 Note that when you download all the non-host contigs, it will produce a folder with a separate fasta file for each sample, which lists the contigs by node number but does not include the sample ID. Before joining all the contigs (nodes) together, you need to distinguish them by sample ID. I wrote an Rscript that parses this for each filetype (rename-fastas-feces, rename-fastas-urine, rename-fastas-throat). To rename your files and the headers within them, copy the appropriate Rscript for the tissue type into your appropriate downloads folder, cd into that folder on the command line, and simply type (example here for feces): 
@@ -164,4 +166,11 @@ There are Eidolon hits in the urine, but none at full genome. The three above ar
 ---
 
 10. For calling positives in cases where there was a discrepancy between this (stringent) pipeline and IDseq (see spreadsheet [here](https://docs.google.com/spreadsheets/d/1p8f8ojWAqySijWPIxAqG1uj67iLF6REPtIJdpevyjQo/edit?usp=sharing)), we will accept them as positive hits if (and only if!) the reads from that sample assembled into one or more contigs. In this case, contigs should only be acceptable if the average read depth at that contig is 2 or more reads (per Amy's rule). So, in manually curating any positive samples from IDseq, check the broad (not hiqual) contig summary file for that sample (for feces, "20210721_Mada_Bat_CoV_unique_contigs_feces_nt.txt") and only call it as positive if it has at least one contig with >2 reads for average coverage.
+
+---
+
+### Building a phylogenetic tree
+
+For details on how to build a phylogenetic tree, see [here](https://github.com/brooklabteam/Mada-Bat-CoV/blob/main/Fig3/Phylo-Tree-Directions.md)
+
 
