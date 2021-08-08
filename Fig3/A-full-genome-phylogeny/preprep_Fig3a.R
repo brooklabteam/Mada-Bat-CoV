@@ -99,5 +99,30 @@ accession_num <- paste(c(all.CoV$Accession), collapse = ", ")
 #now put this into your webbrowser to download
 text.for.NCBI <- paste0("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&retmode=text&id=",accession_num)
 
+#once downloaded, send to MAFFT for alignment
 
+#then, after alignment is ready, prepare the names for RAxML (no space, semicolon, colon, parentheses, dash, slash, comma, quote allowed in name (should just all be underscore)
+library(seqinr)
+#library(msa)
+alignment1 <- read.alignment(file = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/A-full-genome-phylogeny/alignment_fullgenomeCoVs_8_7_rename.fasta", format="fasta", forceToLower = F)
+tmp <- alignment1$nam
+#alignment1$seq[[1]]
 
+new_names <- sub("-", "_", tmp) 
+new_names <- sub("-", "_", tmp) 
+new_names <- sub("-", "_", new_names) 
+new_names <- sub("-", "_", new_names) 
+new_names <- sub("-", "_", new_names) 
+new_names <- sub("(", "_", new_names) 
+new_names <- sub("/", "_", new_names) 
+new_names <- sub(":", "_", new_names) 
+new_names <- sub(";", "_", new_names) 
+new_names <- sub(".", "_", new_names) 
+new_names <- sub(")", "_", new_names) 
+new_names <- sub(" ", "", new_names) 
+
+#new_names <- sub("__", "_", new_names) 
+class(alignment1$seq)
+write.fasta(sequences = as.list(alignment1$seq), names = new_names, file.out =  "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/A-full-genome-phylogeny/RAxML_alignment_fullgenomeCoVs_8_7.fasta", as.string = T, open="w")
+
+#now send aboce to modeltest and eventually RAxML
