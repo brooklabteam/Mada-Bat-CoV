@@ -4,7 +4,9 @@
 
 This tutorial outlines methods for building a maximum-likelihood phylogenetic tree using the program RAxML. We will build (A) a full genome phylogeny of all full genome sequences of Alpha- and Betacoronaviruses on [NCBI-Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/), fitting our new Madagascar whole genome sequences into the picture, and (B) a partial tree focused on just the RdRp gene of the virus. I outline directions below for how to build (A) first.
 
-### Full-genome Alpha- BetaCoV phylogeny
+---
+
+### A. Full-genome Alpha- BetaCoV phylogeny
 
 1. I first went to NCBI-virus (https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/) and selected all **full genome** sequences available for Betacoronavirus (tax id 694002), which brought up 412,467 hits. I did the same for Alphacoronavirus (tax id 693996), which brought up 1,246 hits. For each CoV genus, I downloaded a .csv file which I processed in the attached R script to select viruses which met the following criteria:
  - all full genome betaCoVs with a bat host (98 in total)
@@ -101,9 +103,9 @@ module load openmpi/4.0.1-gcc
 
 Once RAxML finished (>12 hours later), I imported the resulting tree into R and built a phylogenetic tree for Fig3A. Note that for quick viewing, you can easily view the tree in the opensource program, [FigTree](http://tree.bio.ed.ac.uk/software/figtree/).
 
+---
 
-
-### Partial genome RdRp from positive samples
+### B. Partial genome RdRp from positive samples
 
 To make Fig3b, I did the following:
 1. Downloaded all the non-host reads off of IDseq from all 30 positive bats in our dataset (actually all 27 for which we did not already have full genome).
