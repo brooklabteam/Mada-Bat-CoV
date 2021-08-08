@@ -1,11 +1,4 @@
----
-title: "Building a phylogenetic tree"
-author: "Cara Brook"
-date: "8/7/2021"
-output:
-  pdf_document: default
-  html_document: default
----
+
 
 ## Building a phylogenetic tree
 
