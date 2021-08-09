@@ -90,7 +90,7 @@ fec_contigs_pos <- read.fasta( file = paste0(homewd, "/Fig3/B-RdRp-phylogeny/bla
 names_fec <- names(fec_contigs_pos)
 
 #load the names of all the RdRp positive contigs (the hiqual)
-RdRP_pos <- read.delim(file = paste0(homewd, "/Fig3/B-RdRP-phylogeny/blast-pos-contigs/20210808_Mada_Bat_CoV_RdRp_blast_feces_nt_results_100len5eval.txt"), header=F)
+RdRP_pos <- read.delim(file = paste0(homewd, "/Fig3/B-RdRP-phylogeny/blast-pos-contigs/20210808_Mada_Bat_CoV_RdRp_blast_feces_unique_contigs_hiqual.txt"), header=F)
 
 RdRP_pos <- c(unlist(c(RdRP_pos))) #135
 names(RdRP_pos) <- c()

@@ -121,7 +121,7 @@ I then joined these with the three full genomes of the Madagascar bats in a sing
 
 3. To accomplish the blast, I first went back to the de-duped contigs from the homepage (results from CD-HIT) and sub-sampled them to **include just contigs from those 30 bats positive for CoV infection**. See script "preprep_Fig3B.R" in this folder for details.
 
-4. Then, I subsampled the alignment described in #1 above to just the RdRp fragment of all genomes and used this to make an nt blast database for the bat CoV RdRp gene. Once I had the desired fragments in a file ("RdRp_Nobeco_sub.fasta""), I made this into a blastn nt database using the following script:
+4. Then, I subsampled the alignment described in #1 above to just the RdRp fragment of all genomes and used this to make an nt blast database for the bat CoV RdRp gene. I also translated the subsampled fragments in Geneious and exported them tomake an equivalent file relevant to the protein blast. Once I had the desired fragments into files ("RdRp-extraction.fasta" and "RdRp-extraction-translation.fasta"), I made these into, respectively, a blastn nt and blastx aa database using the following script:
 
 ```
 makeblastdb –in RdRp-extraction.fasta –dbtype nucl –parse_seqids -out CoV_RdRP_nt
@@ -130,10 +130,10 @@ makeblastdb –in RdRp-extraction.fasta –dbtype nucl –parse_seqids -out CoV_
 And the protein dattabase:
 
 ```
-makeblastdb –in RdRp-extraction.fasta –dbtype prot –parse_seqids -out CoV_RdRP_aa
+makeblastdb –in RdRp-extraction-translation.fasta –dbtype prot –parse_seqids -out CoV_RdRP_aa
 ```
 
-Note that you may have to retype above, as it is very sensitive to copy/paste.
+Note that you may have to retype the commands above into your terminal, as they are very sensitive to copy/paste.
 
 5. Once I had the above RdRp database, I blasted all the non-host contigs from the positives against this, using the following script (I ran this locally and it was done in seconds):
 
@@ -144,7 +144,7 @@ blastn -word_size 10 -evalue 0.001 -query all_CoV_pos_contigs_feces.fasta -db /U
 And the protein blast too:
 
 ```
-blastx -word_size 3 -evalue 0.001 -query all_CoV_pos_contigs_feces.fasta -db /Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/B-RdRP-phylogeny/sequences/RdRp-database/CoV_RdRP_aa -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle' -max_target_seqs 10 -out 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot.txt
+blastx -word_size 3 -evalue 0.001 -query all_CoV_pos_contigs_feces.fasta -db /Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/B-RdRP-phylogeny/sequences/RdRp-database-protein/CoV_RdRp_aa -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle' -max_target_seqs 10 -out 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot.txt
 ```
 
 I then subselected for high quality hits using this, for nt:
@@ -159,29 +159,27 @@ and for protein:
 
 
 ```
-cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt_results_100len5eval.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt
-
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt_results_100len5eval.txt | awk -F\t '($4>99 && $6>99) {print $1,$3, $4,$5,$8,$9}' > 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt
 ```
 
 And then I summarized the above into a file containing unique contig ids using this script, for feces:
 
 ```
-cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_blast_feces_unique_contgs_hiqual.txt
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_blast_feces_unique_contigs_hiqual.txt
 
 ```
 
 And this for protein:
 
 ```
-cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_unique_contigs_feces_prot_hiqual.txt
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_unique_contigs_feces_prot_hiqual.txt
 
 ```
 
 
+6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA linking each contig in turn to its closest full genome neighbore in Geneious, then selected those which mapped to an overlapping region of the RdRp gene.
 
-6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA them and all the fragments used in my blast reference database in step #4.
-
-6. After visually confirming that these aligned in a reasonable manner, I sent the contigs and reference fragments to MAFFT online for another alignment.
+6. After visually confirming that these aligned in a reasonable manner, I sent these contigs and the reference fragments to MAFFT online for another alignment.
 
 7. I then queried the best nt substitution model using ModelTest-NG (it was XXXX), and built a bootstraped maximum likelihood phylogeny using RAxML.
 
