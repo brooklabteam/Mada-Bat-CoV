@@ -1,0 +1,552 @@
+RR034B_004_NODE_366_length_886_cov_3.358604	25	92.593	27	1.12e-04	39.9	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_004_NODE_1314_length_503_cov_3.022321	30	85.714	35	8.07e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_004_NODE_2519_length_377_cov_2.015528	23	92.000	25	5.99e-04	36.2	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_004_NODE_2555_length_374_cov_2.721003	24	92.308	26	5.94e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_004_NODE_5174_length_280_cov_1.617778	26	89.655	29	4.38e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_004_NODE_5882_length_275_cov_1.109091	23	100.000	23	2.57e-06	43.6	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_004_NODE_6479_length_271_cov_0.842593	20	100.000	20	1.18e-04	38.1	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_004_NODE_6479_length_271_cov_0.842593	20	100.000	20	1.18e-04	38.1	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_004_NODE_6479_length_271_cov_0.842593	20	100.000	20	1.18e-04	38.1	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_004_NODE_11201_length_249_cov_1.670103	28	87.500	32	3.86e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_004_NODE_11201_length_249_cov_1.670103	28	87.500	32	3.86e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_004_NODE_14204_length_237_cov_1.989011	28	93.333	30	2.19e-06	43.6	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_004_NODE_14427_length_236_cov_2.430939	19	100.000	19	3.65e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_004_NODE_14427_length_236_cov_2.430939	19	100.000	19	3.65e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_004_NODE_18659_length_222_cov_1.089820	19	100.000	19	3.41e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_004_NODE_18659_length_222_cov_1.089820	19	100.000	19	3.41e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_004_NODE_19079_length_220_cov_2.872727	28	87.500	32	3.38e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_004_NODE_21163_length_214_cov_1.144654	25	92.593	27	9.12e-05	38.1	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_004_NODE_23392_length_207_cov_1.427632	21	95.455	22	3.16e-04	36.2	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_010_NODE_1_length_29122_cov_127.557574	2710	100.000	2710	0.0	5005	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_010_NODE_1_length_29122_cov_127.557574	2070	75.769	2732	0.0	1334	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_010_NODE_1_length_29122_cov_127.557574	2070	75.769	2732	0.0	1332	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_010_NODE_1_length_29122_cov_127.557574	2067	75.659	2732	0.0	1317	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_010_NODE_1_length_29122_cov_127.557574	2012	75.554	2663	0.0	1288	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_010_NODE_1_length_29122_cov_127.557574	1757	72.814	2413	0.0	736	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_010_NODE_1_length_29122_cov_127.557574	1923	71.673	2683	0.0	664	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_010_NODE_1_length_29122_cov_127.557574	1738	71.967	2415	6.27e-180	627	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_010_NODE_1_length_29122_cov_127.557574	1918	71.248	2692	1.06e-172	603	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_010_NODE_1_length_29122_cov_127.557574	1557	72.217	2156	2.98e-163	571	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_010_NODE_977_length_857_cov_3.804239	40	81.633	49	3.88e-04	38.1	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_010_NODE_1300_length_734_cov_2.147275	20	100.000	20	3.31e-04	38.1	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_010_NODE_1300_length_734_cov_2.147275	20	100.000	20	3.31e-04	38.1	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_010_NODE_2028_length_568_cov_1.805068	27	93.103	29	1.97e-05	41.7	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_010_NODE_2028_length_568_cov_1.805068	24	96.000	25	7.08e-05	39.9	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_010_NODE_2314_length_526_cov_1.214437	30	88.235	34	6.54e-05	39.9	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_010_NODE_2314_length_526_cov_1.214437	30	88.235	34	6.54e-05	39.9	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_010_NODE_2314_length_526_cov_1.214437	30	88.235	34	6.54e-05	39.9	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_010_NODE_2363_length_518_cov_1.606911	21	95.455	22	8.32e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_010_NODE_2363_length_518_cov_1.606911	21	95.455	22	8.32e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_010_NODE_3066_length_441_cov_1.880829	19	100.000	19	7.06e-04	36.2	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_010_NODE_4344_length_359_cov_2.095395	28	87.500	32	1.58e-04	38.1	0	NC_003436.1_extraction	|Porcine epidemic diarrhea virus
+RR034B_010_NODE_5457_length_315_cov_2.142308	26	89.655	29	4.96e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_010_NODE_5648_length_309_cov_2.641732	24	92.308	26	4.86e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_010_NODE_7494_length_270_cov_0.846512	27	90.000	30	1.17e-04	38.1	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_010_NODE_11663_length_237_cov_1.582418	19	100.000	19	3.66e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_010_NODE_13046_length_227_cov_2.098837	22	95.652	23	3.50e-04	36.2	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_010_NODE_13411_length_225_cov_1.070588	23	92.000	25	3.46e-04	36.2	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_010_NODE_13411_length_225_cov_1.070588	23	92.000	25	3.46e-04	36.2	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_010_NODE_13411_length_225_cov_1.070588	23	92.000	25	3.46e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_010_NODE_13706_length_223_cov_1.071429	27	87.097	31	3.43e-04	36.2	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_016_NODE_2937_length_489_cov_2.592166	19	100.000	19	7.84e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_016_NODE_3035_length_484_cov_1.407925	29	85.294	34	7.76e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_016_NODE_4649_length_417_cov_1.240331	28	87.500	32	1.85e-04	38.1	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_016_NODE_4667_length_416_cov_1.745152	24	92.308	26	6.64e-04	36.2	0	NC_003436.1_extraction	|Porcine epidemic diarrhea virus
+RR034B_016_NODE_4693_length_415_cov_3.138889	21	95.455	22	6.63e-04	36.2	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_016_NODE_4810_length_411_cov_2.081461	21	95.455	22	6.56e-04	36.2	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_016_NODE_6387_length_372_cov_1.492114	26	89.655	29	5.91e-04	36.2	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_016_NODE_8332_length_340_cov_0.873684	29	87.879	33	5.38e-04	36.2	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_016_NODE_8902_length_332_cov_1.833935	25	92.593	27	1.46e-04	38.1	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_016_NODE_10484_length_311_cov_4.296875	21	95.455	22	4.90e-04	36.2	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_016_NODE_12373_length_291_cov_1.555085	23	92.000	25	4.56e-04	36.2	0	NC_028811.1_extraction	|BtMr-AlphaCoV/SAX2011
+RR034B_016_NODE_13352_length_282_cov_1.801762	22	95.652	23	1.23e-04	38.1	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_016_NODE_13379_length_282_cov_1.603524	26	89.655	29	4.41e-04	36.2	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_016_NODE_13379_length_282_cov_1.603524	26	89.655	29	4.41e-04	36.2	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_016_NODE_13379_length_282_cov_1.603524	26	89.655	29	4.41e-04	36.2	0	NC_003436.1_extraction	|Porcine epidemic diarrhea virus
+RR034B_016_NODE_14551_length_278_cov_1.632287	25	92.593	27	3.36e-05	39.9	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_016_NODE_14615_length_278_cov_1.524664	21	95.455	22	4.35e-04	36.2	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_016_NODE_18199_length_268_cov_1.553991	24	92.308	26	4.18e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_016_NODE_18843_length_267_cov_0.858491	27	87.097	31	4.16e-04	36.2	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_016_NODE_19543_length_266_cov_0.853081	26	89.655	29	4.15e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_016_NODE_19543_length_266_cov_0.853081	26	89.655	29	4.15e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_016_NODE_22669_length_260_cov_0.887805	28	87.500	32	4.05e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_016_NODE_23118_length_259_cov_0.931373	23	92.000	25	4.03e-04	36.2	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_016_NODE_23634_length_258_cov_1.399015	29	85.294	34	4.01e-04	36.2	0	NC_028811.1_extraction	|BtMr-AlphaCoV/SAX2011
+RR034B_016_NODE_24038_length_257_cov_1.950495	19	100.000	19	4.00e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_016_NODE_24038_length_257_cov_1.950495	19	100.000	19	4.00e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_016_NODE_24926_length_256_cov_0.905473	21	95.455	22	3.98e-04	36.2	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_016_NODE_27261_length_252_cov_0.923858	26	89.655	29	3.91e-04	36.2	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_016_NODE_27262_length_252_cov_0.923858	19	100.000	19	3.91e-04	36.2	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_016_NODE_27617_length_251_cov_1.607143	19	100.000	19	3.90e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_016_NODE_27617_length_251_cov_1.607143	19	100.000	19	3.90e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_016_NODE_28750_length_249_cov_1.876289	31	86.111	36	1.07e-04	38.1	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_016_NODE_28750_length_249_cov_1.876289	31	86.111	36	1.07e-04	38.1	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_016_NODE_29700_length_248_cov_0.943005	23	92.000	25	3.85e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_016_NODE_29700_length_248_cov_0.943005	23	92.000	25	3.85e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_016_NODE_32127_length_244_cov_0.962963	23	92.000	25	3.78e-04	36.2	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_016_NODE_32642_length_243_cov_0.968085	21	95.455	22	3.76e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_016_NODE_32642_length_243_cov_0.968085	21	95.455	22	3.76e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_016_NODE_32642_length_243_cov_0.968085	21	95.455	22	3.76e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_016_NODE_32642_length_243_cov_0.968085	21	95.455	22	3.76e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_016_NODE_33310_length_242_cov_0.973262	19	100.000	19	3.75e-04	36.2	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_016_NODE_33517_length_241_cov_1.978495	26	89.655	29	3.73e-04	36.2	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_016_NODE_37249_length_236_cov_0.900552	32	86.486	37	1.01e-04	38.1	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_016_NODE_37648_length_235_cov_1.011111	22	95.652	23	3.63e-04	36.2	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_016_NODE_37982_length_234_cov_2.843575	31	86.111	36	3.61e-04	36.2	0	NC_022103.1_extraction	|Bat coronavirus CDPHE15/USA/2006
+RR034B_016_NODE_37985_length_234_cov_2.776536	28	87.500	32	3.61e-04	36.2	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_016_NODE_38163_length_234_cov_1.837989	23	92.000	25	3.61e-04	36.2	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_016_NODE_41901_length_229_cov_1.045977	29	90.625	32	2.73e-05	39.9	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_016_NODE_42124_length_228_cov_2.104046	24	92.308	26	3.51e-04	36.2	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_016_NODE_42305_length_228_cov_1.416185	23	92.000	25	3.51e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_016_NODE_42305_length_228_cov_1.416185	23	92.000	25	3.51e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_016_NODE_43435_length_226_cov_2.953216	34	82.927	41	3.48e-04	36.2	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_016_NODE_43675_length_226_cov_1.596491	20	100.000	20	9.68e-05	38.1	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_016_NODE_43675_length_226_cov_1.596491	20	100.000	20	9.68e-05	38.1	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_016_NODE_44213_length_225_cov_2.382353	22	95.652	23	3.46e-04	36.2	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_016_NODE_44683_length_225_cov_1.070588	22	95.652	23	3.46e-04	36.2	0	NC_022103.1_extraction	|Bat coronavirus CDPHE15/USA/2006
+RR034B_016_NODE_45124_length_224_cov_1.597633	23	95.833	24	2.66e-05	39.9	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_016_NODE_45124_length_224_cov_1.597633	22	95.652	23	9.58e-05	38.1	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_016_NODE_45124_length_224_cov_1.597633	27	87.097	31	3.45e-04	36.2	0	NC_028752.1_extraction	|Camel alphacoronavirus/Riyadh/Ry141/2015
+RR034B_016_NODE_46481_length_222_cov_2.113772	21	95.455	22	3.41e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_016_NODE_47063_length_221_cov_2.855422	30	85.714	35	3.40e-04	36.2	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_016_NODE_47877_length_220_cov_2.206061	26	89.655	29	3.38e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_016_NODE_47877_length_220_cov_2.206061	24	92.308	26	3.38e-04	36.2	0	NC_048216.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9b
+RR034B_016_NODE_49096_length_219_cov_1.109756	20	100.000	20	9.35e-05	38.1	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_016_NODE_49741_length_218_cov_1.116564	19	100.000	19	3.35e-04	36.2	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_016_NODE_50409_length_217_cov_1.123457	23	95.833	24	2.57e-05	39.9	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_016_NODE_50913_length_216_cov_1.807453	19	100.000	19	3.31e-04	36.2	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_016_NODE_53126_length_213_cov_2.012658	24	92.308	26	3.26e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_016_NODE_54570_length_211_cov_2.128205	24	92.308	26	3.23e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_016_NODE_59155_length_177_cov_2.811475	18	100.000	18	0.001	34.4	0	NC_010438.1_extraction	|Bat coronavirus HKU8
+RR034B_016_NODE_59346_length_159_cov_0.923077	18	100.000	18	8.57e-04	34.4	0	NC_003436.1_extraction	|Porcine epidemic diarrhea virus
+RR034B_016_NODE_59346_length_159_cov_0.923077	18	100.000	18	8.57e-04	34.4	0	NC_003436.1_extraction	|Porcine epidemic diarrhea virus
+RR034B_016_NODE_59346_length_159_cov_0.923077	18	100.000	18	8.57e-04	34.4	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_016_NODE_59346_length_159_cov_0.923077	18	100.000	18	8.57e-04	34.4	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_021_NODE_1765_length_765_cov_1.795775	500	86.655	577	0.0	640	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_021_NODE_1765_length_765_cov_1.795775	331	76.267	434	8.89e-60	222	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_021_NODE_1765_length_765_cov_1.795775	427	73.242	583	1.16e-53	202	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_021_NODE_1765_length_765_cov_1.795775	418	72.444	577	1.51e-47	182	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_021_NODE_1765_length_765_cov_1.795775	417	72.270	577	7.02e-46	176	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_021_NODE_1765_length_765_cov_1.795775	250	73.529	340	1.99e-31	128	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_021_NODE_1765_length_765_cov_1.795775	252	73.043	345	5.58e-27	113	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_021_NODE_1765_length_765_cov_1.795775	205	74.007	277	9.34e-25	106	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_021_NODE_1765_length_765_cov_1.795775	34	82.927	41	3.46e-04	38.1	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_021_NODE_1765_length_765_cov_1.795775	371	71.209	521	3.36e-24	104	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_021_NODE_1765_length_765_cov_1.795775	188	72.868	258	2.04e-16	78.7	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_021_NODE_1765_length_765_cov_1.795775	113	72.903	155	7.43e-06	43.6	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_021_NODE_2490_length_554_cov_0.911824	23	95.833	24	2.48e-04	38.1	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_021_NODE_2891_length_487_cov_1.736111	428	88.066	486	1.03e-166	577	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_021_NODE_2891_length_487_cov_1.736111	375	76.844	488	5.47e-75	272	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_021_NODE_2891_length_487_cov_1.736111	364	77.119	472	1.97e-74	270	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_021_NODE_2891_length_487_cov_1.736111	367	76.141	482	5.54e-65	239	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_021_NODE_2891_length_487_cov_1.736111	358	74.274	482	5.66e-50	189	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_021_NODE_2891_length_487_cov_1.736111	216	77.143	280	2.07e-39	154	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_021_NODE_2891_length_487_cov_1.736111	213	76.895	277	2.67e-38	150	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_021_NODE_2891_length_487_cov_1.736111	213	77.174	276	3.46e-37	147	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_021_NODE_2891_length_487_cov_1.736111	204	76.981	265	1.24e-36	145	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_021_NODE_2891_length_487_cov_1.736111	59	92.188	64	1.64e-20	91.6	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_021_NODE_2891_length_487_cov_1.736111	356	72.951	488	4.47e-36	143	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_021_NODE_3378_length_432_cov_1.328912	363	84.419	430	1.26e-120	424	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_021_NODE_3378_length_432_cov_1.328912	347	80.698	430	7.87e-93	331	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_021_NODE_3378_length_432_cov_1.328912	346	80.465	430	3.66e-91	326	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_021_NODE_3378_length_432_cov_1.328912	345	79.677	433	4.77e-85	305	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_021_NODE_3378_length_432_cov_1.328912	340	77.982	436	1.05e-71	261	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_021_NODE_3378_length_432_cov_1.328912	326	76.526	426	8.21e-63	231	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_021_NODE_3378_length_432_cov_1.328912	306	77.665	394	8.21e-63	231	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_021_NODE_3378_length_432_cov_1.328912	313	76.716	408	8.27e-58	215	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_021_NODE_3378_length_432_cov_1.328912	295	76.227	387	8.33e-53	198	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_021_NODE_3378_length_432_cov_1.328912	295	76.227	387	8.33e-53	198	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_021_NODE_4198_length_368_cov_0.872204	53	80.303	66	2.70e-07	47.3	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_021_NODE_4375_length_357_cov_1.380795	21	95.455	22	5.66e-04	36.2	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_021_NODE_4651_length_341_cov_1.986014	301	89.053	338	1.27e-119	420	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_021_NODE_4651_length_341_cov_1.986014	271	79.472	341	3.83e-65	239	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_021_NODE_4651_length_341_cov_1.986014	270	79.412	340	3.83e-65	239	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_021_NODE_4651_length_341_cov_1.986014	268	78.134	343	2.32e-57	213	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_021_NODE_4651_length_341_cov_1.986014	261	76.316	342	2.36e-47	180	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_021_NODE_4651_length_341_cov_1.986014	166	80.976	205	3.07e-41	159	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_021_NODE_4651_length_341_cov_1.986014	235	76.299	308	1.43e-39	154	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_021_NODE_4651_length_341_cov_1.986014	242	75.155	322	5.17e-34	135	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_021_NODE_4651_length_341_cov_1.986014	244	73.939	330	1.87e-28	117	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_021_NODE_4651_length_341_cov_1.986014	209	74.910	279	6.74e-28	115	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_021_NODE_5176_length_318_cov_1.038023	34	85.000	40	1.39e-04	38.1	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_021_NODE_5549_length_301_cov_2.699187	27	90.000	30	4.73e-04	36.2	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_021_NODE_5807_length_292_cov_1.046414	20	100.000	20	1.27e-04	38.1	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_021_NODE_6375_length_273_cov_1.252294	208	87.029	239	1.07e-74	270	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_021_NODE_6375_length_273_cov_1.252294	178	79.111	225	3.14e-40	156	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_021_NODE_6375_length_273_cov_1.252294	180	78.947	228	3.14e-40	156	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_021_NODE_6375_length_273_cov_1.252294	179	77.155	232	1.47e-33	134	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_021_NODE_6375_length_273_cov_1.252294	172	77.130	223	6.84e-32	128	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_021_NODE_6375_length_273_cov_1.252294	170	76.577	222	1.14e-29	121	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_021_NODE_6375_length_273_cov_1.252294	180	75.630	238	1.48e-28	117	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_021_NODE_6375_length_273_cov_1.252294	164	76.279	215	5.32e-28	115	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_021_NODE_6375_length_273_cov_1.252294	169	76.126	222	5.32e-28	115	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_021_NODE_6375_length_273_cov_1.252294	138	77.528	178	1.15e-24	104	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_021_NODE_6652_length_269_cov_1.275701	19	100.000	19	4.20e-04	36.2	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_021_NODE_8807_length_249_cov_0.938144	37	82.222	45	1.07e-04	38.1	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_021_NODE_10164_length_236_cov_1.005525	24	92.308	26	3.65e-04	36.2	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_021_NODE_10955_length_229_cov_1.045977	25	92.593	27	9.82e-05	38.1	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_021_NODE_11218_length_227_cov_1.058140	35	83.333	42	3.50e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_021_NODE_11803_length_222_cov_0.814371	27	90.000	30	9.49e-05	38.1	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_021_NODE_12181_length_218_cov_1.116564	19	100.000	19	3.35e-04	36.2	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_042_NODE_156_length_349_cov_0.755102	21	100.000	21	4.27e-05	39.9	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_055_NODE_1050_length_282_cov_1.466960	19	100.000	19	4.41e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_055_NODE_2437_length_252_cov_0.923858	31	88.571	35	8.41e-06	41.7	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_055_NODE_4172_length_221_cov_1.096386	23	95.833	24	9.45e-05	38.1	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_066_NODE_91_length_416_cov_1.512465	197	85.652	230	3.65e-66	243	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_066_NODE_91_length_416_cov_1.512465	194	84.348	230	3.67e-61	226	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_066_NODE_91_length_416_cov_1.512465	175	79.545	220	1.36e-40	158	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_066_NODE_91_length_416_cov_1.512465	158	78.607	201	2.29e-33	134	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_066_NODE_91_length_416_cov_1.512465	177	76.293	232	1.38e-30	124	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_066_NODE_91_length_416_cov_1.512465	170	74.890	227	1.80e-24	104	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_066_NODE_91_length_416_cov_1.512465	170	74.236	229	1.08e-21	95.3	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_066_NODE_91_length_416_cov_1.512465	151	74.384	203	1.81e-19	87.9	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_066_NODE_91_length_416_cov_1.512465	149	73.399	203	3.91e-16	76.8	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_066_NODE_91_length_416_cov_1.512465	147	73.134	201	1.82e-14	71.3	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_066_NODE_378_length_262_cov_0.879227	21	95.455	22	4.08e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_089_NODE_4679_length_339_cov_0.985915	30	88.235	34	4.15e-05	39.9	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_089_NODE_4679_length_339_cov_0.985915	40	81.633	49	5.36e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_089_NODE_7550_length_254_cov_0.884422	30	85.714	35	3.95e-04	36.2	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_089_NODE_7581_length_253_cov_0.984848	22	95.652	23	1.09e-04	38.1	0	NC_022103.1_extraction	|Bat coronavirus CDPHE15/USA/2006
+RR034B_089_NODE_8722_length_237_cov_1.000000	207	87.712	236	1.98e-76	276	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_089_NODE_8722_length_237_cov_1.000000	205	87.607	234	2.56e-75	272	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_089_NODE_8722_length_237_cov_1.000000	174	84.058	207	1.23e-53	200	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_089_NODE_8722_length_237_cov_1.000000	176	80.365	219	4.48e-43	165	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_089_NODE_8722_length_237_cov_1.000000	179	79.911	224	4.48e-43	165	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_089_NODE_8722_length_237_cov_1.000000	168	78.505	214	4.54e-33	132	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_089_NODE_8722_length_237_cov_1.000000	173	76.549	226	9.83e-30	121	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_089_NODE_8722_length_237_cov_1.000000	173	76.549	226	9.83e-30	121	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_089_NODE_8722_length_237_cov_1.000000	176	76.522	230	9.83e-30	121	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_089_NODE_8722_length_237_cov_1.000000	158	76.699	206	5.92e-27	111	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_089_NODE_11143_length_151_cov_0.791667	20	95.238	21	8.09e-04	34.4	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_089_NODE_11143_length_151_cov_0.791667	20	95.238	21	8.09e-04	34.4	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_089_NODE_11193_length_127_cov_1.597222	24	92.308	26	1.85e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_094_NODE_194_length_2155_cov_5.641905	22	95.652	23	0.001	38.1	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_094_NODE_340_length_1588_cov_5.233529	20	100.000	20	7.26e-04	38.1	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_094_NODE_340_length_1588_cov_5.233529	20	100.000	20	7.26e-04	38.1	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_094_NODE_949_length_662_cov_5.950577	35	83.333	42	2.98e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_094_NODE_1151_length_511_cov_3.607456	23	92.000	25	8.21e-04	36.2	0	NC_010438.1_extraction	|Bat coronavirus HKU8
+RR034B_094_NODE_1291_length_435_cov_3.794737	26	89.655	29	6.96e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_094_NODE_1291_length_435_cov_3.794737	26	89.655	29	6.96e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_094_NODE_1291_length_435_cov_3.794737	24	92.308	26	6.96e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_094_NODE_1371_length_412_cov_1.019608	33	84.615	39	6.58e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_094_NODE_1371_length_412_cov_1.019608	21	95.455	22	6.58e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_094_NODE_1591_length_359_cov_1.167763	38	82.609	46	1.58e-04	38.1	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_094_NODE_2216_length_276_cov_1.674208	19	100.000	19	4.31e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_094_NODE_2529_length_264_cov_0.870813	26	89.655	29	4.11e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_094_NODE_2529_length_264_cov_0.870813	26	89.655	29	4.11e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_094_NODE_3947_length_229_cov_1.045977	23	92.000	25	3.53e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_096_NODE_811_length_702_cov_2.088099	35	83.333	42	3.17e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_096_NODE_2280_length_316_cov_1.417625	28	87.500	32	4.98e-04	36.2	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_096_NODE_2421_length_303_cov_1.205645	19	100.000	19	4.76e-04	36.2	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_096_NODE_3082_length_267_cov_0.735849	19	100.000	19	4.16e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_096_NODE_3694_length_254_cov_1.814070	21	95.455	22	3.95e-04	36.2	0	NC_048216.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9b
+RR034B_096_NODE_3765_length_253_cov_0.919192	25	92.593	27	1.09e-04	38.1	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_123_NODE_1344_length_299_cov_1.364754	21	95.455	22	4.70e-04	36.2	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_123_NODE_1344_length_299_cov_1.364754	21	95.455	22	4.70e-04	36.2	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_123_NODE_1344_length_299_cov_1.364754	21	95.455	22	4.70e-04	36.2	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_123_NODE_2205_length_257_cov_0.900990	24	92.308	26	4.00e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_123_NODE_2853_length_237_cov_1.780220	23	92.000	25	3.66e-04	36.2	0	NC_028752.1_extraction	|Camel alphacoronavirus/Riyadh/Ry141/2015
+RR034B_123_NODE_2859_length_237_cov_1.456044	23	92.000	25	3.66e-04	36.2	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_125_NODE_655_length_268_cov_0.854460	19	100.000	19	4.18e-04	36.2	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_130_NODE_1472_length_268_cov_0.854460	27	90.000	30	4.18e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_130_NODE_1861_length_254_cov_0.914573	24	92.308	26	3.95e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_149_NODE_2803_length_171_cov_0.784483	25	89.286	28	2.58e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_149_NODE_2803_length_171_cov_0.784483	25	89.286	28	2.58e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_172_NODE_611_length_832_cov_2.007722	29	87.879	33	3.77e-04	38.1	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_172_NODE_1013_length_697_cov_1.255452	20	100.000	20	3.14e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_172_NODE_2238_length_520_cov_1.535484	21	95.455	22	8.36e-04	36.2	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_172_NODE_2238_length_520_cov_1.535484	21	95.455	22	8.36e-04	36.2	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_172_NODE_4863_length_389_cov_1.829341	24	92.308	26	1.72e-04	38.1	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_172_NODE_5764_length_365_cov_1.467742	32	86.486	37	1.61e-04	38.1	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_172_NODE_5764_length_365_cov_1.467742	24	92.308	26	5.79e-04	36.2	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_172_NODE_6609_length_346_cov_1.154639	23	92.000	25	5.48e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_172_NODE_7311_length_333_cov_0.982014	22	95.652	23	1.46e-04	38.1	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_172_NODE_7311_length_333_cov_0.982014	22	95.652	23	1.46e-04	38.1	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_172_NODE_7311_length_333_cov_0.982014	22	95.652	23	1.46e-04	38.1	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_172_NODE_10371_length_286_cov_0.922078	28	90.323	31	3.46e-05	39.9	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_172_NODE_11212_length_277_cov_1.243243	27	87.097	31	4.33e-04	36.2	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_172_NODE_13189_length_267_cov_0.811321	22	95.652	23	1.16e-04	38.1	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_172_NODE_13389_length_266_cov_0.862559	22	95.652	23	4.15e-04	36.2	0	NC_010438.1_extraction	|Bat coronavirus HKU8
+RR034B_172_NODE_14511_length_262_cov_0.879227	24	92.308	26	1.13e-04	38.1	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_172_NODE_14511_length_262_cov_0.879227	24	92.308	26	1.13e-04	38.1	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_172_NODE_14654_length_262_cov_0.879227	22	95.652	23	4.08e-04	36.2	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_172_NODE_14764_length_261_cov_1.325243	19	100.000	19	4.06e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_172_NODE_15841_length_258_cov_0.896552	21	95.455	22	4.01e-04	36.2	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_172_NODE_15841_length_258_cov_0.896552	21	95.455	22	4.01e-04	36.2	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_172_NODE_16806_length_255_cov_0.900000	20	100.000	20	1.10e-04	38.1	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_172_NODE_16806_length_255_cov_0.900000	20	100.000	20	1.10e-04	38.1	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_172_NODE_17251_length_253_cov_0.919192	21	95.455	22	3.93e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_172_NODE_17865_length_251_cov_1.846939	19	100.000	19	3.90e-04	36.2	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_172_NODE_17865_length_251_cov_1.846939	21	95.455	22	3.90e-04	36.2	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_172_NODE_17865_length_251_cov_1.846939	19	100.000	19	3.90e-04	36.2	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_172_NODE_17865_length_251_cov_1.846939	21	95.455	22	3.90e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_172_NODE_18802_length_249_cov_0.896907	31	88.571	35	8.30e-06	41.7	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_172_NODE_19457_length_246_cov_2.675393	19	100.000	19	3.81e-04	36.2	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_172_NODE_24201_length_233_cov_1.511236	22	95.652	23	1.00e-04	38.1	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_172_NODE_25125_length_231_cov_1.034091	23	92.000	25	3.56e-04	36.2	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_172_NODE_27471_length_226_cov_0.812865	22	100.000	22	7.48e-06	41.7	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_172_NODE_27471_length_226_cov_0.812865	22	100.000	22	7.48e-06	41.7	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_172_NODE_27471_length_226_cov_0.812865	22	100.000	22	7.48e-06	41.7	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_172_NODE_30034_length_219_cov_1.109756	22	95.652	23	9.35e-05	38.1	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_172_NODE_30305_length_218_cov_2.233129	28	87.500	32	3.35e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_172_NODE_33300_length_211_cov_1.166667	26	89.655	29	8.98e-05	38.1	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_172_NODE_33431_length_211_cov_1.166667	19	100.000	19	3.23e-04	36.2	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_172_NODE_33991_length_210_cov_0.896774	19	100.000	19	3.21e-04	36.2	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_172_NODE_34631_length_208_cov_1.189542	33	84.615	39	3.18e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_172_NODE_35066_length_207_cov_1.197368	28	90.323	31	2.45e-05	39.9	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_176_NODE_171_length_486_cov_1.568445	21	95.455	22	7.79e-04	36.2	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_176_NODE_2520_length_235_cov_1.011111	39	81.250	48	3.63e-04	36.2	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19
+RR034B_176_NODE_2632_length_233_cov_1.022472	26	89.655	29	3.60e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_179_NODE_65_length_1115_cov_2.065094	945	85.289	1108	0.0	1142	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_179_NODE_65_length_1115_cov_2.065094	940	84.838	1108	0.0	1114	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_179_NODE_65_length_1115_cov_2.065094	845	78.972	1070	0.0	723	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_179_NODE_65_length_1115_cov_2.065094	792	76.374	1037	1.13e-159	555	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_179_NODE_65_length_1115_cov_2.065094	842	75.380	1117	6.86e-152	529	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_179_NODE_65_length_1115_cov_2.065094	759	72.841	1042	1.62e-88	318	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_179_NODE_65_length_1115_cov_2.065094	762	71.955	1059	2.74e-76	278	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_179_NODE_65_length_1115_cov_2.065094	762	71.955	1059	2.74e-76	278	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_179_NODE_65_length_1115_cov_2.065094	761	71.860	1059	1.28e-74	272	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_179_NODE_65_length_1115_cov_2.065094	751	71.592	1049	1.28e-74	272	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_179_NODE_221_length_691_cov_2.116352	549	87.420	628	0.0	723	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_179_NODE_221_length_691_cov_2.116352	546	86.943	628	0.0	706	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_179_NODE_221_length_691_cov_2.116352	481	79.768	603	1.22e-122	431	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_179_NODE_221_length_691_cov_2.116352	484	77.814	622	9.66e-109	385	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_179_NODE_221_length_691_cov_2.116352	476	75.197	633	2.17e-80	291	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_179_NODE_221_length_691_cov_2.116352	460	73.365	627	8.01e-60	222	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_179_NODE_221_length_691_cov_2.116352	457	72.655	629	1.75e-51	195	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_179_NODE_221_length_691_cov_2.116352	459	72.627	632	8.13e-50	189	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_179_NODE_221_length_691_cov_2.116352	458	72.468	632	3.78e-48	183	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_179_NODE_221_length_691_cov_2.116352	410	72.695	564	8.18e-45	172	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_179_NODE_549_length_505_cov_1.240000	23	95.833	24	2.25e-04	38.1	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_179_NODE_549_length_505_cov_1.240000	20	100.000	20	2.25e-04	38.1	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_179_NODE_1564_length_352_cov_2.276094	288	83.965	343	2.29e-92	329	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_179_NODE_1564_length_352_cov_2.276094	288	83.965	343	2.29e-92	329	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_179_NODE_1564_length_352_cov_2.276094	273	81.009	337	6.54e-73	265	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_179_NODE_1564_length_352_cov_2.276094	267	80.180	333	1.83e-68	250	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_179_NODE_1564_length_352_cov_2.276094	265	80.060	331	2.37e-67	246	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_179_NODE_1564_length_352_cov_2.276094	257	78.593	327	1.12e-55	207	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_179_NODE_1564_length_352_cov_2.276094	232	78.378	296	5.23e-49	185	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_179_NODE_1564_length_352_cov_2.276094	223	77.972	286	8.76e-47	178	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_179_NODE_1564_length_352_cov_2.276094	248	77.019	322	8.76e-47	178	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_179_NODE_1564_length_352_cov_2.276094	248	76.780	323	4.08e-45	172	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_179_NODE_1822_length_335_cov_3.939286	295	88.060	335	5.86e-113	398	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_179_NODE_1822_length_335_cov_3.939286	294	87.761	335	2.73e-111	392	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_179_NODE_1822_length_335_cov_3.939286	247	82.609	299	6.20e-73	265	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_179_NODE_1822_length_335_cov_3.939286	244	80.263	304	2.93e-61	226	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_179_NODE_1822_length_335_cov_3.939286	242	80.132	302	2.93e-61	226	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_179_NODE_1822_length_335_cov_3.939286	238	77.524	307	3.87e-45	172	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_179_NODE_1822_length_335_cov_3.939286	203	78.077	260	3.01e-41	159	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_179_NODE_1822_length_335_cov_3.939286	196	77.778	252	5.04e-39	152	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_179_NODE_1822_length_335_cov_3.939286	193	77.823	248	6.52e-38	148	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_179_NODE_1822_length_335_cov_3.939286	233	75.896	307	8.43e-37	145	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_179_NODE_2791_length_286_cov_1.181818	21	95.455	22	4.48e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_179_NODE_2791_length_286_cov_1.181818	21	95.455	22	4.48e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_179_NODE_2928_length_281_cov_1.207965	19	100.000	19	4.40e-04	36.2	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_179_NODE_4212_length_259_cov_1.269608	19	100.000	19	4.03e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_190_NODE_2752_length_472_cov_1.107914	24	92.308	26	7.56e-04	36.2	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_190_NODE_3671_length_406_cov_0.971510	22	95.652	23	6.48e-04	36.2	0	NC_010438.1_extraction	|Bat coronavirus HKU8
+RR034B_190_NODE_5119_length_345_cov_1.751724	21	95.455	22	5.46e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_190_NODE_6751_length_303_cov_0.899194	21	95.455	22	4.76e-04	36.2	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_190_NODE_7205_length_294_cov_0.945607	37	84.091	44	3.57e-05	39.9	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_190_NODE_7205_length_294_cov_0.945607	37	84.091	44	3.57e-05	39.9	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_190_NODE_8418_length_272_cov_0.857143	22	95.652	23	1.18e-04	38.1	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_190_NODE_10060_length_258_cov_1.344828	22	95.652	23	1.12e-04	38.1	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_190_NODE_10060_length_258_cov_1.344828	22	95.652	23	1.12e-04	38.1	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_190_NODE_10060_length_258_cov_1.344828	22	95.652	23	1.12e-04	38.1	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_190_NODE_11237_length_250_cov_0.917949	26	89.655	29	3.88e-04	36.2	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_190_NODE_12247_length_242_cov_0.973262	23	95.833	24	1.04e-04	38.1	0	NC_023760.1_extraction	|Mink coronavirus strain WD1127
+RR034B_190_NODE_13948_length_229_cov_1.045977	28	90.323	31	2.73e-05	39.9	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_190_NODE_14923_length_222_cov_1.329341	21	95.455	22	3.41e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_220_NODE_1008_length_416_cov_1.196676	20	100.000	20	1.85e-04	38.1	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_220_NODE_1452_length_357_cov_0.903974	19	100.000	19	5.66e-04	36.2	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_220_NODE_1452_length_357_cov_0.903974	19	100.000	19	5.66e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_220_NODE_1452_length_357_cov_0.903974	19	100.000	19	5.66e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_220_NODE_1477_length_354_cov_2.658863	29	87.879	33	1.56e-04	38.1	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_220_NODE_1477_length_354_cov_2.658863	29	87.879	33	1.56e-04	38.1	0	NC_028752.1_extraction	|Camel alphacoronavirus/Riyadh/Ry141/2015
+RR034B_220_NODE_1477_length_354_cov_2.658863	28	87.500	32	5.61e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_220_NODE_2227_length_300_cov_1.861224	35	83.333	42	1.31e-04	38.1	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_220_NODE_2227_length_300_cov_1.861224	35	83.333	42	1.31e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_220_NODE_3516_length_259_cov_0.892157	26	89.655	29	4.03e-04	36.2	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_220_NODE_4477_length_244_cov_0.931217	19	100.000	19	3.78e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_220_NODE_4477_length_244_cov_0.931217	19	100.000	19	3.78e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_220_NODE_4783_length_238_cov_1.169399	28	87.500	32	1.02e-04	38.1	0	NC_009019.1_extraction	|Tylonycteris bat coronavirus HKU4
+RR034B_232_NODE_1_length_28926_cov_14.641786	2710	100.000	2710	0.0	5005	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_232_NODE_1_length_28926_cov_14.641786	2683	99.004	2710	0.0	4855	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_232_NODE_1_length_28926_cov_14.641786	2133	79.088	2697	0.0	1838	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_232_NODE_1_length_28926_cov_14.641786	2083	76.835	2711	0.0	1513	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_232_NODE_1_length_28926_cov_14.641786	2073	75.795	2735	0.0	1334	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_232_NODE_1_length_28926_cov_14.641786	1978	72.322	2735	0.0	763	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_232_NODE_1_length_28926_cov_14.641786	1616	72.337	2234	4.85e-176	614	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_232_NODE_1_length_28926_cov_14.641786	1612	71.996	2239	1.05e-172	603	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_232_NODE_1_length_28926_cov_14.641786	1628	71.813	2267	3.78e-172	601	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_232_NODE_1_length_28926_cov_14.641786	1628	71.813	2267	3.78e-172	601	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_232_NODE_2046_length_578_cov_1.636711	22	95.652	23	2.59e-04	38.1	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_232_NODE_2046_length_578_cov_1.636711	22	95.652	23	2.59e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_232_NODE_2277_length_540_cov_1.235052	31	86.111	36	2.42e-04	38.1	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_232_NODE_2546_length_505_cov_1.568889	24	92.308	26	2.25e-04	38.1	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_232_NODE_2640_length_492_cov_2.405034	21	95.455	22	7.89e-04	36.2	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_232_NODE_3991_length_379_cov_2.577160	21	95.455	22	6.03e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_232_NODE_3991_length_379_cov_2.577160	21	95.455	22	6.03e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_232_NODE_3991_length_379_cov_2.577160	21	95.455	22	6.03e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_232_NODE_5020_length_331_cov_1.757246	30	88.235	34	1.45e-04	38.1	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_232_NODE_6593_length_280_cov_0.995556	24	92.308	26	4.38e-04	36.2	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_232_NODE_7144_length_270_cov_1.269767	25	92.593	27	1.17e-04	38.1	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_232_NODE_7244_length_269_cov_1.700935	19	100.000	19	4.20e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_232_NODE_10353_length_246_cov_0.821990	21	95.455	22	3.81e-04	36.2	0	NC_028811.1_extraction	|BtMr-AlphaCoV/SAX2011
+RR034B_232_NODE_10760_length_243_cov_0.968085	19	100.000	19	3.76e-04	36.2	0	NC_028752.1_extraction	|Camel alphacoronavirus/Riyadh/Ry141/2015
+RR034B_232_NODE_11513_length_237_cov_1.000000	22	95.652	23	3.66e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_232_NODE_11809_length_234_cov_1.743017	21	95.455	22	3.61e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_232_NODE_13737_length_221_cov_0.909639	20	100.000	20	9.45e-05	38.1	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_232_NODE_13737_length_221_cov_0.909639	20	100.000	20	9.45e-05	38.1	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_232_NODE_13737_length_221_cov_0.909639	19	100.000	19	3.40e-04	36.2	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_232_NODE_13737_length_221_cov_0.909639	19	100.000	19	3.40e-04	36.2	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_232_NODE_13737_length_221_cov_0.909639	19	100.000	19	3.40e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_232_NODE_13737_length_221_cov_0.909639	19	100.000	19	3.40e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_232_NODE_13737_length_221_cov_0.909639	19	100.000	19	3.40e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_239_NODE_1508_length_405_cov_1.085714	25	92.593	27	1.80e-04	38.1	0	NC_010437.1_extraction	|Bat coronavirus 1A
+RR034B_239_NODE_4972_length_231_cov_0.852273	26	89.655	29	3.56e-04	36.2	0	NC_048216.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9b
+RR034B_242_NODE_536_length_3085_cov_3.261386	26	92.857	28	3.94e-04	39.9	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_242_NODE_588_length_2823_cov_3.371387	26	92.857	28	3.60e-04	39.9	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_242_NODE_873_length_2011_cov_3.018916	28	87.500	32	0.001	38.1	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_242_NODE_900_length_1952_cov_3.074855	25	96.154	26	1.92e-05	43.6	0	NC_003436.1_extraction	|Porcine epidemic diarrhea virus
+RR034B_242_NODE_900_length_1952_cov_3.074855	25	96.154	26	1.92e-05	43.6	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_242_NODE_900_length_1952_cov_3.074855	25	96.154	26	1.92e-05	43.6	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_242_NODE_900_length_1952_cov_3.074855	24	92.308	26	8.94e-04	38.1	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_242_NODE_915_length_1929_cov_2.617930	27	90.000	30	8.84e-04	38.1	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_242_NODE_915_length_1929_cov_2.617930	27	90.000	30	8.84e-04	38.1	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_242_NODE_1305_length_1418_cov_2.063830	22	95.652	23	6.47e-04	38.1	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_242_NODE_1641_length_1198_cov_2.493438	28	90.323	31	5.45e-04	38.1	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_242_NODE_1641_length_1198_cov_2.493438	28	90.323	31	5.45e-04	38.1	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_242_NODE_1641_length_1198_cov_2.493438	28	90.323	31	5.45e-04	38.1	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_242_NODE_2442_length_904_cov_1.666667	22	100.000	22	3.17e-05	41.7	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_242_NODE_2865_length_802_cov_1.568942	22	95.652	23	3.63e-04	38.1	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_242_NODE_3756_length_667_cov_2.439542	20	100.000	20	3.00e-04	38.1	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_242_NODE_4979_length_556_cov_2.491018	27	90.000	30	6.92e-05	39.9	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_242_NODE_5576_length_515_cov_1.773913	21	95.455	22	8.27e-04	36.2	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_242_NODE_5908_length_497_cov_1.230769	28	87.500	32	7.97e-04	36.2	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_242_NODE_6252_length_478_cov_1.716312	26	92.857	28	5.92e-05	39.9	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_242_NODE_6768_length_453_cov_1.630653	26	89.655	29	7.24e-04	36.2	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_242_NODE_6890_length_447_cov_2.984694	23	92.000	25	7.14e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_242_NODE_6941_length_446_cov_1.240409	21	95.455	22	7.12e-04	36.2	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_242_NODE_6941_length_446_cov_1.240409	21	95.455	22	7.12e-04	36.2	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_242_NODE_7104_length_439_cov_2.450521	24	92.308	26	7.03e-04	36.2	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_242_NODE_7225_length_435_cov_1.392105	21	95.455	22	6.96e-04	36.2	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_242_NODE_7587_length_421_cov_2.234973	21	95.455	22	6.73e-04	36.2	0	NC_028833.1_extraction	|BtNv-AlphaCoV/SC2013
+RR034B_242_NODE_7593_length_421_cov_1.560109	22	95.652	23	6.73e-04	36.2	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_242_NODE_8044_length_406_cov_1.837607	24	92.308	26	6.48e-04	36.2	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_242_NODE_8306_length_399_cov_1.595930	21	100.000	21	4.92e-05	39.9	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_242_NODE_8352_length_398_cov_0.950437	33	84.615	39	6.34e-04	36.2	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_242_NODE_8444_length_395_cov_1.070588	24	92.308	26	6.29e-04	36.2	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_242_NODE_8845_length_384_cov_0.942249	22	95.652	23	6.11e-04	36.2	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_242_NODE_9084_length_377_cov_1.574534	25	89.286	28	5.99e-04	36.2	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_242_NODE_9121_length_376_cov_1.542056	26	89.655	29	5.98e-04	36.2	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_242_NODE_9282_length_372_cov_1.776025	19	100.000	19	5.91e-04	36.2	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_242_NODE_9293_length_372_cov_1.328076	30	85.714	35	5.91e-04	36.2	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_242_NODE_9353_length_371_cov_0.806962	21	95.455	22	5.89e-04	36.2	0	NC_048216.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9b
+RR034B_242_NODE_9939_length_358_cov_1.287129	22	95.652	23	5.68e-04	36.2	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_242_NODE_10047_length_356_cov_1.009967	20	100.000	20	1.57e-04	38.1	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_242_NODE_11027_length_337_cov_1.503546	21	95.455	22	5.33e-04	36.2	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_242_NODE_11463_length_330_cov_1.058182	19	100.000	19	5.21e-04	36.2	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_242_NODE_11834_length_323_cov_1.473881	21	95.455	22	5.10e-04	36.2	0	NC_009988.1_extraction	|Bat coronavirus HKU2
+RR034B_242_NODE_11834_length_323_cov_1.473881	21	95.455	22	5.10e-04	36.2	0	NC_028824.1_extraction	|BtRf-AlphaCoV/YN2012
+RR034B_242_NODE_12123_length_318_cov_1.665399	21	95.455	22	5.01e-04	36.2	0	NC_034972.1_extraction	|Coronavirus AcCoV-JC34
+RR034B_242_NODE_12380_length_314_cov_2.096525	22	95.652	23	1.38e-04	38.1	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_242_NODE_13092_length_302_cov_2.210526	22	95.652	23	1.32e-04	38.1	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_242_NODE_13092_length_302_cov_2.210526	22	95.652	23	1.32e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_242_NODE_13092_length_302_cov_2.210526	22	95.652	23	1.32e-04	38.1	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_242_NODE_13092_length_302_cov_2.210526	21	95.455	22	4.75e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_242_NODE_13092_length_302_cov_2.210526	21	95.455	22	4.75e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_242_NODE_13092_length_302_cov_2.210526	21	95.455	22	4.75e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_242_NODE_13092_length_302_cov_2.210526	21	95.455	22	4.75e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_242_NODE_13500_length_296_cov_1.510373	30	88.235	34	3.59e-05	39.9	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_242_NODE_14483_length_283_cov_1.197368	30	90.909	33	2.65e-06	43.6	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_242_NODE_15201_length_274_cov_1.264840	35	83.333	42	1.19e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_242_NODE_15201_length_274_cov_1.264840	19	100.000	19	4.28e-04	36.2	0	NC_026011.1_extraction	|Betacoronavirus HKU24 strain HKU24-R05005I
+RR034B_242_NODE_15201_length_274_cov_1.264840	19	100.000	19	4.28e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_242_NODE_15920_length_268_cov_1.967136	26	89.655	29	4.18e-04	36.2	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_242_NODE_16744_length_264_cov_0.870813	24	92.308	26	4.11e-04	36.2	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_242_NODE_16744_length_264_cov_0.870813	23	92.000	25	4.11e-04	36.2	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_242_NODE_20702_length_243_cov_1.335106	21	95.455	22	3.76e-04	36.2	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_242_NODE_21192_length_241_cov_0.978495	30	88.235	34	2.88e-05	39.9	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_242_NODE_21192_length_241_cov_0.978495	29	87.879	33	1.04e-04	38.1	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_242_NODE_21796_length_238_cov_0.918033	22	95.652	23	3.68e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_242_NODE_21796_length_238_cov_0.918033	22	95.652	23	3.68e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_242_NODE_21796_length_238_cov_0.918033	22	95.652	23	3.68e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_242_NODE_23022_length_232_cov_1.028249	23	95.833	24	2.77e-05	39.9	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_242_NODE_23022_length_232_cov_1.028249	21	95.455	22	3.58e-04	36.2	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_242_NODE_23326_length_230_cov_1.880000	19	100.000	19	3.55e-04	36.2	0	NC_005831.2_extraction	|Human Coronavirus NL63
+RR034B_242_NODE_23820_length_228_cov_1.052023	20	100.000	20	9.77e-05	38.1	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_242_NODE_24099_length_227_cov_1.058140	28	87.500	32	3.50e-04	36.2	0	NC_028752.1_extraction	|Camel alphacoronavirus/Riyadh/Ry141/2015
+RR034B_242_NODE_25649_length_219_cov_2.036585	28	87.500	32	9.35e-05	38.1	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_242_NODE_26557_length_215_cov_1.137500	27	90.000	30	9.17e-05	38.1	0	NC_028811.1_extraction	|BtMr-AlphaCoV/SAX2011
+RR034B_242_NODE_26814_length_214_cov_1.144654	19	100.000	19	3.28e-04	36.2	0	NC_010438.1_extraction	|Bat coronavirus HKU8
+RR034B_244_NODE_2168_length_948_cov_2.602464	30	88.235	34	1.20e-04	39.9	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_244_NODE_3036_length_707_cov_3.322086	20	100.000	20	3.19e-04	38.1	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_244_NODE_3036_length_707_cov_3.322086	20	100.000	20	3.19e-04	38.1	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_244_NODE_3103_length_694_cov_1.474178	23	95.833	24	8.70e-05	39.9	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_244_NODE_3103_length_694_cov_1.474178	23	95.833	24	8.70e-05	39.9	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_244_NODE_3103_length_694_cov_1.474178	23	95.833	24	8.70e-05	39.9	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_244_NODE_3364_length_651_cov_1.807047	26	92.857	28	8.15e-05	39.9	0	NC_028814.1_extraction	|BtRf-AlphaCoV/HuB2013
+RR034B_244_NODE_4147_length_539_cov_1.692149	23	95.833	24	2.41e-04	38.1	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_244_NODE_4291_length_525_cov_1.093617	19	100.000	19	8.44e-04	36.2	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_244_NODE_4918_length_468_cov_1.673123	26	89.655	29	7.49e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_244_NODE_4918_length_468_cov_1.673123	26	89.655	29	7.49e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_244_NODE_4918_length_468_cov_1.673123	26	89.655	29	7.49e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_244_NODE_5202_length_448_cov_1.435115	20	100.000	20	1.99e-04	38.1	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_244_NODE_5500_length_428_cov_2.364611	34	85.000	40	5.29e-05	39.9	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_244_NODE_5508_length_428_cov_1.509383	25	92.593	27	5.29e-05	39.9	0	NC_039207.1_extraction	|Betacov Erinaceus/VMC/DEU/2012 isolate 
+RR034B_244_NODE_6325_length_384_cov_0.939210	24	92.308	26	6.11e-04	36.2	0	NC_012936.1_extraction	|Rat coronavirus Parker
+RR034B_244_NODE_6325_length_384_cov_0.939210	24	92.308	26	6.11e-04	36.2	0	NC_001846.1_extraction	|Murine hepatitis virus MHV-A59 
+RR034B_244_NODE_6325_length_384_cov_0.939210	24	92.308	26	6.11e-04	36.2	0	NC_048217.1_extraction	|Murine hepatitis virus strain A59
+RR034B_244_NODE_7358_length_340_cov_1.449123	26	89.655	29	5.38e-04	36.2	0	NC_046964.1_extraction	|Alphacov Bat-CoV/P.kuhlii/Italy/3398-19/2015
+RR034B_244_NODE_8180_length_314_cov_1.405405	19	100.000	19	4.95e-04	36.2	0	NC_030292.1_extraction	|Ferret coronavirus isolate FRCoV-NL-2010
+RR034B_244_NODE_8267_length_312_cov_1.124514	31	86.111	36	1.37e-04	38.1	0	NC_045512.2_extraction	|SARS-CoV-2 isolate Wuhan-Hu-1
+RR034B_244_NODE_8751_length_299_cov_1.118852	27	90.000	30	1.31e-04	38.1	0	NC_048216.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9b
+RR034B_244_NODE_10224_length_269_cov_0.841121	25	92.593	27	1.17e-04	38.1	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_244_NODE_11440_length_256_cov_1.258706	19	100.000	19	3.98e-04	36.2	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_244_NODE_13762_length_235_cov_1.011111	24	92.308	26	1.01e-04	38.1	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_244_NODE_17252_length_103_cov_2.833333	18	100.000	18	5.21e-04	34.4	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_244_NODE_17252_length_103_cov_2.833333	18	100.000	18	5.21e-04	34.4	0	NC_002306.3_extraction	|Feline infectious peritonitis virus
+RR034B_244_NODE_17252_length_103_cov_2.833333	18	100.000	18	5.21e-04	34.4	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_244_NODE_17252_length_103_cov_2.833333	18	100.000	18	5.21e-04	34.4	0	NC_028806.1_extraction	|Swine enteric nov strain Italy/213306/2009
+RR034B_244_NODE_17252_length_103_cov_2.833333	18	100.000	18	5.21e-04	34.4	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_244_NODE_17252_length_103_cov_2.833333	18	100.000	18	5.21e-04	34.4	0	NC_038861.1_extraction	|Transmissible gastroenteritis virus 
+RR034B_288_NODE_2_length_28980_cov_27.781642	2710	100.000	2710	0.0	5005	0	Bat_CoV_R_madagascariensis_MIZ240	N/A
+RR034B_288_NODE_2_length_28980_cov_27.781642	2683	99.004	2710	0.0	4855	0	BatCoV_R_madagascariensis_MIZ178	N/A
+RR034B_288_NODE_2_length_28980_cov_27.781642	2132	78.934	2701	0.0	1810	0	NC_009021.1_extraction	|Rousettus bat coronavirus HKU9
+RR034B_288_NODE_2_length_28980_cov_27.781642	2087	76.983	2711	0.0	1535	0	NC_030886.1_extraction	|Rousettus bat col GCCDC1 356
+RR034B_288_NODE_2_length_28980_cov_27.781642	2070	75.686	2735	0.0	1317	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_288_NODE_2_length_28980_cov_27.781642	1970	72.056	2734	0.0	725	0	NC_025217.1_extraction	|Bat Hp-betacoronavirus/Zhejiang2013
+RR034B_288_NODE_2_length_28980_cov_27.781642	1608	72.140	2229	4.90e-171	597	0	NC_006577.2_extraction	|Human coronavirus HKU1
+RR034B_288_NODE_2_length_28980_cov_27.781642	1608	71.818	2239	4.93e-166	580	0	NC_014470.1_extraction	|Bat coronavirus BM48-31/BGR/2008
+RR034B_288_NODE_2_length_28980_cov_27.781642	1621	71.473	2268	8.31e-159	556	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_288_NODE_2_length_28980_cov_27.781642	53	79.104	67	8.00e-05	45.4	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_288_NODE_2_length_28980_cov_27.781642	1621	71.473	2268	8.31e-159	556	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_288_NODE_2_length_28980_cov_27.781642	53	79.104	67	8.00e-05	45.4	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_288_NODE_123_length_6859_cov_2.862434	21	100.000	21	8.79e-04	39.9	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_288_NODE_123_length_6859_cov_2.862434	21	100.000	21	8.79e-04	39.9	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_288_NODE_848_length_1863_cov_1.983960	22	95.652	23	8.53e-04	38.1	0	NC_009020.1_extraction	|Pipistrellus bat coronavirus HKU5
+RR034B_288_NODE_878_length_1811_cov_1.593964	24	92.308	26	8.29e-04	38.1	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_288_NODE_1801_length_808_cov_1.832669	25	92.593	27	3.66e-04	38.1	0	NC_018871.1_extraction	|Rousettus bat coronavirus HKU10
+RR034B_288_NODE_2441_length_641_cov_2.655290	22	95.652	23	2.88e-04	38.1	0	NC_003045.1_extraction	|Bovine nov isolate BCoV-ENT
+RR034B_288_NODE_2441_length_641_cov_2.655290	22	95.652	23	2.88e-04	38.1	0	NC_006213.1_extraction	|Human coronavirus OC43 strain ATCC VR-759
+RR034B_288_NODE_3264_length_519_cov_1.887931	19	100.000	19	8.34e-04	36.2	0	Bat_CoV_P_rufus_AMB130	N/A
+RR034B_288_NODE_3289_length_518_cov_0.987041	32	84.211	38	8.32e-04	36.2	0	NC_019843.3_extraction	|MERSr nov isolate HCoV-EMC/2012
+RR034B_288_NODE_3289_length_518_cov_0.987041	32	84.211	38	8.32e-04	36.2	0	NC_038294.1_extraction	|Betacoronavirus England 1 isolate H123990006
+RR034B_288_NODE_4127_length_438_cov_1.232376	21	95.455	22	7.01e-04	36.2	0	NC_017083.1_extraction	|Rabbit coronavirus HKU14
+RR034B_288_NODE_4393_length_421_cov_0.975410	19	100.000	19	6.73e-04	36.2	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_288_NODE_4393_length_421_cov_0.975410	19	100.000	19	6.73e-04	36.2	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_288_NODE_5060_length_381_cov_2.171779	20	100.000	20	1.69e-04	38.1	0	NC_009657.1_extraction	|Scotophilus bat coronavirus 512
+RR034B_288_NODE_5316_length_370_cov_0.971429	25	92.593	27	4.54e-05	39.9	0	NC_035191.1_extraction	|Wencheng Sm shrew cov Xingguo-101 ORF1ab
+RR034B_288_NODE_5316_length_370_cov_0.971429	25	92.593	27	4.54e-05	39.9	0	NC_048211.1_extraction	|Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab
+RR034B_288_NODE_7558_length_295_cov_1.370833	24	92.308	26	1.29e-04	38.1	0	NC_032107.1_extraction	|NL63-related bat coronavirus strain BtKYNL63-9a
+RR034B_288_NODE_9842_length_256_cov_0.905473	21	95.455	22	3.98e-04	36.2	0	AY291315.1_extraction	SARS coronavirus Frankfurt 1
+RR034B_288_NODE_9842_length_256_cov_0.905473	21	95.455	22	3.98e-04	36.2	0	NC_004718.3_extraction	|SARS coronavirus Tor2
+RR034B_288_NODE_10308_length_251_cov_0.867347	20	100.000	20	1.08e-04	38.1	0	NC_002645.1_extraction	|Human coronavirus 229E
+RR034B_288_NODE_11085_length_242_cov_1.171123	23	92.000	25	3.75e-04	36.2	0	NC_032730.1_extraction	|Lucheng Rn rat nov Lucheng-19

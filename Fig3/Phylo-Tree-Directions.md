@@ -108,18 +108,43 @@ Once RAxML finished (>12 hours later), I imported the resulting tree into R and 
 ### B. Partial genome RdRp from positive samples
 
 To make Fig3B, a partial RdRP phylogeny from all 30 positive samples, I did the following:
-1. Downloaded all the non-host contigs off of IDseq from all 30 positive bats in our dataset.
-2. Deduped them as described on the homepage, using CD-HIT.
-3. Built an nt blast database for the RdRp gene of several CoVs.  To do this, I (a) aligned all alpha- and betaCoV reference genomes from GenBank + the three full genome Madagascar sequences + SARS-CoV-1/AY291315 (used as the reference sequence in [Drexler et al. 2010](https://doi.org/10.1128/JVI.00650-10)), (b) sub-selected the RdRP region spanning from bp 14781 to 15596 of SARS-CoV-1/AY291315, and (c) sent this RdRp chunk of all the genomes to blast as an nt database using the following script:
+
+1. Downloaded the two reference Nobecovirus full genomes from GenBank (accession numbers NC_030886.1 and NC_009021.1), as well as all the Madagascar RdRp fragments cited in [Razanajatovo et al. 2015](https://doi.org/10.1186/s12985-015-0271-y). Here is the script to download from a web browser:
 
 ```
-makeblastdb –in NCBI_all_CoV_nt.fasta –dbtype nucl –parse_seqids -out CoV_nt
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&retmode=text&id=NC_030886.1, NC_009021.1, KP696745, KP696741, KP696746, KP696742, KP696743, KP696744, KP696747, KF859764, KF859759, KF859768, KF859771, KF859761, KF859767, KF859763, KF859760, KF859762, KF859758,  KF859770, KF859765, KF859766, KF859769
 ```
 
-4. Once I had the above RdRp database, I blasted all the non-host contigs from the positives against this it, and collected those which were positive hits. I then took those "positive" contigs and did a multiple sequence alignment with them and all the fragments from the reference database in Geneious.
+I then joined these with the three full genomes of the Madagascar bats in a single fasta ("Mada_RdRp_All.fasta") and loaded and aligned them on Geneious.
 
-5. After visually confirming that these aligned in a reasonable manner, I sent the contigs and reference fragments to MAFFT online for another alignment.
+2. I next wanted to map as many contigs from positive samples to these genomes as possible, to identify which of them mapped to the RdRp region. We had way too many contigs to start with, however, so I first blasted contigs from all positive samples to an RdRp database to determine candidates.
 
-6. I then queried the best nt substitution model using ModelTest-NG (it was XXXX), and built a bootstraped maximum likelihood phylogeny using RAxML.
+3. To accomplish the blast, I first went back to the de-duped contigs from the homepage (results from CD-HIT) and sub-sampled them to **include just contigs from those 30 bats positive for CoV infection**. See script "preprep_Fig3B.R" in this folder for details.
 
-7. I imported the resulting phylogeny into R to make the tree seen in Figure 3B.
+4. Then, I subsampled the alignment described in #1 above to just the RdRp fragment of all genomes and used this to make an nt blast database for the bat CoV RdRp gene. Once I had the desired fragments in a file ("RdRp_Nobeco_sub.fasta""), I made this into a blastn nt database using the following script:
+
+```
+makeblastdb –in RdRp-extraction.fasta –dbtype nucl –parse_seqids -out CoV_RdRP_nt
+```
+Note that you may have to retype above, as it is very sensitive to copy/paste.
+
+5. Once I had the above RdRp database, I blasted all the non-host contigs from the positives against this, using the following script (I ran this locally and it was done in seconds):
+
+```
+blastn -word_size 10 -evalue 0.001 -query all_CoV_pos_contigs_feces.fasta -db /Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/B-RdRP-phylogeny/sequences/RdRp-database/CoV_RdRP_nt -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle'  -max_target_seqs 10 -out 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt
+```
+
+I then summarized the above into a file containing unique contig ids using this script:
+
+```
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_unique_contigs_feces_nt.txt
+
+```
+
+6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA them and all the fragments used in my blast reference database in step #4.
+
+6. After visually confirming that these aligned in a reasonable manner, I sent the contigs and reference fragments to MAFFT online for another alignment.
+
+7. I then queried the best nt substitution model using ModelTest-NG (it was XXXX), and built a bootstraped maximum likelihood phylogeny using RAxML.
+
+8. I imported the resulting phylogeny into R to make the tree seen in Figure 3B.
