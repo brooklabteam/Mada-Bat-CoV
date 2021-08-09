@@ -176,7 +176,6 @@ cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt | awk '{
 
 ```
 
-
 6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA linking each contig in turn to its closest full genome neighbore in Geneious, then selected those which mapped to an overlapping region of the RdRp gene.
 
 6. After visually confirming that these aligned in a reasonable manner, I sent these contigs and the reference fragments to MAFFT online for another alignment.
