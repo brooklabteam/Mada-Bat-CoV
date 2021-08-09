@@ -126,6 +126,13 @@ I then joined these with the three full genomes of the Madagascar bats in a sing
 ```
 makeblastdb –in RdRp-extraction.fasta –dbtype nucl –parse_seqids -out CoV_RdRP_nt
 ```
+
+And the protein dattabase:
+
+```
+makeblastdb –in RdRp-extraction.fasta –dbtype prot –parse_seqids -out CoV_RdRP_aa
+```
+
 Note that you may have to retype above, as it is very sensitive to copy/paste.
 
 5. Once I had the above RdRp database, I blasted all the non-host contigs from the positives against this, using the following script (I ran this locally and it was done in seconds):
@@ -134,12 +141,43 @@ Note that you may have to retype above, as it is very sensitive to copy/paste.
 blastn -word_size 10 -evalue 0.001 -query all_CoV_pos_contigs_feces.fasta -db /Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/B-RdRP-phylogeny/sequences/RdRp-database/CoV_RdRP_nt -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle'  -max_target_seqs 10 -out 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt
 ```
 
-I then summarized the above into a file containing unique contig ids using this script:
+And the protein blast too:
 
 ```
-cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_unique_contigs_feces_nt.txt
+blastx -word_size 3 -evalue 0.001 -query all_CoV_pos_contigs_feces.fasta -db /Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/B-RdRP-phylogeny/sequences/RdRp-database/CoV_RdRP_aa -outfmt '6 qseqid nident pident length evalue bitscore sgi sacc stitle' -max_target_seqs 10 -out 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot.txt
+```
+
+I then subselected for high quality hits using this, for nt:
+
 
 ```
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt_results_100len5eval.txt
+
+```
+
+and for protein:
+
+
+```
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt_results_100len5eval.txt | awk -F\t '($4>99 && $5<0.00001) {print $1,$3, $4, $5, $8,$9}' > 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt
+
+```
+
+And then I summarized the above into a file containing unique contig ids using this script, for feces:
+
+```
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_nt.txt | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_blast_feces_unique_contgs_hiqual.txt
+
+```
+
+And this for protein:
+
+```
+cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval | awk '{print $1}' | sort | uniq > 20210808_Mada_Bat_CoV_RdRp_unique_contigs_feces_prot_hiqual.txt
+
+```
+
+
 
 6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA them and all the fragments used in my blast reference database in step #4.
 

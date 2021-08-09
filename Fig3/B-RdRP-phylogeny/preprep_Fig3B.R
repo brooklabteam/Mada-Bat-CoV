@@ -89,10 +89,15 @@ fec_contigs_pos <- read.fasta( file = paste0(homewd, "/Fig3/B-RdRp-phylogeny/bla
 #get the names
 names_fec <- names(fec_contigs_pos)
 
-#load the names of all the RdRp positive contigs
-RdRP_pos <- read.delim(file = paste0(homewd, "/Fig3/B-RdRP-phylogeny/blast-pos-contigs/20210808_Mada_Bat_CoV_RdRp_unique_contigs_feces_nt.txt"), header=F)
+#load the names of all the RdRp positive contigs (the hiqual)
+RdRP_pos <- read.delim(file = paste0(homewd, "/Fig3/B-RdRP-phylogeny/blast-pos-contigs/20210808_Mada_Bat_CoV_RdRp_blast_feces_nt_results_100len5eval.txt"), header=F)
 
-RdRP_pos <- c(unlist(c(RdRP_pos))) #191
+RdRP_pos <- c(unlist(c(RdRP_pos))) #135
+names(RdRP_pos) <- c()
+
+#now subset these names to just get the beginning
+RdRP_pos <- sapply(strsplit(RdRP_pos, " "), '[',1)
+
 #now select those sequences from the list (same function as above)
 select.seq <- function(seq1, all_pos_contigs){
   
@@ -111,10 +116,10 @@ select.seq <- function(seq1, all_pos_contigs){
 positive_contigs <- lapply(fec_contigs_pos,select.seq, all_pos_contigs=RdRP_pos)
 
 #remove NULL entries
-positive_contigs <- positive_contigs[lengths(positive_contigs) > 0] #down to 304 contigs
+positive_contigs <- positive_contigs[lengths(positive_contigs) > 0] #down to 18 contigs
 
 #and save
 names_pos = names(positive_contigs)
-write.fasta(positive_contigs, names = names_pos, file.out = paste0(homewd, "/Fig3/B-RdRP-phylogeny/blast-pos-contigs/RdRp_pos_contigs_feces.fasta"), as.string = T, open="w")
+write.fasta(positive_contigs, names = names_pos, file.out = paste0(homewd, "/Fig3/B-RdRP-phylogeny/blast-pos-contigs/RdRp_pos_contigs_hiqual_feces.fasta"), as.string = T, open="w")
 
 #now align these in Genious with those used in the database
