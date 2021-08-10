@@ -11,23 +11,26 @@ homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
 setwd(paste0(homewd, "/Fig3"))
 
 #load the fig3a tree
-tree <-  read.tree(file = paste0(homewd, "Fig3/B-RdRP-phylogeny/raxml-output/T3.raxml.supportTBE"))
+treeA <-  read.tree(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/Fig3A-raxml-output/Fig3A.raxml.supportTBE"))
 
 
 #take a quick look in base R
-plot(tree)
+plot(treeA)
 
 #and in ggtree
-p1 <- ggtree(tree)
+p1 <- ggtree(treeA)
 print(p1) #VERY NICE! but it currently does not have all the details shown in color
 
 #root the tree in the outgroup
-rooted.tree <- root(tree, which(tree$tip.label == "NC_010800_1_|Turkey_coronavirus__complete_genome"))
-ggtree(rooted.tree) #+ geom_tiplab() # rooted by the outgroup C
+rooted.tree.A <- root(treeA, which(tree$tip.label == "NC_010800_1_|Turkey_coronavirus__complete_genome"))
+ggtree(rooted.tree.A) #+ geom_tiplab() # rooted by the outgroup C
 
 #check these
-tree$node.label
-tree$tip.label
+treeA$node.label
+treeA$tip.label
 
-p2 <- ggtree(tree) + geom_tiplab() + geom_nodelab()
+p2 <- ggtree(treeA) + geom_tiplab() + geom_nodelab()
 print(p2)
+
+
+#### And Fig 3 B
