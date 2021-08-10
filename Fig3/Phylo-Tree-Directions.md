@@ -186,7 +186,7 @@ Here is the script I used to download the Nobecovirus RdRp fragments:
 http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&retmode=text&id=KX285095,GU065433,HQ728482,KX285299,KX285008,KX285087,KX520659,KX284906,KU182986,KX284911,NC009022,AB683971,AB539082,KU182962
 ```
 
-8. I aligned all sequences from (7) in Geneious using MAFFT, then sub-selected those that actually overlapped for a good region of RdRp. The final set of 36 sequences used in my RdRp phylogeny can be found in the "all_RdRp_Bat_CoV.fasta" file in the "final-set" subfolder of the "final-dRp-alignment". Once these were selected, I aligned them again ("Align-Full-Seq-RdRp-8-10.fasta"), then trimmed the alignment to the longest sequence. This cut the alignment to a meager 261 bp ("Align-Severe-Extraction-8-10.fasta").
+8. I aligned all sequences from (7) in Geneious using MAFFT, then sub-selected those that actually overlapped for a good region of RdRp. The final set of 36 sequences used in my RdRp phylogeny can be found in the "all_RdRp_Bat_CoV.fasta" file in the "final-set" subfolder of the "final-RdRp-alignment". Once these were selected, I aligned them again ("Align-Full-Seq-RdRp-8-10-Final.fasta"), then trimmed the alignment to the longest sequence. This cut the alignment to a meager 259 bp ("Align-Severe-RdRp-8-10-Extraction.fasta").
 
 9. I then queried the best nt substitution model on the severe alignment using ModelTest-NG (it was 'TVM+I+G4'), and built a bootstraped maximum likelihood phylogeny using RAxML. I followed the instructions above in part A, #6 to check and parse the alignment before kicking it off. Note that both ModelTest and RAxML went MUCH faster on these genomes.
 
