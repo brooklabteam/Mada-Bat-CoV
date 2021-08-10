@@ -188,6 +188,6 @@ http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=f
 
 8. I aligned all sequences from (7) in Geneious using MAFFT, then sub-selected those that actually overlapped for a good region of RdRp. The final set of 37 sequences used in my RdRp phylogeny can be found in the "all_RdRp_Bat_CoV.fasta" file in the "final-set" subfolder of the "final-dRp-alignment". Once these were selected, I aligned them again ("Align-Full-Seq-RdRp-8-10.fasta"), then trimmed the alignment to the longest sequence. This cut the alignment to a meager 261 bp ("Align-Severe-Extraction-8-10.fasta").
 
-9. I then queried the best nt substitution model on the severe alignemnt using ModelTest-NG (it was 'TVM+I+G4'), and built a bootstraped maximum likelihood phylogeny using RAxML. I followed the instructions above in part A, #6 to check and parse the alignment before kicking it off. Note that both ModelTest and RAxML went MUCH faster on these genomes.
+9. I then queried the best nt substitution model on the severe alignment using ModelTest-NG (it was 'TVM+I+G4'), and built a bootstraped maximum likelihood phylogeny using RAxML. I followed the instructions above in part A, #6 to check and parse the alignment before kicking it off. Note that both ModelTest and RAxML went MUCH faster on these genomes.
 
 10. I imported the resulting phylogeny into R to make the tree seen in Figure 3B (see "Fig3.R" script).
