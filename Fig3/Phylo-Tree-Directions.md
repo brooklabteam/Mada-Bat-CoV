@@ -127,7 +127,7 @@ I then joined these with the three full genomes of the Madagascar bats in a sing
 makeblastdb –in RdRp-extraction.fasta –dbtype nucl –parse_seqids -out CoV_RdRP_nt
 ```
 
-And the protein dattabase:
+And the protein database:
 
 ```
 makeblastdb –in RdRp-extraction-translation.fasta –dbtype prot –parse_seqids -out CoV_RdRP_aa
@@ -176,10 +176,18 @@ cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt | awk '{
 
 ```
 
-6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA linking each contig in turn to its closest full genome neighbore in Geneious, then selected those which mapped to an overlapping region of the RdRp gene.
+6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then did an MSA linking each contig in turn to its closest full genome neighbor in Geneious, then selected those which mapped to an overlapping region of the RdRp gene. I also manually went through all contigs produced from the IDseq pipeline which mapped to any coronavirus and did the same mapping exercise. All-in-all, I found seven genome segments (2x P. rufus, 4 x R. madagascariensis, 1x E. dupreanum) which included the RdRp gene, which I included in the Fig3B phylogeny (see file 'all_RR034B_samples_RdRp.fasta').
 
-6. After visually confirming that these aligned in a reasonable manner, I sent these contigs and the reference fragments to MAFFT online for another alignment.
+7. After selecting the RdRp genomes from the Madagascar project, I combined them with (A) all the Madagascar bat RdRp genome fragments that overlapped from [Razanajatovo et al. 2015](https://doi.org/10.1186/s12985-015-0271-y) (these were the 993bp fragments starting with "KP"), (b) all the Madagascar Betacoronavirus sequences from [Joffrin et al. 2019](https://doi.org/10.1038/s41598-020-63799-7) (these I ended up deleting because they did not overlap), (c) all Nobecovirus RdRp fragments cited in Joffrin et al. 2019, and (d) all Betacoronavirus full genome reference genomes (including two Nobecoviruses, a single Hibecovirus, two Sarbecoviruses, one Merbecovirus, and two Embecoviruses).
 
-7. I then queried the best nt substitution model using ModelTest-NG (it was XXXX), and built a bootstraped maximum likelihood phylogeny using RAxML.
+Here is the script I used to download the Nobecovirus RdRp fragments:
 
-8. I imported the resulting phylogeny into R to make the tree seen in Figure 3B.
+```
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&retmode=text&id=KX285095,GU065433,HQ728482,KX285299,KX285008,KX285087,KX520659,KX284906,KU182986,KX284911,NC009022,HQ728484,AB683971,AB539082,KU182962
+```
+
+8. I aligned all sequences from (7) in Geneious using MAFFT, then sub-selected those that actually overlapped for a good region of RdRp. The final set of 37 sequences used in my RdRp phylogeny can be found in the "all_RdRp_Bat_CoV.fasta" file in the "final-set" subfolder of the "final-dRp-alignment". Once these were selected, I aligned them again ("Align-Full-Seq-RdRp-8-10.fasta"), then trimmed the alignment to the longest sequence. This cut the alignment to a meager 261 bp ("Align-Severe-Extraction-8-10.fasta").
+
+9. I then queried the best nt substitution model on the severe alignemnt using ModelTest-NG (it was 'TVM+I+G4'), and built a bootstraped maximum likelihood phylogeny using RAxML. I followed the instructions above in part A, #6 to check and parse the alignment before kicking it off. Note that both ModelTest and RAxML went MUCH faster on these genomes.
+
+10. I imported the resulting phylogeny into R to make the tree seen in Figure 3B (see "Fig3.R" script).
