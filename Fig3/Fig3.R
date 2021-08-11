@@ -28,14 +28,14 @@ head(dat)
 #check subgroup names
 unique(dat$sub_group)
 
-colz = c("Alphacoronavirus" = "magenta", "Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "New-Madagascar-Nobecovirus" = "red", "Merbecovirus" = "mediumseagreen")
+colz = c("Alphacoronavirus" = "magenta", "Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "Merbecovirus" = "mediumseagreen")
 
 #pick order for the labels
-dat$sub_group <- factor(dat$sub_group, levels = c("Alphacoronavirus", "Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "New-Madagascar-Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
+dat$sub_group <- factor(dat$sub_group, levels = c("Alphacoronavirus", "Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
 
 #and add a "novel" category
 dat$novel = 0
-dat$novel[dat$sub_group=="New-Madagascar-Nobecovirus"] <- 1
+dat$novel[dat$title=="New-Madagascar-Nobecovirus"] <- 1
 dat$novel <- as.factor(dat$novel)
 
 rooted.tree.A$node.label <- round(as.numeric(rooted.tree.A$node.label)*100, 0)
@@ -108,10 +108,10 @@ head(datB)
 #check subgroup names
 unique(datB$sub_group)
 
-colz = c("Alphacoronavirus" = "magenta", "Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "New-Madagascar-Nobecovirus" = "red", "Merbecovirus" = "mediumseagreen")
+colz = c("Alphacoronavirus" = "magenta", "Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato",  "Merbecovirus" = "mediumseagreen")
 
 #pick order for the labels
-datB$sub_group <- factor(datB$sub_group, levels = c("Alphacoronavirus", "Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "New-Madagascar-Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
+datB$sub_group <- factor(datB$sub_group, levels = c("Alphacoronavirus", "Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
 
 
 rooted.tree.B$node.label <- round(as.numeric(rooted.tree.B$node.label)*100, 0)
@@ -137,7 +137,14 @@ datB$bat_host[datB$bat_host==1] <- "bat host"
 datB$bat_host <- as.factor(datB$bat_host)
 
 datB$novel = 0
-datB$novel[datB$sub_group=="New-Madagascar-Nobecovirus"] <- 1
+datB$novel[datB$accession_num=="AMB130" |
+           datB$accession_num=="AMB141" |
+           datB$accession_num=="MIZ165" | 
+           datB$accession_num=="MIZ240" |
+           datB$accession_num=="MIZ178" |
+           datB$accession_num=="MIZ170" |
+           datB$accession_num=="KEL251" ] <- 1
+
 datB$novel <- as.factor(datB$novel)
 colz2 = c('1' =  "yellow", '0' = "white")
 
