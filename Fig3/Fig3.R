@@ -234,8 +234,9 @@ Fig3 <- cowplot::plot_grid(p1.3,p2.5, ncol=2, nrow=1, labels = c("A.", "B."), la
 Fig3all <- cowplot::plot_grid(Fig3,leg.all, ncol=1, nrow=2, rel_heights = c(1,.1))
 
 
+#and save to the final figures: need to fill in NAs still
 
- ggsave(file = paste0(homewd, "/Fig3/Fig3-draft.png"),
+ ggsave(file = paste0(homewd, "/final-figures/Fig3-draft-NA.png"),
         units="mm",  
         width=150, 
         height=100, 
