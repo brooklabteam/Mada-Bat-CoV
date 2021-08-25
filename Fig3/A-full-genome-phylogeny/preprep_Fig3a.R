@@ -85,15 +85,26 @@ alpha.CoV <- rbind(bat.alpha, add.on, ref.alpha)
 alpha.CoV <- alpha.CoV[!duplicated(alpha.CoV),] #removes 4 found in the bat data above
 
 
+#now add in those that are unclassified and have bat hosts
+unclass.CoV <- read.csv(file = "fullgenomeUnclassifiedCoVs.csv", header = T, stringsAsFactors = F)
+head(unclass.CoV)
+unclass.CoV <- dplyr::select(unclass.CoV, names(alpha.CoV))
+
+
+
 #118 bat alphaCoVs
-#13 ref alphaCoV that ate not bat
+#13 ref alphaCoV that are not bat
 
 #98 bat betaCoV
 #14 ref betaCoV that are not bat
 
+#44 bat Unclassified CoVs
+
+
+
 
 #and get the text to download from NCBI
-all.CoV <- rbind(betaCoV, alpha.CoV) #243 genomes + 3 madagascar sequences
+all.CoV <- rbind(betaCoV, alpha.CoV, unclass.CoV) #287 genomes + 3 madagascar sequences
 accession_num <- paste(c(all.CoV$Accession), collapse = ", ")
 
 #now put this into your webbrowser to download

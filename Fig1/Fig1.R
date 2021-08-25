@@ -171,8 +171,6 @@ dat$latitude_s[dat$roost_site=="AngavoKely"] <- coordinate$latitude_s[coordinate
 dat$latitude_s[dat$roost_site=="Maromizaha"] <- coordinate$latitude_s[coordinate$roost_site=="Maromizaha"]
 
 
-
-
 ###Grouping data for scatterpie
 dat$plot_class <- NA
 dat$plot_class[dat$age_class=="J" & dat$CoV==1] <- "juvenile: CoV pos"
@@ -207,17 +205,6 @@ p3<-ggplot() +
   scale_fill_manual(values=colz)
 
 
-
-#print(p3)
-# # 
-#    ggsave(file = "tmp_map_3.pdf",
-#           plot = p3,
-#           units="mm",  
-#           width=40, 
-#           height=60, 
-#           scale=3, 
-#           dpi=300)
-# #  
 # 
 # # copie of latitude (x.) and longitude (y.)
  piesA$x2 <- piesA$longitude_e
@@ -236,8 +223,6 @@ p3<-ggplot() +
  piesA$y2[piesA$species== "Rousettus madagascariensis"] <- piesA$latitude_s[piesA$species== "Rousettus madagascariensis"] - 0
  
  head(piesA)
- 
- 
  
  
  # # copie of latitude (x.) and longitude (y.)
@@ -261,6 +246,7 @@ p3<-ggplot() +
 #plot pie chart 
 #loko<-c("Rousettus madagascariensis"="#B200ED","Eidolon dupreanum"="#7FFF00","Pteropus rufus"="#0000FF")
 
+#this is Fig1A
 p4 <- p2b+
   annotate("segment", x=piesA$longitude_e, xend=piesA$x2,y=piesA$latitude_s,yend=piesA$y2,size=.7,alpha=.5)+ # put the lines
   annotate("segment", x=piesJ$longitude_e, xend=piesJ$x2,y=piesJ$latitude_s,yend=piesJ$y2,size=.7,alpha=.5)+ # put the lines
@@ -270,7 +256,7 @@ p4 <- p2b+
                   data = piesJ, cols="plot_class", long_format=TRUE) +
   theme_bw() +theme(panel.grid = element_blank(),
                     plot.title = element_text(color="black", size=12, face="bold"),
-                    plot.margin = unit(c(0,.6,0,.3),"cm"),
+                    plot.margin = unit(c(.1,.1,.2,.1),"cm"),
                     axis.title.x = element_text(color="black", size=12),
                     axis.title.y = element_text(color="black", size=12),
                     legend.position=c(.8,.8),
@@ -285,11 +271,146 @@ p4 <- p2b+
 
 #print(p4)
 
+Fig1a <- p4
+
+
+#and this is Fig 1B
+
+#get into date form
+dat$collection_date <- as.Date(dat$collection_date,format = "%m/%d/%y")
+
+#check sites
+unique(dat$roost_site) #all sites are in the moramanga area and can be treated as one
+
+#now there are some urine and some fecal samples
+
+#get the date of the first day of every week
+dat$epiwk <- cut(dat$collection_date, "week")
+dat$epiwk <- as.Date(as.character(dat$epiwk))
+
+#change CoV to numeric
+dat$CoV[dat$CoV=="N"] <- 0
+dat$CoV[dat$CoV=="Y"] <- 1
+dat$CoV <- as.numeric(dat$CoV)
+
+names(dat)[names(dat)=="bat_species"] <- "species"
+
+length(dat$CoV[dat$CoV==1 & dat$sample_type=="urine"])
+#Only 2 urine positives. We assume these represent contamination of feces in urine.
+
+#and make sure it is only 1 of the same sample type per each date
+
+dat.list <- dlply(dat, .(sampleid))
+
+#for those with multiple samples, slim to one
+
+
+out = c(unlist(lapply(dat.list, nrow)))
+out[out>1] 
+
+
+slim.down <- function(df){
+  if(nrow(df)==1){
+    return(df)
+  }else if (nrow(df)>1){
+    max_CoV = max(df$CoV)
+    df = df[1,]
+    df$CoV = max_CoV
+    return(df) 
+  }
+  
+}
+
+dat.list<- lapply(dat.list, slim.down)
+
+dat.new <- data.table::rbindlist(dat.list)
+out = c(unlist(lapply(dat.list, nrow)))
+out[out>1] #none
+
+dat <- dat.new
+#should be two urine samples
+length(dat$sample_type[dat$sample_type=="urine"])#2
+
+#okay to go.
+
+#summarize into prevalence by species and epiwk
+dat.sum <- ddply(dat, .(species, epiwk), summarise, N=length(CoV), pos=sum(CoV))
+
+#get negatives and prevalence
+dat.sum$neg= dat.sum$N-dat.sum$pos
+dat.sum$prevalence <- dat.sum$pos/dat.sum$N
+
+#and confidence intervals on the prevalence
+CIs <- mapply(FUN=prop.test, x=as.list(dat.sum$pos), n=as.list(dat.sum$N), MoreArgs = list(alternative = "two.sided", conf.level = .95, correct=F), SIMPLIFY = F)
+
+#and extract the upper and lower CIs
+get.CIs <- function(df){
+  lci = df$conf.int[1]
+  uci = df$conf.int[2]
+  out.df<- cbind.data.frame(lci=lci, uci=uci)
+  return(out.df)
+}
+
+CIs <- lapply(CIs, get.CIs)
+
+dat.sum$lci <- c(unlist(sapply(CIs, '[',1)))
+dat.sum$uci <- c(unlist(sapply(CIs, '[',2)))
+
+#simplify= the name of "host_genus_species" 
+names(dat.sum)[names(dat.sum)=="host_genus_species"] <- "species"
+
+#and plot
+#here's a vector assigning colors to each species
+colz = c("Eidolon dupreanum"="steelblue1", "Pteropus rufus" = "violetred", "Rousettus madagascariensis" = "seagreen" )
+
+p1 <- ggplot(data=dat.sum) + #here is the dataset
+  geom_errorbar(aes(x=epiwk, ymin=lci, ymax=uci, color=species, group=species), size=.1) + #here we plot the uci and lci for prevalence, with lines colored by species
+  geom_point(aes(x=epiwk, y= prevalence, color=species, size=N)) + #here we plot the mean prevalence, with dot colored by species and sized based on sample size per date
+  ylab("CoV Prevalence") + #change the name of the y-axis
+  scale_color_manual(values=colz) + #assign the colors manually using the vector above
+  theme_bw() + #some style features
+  theme(panel.grid = element_blank(), legend.text = element_text(face="italic"),
+        axis.title.x = element_blank())  #more style features
+
+
+p1
+
+#most information seems to be captured in plot 1, so lets keep that
+
+#or try another plot that includes the winter season for Moramanga instead
+seas.dat = cbind.data.frame(x=as.Date(c("2018-06-01","2018-09-01")), ymin=c(-1,-1), ymax=c(2,2), label="dry season")
+
+Fig1b <-  ggplot(data=dat.sum) +
+  geom_ribbon(data=seas.dat, aes(x=x, ymin=ymin, ymax=ymax), fill="cornflowerblue", alpha=.3) +
+  geom_errorbar(aes(x=epiwk, ymin=lci, ymax=uci, color=species, group=species), size=.1) + #here we plot the uci and lci for prevalence, with lines colored by species
+  geom_point(aes(x=epiwk, y= prevalence, color=species, size=N)) + #here we plot the mean prevalence, with dot colored by species and sized based on sample size per date
+  ylab("CoV Prevalence") + #change the name of the y-axis
+  geom_text(aes(x=as.Date("2018-07-15"),y=.95, label="dry season"), size=3) +
+  scale_color_manual(values=colz) + #assign the colors manually using the vector above
+  scale_fill_manual(values=colz) + #assign the colors manually using the vector above
+  theme_bw() + #some style features
+  coord_cartesian(ylim=c(0,1)) +
+  theme(panel.grid = element_blank(), legend.text = element_text(face="italic", size = 8),
+        legend.position = c(.17,.77),
+        legend.spacing.y = unit(.05, "cm"),
+        plot.margin = unit(c(.2,.1,.1,.1),"cm"),
+        axis.title.x = element_blank()) #more style features
+
+Fig1b
+
+
+
+
+
+
+Fig1all <- cowplot::plot_grid(Fig1a, Fig1b, nrow=2, ncol=1, labels = c("A.", "B."), label_x = 2)
+
+
 ggsave(file = paste0(homewd, "final-figures/Fig1.pdf"),
-       plot=p4,
+       plot=Fig1all,
        units="mm",  
-       width=50, 
-       height=60, 
+       width=60, 
+       height=100, 
        scale=3, 
        dpi=300)
 
