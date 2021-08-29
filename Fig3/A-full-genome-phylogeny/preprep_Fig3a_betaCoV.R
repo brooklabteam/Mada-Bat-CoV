@@ -67,6 +67,18 @@ unclass.CoV <- unclass.CoV[!duplicated(unclass.CoV),] #removes 6 duplicates
 
 #and get the text to download from NCBI
 all.CoV <- rbind(betaCoV, unclass.CoV) #136 genomes + 3 madagascar sequences
+all.CoV <- all.CoV[!duplicated(all.CoV$Accession),] #128
+
+
+#and remove those that are repeats of the same record (down to 121)
+all.CoV = subset(all.CoV, Accession!="KU762338" &
+                          Accession!= "KF636752" &
+                          Accession!="GU190215" &
+                          Accession!="EF065505" &
+                          Accession!="EF065509"&
+                          Accession!="EF065513" &
+                          Accession!="KX574227")
+
 accession_num <- paste(c(all.CoV$Accession), collapse = ", ")
 
 #now put this into your webbrowser to download

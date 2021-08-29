@@ -12,7 +12,7 @@ homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
 setwd(paste0(homewd, "/Fig3"))
 
 #load the fig3a tree
-treeA <-  read.tree(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/Fig3A-raxml-output/Fig3A.raxml.supportTBE"))
+treeA <-  read.tree(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/3-Fig3A-raxml-output/Fig3A.raxml.supportTBE"))
 
 #root it
 
@@ -92,20 +92,14 @@ p1 <- ggtree(rooted.tree.A) %<+% tree.dat + geom_tippoint(aes(fill=sub_group, sh
   xlim(c(0,4))
 p1
 
-# # #save temporary draft, now make figure 3B
-#  ggsave(file = paste0(homewd, "/Fig3/A-full-genome-phylogeny/Fig3A-draft.png"),
-#         units="mm",  
-#         width=100, 
-#         height=100, 
-#         #limitsize = F,
-#         scale=4)#, 
+
 
 
 #now add in details for the second panel
 
 #### And Fig 3 B
 #load the fig3b tree
-treeB <-  read.tree(file = paste0(homewd, "Fig3/B-RdRP-phylogeny/Fig3B-raxml-output/Fig3B.raxml.supportTBE"))
+treeB <-  read.tree(file = paste0(homewd, "Fig3/B-RdRP-phylogeny/3-Fig3B-raxml-output/Fig3B.raxml.supportTBE"))
 
 
 #take a quick look in base R
@@ -191,15 +185,6 @@ p2 <- ggtree(rooted.tree.B) %<+% datB + geom_tippoint(aes(fill=sub_group, shape=
   xlim(c(0,2))
 p2
 
-#save draft
-# 
-# ggsave(file = paste0(homewd, "/Fig3/B-RdRP-phylogeny/Fig3B-draft.png"),
-#        units="mm",  
-#        width=50, 
-#        height=50, 
-#        #limitsize = F,
-#        scale=3)#, 
-# 
 
 
 #####now combine the two together somehow
@@ -266,21 +251,20 @@ p2.1
 #great, now need to flip some of the clases to match plot on the left
 
 node_flip_Embeco_Merbeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
-#node_flip_Merbeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_039207 | Erinaceus_europaeus | Germany | 2012" ),which(rooted.tree.B$tip.label == "KP696742 | Pteropus_rufus | Madagascar | 2010" ))
 node_flip_Sarbeco_Hibeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_025217  |  Hipposideros_pratti  |  China  |  2013" ),which(rooted.tree.B$tip.label == "NC_004718  |  SARS_CoV  |  Homo_sapiens  |  Canada  |  2003" ))
 node_flip_Embeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "EF065516  |  HKU9  |  Rousettus_leschenaulti  |  China  |  2005"   ))
 
 p2.2 <- p2.1 %>% ggtree::rotate(node = node_flip_Embeco_Merbeco)
 p2.3 <- p2.2 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
 p2.4 <- p2.3 %>% ggtree::rotate(node = node_flip_Embeco_Nobeco)
-#p2.5 <- p2.4 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
+
 
 Fig3 <- cowplot::plot_grid(p1.2,p2.4, ncol=2, nrow=1, labels = c("A.", "B."), label_size = 22, label_x = .03, label_y = .98)
 
 Fig3all <- cowplot::plot_grid(Fig3,leg.all, ncol=1, nrow=2, rel_heights = c(1,.1))
 
 
-#and save to the final figures: need to fill in NAs still
+#and save to the final figures
 
  ggsave(file = paste0(homewd, "/final-figures/Fig3.png"),
         units="mm",  

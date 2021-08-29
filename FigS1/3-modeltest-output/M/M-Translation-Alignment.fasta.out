@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        AAM/M-Translation-Alignment.fasta
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            38
+  #sites:           242
+  #patterns:        229
+  Max. thread mem:  20 MB
+
+Output:
+  Log:           AAM/M-Translation-Alignment.fasta.log
+  Starting tree: AAM/M-Translation-Alignment.fasta.tree
+  Results:       AAM/M-Translation-Alignment.fasta.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          8/16
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+I+G4            2     -5689.8893     11791.4489         0.0000    0.9961
+       2  LG+G4              1     -5698.1692     11802.5199        11.0710    0.0039
+       3  LG+I+G4+F         21     -5653.7446     11823.4493        32.0004    0.0000
+       4  LG+G4+F           20     -5662.7310     11835.9332        44.4843    0.0000
+       5  JTT+G4             1     -5740.5929     11887.3671        95.9182    0.0000
+       6  JTT+I+G4           2     -5739.3378     11890.3460        98.8971    0.0000
+       7  VT+G4              1     -5742.5391     11891.2596        99.8106    0.0000
+       8  CPREV+G4           1     -5743.1118     11892.4049       100.9560    0.0000
+       9  JTT-DCMUT+G4       1     -5743.2694     11892.7203       101.2713    0.0000
+      10  RTREV+I+G4+F      21     -5688.5352     11893.0306       101.5817    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              LG+I+G4
+lnL:                -5689.8893
+Frequencies:        0.0791 0.0559 0.0420 0.0531 0.0129 0.0408 0.0716 0.0573 0.0224 0.0622 0.0991 0.0646 0.0230 0.0423 0.0440 0.0612 0.0533 0.0121 0.0342 0.0691
+Inv. sites prop:    0.0355
+Gamma shape:        1.2373
+Score:              11791.4489
+Weight:             0.9961
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0039
+Gamma-Inv:          0.9961
+Frequencies:        0.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0923
+Alpha:              1.0678
+Alpha-P.Inv:        1.2373
+P.Inv-Alpha:        0.0355
+Frequencies:        0.0825 0.0480 0.0444 0.0297 0.0178 0.0213 0.0250 0.0559 0.0107 0.0815 0.1103 0.0422 0.0336 0.0624 0.0424 0.0700 0.0612 0.0341 0.0374 0.0896 
+
+Commands:
+  > phyml  -i AAM/M-Translation-Alignment.fasta -d aa -m LG -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s AAM/M-Translation-Alignment.fasta -m PROTGAMMAILG -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa AAM/M-Translation-Alignment.fasta --model LG+I+G4
+  > paup -s AAM/M-Translation-Alignment.fasta
+  > iqtree -s AAM/M-Translation-Alignment.fasta -m LG+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+I+G4+F         21     -5653.7446     11495.4892         0.0000    0.9997
+       2  LG+G4+F           20     -5662.7310     11511.4620        15.9728    0.0003
+       3  LG+I+G4            2     -5689.8893     11529.7786        34.2894    0.0000
+       4  LG+G4              1     -5698.1692     11544.3385        48.8493    0.0000
+       5  RTREV+I+G4+F      21     -5688.5352     11565.0704        69.5813    0.0000
+       6  RTREV+G4+F        20     -5695.7107     11577.4214        81.9322    0.0000
+       7  WAG+G4+F          20     -5695.9166     11577.8331        82.3439    0.0000
+       8  WAG+I+G4+F        21     -5695.1692     11578.3384        82.8492    0.0000
+       9  JTT+I+G4+F        21     -5696.8962     11581.7923        86.3032    0.0000
+      10  VT+G4+F           20     -5698.7074     11583.4147        87.9256    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              LG+I+G4+F
+lnL:                -5653.7446
+Frequencies:        0.0825 0.0480 0.0444 0.0297 0.0178 0.0213 0.0250 0.0559 0.0107 0.0815 0.1103 0.0422 0.0336 0.0624 0.0424 0.0700 0.0612 0.0341 0.0374 0.0896
+Inv. sites prop:    0.0217
+Gamma shape:        1.0773
+Score:              11495.4892
+Weight:             0.9997
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0003
+Gamma-Inv:          0.9997
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0923
+Alpha:              0.9900
+Alpha-P.Inv:        1.0773
+P.Inv-Alpha:        0.0217
+Frequencies:        0.0825 0.0480 0.0444 0.0297 0.0178 0.0213 0.0250 0.0559 0.0107 0.0815 0.1103 0.0422 0.0336 0.0624 0.0424 0.0700 0.0612 0.0341 0.0374 0.0896 
+
+Commands:
+  > phyml  -i AAM/M-Translation-Alignment.fasta -d aa -m LG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s AAM/M-Translation-Alignment.fasta -m PROTGAMMAILGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa AAM/M-Translation-Alignment.fasta --model LG+I+G4+F
+  > paup -s AAM/M-Translation-Alignment.fasta
+  > iqtree -s AAM/M-Translation-Alignment.fasta -m LG+I+G4+F
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  LG+I+G4            2     -5689.8893     11597.7786         0.0000    0.9980
+       2  LG+G4              1     -5698.1692     11610.3385        12.5599    0.0019
+       3  LG+I+G4+F         21     -5653.7446     11616.4892        18.7106    0.0001
+       4  LG+G4+F           20     -5662.7310     11629.4620        31.6834    0.0000
+       5  RTREV+I+G4+F      21     -5688.5352     11686.0704        88.2918    0.0000
+       6  JTT+G4             1     -5740.5929     11695.1857        97.4071    0.0000
+       7  RTREV+G4+F        20     -5695.7107     11695.4214        97.6428    0.0000
+       8  WAG+G4+F          20     -5695.9166     11695.8331        98.0545    0.0000
+       9  JTT+I+G4           2     -5739.3378     11696.6757        98.8971    0.0000
+      10  VT+G4              1     -5742.5391     11699.0782       101.2996    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              LG+I+G4
+lnL:                -5689.8893
+Frequencies:        0.0791 0.0559 0.0420 0.0531 0.0129 0.0408 0.0716 0.0573 0.0224 0.0622 0.0991 0.0646 0.0230 0.0423 0.0440 0.0612 0.0533 0.0121 0.0342 0.0691
+Inv. sites prop:    0.0355
+Gamma shape:        1.2373
+Score:              11597.7786
+Weight:             0.9980
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0019
+Gamma-Inv:          0.9981
+Frequencies:        0.0001
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.0923
+Alpha:              1.0678
+Alpha-P.Inv:        1.2373
+P.Inv-Alpha:        0.0355
+Frequencies:        0.0825 0.0480 0.0444 0.0297 0.0178 0.0213 0.0250 0.0559 0.0107 0.0815 0.1103 0.0422 0.0336 0.0624 0.0424 0.0700 0.0612 0.0341 0.0374 0.0896 
+
+Commands:
+  > phyml  -i AAM/M-Translation-Alignment.fasta -d aa -m LG -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s AAM/M-Translation-Alignment.fasta -m PROTGAMMAILG -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa AAM/M-Translation-Alignment.fasta --model LG+I+G4
+  > paup -s AAM/M-Translation-Alignment.fasta
+  > iqtree -s AAM/M-Translation-Alignment.fasta -m LG+I+G4
+Done
