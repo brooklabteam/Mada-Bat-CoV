@@ -17,25 +17,24 @@ treeA <-  read.tree(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/Fig3A-ra
 #root it
 
 
-rooted.tree.A <- root(treeA, which(treeA$tip.label == "NC_010800_1_|Turkey_coronavirus__complete_genome"))
+rooted.tree.A <- root(treeA, which(treeA$tip.label == "NC_010800_1_Turkey_coronavirus"))
 #take a quick look in base R
 plot(rooted.tree.A)
 
 #load tree data prepared from elsewhere
-dat <- read.csv(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/fig3a_metadata_manual.csv"), header = T, stringsAsFactors = F)
+dat <- read.csv(file=paste0(homewd,"Fig3/A-full-genome-phylogeny/fig3a_allbetacov_metadata_manual.csv"), header = T, stringsAsFactors = F)
 head(dat)
-
 #check subgroup names
 unique(dat$sub_group)
 
-colz = c("Alphacoronavirus" = "magenta", "Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "Merbecovirus" = "mediumseagreen")
+colz = c("Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "Merbecovirus" = "mediumseagreen")
 
 #pick order for the labels
-dat$sub_group <- factor(dat$sub_group, levels = c("Alphacoronavirus", "Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
+dat$sub_group <- factor(dat$sub_group, levels = c("Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
 
 #and add a "novel" category
 dat$novel = 0
-dat$novel[dat$title=="New-Madagascar-Nobecovirus"] <- 1
+dat$novel[dat$country=="Madagascar"] <- 1
 dat$novel <- as.factor(dat$novel)
 
 rooted.tree.A$node.label <- round(as.numeric(rooted.tree.A$node.label)*100, 0)
@@ -48,22 +47,41 @@ p #looks great
 
 #now get new tip labels
 dat$old_tip_label <- dat$tip_label
-dat$tip_label <- paste(dat$accession_num, "|", dat$host, "|", dat$country, "|", dat$collection_year)
+dat$new_label <- NA
+dat$new_label[!is.na(dat$strain)] <- paste(dat$accession_num[!is.na(dat$strain)], " | ", 
+                                           dat$strain[!is.na(dat$strain)], " | ", 
+                                           dat$host[!is.na(dat$strain)], " | ",
+                                           dat$country[!is.na(dat$strain)], " | ",
+                                           dat$collection_year[!is.na(dat$strain)])
+
+dat$new_label[is.na(dat$strain)] <- paste(dat$accession_num[is.na(dat$strain)], " | ", 
+                                           dat$host[is.na(dat$strain)], " | ",
+                                           dat$country[is.na(dat$strain)], " | ",
+                                           dat$collection_year[is.na(dat$strain)])
+
 #after Gwen checks these, can later manually edit any that are "NA"
 
 #make sure to sort in order
 tree.dat <- data.frame(old_tip_label=rooted.tree.A$tip.label, num =1:length(rooted.tree.A$tip.label))
+head(tree.dat)
+head(dat)
 tree.dat <- merge(tree.dat, dat, by = "old_tip_label", all.x = T, sort = F)
+
+names(tree.dat)
+
+tree.dat$tip_label <- tree.dat$new_label
+tree.dat <- dplyr::select(tree.dat, tip_label, accession_num, strain, host, bat_host, country, collection_date, collection_year, sub_group, novel, old_tip_label)
+
 rooted.tree.A$tip.label <- tree.dat$tip_label
 
-dat$bat_host[dat$bat_host==0] <- "non-bat host"
-dat$bat_host[dat$bat_host==1] <- "bat host"
-dat$bat_host <- as.factor(dat$bat_host)
+tree.dat$bat_host[tree.dat$bat_host==0] <- "non-bat host"
+tree.dat$bat_host[tree.dat$bat_host==1] <- "bat host"
+tree.dat$bat_host <- as.factor(tree.dat$bat_host)
 shapez = c("bat host" =  24, "non-bat host" = 21)
 colz2 = c('1' =  "yellow", '0' = "white")
 
 
-p1 <- ggtree(rooted.tree.A) %<+% dat + geom_tippoint(aes(fill=sub_group, shape=bat_host)) +
+p1 <- ggtree(rooted.tree.A) %<+% tree.dat + geom_tippoint(aes(fill=sub_group, shape=bat_host)) +
   geom_nodelab(size=.5,nudge_x = -.04, nudge_y = .7) +
   scale_fill_manual(values=colz) + 
   scale_shape_manual(values=shapez) + 
@@ -98,20 +116,21 @@ plot(treeB)
 rooted.tree.B <- root(treeB, which(treeB$tip.label == "GammaCoV_NC_010800_1_Turkey"))
 p3Broot <- ggtree(rooted.tree.B) + geom_tiplab() # rooted by the outgroup
 
-p3Broot
-
 
 #load tree data prepared from elsewhere
 datB <- read.csv(file = paste0(homewd, "Fig3/B-RdRP-phylogeny/fig3b_metadata_manual.csv"), header = T, stringsAsFactors = F)
 head(datB)
 
+
 #check subgroup names
 unique(datB$sub_group)
 
-colz = c("Alphacoronavirus" = "magenta", "Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato",  "Merbecovirus" = "mediumseagreen")
+
+colz = c("Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magenta", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "Merbecovirus" = "mediumseagreen")
+
 
 #pick order for the labels
-datB$sub_group <- factor(datB$sub_group, levels = c("Alphacoronavirus", "Embecovirus", "Sarbecovirus", "unclassified-Betacoronavirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
+datB$sub_group <- factor(datB$sub_group, levels = c("Embecovirus", "Sarbecovirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
 
 
 rooted.tree.B$node.label <- round(as.numeric(rooted.tree.B$node.label)*100, 0)
@@ -124,7 +143,18 @@ pB #looks great
 
 #now get new tip labels
 datB$old_tip_label <- datB$tip_label
-datB$tip_label <- paste(datB$accession_num, "|", datB$host, "|", datB$country, "|", datB$collection_year)
+datB$tip_label <- NA
+datB$tip_label[!is.na(datB$strain)] <-paste(datB$accession_num[!is.na(datB$strain)], " | ",
+                                            datB$strain[!is.na(datB$strain)], " | ",
+                                            datB$host[!is.na(datB$strain)], " | ", 
+                                            datB$country[!is.na(datB$strain)], " | ",
+                                            datB$collection_year[!is.na(datB$strain)])
+
+datB$tip_label[is.na(datB$strain)] <-paste(datB$accession_num[is.na(datB$strain)], " | ",
+                                            datB$host[is.na(datB$strain)], " | ", 
+                                            datB$country[is.na(datB$strain)], " | ",
+                                            datB$collection_year[is.na(datB$strain)])
+
 #after Gwen checks these, can later manually edit any that are "NA"
 
 #make sure to sort in order
@@ -177,39 +207,47 @@ p2
 
 ###wrking on p1
 
-p1 <- ggtree(rooted.tree.A) %<+% dat + 
-  geom_tippoint(aes(fill=sub_group, shape=bat_host), size=3) +
+p1 <- ggtree(rooted.tree.A) %<+% tree.dat + 
+  geom_tippoint(aes(fill=sub_group, shape=bat_host), size=3, show.legend = F) +
+  geom_nodelab(size=2,nudge_x = -.07, nudge_y = .9) +
+  scale_fill_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill()+
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3,  show.legend=F, size=3, hjust = -.08) + 
+  scale_fill_manual(values=colz2) + 
+  theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  xlim(c(0,4))
+p1
+
+#and flip some clades
+node_flip_Embeco_Merbeco1 = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.A$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
+node_flip_Merbeco_Sarbeco1 = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.A$tip.label == "MZ081380  |  SARSr_CoV  |  Rhinolophus_stheno  |  China  |  2020"))
+node_flip_Embeco_Sarbeco1 = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label == "MZ081380  |  SARSr_CoV  |  Rhinolophus_stheno  |  China  |  2020" ),which(rooted.tree.A$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
+
+p1.2 <- p1 %>% ggtree::rotate(node = node_flip_Embeco_Sarbeco1 )
+#p1.2 <- p1 %>% ggtree::rotate(node = node_flip_Merbeco_Sarbeco1)
+#p1.3 <- p1.2 %>% ggtree::rotate(node = node_flip_Embeco_Sarbeco1)
+
+
+#collapse the alpha clade (all bat CoVs)
+#alpha_node = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label == "NC_048211 | Suncus_murinus | China | 2015" ),which(rooted.tree.A$tip.label == "NC_018871 | bat | China | 2021" ))
+
+p1.2.leg <- ggtree(rooted.tree.A) %<+% tree.dat + 
+  geom_tippoint(aes(color=sub_group, shape=bat_host), size=3) +
   geom_nodelab(size=.5,nudge_x = -.04, nudge_y = .7) +
   scale_fill_manual(values=colz) + 
   scale_shape_manual(values=shapez) + 
   new_scale_fill()+
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3,  show.legend=F, size=3, hjust = -.15) + 
   scale_fill_manual(values=colz2) + 
-  theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  theme(legend.position = "bottom", legend.title = element_blank(),
+        legend.text = element_text(size=12), legend.direction = "horizontal") +
   xlim(c(0,4))
-p1
-
-#collapse the alpha clade (all bat CoVs)
-alpha_node = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label == "NC_048211 | Suncus_murinus | China | 2015" ),which(rooted.tree.A$tip.label == "NC_018871 | bat | China | 2021" ))
-p1.2.leg <- p1 %>% ggtree::collapse(node = alpha_node) +
-  geom_tippoint(aes(color=sub_group, shape=bat_host), size=2) +
-  scale_color_manual(values=colz) + 
-  geom_nodelab(size=1,nudge_x = -.04, nudge_y = .7) +
-  theme(legend.position = "bottom", legend.direction = "horizontal", 
-        legend.title = element_blank(), legend.text = element_text(size=12)) +
-  geom_point2(aes(subset=(node==alpha_node)), shape=24, size=5, fill="magenta") 
-
 p1.2.leg
+
 #separate legend
 leg.all <- cowplot::get_legend(p1.2.leg)
 
-p1.3 <- p1 %>% ggtree::collapse(node = alpha_node) +
-  geom_nodelab(size=2.5,nudge_x = -.04, nudge_y = .7) +
-  theme(legend.position = "none", legend.title = element_blank()) +
-  geom_point2(aes(subset=(node==alpha_node)), shape=24, size=7, fill="magenta") +
-  xlim(c(0,3))
-
-p1.3
 
 #new p2
 p2.1 <- ggtree(rooted.tree.B) %<+% datB + 
@@ -218,7 +256,8 @@ p2.1 <- ggtree(rooted.tree.B) %<+% datB +
   scale_fill_manual(values=colz) + 
   scale_shape_manual(values=shapez) + 
   new_scale_fill()+
-  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3,  show.legend=F, size=4, hjust = -.13) + 
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, 
+              alpha=.3,  show.legend=F, size=4, hjust = -.1) + 
   scale_fill_manual(values=colz2) + 
   theme(legend.position = "right", legend.title = element_blank()) +
   xlim(c(0,1.5))
@@ -226,24 +265,24 @@ p2.1
 
 #great, now need to flip some of the clases to match plot on the left
 
-node_flip_embeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_048217 | Mus_musculus | NA | NA" ),which(rooted.tree.B$tip.label == "KP696742 | Pteropus_rufus | Madagascar | 2010" ))
-node_flip_Merbeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_039207 | Erinaceus_europaeus | Germany | 2012" ),which(rooted.tree.B$tip.label == "KP696742 | Pteropus_rufus | Madagascar | 2010" ))
-node_flip_Sarbeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_004718 | Homo_sapiens | Canada | NA" ),which(rooted.tree.B$tip.label == "KP696742 | Pteropus_rufus | Madagascar | 2010" ))
-node_flip_Sarbeco_Hibeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_004718 | Homo_sapiens | Canada | NA" ),which(rooted.tree.B$tip.label == "NC_025217 | Hipposideros_pratti | China | 2013" ))
+node_flip_Embeco_Merbeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
+#node_flip_Merbeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_039207 | Erinaceus_europaeus | Germany | 2012" ),which(rooted.tree.B$tip.label == "KP696742 | Pteropus_rufus | Madagascar | 2010" ))
+node_flip_Sarbeco_Hibeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_025217  |  Hipposideros_pratti  |  China  |  2013" ),which(rooted.tree.B$tip.label == "NC_004718  |  SARS_CoV  |  Homo_sapiens  |  Canada  |  2003" ))
+node_flip_Embeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "EF065516  |  HKU9  |  Rousettus_leschenaulti  |  China  |  2005"   ))
 
-p2.2 <- p2.1 %>% ggtree::rotate(node = node_flip_embeco_Nobeco)
-p2.3 <- p2.2 %>% ggtree::rotate(node = node_flip_Merbeco_Nobeco)
-p2.4 <- p2.3 %>% ggtree::rotate(node = node_flip_Sarbeco_Nobeco)
-p2.5 <- p2.4 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
+p2.2 <- p2.1 %>% ggtree::rotate(node = node_flip_Embeco_Merbeco)
+p2.3 <- p2.2 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
+p2.4 <- p2.3 %>% ggtree::rotate(node = node_flip_Embeco_Nobeco)
+#p2.5 <- p2.4 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
 
-Fig3 <- cowplot::plot_grid(p1.3,p2.5, ncol=2, nrow=1, labels = c("A.", "B."), label_size = 22, label_x = .03, label_y = .98)
+Fig3 <- cowplot::plot_grid(p1.2,p2.4, ncol=2, nrow=1, labels = c("A.", "B."), label_size = 22, label_x = .03, label_y = .98)
 
 Fig3all <- cowplot::plot_grid(Fig3,leg.all, ncol=1, nrow=2, rel_heights = c(1,.1))
 
 
 #and save to the final figures: need to fill in NAs still
 
- ggsave(file = paste0(homewd, "/final-figures/Fig3-draft-NA.png"),
+ ggsave(file = paste0(homewd, "/final-figures/Fig3.png"),
         units="mm",  
         width=150, 
         height=100, 

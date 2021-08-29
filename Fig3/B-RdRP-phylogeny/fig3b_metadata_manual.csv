@@ -1,37 +1,52 @@
 tip_label,accession_num,strain,host,bat_host,country,collection_date,collection_year,title,sub_group
-Eidolon_helvum_HQ728482_1_Kenya,HQ728482,BtKY24,Eidolon_helvum,1,Kenya,6-Aug,2006,"Eidolon bat coronavirus/Kenya/KY24/2006 polyprotein (ORF1ab) gene, partial cds; and spike protein (S), ORF3 protein (ORF3), envelope protein (E), membrane protein (M), nucleocapsid protein (N), hypothetical protein ORFx (ORFx), and hypothetical protein ORFy (ORFy) genes, complete cds",Nobecovirus
-Pteropus_rufus_KP696741_1,KP696741,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus BEM001F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
+Eidolon_dupreanum_RR034B_179_KEL251,KEL251,NA,Eidolon_dupreanum,1,Madagascar,1/6/19,2019,Eidolon_dupreanum_RR034B_179_KEL251,Nobecovirus
+Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,MIZ240,NA,Rousettus_madagascariensis,1,Madagascar,9/11/18,2018,Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,Nobecovirus
+Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,MIZ178,NA,Rousettus_madagascariensis,1,Madagascar,4/14/18,2018,Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,Nobecovirus
+Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,MIZ170,NA,Rousettus_madagascariensis,1,Madagascar,4/13/18,2018,Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,Nobecovirus
+Pteropus_rufus_RR034B_010_fecRa_AMB130,AMB130,NA,Pteropus_rufus,1,Madagascar,2/26/18,2018,Pteropus_rufus_RR034B_010_fecRa_AMB130,Nobecovirus
 Pteropus_rufus_KP696742_1,KP696742,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus ANK036F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696743_1,KP696743,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus ANK047F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
+Pteropus_rufus_KP696747_1,KP696747,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus ANK081F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696744_1_Bat_coronavirus,KP696744,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus BEM073F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
+Pteropus_rufus_RR034B_021_AMB141,AMB141,NA,Pteropus_rufus,1,Madagascar,4/16/18,2018,Pteropus_rufus_RR034B_021_AMB141,Nobecovirus
 Pteropus_rufus_KP696745_1,KP696745,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus BEM074F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696746_1,KP696746,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus BEM077F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
-Pteropus_rufus_KP696747_1,KP696747,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus ANK081F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
+Pteropus_rufus_KP696741_1,KP696741,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus BEM001F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Cy_sphinx_KU182962_1_China,KU182962,NA,Cynopterus_sphinx,1,China,2005,2005,"Bat coronavirus isolate GLCC5 P1ab gene, partial cds",Nobecovirus
-Mus_musculus_NC_001846_1_MHV_A59,NC_001846,MHV-A59,Mus_musculus,0,NA,NA,NA,Murine hepatitis virus strain MHV-A59 C12 mutant,Embecovirus
-Bos_taurus_NC_003045_1_BCoV_ENT,NC_003045,NA,Bos_taurus,0,NA,NA,NA,Bovine coronavirus isolate BCoV-ENT,Embecovirus
-Homo_sapiens_NC_004718_3_SARS,NC_004718,NA,Homo_sapiens,0,Canada,NA,NA,SARS coronavirus Tor2,Sarbecovirus
-Homo_sapiens_NC_006213_1_HCOV_OC43,NC_006213,ATCC VR-759,Homo_sapiens,0,USA,NA,NA,Human coronavirus OC43 strain ATCC VR-759,Embecovirus
-Homo_sapiens_NC_006577_2_HKU1,NC_006577,NA,Homo_sapiens,0,NA,NA,NA,Human coronavirus HKU1,Embecovirus
-Tylonycteris_sp_NC_009019_1_HKU4,NC_009019,HKU4-1 B04f,Tylonycteris_sp,1,China,NA,NA,Tylonycteris bat coronavirus HKU4,Merbecovirus
-Pipistrellus_NC_009020_1_BatCoV_HKU5,NC_009020,HKU5-1 LMH03f,Pipistrellus_sp,1,China,NA,NA,Pipistrellus bat coronavirus HKU5,Merbecovirus
-Rousettus_leschenaulti_NC_009021_1_BatCoV_HKU9,NC_009021,HKU9-1 BF_005I,Rousettus_leschenaulti,1,China,NA,NA,Rousettus bat coronavirus HKU9,Nobecovirus
-GammaCoV_NC_010800_1_Turkey,NC_010800,NA,Meleagris_gallopavo,0,Canada,NA,NA,Turkey coronavirus,Gammacoronavirus
-Rattus_rattus_NC_012936_1_Rat_CoV,NC_012936,Parker,Rattus_rattus,0,NA,NA,NA,Rat coronavirus Parker,Embecovirus
-Rhinolophus_blasii_NC_014470_1_BatCoV_BM48_31,NC_014470,BtCoV/BM48-31/BGR/2008,Rhinolophus_blasii,1,Bulgaria,2008,2008,Bat coronavirus BM48-31/BGR/2008,Sarbecovirus
-Oryctolagus_cuniculus_NC_017083_1_Rabbit_CoV_HKU14,NC_017083,HKU14-1,Oryctolagus_cuniculus,0,China,2006,2006,Rabbit coronavirus HKU14,Embecovirus
-Homo_sapiens_NC_019843_3_MERS,NC_019843,HCoV-EMC,Homo_sapiens,0,NA,13-Jun-12,2012,Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012,Merbecovirus
+Homo_sapiens_NC_045512_2_SARS_CoV_2,NC_045512,SARS_CoV_2,Homo_sapiens,0,China,19-Dec,2019,Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1,Sarbecovirus
+Homo_sapiens_NC_004718_3_SARS,NC_004718,SARS_CoV,Homo_sapiens,0,Canada,NA,2003,SARS coronavirus Tor2,Sarbecovirus
+Rhinolophus_blasii_NC_014470_1_BatCoV_BM48_31,NC_014470,BtCoV_BM48,Rhinolophus_blasii,1,Bulgaria,2008,2008,Bat coronavirus BM48-31/BGR/2008,Sarbecovirus
 Hipposideros_pratti_NC_025217_1_Zhejiang2013,NC_025217,NA,Hipposideros_pratti,1,China,29-Apr-13,2013,Bat Hp-betacoronavirus/Zhejiang2013,Hibecovirus
-Rattus_norvegicus_NC_026011_1_Betacoronavirus_HKU24,NC_026011,HKU24-R05005I,Rattus_norvegicus,0,China,17-May-12,2012,Betacoronavirus HKU24 strain HKU24-R05005I,Embecovirus
-Rousettus_leschenaulti_NC_030886_1,NC_030886,NA,Rousettus_leschenaulti,1,China,28-May-14,2014,Rousettus bat coronavirus isolate GCCDC1 356,Nobecovirus
-Bos_taurus_NC_038294_1_Betacoronavirus_1,NC_038294,England 1,Homo_sapiens,0,United_Kingdom,11-Sep-12,2012,Betacoronavirus England 1 isolate H123990006,Merbecovirus
+GammaCoV_NC_010800_1_Turkey,NC_010800,NA,Meleagris_gallopavo,0,Canada,NA,2007,Turkey coronavirus,Gammacoronavirus
+Mus_musculus_NC_048217_1_MHV,NC_048217,MHV,Mus_musculus,0,USA,NA,1962,Murine hepatitis virus strain A59,Embecovirus
+Mus_musculus_NC_001846_1_MHV_A59,NC_001846,MHV,Mus_musculus,0,USA,NA,1997,Murine hepatitis virus strain MHV-A59 C12 mutant,Embecovirus
+Homo_sapiens_NC_006213_1_HCOV_OC43,NC_006213,HCoV_OC43,Homo_sapiens,0,USA,NA,1960,Human coronavirus OC43 strain ATCC VR-759,Embecovirus
+Bos_taurus_NC_003045_1_BCoV_ENT,NC_003045,Betacoronavirus_1,Bos_taurus,0,USA,NA,1972,Bovine coronavirus isolate BCoV-ENT,Embecovirus
+Rattus_norvegicus_NC_026011_1_Betacoronavirus_HKU24,NC_026011,HKU24,Rattus_norvegicus,0,China,17-May-12,2012,Betacoronavirus HKU24 strain HKU24-R05005I,Embecovirus
+Oryctolagus_cuniculus_NC_017083_1_Rabbit_CoV_HKU14,NC_017083,HKU14,Oryctolagus_cuniculus,0,China,2006,2006,Rabbit coronavirus HKU14,Embecovirus
+Homo_sapiens_NC_006577_2_HKU1,NC_006577,HCoV_HKU1,Homo_sapiens,0,China,NA,2004,Human coronavirus HKU1,Embecovirus
+Rattus_rattus_NC_012936_1_Rat_CoV,NC_012936,Rat_CoV_Parker,Rattus_rattus,0,USA,NA,1972,Rat coronavirus Parker,Embecovirus
+Homo_sapiens_NC_019843_3_MERS,NC_019843,MERS,Homo_sapiens,0,Saudi_Arabia,13-Jun-12,2012,Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012,Merbecovirus
+Bos_taurus_NC_038294_1_Betacoronavirus_1,NC_038294,MERS,Homo_sapiens,0,United_Kingdom,11-Sep-12,2012,Betacoronavirus England 1 isolate H123990006,Merbecovirus
+Pipistrellus_NC_009020_1_BatCoV_HKU5,NC_009020,HKU5,Pipistrellus_abramus,1,China,NA,2013,Pipistrellus bat coronavirus HKU5,Merbecovirus
+Tylonycteris_sp_NC_009019_1_HKU4,NC_009019,HKU4,Tylonycteris_pachypus,1,China,NA,2013,Tylonycteris bat coronavirus HKU4,Merbecovirus
 Erinaceus_NC_039207_1_ErinaceusCoV,NC_039207,NA,Erinaceus_europaeus,0,Germany,2012,2012,Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012,Merbecovirus
-Homo_sapiens_NC_045512_2_SARS_CoV_2,NC_045512,NA,Homo_sapiens,0,China,19-Dec,2019,Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1,Sarbecovirus
-Mus_musculus_NC_048217_1_MHV,NC_048217,A59,Mus_musculus,0,NA,NA,NA,Murine hepatitis virus strain A59,Embecovirus
-Pteropus_rufus_RR034B_010_fecRa_AMB130,AMB130,AMB130,Pteropus_rufus,1,Madagascar,2/26/18,2018,Pteropus_rufus_RR034B_010_fecRa_AMB130,Nobecovirus
-Pteropus_rufus_RR034B_021_AMB141,AMB141,AMB141,Pteropus_rufus,1,Madagascar,4/16/18,2018,Pteropus_rufus_RR034B_021_AMB141,Nobecovirus
-Rousettus_madagascariensis_RR034B_220_fecRa_MIZ165,MIZ165,MIZ165,Rousettus_madagascariensis,1,Madagascar,4/13/18,2018,Rousettus_madagascariensis_RR034B_220_fecRa_MIZ165,Nobecovirus
-Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,MIZ240,MIZ240,Rousettus_madagascariensis,1,Madagascar,9/11/18,2018,Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,Nobecovirus
-Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,MIZ178,MIZ178,Rousettus_madagascariensis,1,Madagascar,4/14/18,2018,Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,Nobecovirus
-Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,MIZ170,MIZ170,Rousettus_madagascariensis,1,Madagascar,4/13/18,2018,Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,Nobecovirus
-Eidolon_dupreanum_RR034B_179_KEL251,KEL251,KEL251,Eidolon_dupreanum,1,Madagascar,1/6/19,2019,Eidolon_dupreanum_RR034B_179_KEL251,Nobecovirus
+MG693170_1_Eidolon_helvum_Cameroon,MG693170,HKU9,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
+Rousettus_madagascariensis_RR034B_220_fecRa_MIZ165_reversed,MIZ165,NA,Rousettus_madagascariensis,1,Madagascar,NA,2018,NA,Nobecovirus
+HM211099_1_HKU_9_5_1_Rousettus_leschenaulti_China,HM211099,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
+EF065514_1_HKU_9_2_Rousettus_leschenaulti_China,EF065514,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
+HQ728482_1_Eidolon_helvum_Kenya,HQ728482,NA,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
+NC_048212_1_Eidolon_helvum_Cameroon,NC_048212,NA,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
+MG693172_1_Eidolon_helvum_Cameroon,MG693172,NA,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
+MG693171_1_Eidolon_helvum_Cameroon,MG693171,NA,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
+MG693169_1_Eidolon_helvum_Cameroon,MG693169,NA,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
+HM211100_1_HKU_9_10_1_Rousettus_leschenaulti_China,HM211100,HKU9,Rousettus_leschenaulti,1,China,NA,2006,NA,Nobecovirus
+MT350598_1_GCCDC1_Eonycteris_spelaea_Singapore,MT350598,GCCDC1,Eonycteris_spelaea,1,Singapore,NA,2016,NA,Nobecovirus
+NC_030886_GCCDC1_356_Rousettus_leschenaulti_China,NC_030886,GCCDC1,Rousettus_leschenaulti,1,China,NA,2014,NA,Nobecovirus
+NC_009021_1_HKU9_Rousettus_leschenaulti_China,NC_009021,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
+MK211379_1_GX2018_Rhinolophus_affinis_China,MK211379,GX2018,Rhinolophus_affinis,1,China,NA,2016,NA,Nobecovirus
+EF065516_1_HKU_9_4_Rousettus_leschenaulti_China,EF065516,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
+MK492263_1_BatCoV92_Cynopteris_brachyotis_Singapore,MK492263,BatCoV92,Cynopteris_brachyotis,1,Singapore,NA,2015,NA,Nobecovirus
+MG762674_1_HKU9_Rousettus_sp_China,MG762674,HKU9,Rousettus_sp,1,China,NA,2009,NA,Nobecovirus
+EF065515_1_HKU_9_3_Rousettus_leschenaulti_China,EF065515,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
+HM211098_1_HKU_9_5_1_Rhinolphus_sinicus_China,HM211098,HKU9,Rhinolophus_sinicus,1,China,NA,2005,NA,Nobecovirus

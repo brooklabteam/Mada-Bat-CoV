@@ -1,21 +1,21 @@
 tip_label,accession_num,strain,host,bat_host,country,collection_date,collection_year,title,sub_group
-AC_000192_1_Murine_hepatitis_virus_strain_JHM__complete_genome,AC_000192,NA,NA,0,NA,NA,NA,Murine hepatitis virus strain JHM,Embecovirus
-DQ071615_1_Bat_SARS_coronavirus_Rp3__complete_genome,DQ071615,NA,bat,1,China,NA,NA,Bat SARS coronavirus Rp3,Sarbecovirus
-DQ412042_1_Bat_SARS_coronavirus_Rf1__complete_genome,DQ412042,NA,Rhinolophus_ferrumequinum,1,NA,NA,NA,Bat SARS coronavirus Rf1,Sarbecovirus
-DQ412043_1_Bat_SARS_coronavirus_Rm1__complete_genome,DQ412043,NA,Rhinolophus_macrotis,1,NA,NA,NA,Bat SARS coronavirus Rm1,Sarbecovirus
-DQ648794_1_Bat_coronavirus__BtCoV_133_2005___complete_genome,DQ648794,BtCoV/133/2005,NA,0,NA,NA,NA,Bat coronavirus (BtCoV/133/2005),Merbecovirus
-EF065505_1_Bat_coronavirus_HKU4_1__complete_genome,EF065505,B04f,bat,1,China,NA,NA,Bat coronavirus HKU4-1,Merbecovirus
-EF065506_1_Bat_coronavirus_HKU4_2__complete_genome,EF065506,B05f,bat,1,China,NA,NA,Bat coronavirus HKU4-2,Merbecovirus
-EF065507_1_Bat_coronavirus_HKU4_3__complete_genome,EF065507,B07f,bat,1,China,NA,NA,Bat coronavirus HKU4-3,Merbecovirus
-EF065508_1_Bat_coronavirus_HKU4_4__complete_genome,EF065508,LMH1f,bat,1,China,NA,NA,Bat coronavirus HKU4-4,Merbecovirus
-EF065509_1_Bat_coronavirus_HKU5_1__complete_genome,EF065509,LMH03f,bat,1,China,NA,NA,Bat coronavirus HKU5-1,Merbecovirus
-EF065510_1_Bat_coronavirus_HKU5_2__complete_genome,EF065510,TT03f,bat,1,China,NA,NA,Bat coronavirus HKU5-2,Merbecovirus
-EF065511_1_Bat_coronavirus_HKU5_3__complete_genome,EF065511,TT06f,bat,1,China,NA,NA,Bat coronavirus HKU5-3,Merbecovirus
-EF065512_1_Bat_coronavirus_HKU5_5__complete_genome,EF065512,TT07f,bat,1,China,NA,NA,Bat coronavirus HKU5-5,Merbecovirus
-EF065513_1_Bat_coronavirus_HKU9-1__complete_genome,EF065513,BF_005I,bat,1,China,NA,NA,Bat coronavirus HKU9-1,Nobecovirus
-EF065514_1_Bat_coronavirus_HKU9-2__complete_genome,EF065514,BF_017I,bat,1,China,NA,NA,Bat coronavirus HKU9-2,Nobecovirus
-EF065515_1_Bat_coronavirus_HKU9-3__complete_genome,EF065515,BF_493I,bat,1,China,NA,NA,Bat coronavirus HKU9-3,Nobecovirus
-EF065516_1_Bat_coronavirus_HKU9-4__complete_genome,EF065516,BF_141I,bat,1,China,NA,NA,Bat coronavirus HKU9-4,Nobecovirus
+AC_000192_1_Murine_hepatitis_virus_strain_JHM__complete_genome,AC_000192,NA,Mus_musculus,0,USA,NA,1949,Murine hepatitis virus strain JHM,Embecovirus
+DQ071615_1_Bat_SARS_coronavirus_Rp3__complete_genome,DQ071615,Rp3,Rhinolophus_pearsoni,1,China,NA,2004,Bat SARS coronavirus Rp3,Sarbecovirus
+DQ412042_1_Bat_SARS_coronavirus_Rf1__complete_genome,DQ412042,Rf1,Rhinolophus_ferrumequinum,1,China,NA,2004,Bat SARS coronavirus Rf1,Sarbecovirus
+DQ412043_1_Bat_SARS_coronavirus_Rm1__complete_genome,DQ412043,Rm1,Rhinolophus_macrotis,1,China,NA,2004,Bat SARS coronavirus Rm1,Sarbecovirus
+DQ648794_1_Bat_coronavirus__BtCoV_133_2005___complete_genome,DQ648794,BtCoV/133/2005,Tylonycteris_pachypus,1,China,NA,2005,Bat coronavirus (BtCoV/133/2005),Merbecovirus
+EF065505_1_Bat_coronavirus_HKU4_1__complete_genome,EF065505,B04f,Tylonycteris_pachypus,1,China,NA,2005,Bat coronavirus HKU4-1,Merbecovirus
+EF065506_1_Bat_coronavirus_HKU4_2__complete_genome,EF065506,B05f,Tylonycteris_pachypus,1,China,NA,2005,Bat coronavirus HKU4-2,Merbecovirus
+EF065507_1_Bat_coronavirus_HKU4_3__complete_genome,EF065507,B07f,Tylonycteris_pachypus,1,China,NA,2005,Bat coronavirus HKU4-3,Merbecovirus
+EF065508_1_Bat_coronavirus_HKU4_4__complete_genome,EF065508,LMH1f,Tylonycteris_pachypus,1,China,NA,2005,Bat coronavirus HKU4-4,Merbecovirus
+EF065509_1_Bat_coronavirus_HKU5_1__complete_genome,EF065509,LMH03f,Pipistrellus_abramus,1,China,NA,2005,Bat coronavirus HKU5-1,Merbecovirus
+EF065510_1_Bat_coronavirus_HKU5_2__complete_genome,EF065510,TT03f,Pipistrellus_abramus,1,China,NA,2005,Bat coronavirus HKU5-2,Merbecovirus
+EF065511_1_Bat_coronavirus_HKU5_3__complete_genome,EF065511,TT06f,Pipistrellus_abramus,1,China,NA,2005,Bat coronavirus HKU5-3,Merbecovirus
+EF065512_1_Bat_coronavirus_HKU5_5__complete_genome,EF065512,TT07f,Pipistrellus_abramus,1,China,NA,2005,Bat coronavirus HKU5-5,Merbecovirus
+EF065513_1_Bat_coronavirus_HKU9-1__complete_genome,EF065513,BF_005I,Rousettus_leschenaulti,1,China,NA,2005,Bat coronavirus HKU9-1,Nobecovirus
+EF065514_1_Bat_coronavirus_HKU9-2__complete_genome,EF065514,BF_017I,Rousettus_leschenaulti,1,China,NA,2005,Bat coronavirus HKU9-2,Nobecovirus
+EF065515_1_Bat_coronavirus_HKU9-3__complete_genome,EF065515,BF_493I,Rousettus_leschenaulti,1,China,NA,2005,Bat coronavirus HKU9-3,Nobecovirus
+EF065516_1_Bat_coronavirus_HKU9-4__complete_genome,EF065516,BF_141I,Rousettus_leschenaulti,1,China,NA,2005,Bat coronavirus HKU9-4,Nobecovirus
 EF203064_1_Bat_coronavirus_HKU2_strain_HKU2_GD_430_2006__complete_genome,EF203064,HKU2/GD/430/2006,NA,1,NA,NA,NA,Bat coronavirus HKU2 strain HKU2/GD/430/2006,Alphacoronavirus
 EF203065_1_Bat_coronavirus_HKU2_strain_HKU2_HK_46_2006__complete_genome,EF203065,HKU2/HK/46/2006,NA,1,NA,NA,NA,Bat coronavirus HKU2 strain HKU2/HK/46/2006,Alphacoronavirus
 EF203066_1_Bat_coronavirus_HKU2_strain_HKU2_HK_298_2006__complete_genome,EF203066,HKU2/HK/298/2006,NA,1,NA,NA,NA,Bat coronavirus HKU2 strain HKU2/HK/298/2006,Alphacoronavirus
@@ -25,10 +25,10 @@ EU420138_1_Miniopterus_bat_coronavirus_1__complete_genome,EU420138,AFCD62,NA,1,H
 EU420139_1_Bat_coronavirus_HKU8_strain_AFCD77__complete_genome,EU420139,AFCD77,NA,1,Hong_Kong,NA,NA,Bat coronavirus HKU8 strain AFCD77,Alphacoronavirus
 FJ588686_1_Bat_SARS_CoV_Rs672_2006__complete_genome,FJ588686,NA,Rhinolophus_sinicus,1,China,2006,2006,Bat SARS CoV Rs672/2006,Sarbecovirus
 GU190215_1_Bat_coronavirus_BM48-31_BGR_2008__complete_genome,GU190215,BtCoV/BM48-31/BGR/2008,Rhinolophus_blasii,1,Bulgaria,2008,2008,Bat coronavirus BM48-31/BGR/2008,Sarbecovirus
-HM211098_1_Bat_coronavirus_HKU9-5_1__complete_genome,HM211098,NA,bat_BF_258I,1,China,11-Dec-05,2005,Bat coronavirus HKU9-5-1,Nobecovirus
-HM211099_1_Bat_coronavirus_HKU9-5_2__complete_genome,HM211099,NA,bat_BF_258I,1,China,11-Dec-05,2005,Bat coronavirus HKU9-5-2,Nobecovirus
-HM211100_1_Bat_coronavirus_HKU9-10_1__complete_genome,HM211100,NA,bat_BF_506I,1,China,10-Apr-06,2006,Bat coronavirus HKU9-10-1,Nobecovirus
-HM211101_1_Bat_coronavirus_HKU9-10_2__complete_genome,HM211101,NA,bat_BF_506I,1,China,10-Apr-06,2006,Bat coronavirus HKU9-10-2,Nobecovirus
+HM211098_1_Bat_coronavirus_HKU9-5_1__complete_genome,HM211098,NA,Rhinolophus_sinicus,1,China,11-Dec-05,2005,Bat coronavirus HKU9-5-1,Nobecovirus
+HM211099_1_Bat_coronavirus_HKU9-5_2__complete_genome,HM211099,NA,Rousettus_leschenaulti,1,China,11-Dec-05,2005,Bat coronavirus HKU9-5-2,Nobecovirus
+HM211100_1_Bat_coronavirus_HKU9-10_1__complete_genome,HM211100,NA,Rousettus_leschenaulti,1,China,10-Apr-06,2006,Bat coronavirus HKU9-10-1,Nobecovirus
+HM211101_1_Bat_coronavirus_HKU9-10_2__complete_genome,HM211101,NA,Rousettus_leschenaulti,1,China,10-Apr-06,2006,Bat coronavirus HKU9-10-2,Nobecovirus
 JQ989266_1_Hipposideros_bat_coronavirus_HKU10_isolate_TT3A__complete_genome,JQ989266,NA,bat,1,Hong_Kong,6-Dec,2021,Hipposideros bat coronavirus HKU10 isolate TT3A,Alphacoronavirus
 JQ989267_1_Hipposideros_bat_coronavirus_HKU10_isolate_SL12A__complete_genome,JQ989267,NA,bat,1,Hong_Kong,6-Dec,2021,Hipposideros bat coronavirus HKU10 isolate SL12A,Alphacoronavirus
 JQ989268_1_Hipposideros_bat_coronavirus_HKU10_isolate_TLC1310A__complete_genome,JQ989268,NA,bat,1,Hong_Kong,6-Oct,2021,Hipposideros bat coronavirus HKU10 isolate TLC1310A,Alphacoronavirus
@@ -37,12 +37,12 @@ JQ989270_1_Rousettus_bat_coronavirus_HKU10_isolate_183A__complete_genome,JQ98927
 JQ989271_1_Rousettus_bat_coronavirus_HKU10_isolate_175A__complete_genome,JQ989271,NA,bat,1,China,5-Oct,2021,Rousettus bat coronavirus HKU10 isolate 175A,Alphacoronavirus
 JQ989272_1_Hipposideros_bat_coronavirus_HKU10_isolate_TLC1343A__complete_genome,JQ989272,NA,bat,1,Hong_Kong,10-Aug,2021,Hipposideros bat coronavirus HKU10 isolate TLC1343A,Alphacoronavirus
 JQ989273_1_Hipposideros_bat_coronavirus_HKU10_isolate_TLC1347A__complete_genome,JQ989273,NA,bat,1,Hong_Kong,10-Aug,2021,Hipposideros bat coronavirus HKU10 isolate TLC1347A,Alphacoronavirus
-JX993987_1_Bat_coronavirus_Rp_Shaanxi2011__complete_genome,JX993987,NA,Rhinolophus_pusillus,1,China,11-Sep,2021,Bat coronavirus Rp/Shaanxi2011,Sarbecovirus
+JX993987_1_Bat_coronavirus_Rp_Shaanxi2011__complete_genome,JX993987,NA,Rhinolophus_pusillus,1,China,11-Sep,2011,Bat coronavirus Rp/Shaanxi2011,Sarbecovirus
 JX993988_1_Bat_coronavirus_Cp_Yunnan2011__complete_genome,JX993988,NA,Chaerephon_plicata,1,China,2011,2011,Bat coronavirus Cp/Yunnan2011,Sarbecovirus
-KC869678_4_Coronavirus_Neoromicia_PML-PHE1_RSA_2011__complete_genome,KC869678,Neoromicia/PML-PHE1/RSA/2011,Neoromicia_capensis,0,South_Africa,2011,2011,Coronavirus Neoromicia/PML-PHE1/RSA/2011,Merbecovirus
+KC869678_4_Coronavirus_Neoromicia_PML-PHE1_RSA_2011__complete_genome,KC869678,Neoromicia/PML-PHE1/RSA/2011,Neoromicia_capensis,1,South_Africa,2011,2011,Coronavirus Neoromicia/PML-PHE1/RSA/2011,Merbecovirus
 KC881005_1_Bat_SARS_like_coronavirus_RsSHC014__complete_genome,KC881005,NA,Rhinolophus_sinicus,1,China,17-Apr-11,2011,Bat SARS-like coronavirus RsSHC014,Sarbecovirus
 KC881006_1_Bat_SARS_like_coronavirus_Rs3367__complete_genome,KC881006,NA,Rhinolophus_sinicus,1,China,19-Mar-12,2012,Bat SARS-like coronavirus Rs3367,Sarbecovirus
-KF367457_1_Bat_SARS_like_coronavirus_WIV1__complete_genome,KF367457,NA,Rhinolophus_sinicus,1,China,12-Sep,2021,Bat SARS-like coronavirus WIV1,Sarbecovirus
+KF367457_1_Bat_SARS_like_coronavirus_WIV1__complete_genome,KF367457,NA,Rhinolophus_sinicus,1,China,12-Sep,2012,Bat SARS-like coronavirus WIV1,Sarbecovirus
 KF430219_1_Bat_coronavirus_CDPHE15_USA_2006__complete_genome,KF430219,bat/USA/CDPHE15/2006,Myotis_lucifugus,1,USA,7-Aug-06,2006,Bat coronavirus CDPHE15/USA/2006,Alphacoronavirus
 KF569996_1_Rhinolophus_affinis_coronavirus_isolate_LYRa11__complete_genome,KF569996,NA,Rhinolophus_affinis,1,China,2011,2011,Rhinolophus affinis coronavirus isolate LYRa11,Sarbecovirus
 KF636752_1_Bat_Hp-betacoronavirus_Zhejiang2013__complete_genome,KF636752,NA,Hipposideros_pratti,1,China,29-Apr-13,2013,Bat Hp-betacoronavirus/Zhejiang2013,Hibecovirus
@@ -64,13 +64,13 @@ KJ473814_1_BtRs_BetaCoV_HuB2013__complete_genome,KJ473814,NA,Rhinolophus_sinicus
 KJ473815_1_BtRs_BetaCoV_GX2013__complete_genome,KJ473815,NA,Rhinolophus_sinicus,1,China,2013,2013,BtRs-BetaCoV/GX2013,Sarbecovirus
 KJ473816_1_BtRs_BetaCoV_YN2013__complete_genome,KJ473816,NA,Rhinolophus_sinicus,1,China,2013,2013,BtRs-BetaCoV/YN2013,Sarbecovirus
 KJ473820_1_BtPa-BetaCoV_GD2013__complete_genome,KJ473820,NA,Pipistrellus_abramus,1,China,2013,2013,BtPa-BetaCoV/GD2013,Merbecovirus
-KJ473821_1_BtVs-BetaCoV_SC2013__complete_genome,KJ473821,NA,Vespertilio_superans,1,China,NA,NA,BtVs-BetaCoV/SC2013,Merbecovirus
+KJ473821_1_BtVs-BetaCoV_SC2013__complete_genome,KJ473821,NA,Vespertilio_superans,1,China,2013,2013,BtVs-BetaCoV/SC2013,Merbecovirus
 KJ473822_1_BtTp-BetaCoV_GX2012__complete_genome,KJ473822,NA,Tylonycteris_pachypus,1,China,2012,2012,BtTp-BetaCoV/GX2012,Merbecovirus
 KP886808_1_Bat_SARS_like_coronavirus_YNLF_31C__complete_genome,KP886808,NA,Rhinolophus_ferrumequinum,1,China,23-May-13,2013,Bat SARS-like coronavirus YNLF_31C,Sarbecovirus
 KP886809_1_Bat_SARS_like_coronavirus_YNLF_34C__complete_genome,KP886809,NA,Rhinolophus_ferrumequinum,1,China,23-May-13,2013,Bat SARS-like coronavirus YNLF_34C,Sarbecovirus
 KT444582_1_SARS_like_coronavirus_WIV16__complete_genome,KT444582,NA,Rhinolophus_sinicus,1,China,21-Jul-13,2013,SARS-like coronavirus WIV16,Sarbecovirus
 KU762338_1_Rousettus_bat_coronavirus_isolate_GCCDC1_356__complete_genome,KU762338,NA,Rousettus_leschenaulti,1,China,28-May-14,2014,Rousettus bat coronavirus isolate GCCDC1 356,Nobecovirus
-KU973692_1_UNVERIFIED__SARS_related_coronavirus_isolate_F46__complete_genome,KU973692,NA,bat,1,China,2012,2013,UNVERIFIED: SARS-related coronavirus isolate F46,Sarbecovirus
+KU973692_1_UNVERIFIED__SARS_related_coronavirus_isolate_F46__complete_genome,KU973692,NA,Rhinolophus_pusillus,1,China,2012,2012,UNVERIFIED: SARS-related coronavirus isolate F46,Sarbecovirus
 KX442564_1_Hypsugo_bat_coronavirus_HKU25_isolate_YD131305__complete_genome,KX442564,NA,Hypsugo_pulveratus,1,China,14-Sep-13,2013,Hypsugo bat coronavirus HKU25 isolate YD131305,Merbecovirus
 KX442565_1_Hypsugo_bat_coronavirus_HKU25_isolate_NL140462__complete_genome,KX442565,NA,Hypsugo_pulveratus,1,China,8-May-14,2014,Hypsugo bat coronavirus HKU25 isolate NL140462,Merbecovirus
 KY073744_1_NL63_related_bat_coronavirus_strain_BtKYNL63_9a__complete_genome,KY073744,BtKYNL63-9a,Triaenops_afer,1,Kenya,21-Jun-10,2010,NL63-related bat coronavirus strain BtKYNL63-9a,Alphacoronavirus
@@ -78,7 +78,7 @@ KY073745_1_NL63_related_bat_coronavirus_strain_BtKYNL63_9b__complete_genome,KY07
 KY073746_1_NL63_related_bat_coronavirus_strain_BtKYNL63_15__complete_genome,KY073746,BtKYNL63-15,Triaenops_afer,1,Kenya,6-Aug-08,2008,NL63-related bat coronavirus strain BtKYNL63-15,Alphacoronavirus
 KY073747_1_229E_related_bat_coronavirus_strain_BtKY229E_1__complete_genome,KY073747,BtKY229E-1,Hipposideros_sp.,1,Kenya,20-Jun-09,2009,229E-related bat coronavirus strain BtKY229E-1,Alphacoronavirus
 KY073748_1_229E_related_bat_coronavirus_strain_BtKY229E_8__complete_genome,KY073748,BtKY229E-8,Hipposideros_vittatus,1,Kenya,10-Jun,2021,229E-related bat coronavirus strain BtKY229E-8,Alphacoronavirus
-KY352407_1_Severe_acute_respiratory_syndrome_related_coronavirus_strain_BtKY72__complete_genome,KY352407,BtKY72,Rhinolophus_sp.,1,Kenya,7-Aug,2021,Severe acute respiratory syndrome-related coronavirus strain BtKY72,Sarbecovirus
+KY352407_1_Severe_acute_respiratory_syndrome_related_coronavirus_strain_BtKY72__complete_genome,KY352407,BtKY72,Rhinolophus_sp.,1,Kenya,7-Aug,2007,Severe acute respiratory syndrome-related coronavirus strain BtKY72,Sarbecovirus
 KY417142_1_Bat_SARS_like_coronavirus_isolate_As6526__complete_genome,KY417142,NA,Aselliscus_stoliczkanus,1,China,12-May-14,2014,Bat SARS-like coronavirus isolate As6526,Sarbecovirus
 KY417143_1_Bat_SARS_like_coronavirus_isolate_Rs4081__complete_genome,KY417143,NA,Rhinolophus_sinicus,1,China,18-Sep-12,2012,Bat SARS-like coronavirus isolate Rs4081,Sarbecovirus
 KY417144_1_Bat_SARS_like_coronavirus_isolate_Rs4084__complete_genome,KY417144,NA,Rhinolophus_sinicus,1,China,18-Sep-12,2012,Bat SARS-like coronavirus isolate Rs4084,Sarbecovirus
@@ -97,14 +97,14 @@ MG596802_1_Middle_East_respiratory_syndrome_related_coronavirus_isolate_Bat-CoV_
 MG596803_1_Middle_East_respiratory_syndrome_related_coronavirus_isolate_Bat-CoV_P_khulii_Italy_206645_63_2011__complete_genome,MG596803,NA,Pipistrellus_kuhlii,1,Italy,2011,2011,Middle East respiratory syndrome-related coronavirus isolate Bat-CoV/P.khulii/Italy/206645-63/2011,Merbecovirus
 MG742313_1_Porcine_enteric_Alphacoronavirus_strain_PEAV_GD-CH_2017__complete_genome,MG742313,PEAV-GD-CH/2017,NA,1,China,14-Mar-17,2017,Porcine enteric Alphacoronavirus strain PEAV-GD-CH/2017,Alphacoronavirus
 MG762674_1_Rousettus_bat_coronavirus_HKU9_isolate_Rousettus_spp_Jinghong_2009__complete_genome,MG762674,NA,Rousettus_sp.,1,China,1-Nov-09,2009,Rousettus bat coronavirus HKU9 isolate Rousettus spp/Jinghong/2009,Nobecovirus
-MG772933_1_Bat_SARS_like_coronavirus_isolate_bat-SL-CoVZC45__complete_genome,MG772933,NA,Rhinolophus_pusillus,1,China,17-Feb,2021,Bat SARS-like coronavirus isolate bat-SL-CoVZC45,Sarbecovirus
-MG772934_1_Bat_SARS_like_coronavirus_isolate_bat-SL-CoVZXC21__complete_genome,MG772934,NA,Rhinolophus_pusillus,1,China,15-Jul,2021,Bat SARS-like coronavirus isolate bat-SL-CoVZXC21,Sarbecovirus
-MH002337_1_Tylonycteris_bat_coronavirus_HKU4_isolate_CZ01__complete_genome,MH002337,NA,NA,1,China,1-Nov-12,2012,Tylonycteris bat coronavirus HKU4 isolate CZ01,Merbecovirus
-MH002338_1_Tylonycteris_bat_coronavirus_HKU4_isolate_CZ07__complete_genome,MH002338,NA,NA,1,China,1-Nov-12,2012,Tylonycteris bat coronavirus HKU4 isolate CZ07,Merbecovirus
-MH002339_1_Tylonycteris_bat_coronavirus_HKU4_isolate_SZ140324__complete_genome,MH002339,NA,NA,1,China,23-Apr-14,2014,Tylonycteris bat coronavirus HKU4 isolate SZ140324,Merbecovirus
-MH002340_1_Pipistrellus_bat_coronavirus_HKU5_isolate_BY140535__complete_genome,MH002340,NA,NA,1,China,26-Jun-14,2014,Pipistrellus bat coronavirus HKU5 isolate BY140535,Merbecovirus
-MH002341_1_Pipistrellus_bat_coronavirus_HKU5_isolate_BY140562__complete_genome,MH002341,NA,NA,1,China,28-Jun-14,2014,Pipistrellus bat coronavirus HKU5 isolate BY140562,Merbecovirus
-MH002342_1_Pipistrellus_bat_coronavirus_HKU5_isolate_YD13403__complete_genome,MH002342,NA,NA,1,China,3-Jun-13,2013,Pipistrellus bat coronavirus HKU5 isolate YD13403,Merbecovirus
+MG772933_1_Bat_SARS_like_coronavirus_isolate_bat-SL-CoVZC45__complete_genome,MG772933,NA,Rhinolophus_pusillus,1,China,17-Feb,2017,Bat SARS-like coronavirus isolate bat-SL-CoVZC45,Sarbecovirus
+MG772934_1_Bat_SARS_like_coronavirus_isolate_bat-SL-CoVZXC21__complete_genome,MG772934,NA,Rhinolophus_pusillus,1,China,15-Jul,2015,Bat SARS-like coronavirus isolate bat-SL-CoVZXC21,Sarbecovirus
+MH002337_1_Tylonycteris_bat_coronavirus_HKU4_isolate_CZ01__complete_genome,MH002337,NA,Tylonycteris_sp.,1,China,1-Nov-12,2012,Tylonycteris bat coronavirus HKU4 isolate CZ01,Merbecovirus
+MH002338_1_Tylonycteris_bat_coronavirus_HKU4_isolate_CZ07__complete_genome,MH002338,NA,Tylonycteris_sp.,1,China,1-Nov-12,2012,Tylonycteris bat coronavirus HKU4 isolate CZ07,Merbecovirus
+MH002339_1_Tylonycteris_bat_coronavirus_HKU4_isolate_SZ140324__complete_genome,MH002339,NA,Tylonycteris_sp.,1,China,23-Apr-14,2014,Tylonycteris bat coronavirus HKU4 isolate SZ140324,Merbecovirus
+MH002340_1_Pipistrellus_bat_coronavirus_HKU5_isolate_BY140535__complete_genome,MH002340,NA,Pipistrellus_sp.,1,China,26-Jun-14,2014,Pipistrellus bat coronavirus HKU5 isolate BY140535,Merbecovirus
+MH002341_1_Pipistrellus_bat_coronavirus_HKU5_isolate_BY140562__complete_genome,MH002341,NA,Pipistrellus_sp.,1,China,28-Jun-14,2014,Pipistrellus bat coronavirus HKU5 isolate BY140562,Merbecovirus
+MH002342_1_Pipistrellus_bat_coronavirus_HKU5_isolate_YD13403__complete_genome,MH002342,NA,Pipistrellus_sp.,1,China,3-Jun-13,2013,Pipistrellus bat coronavirus HKU5 isolate YD13403,Merbecovirus
 MH687934_1_Alphacoronavirus_sp__strain_VZ_AlphaCoV_16715_23__complete_genome,MH687934,VZ_AlphaCoV_16715_23,Scotophilus_kuhlii,1,Vietnam,11-Jun-14,2014,Alphacoronavirus sp. strain VZ_AlphaCoV_16715_23,Alphacoronavirus
 MH687935_1_Alphacoronavirus_sp__strain_VZ_AlphaCoV_16715_24__complete_genome,MH687935,VZ_AlphaCoV_16715_24,Scotophilus_kuhlii,1,Vietnam,17-Jun-14,2014,Alphacoronavirus sp. strain VZ_AlphaCoV_16715_24,Alphacoronavirus
 MH687936_1_Alphacoronavirus_sp__strain_VZ_AlphaCoV_16715_31__complete_genome,MH687936,VZ_AlphaCoV_16715_31,Scotophilus_kuhlii,1,Vietnam,17-Jun-14,2014,Alphacoronavirus sp. strain VZ_AlphaCoV_16715_31,Alphacoronavirus
@@ -147,27 +147,27 @@ MK211370_1_Coronavirus_BtSk-AlphaCoV_GX2018B__complete_genome,MK211370,NA,Scotop
 MK211371_1_Coronavirus_BtSk-AlphaCoV_GX2018C__complete_genome,MK211371,NA,Scotophilus_kuhlii,1,China,17-May,2021,Coronavirus BtSk-AlphaCoV/GX2018C,Alphacoronavirus
 MK211372_1_Coronavirus_BtSk-AlphaCoV_GX2018D__complete_genome,MK211372,NA,Scotophilus_kuhlii,1,China,17-May,2021,Coronavirus BtSk-AlphaCoV/GX2018D,Alphacoronavirus
 MK211373_1_Coronavirus_BtRs_AlphaCoV_YN2018__complete_genome,MK211373,NA,Cynopterus_sphinx,1,China,17-May,2021,Coronavirus BtRs-AlphaCoV/YN2018,Alphacoronavirus
-MK211374_1_Coronavirus_BtRl-BetaCoV_SC2018__complete_genome,MK211374,NA,Rhinolophus_sp.,1,China,16-Aug,2021,Coronavirus BtRl-BetaCoV/SC2018,Sarbecovirus
-MK211375_1_Coronavirus_BtRs_BetaCoV_YN2018A__complete_genome,MK211375,NA,Rhinolophus_affinis,1,China,16-Sep,2021,Coronavirus BtRs-BetaCoV/YN2018A,unclassified-Betacoronavirus
-MK211376_1_Coronavirus_BtRs_BetaCoV_YN2018B__complete_genome,MK211376,NA,Rhinolophus_affinis,1,China,16-Sep,2021,Coronavirus BtRs-BetaCoV/YN2018B,Sarbecovirus
-MK211377_1_Coronavirus_BtRs_BetaCoV_YN2018C__complete_genome,MK211377,NA,Rhinolophus_affinis,1,China,16-Sep,2021,Coronavirus BtRs-BetaCoV/YN2018C,Sarbecovirus
-MK211378_1_Coronavirus_BtRs_BetaCoV_YN2018D__complete_genome,MK211378,NA,Rhinolophus_affinis,1,China,16-Sep,2021,Coronavirus BtRs-BetaCoV/YN2018D,Sarbecovirus
-MK211379_1_Coronavirus_BtRt-BetaCoV_GX2018__complete_genome,MK211379,NA,Rhinolophus_affinis,1,China,16-Sep,2021,Coronavirus BtRt-BetaCoV/GX2018,Nobecovirus
+MK211374_1_Coronavirus_BtRl-BetaCoV_SC2018__complete_genome,MK211374,NA,Rhinolophus_sp.,1,China,16-Aug,2016,Coronavirus BtRl-BetaCoV/SC2018,Sarbecovirus
+MK211375_1_Coronavirus_BtRs_BetaCoV_YN2018A__complete_genome,MK211375,NA,Rhinolophus_affinis,1,China,16-Sep,2016,Coronavirus BtRs-BetaCoV/YN2018A,unclassified-Betacoronavirus
+MK211376_1_Coronavirus_BtRs_BetaCoV_YN2018B__complete_genome,MK211376,NA,Rhinolophus_affinis,1,China,16-Sep,2016,Coronavirus BtRs-BetaCoV/YN2018B,Sarbecovirus
+MK211377_1_Coronavirus_BtRs_BetaCoV_YN2018C__complete_genome,MK211377,NA,Rhinolophus_affinis,1,China,16-Sep,2016,Coronavirus BtRs-BetaCoV/YN2018C,Sarbecovirus
+MK211378_1_Coronavirus_BtRs_BetaCoV_YN2018D__complete_genome,MK211378,NA,Rhinolophus_affinis,1,China,16-Sep,2016,Coronavirus BtRs-BetaCoV/YN2018D,Sarbecovirus
+MK211379_1_Coronavirus_BtRt-BetaCoV_GX2018__complete_genome,MK211379,NA,Rhinolophus_affinis,1,China,16-Sep,2016,Coronavirus BtRt-BetaCoV/GX2018,Nobecovirus
 MK720944_1_Tylonycteris_bat_coronavirus_HKU33_strain_GZ151867__complete_genome,MK720944,GZ151867,Tylonycteris_robustula,1,China,9-Sep-15,2015,Tylonycteris bat coronavirus HKU33 strain GZ151867,Alphacoronavirus
 MK720945_1_Rhinolophus_bat_coronavirus_HKU32_strain_TLC26A__complete_genome,MK720945,TLC26A,Rhinolophus_sinicus,1,Hong_Kong,6-Aug-15,2015,Rhinolophus bat coronavirus HKU32 strain TLC26A,Alphacoronavirus
 MK720946_1_Rhinolophus_bat_coronavirus_HKU32_strain_TLC28A__complete_genome,MK720946,TLC28A,Rhinolophus_sinicus,1,Hong_Kong,6-Aug-15,2015,Rhinolophus bat coronavirus HKU32 strain TLC28A,Alphacoronavirus
 MN065811_1_Bat_alphacoronavirus_strain_BtCoV_008_16_M_bra_FIN_2016__complete_genome,MN065811,BtCoV/008_16/M.bra/FIN/2016,Myotis_brandtii,1,Finland,15-Aug-16,2016,Bat alphacoronavirus strain BtCoV/008_16/M.bra/FIN/2016,Alphacoronavirus
 MN611517_1_Rousettus_aegyptiacus_bat_coronavirus_229E_related_isolate_5425__complete_genome,MN611517,NA,Rousettus_aegyptiacus,1,Kenya,18-Mar,2021,Rousettus aegyptiacus bat coronavirus 229E-related isolate 5425,Alphacoronavirus
 MN611518_1_Miniopterus_pusillus_bat_coronavirus_HKU8-related_isolate_6610__complete_genome,MN611518,NA,Miniopterus_pusillus,1,China,18-Mar,2021,Miniopterus pusillus bat coronavirus HKU8-related isolate 6610,Alphacoronavirus
-MN611519_1_Tylonycteris_pachypus_bat_coronavirus_HKU4_related_isolate_GZ131656__complete_genome,MN611519,NA,Tylonycteris_pachypus,1,China,18-Mar,2021,Tylonycteris pachypus bat coronavirus HKU4-related isolate GZ131656,Merbecovirus
-MN611520_1_Pipistrellus_abramus_bat_coronavirus_HKU5_related_isolate_BY140568__complete_genome,MN611520,NA,Pipistrellus_abramus,1,China,18-Mar,2021,Pipistrellus abramus bat coronavirus HKU5-related isolate BY140568,Merbecovirus
+MN611519_1_Tylonycteris_pachypus_bat_coronavirus_HKU4_related_isolate_GZ131656__complete_genome,MN611519,NA,Tylonycteris_pachypus,1,China,18-Mar,2018,Tylonycteris pachypus bat coronavirus HKU4-related isolate GZ131656,Merbecovirus
+MN611520_1_Pipistrellus_abramus_bat_coronavirus_HKU5_related_isolate_BY140568__complete_genome,MN611520,NA,Pipistrellus_abramus,1,China,18-Mar,2018,Pipistrellus abramus bat coronavirus HKU5-related isolate BY140568,Merbecovirus
 MN611521_1_Scotophilus_kuhlii_bat_coronavirus_512_related_isolate_HK140714__complete_genome,MN611521,NA,Scotophilus_kuhlii,1,China,18-Mar,2021,Scotophilus kuhlii bat coronavirus 512-related isolate HK140714,Alphacoronavirus
 MN611522_1_Rhinolophus_affinis_bat_coronavirus_HKU2_related_isolate_160660__complete_genome,MN611522,NA,Rhinolophus_affinis,1,China,18-Mar,2021,Rhinolophus affinis bat coronavirus HKU2-related isolate 160660,Alphacoronavirus
 MN611523_1_Hipposideros_pomona_bat_coronavirus_HKU10_related_isolate_160942__complete_genome,MN611523,NA,Hipposideros_pomona,1,China,18-Mar,2021,Hipposideros pomona bat coronavirus HKU10-related isolate 160942,Alphacoronavirus
 MN611524_1_Miniopterus_schreibersii_bat_coronavirus_1-related_isolate_161454__complete_genome,MN611524,NA,Miniopterus_schreibersii,1,China,18-Mar,2021,Miniopterus schreibersii bat coronavirus 1-related isolate 161454,Alphacoronavirus
 MN611525_1_Hipposideros_pomona_bat_coronavirus_CHB25_isolate_CHB0025__complete_genome,MN611525,NA,Hipposideros_larvatus,1,China,18-Mar,2021,Hipposideros pomona bat coronavirus CHB25 isolate CHB0025,Alphacoronavirus
 MN996532_2_Bat_coronavirus_RaTG13__complete_genome,MN996532,NA,Rhinolophus_affinis,1,China,24-Jul-13,2013,Bat coronavirus RaTG13,Sarbecovirus
-MT350598_1_Rousettus_bat_coronavirus_GCCDC1__complete_genome,MT350598,NA,Eonycteris_spelaea,1,Singapore,16-Oct,2021,Rousettus bat coronavirus GCCDC1,Nobecovirus
+MT350598_1_Rousettus_bat_coronavirus_GCCDC1__complete_genome,MT350598,NA,Eonycteris_spelaea,1,Singapore,16-Oct,2016,Rousettus bat coronavirus GCCDC1,Nobecovirus
 MT663548_1_Bat_alphacoronavirus_isolate_AMA_L_F__complete_genome,MT663548,NA,Desmodus_rotundus,1,Peru,2015,2015,Bat alphacoronavirus isolate AMA_L_F,Alphacoronavirus
 MW218395_1_Tylonycteris_bat_coronavirus_HKU4_isolate_SM3A__complete_genome,MW218395,NA,Tylonycteris_pachypus,1,Hong_Kong,16-Aug-10,2010,Tylonycteris bat coronavirus HKU4 isolate SM3A,Merbecovirus
 MW719567_1_Sarbecovirus_RhGB01__complete_genome,MW719567,NA,Rhinolophus_hipposideros,1,United_Kingdom,18-Sep-20,2020,Sarbecovirus RhGB01,Sarbecovirus
@@ -197,28 +197,28 @@ MZ081398_1_Alphacoronavirus_sp__strain_bat_Yunnan_MlYN15_2020__complete_genome,M
 MZ081399_1_Alphacoronavirus_sp__strain_bat_Yunnan_RsYN25_2020__complete_genome,MZ081399,bat/Yunnan/RsYN25/2020,Rhinolophus_stheno,1,China,29-Jul-20,2020,Alphacoronavirus sp. strain bat/Yunnan/RsYN25/2020,Alphacoronavirus
 MZ190137_1_Bat_SARS_like_coronavirus_Khosta_1_strain_BtCoV_Khosta_1_Rh_Russia_2020__complete_genome,MZ190137,BtCoV/Khosta-1/Rh/Russia/2020,Rhinolophus_ferrumequinum,1,Russia,2020,2020,Bat SARS-like coronavirus Khosta-1 strain BtCoV/Khosta-1/Rh/Russia/2020,Sarbecovirus
 MZ190138_1_Bat_SARS_like_coronavirus_Khosta_2_strain_BtCoV_Khosta_2_Rh_Russia_2020__complete_genome,MZ190138,BtCoV/Khosta-2/Rh/Russia/2020,Rhinolophus_hipposideros,1,Russia,2020,2020,Bat SARS-like coronavirus Khosta-2 strain BtCoV/Khosta-2/Rh/Russia/2020,Sarbecovirus
-NC_001846_1_Murine_hepatitis_virus_strain_MHV_A59_C12_mutant__complete_genome,NC_001846,MHV-A59,NA,0,NA,NA,NA,Murine hepatitis virus strain MHV-A59 C12 mutant,Embecovirus
+NC_001846_1_Murine_hepatitis_virus_strain_MHV_A59_C12_mutant__complete_genome,NC_001846,MHV-A59,Mus_musculus,0,USA,NA,1997,Murine hepatitis virus strain MHV-A59 C12 mutant,Embecovirus
 NC_002306_3_Feline_infectious_peritonitis_virus__complete_genome,NC_002306,NA,NA,0,USA,NA,NA,Feline infectious peritonitis virus,Alphacoronavirus
 NC_002645_1_Human_coronavirus_229E__complete_genome,NC_002645,229E,NA,0,NA,NA,NA,Human coronavirus 229E,Alphacoronavirus
-NC_003045_1_Bovine_coronavirus_isolate_BCoV_ENT__complete_genome,NC_003045,NA,NA,0,NA,NA,NA,Bovine coronavirus isolate BCoV-ENT,Embecovirus
+NC_003045_1_Bovine_coronavirus_isolate_BCoV_ENT__complete_genome,NC_003045,NA,Bos_taurus,0,USA,NA,1972,Bovine coronavirus isolate BCoV-ENT,Embecovirus
 NC_003436_1_Porcine_epidemic_diarrhea_virus__complete_genome,NC_003436,CV777,NA,0,NA,NA,NA,Porcine epidemic diarrhea virus,Alphacoronavirus
-NC_004718_3_SARS_coronavirus_Tor2__complete_genome,NC_004718,NA,Homo_sapiens,0,Canada,NA,NA,SARS coronavirus Tor2,Sarbecovirus
+NC_004718_3_SARS_coronavirus_Tor2__complete_genome,NC_004718,NA,Homo_sapiens,0,Canada,NA,2003,SARS coronavirus Tor2,Sarbecovirus
 NC_005831_2_Human_Coronavirus_NL63__complete_genome,NC_005831,Amsterdam I,NA,0,NA,NA,NA,Human Coronavirus NL63,Alphacoronavirus
-NC_006213_1_Human_coronavirus_OC43_strain_ATCC_VR_759__complete_genome,NC_006213,ATCC VR-759,NA,0,USA,NA,NA,Human coronavirus OC43 strain ATCC VR-759,Embecovirus
-NC_006577_2_Human_coronavirus_HKU1__complete_genome,NC_006577,NA,Homo_sapiens,0,NA,NA,NA,Human coronavirus HKU1,Embecovirus
-NC_009019_1_Tylonycteris_bat_coronavirus_HKU4__complete_genome,NC_009019,HKU4-1 B04f,bat,1,China,NA,NA,Tylonycteris bat coronavirus HKU4,Merbecovirus
-NC_009020_1_Pipistrellus_bat_coronavirus_HKU5__complete_genome,NC_009020,HKU5-1 LMH03f,bat,1,China,NA,NA,Pipistrellus bat coronavirus HKU5,Merbecovirus
-NC_009021_1_Rousettus_bat_coronavirus_HKU9__complete_genome,NC_009021,HKU9-1 BF_005I,bat,1,China,NA,NA,Rousettus bat coronavirus HKU9,Nobecovirus
+NC_006213_1_Human_coronavirus_OC43_strain_ATCC_VR_759__complete_genome,NC_006213,ATCC VR-759,Homo_sapiens,0,USA,NA,1960,Human coronavirus OC43 strain ATCC VR-759,Embecovirus
+NC_006577_2_Human_coronavirus_HKU1__complete_genome,NC_006577,NA,Homo_sapiens,0,China,NA,2004,Human coronavirus HKU1,Embecovirus
+NC_009019_1_Tylonycteris_bat_coronavirus_HKU4__complete_genome,NC_009019,HKU4-1 B04f,Tylonycteris_pachypus,1,China,NA,2013,Tylonycteris bat coronavirus HKU4,Merbecovirus
+NC_009020_1_Pipistrellus_bat_coronavirus_HKU5__complete_genome,NC_009020,HKU5-1 LMH03f,Pipistrellus_abramus,1,China,NA,2013,Pipistrellus bat coronavirus HKU5,Merbecovirus
+NC_009021_1_Rousettus_bat_coronavirus_HKU9__complete_genome,NC_009021,HKU9-1 BF_005I,Rousettus_leschenaulti,1,China,NA,2005,Rousettus bat coronavirus HKU9,Nobecovirus
 NC_009657_1_Scotophilus_bat_coronavirus_512__complete_genome,NC_009657,BtCoV/512/2005,NA,1,NA,NA,NA,Scotophilus bat coronavirus 512,Alphacoronavirus
 NC_009988_1_Bat_coronavirus_HKU2__complete_genome,NC_009988,HKU2/GD/430/2006,NA,1,NA,NA,NA,Bat coronavirus HKU2,Alphacoronavirus
 NC_010437_1_Bat_coronavirus_1A__complete_genome,NC_010437,AFCD62,NA,1,Hong Kong,NA,NA,Bat coronavirus 1A,Alphacoronavirus
 NC_010438_1_Bat_coronavirus_HKU8__complete_genome,NC_010438,AFCD77,NA,1,Hong Kong,NA,NA,Bat coronavirus HKU8,Alphacoronavirus
-NC_010800_1_|Turkey_coronavirus__complete_genome,NC_010800,NA,turkey,0,Canada,NA,NA,Turkey coronavirus,Gammacoronavirus
-NC_012936_1_Rat_coronavirus_Parker__complete_genome,NC_012936,Parker,rat,0,NA,NA,NA,Rat coronavirus Parker,Embecovirus
-NC_014470_1_Bat_coronavirus_BM48-31_BGR_2008__complete_genome,NC_014470,BtCoV/BM48-31/BGR/2008,Rhinolophus_blasii,0,Bulgaria,2008,2008,Bat coronavirus BM48-31/BGR/2008,Sarbecovirus
+NC_010800_1_|Turkey_coronavirus__complete_genome,NC_010800,NA,Meleagris_gallopavo,0,Canada,NA,2007,Turkey coronavirus,Gammacoronavirus
+NC_012936_1_Rat_coronavirus_Parker__complete_genome,NC_012936,Parker,Rattus_norvegicus,0,USA,NA,1972,Rat coronavirus Parker,Embecovirus
+NC_014470_1_Bat_coronavirus_BM48-31_BGR_2008__complete_genome,NC_014470,BtCoV/BM48-31/BGR/2008,Rhinolophus_blasii,1,Bulgaria,2008,2008,Bat coronavirus BM48-31/BGR/2008,Sarbecovirus
 NC_017083_1_Rabbit_coronavirus_HKU14__complete_genome,NC_017083,HKU14-1,Oryctolagus_cuniculus,0,China,2006,2006,Rabbit coronavirus HKU14,Embecovirus
 NC_018871_1_Rousettus_bat_coronavirus_HKU10__complete_genome,NC_018871,NA,bat,1,China,5-Oct,2021,Rousettus bat coronavirus HKU10,Alphacoronavirus
-NC_019843_3_Middle_East_respiratory_syndrome_related_coronavirus_isolate_HCoV_EMC_2012__complete_genome,NC_019843,HCoV-EMC,Homo_sapiens,0,NA,13-Jun-12,2012,Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012,Merbecovirus
+NC_019843_3_Middle_East_respiratory_syndrome_related_coronavirus_isolate_HCoV_EMC_2012__complete_genome,NC_019843,HCoV-EMC,Homo_sapiens,0,Saudi_Arabia,13-Jun-12,2012,Middle East respiratory syndrome-related coronavirus isolate HCoV-EMC/2012,Merbecovirus
 NC_022103_1_Bat_coronavirus_CDPHE15_USA_2006__complete_genome,NC_022103,bat/USA/CDPHE15/2006,Myotis_lucifugus,1,USA,7-Aug-06,2006,Bat coronavirus CDPHE15/USA/2006,Alphacoronavirus
 NC_023760_1_Mink_coronavirus_strain_WD1127__complete_genome,NC_023760,WD1127,Mustela_vison,0,USA,1-Jan-98,1998,Mink coronavirus strain WD1127,Alphacoronavirus
 NC_025217_1_Bat_Hp-betacoronavirus_Zhejiang2013__complete_genome,NC_025217,NA,Hipposideros_pratti,1,China,29-Apr-13,2013,Bat Hp-betacoronavirus/Zhejiang2013,Hibecovirus
@@ -238,11 +238,11 @@ NC_035191_1_Wencheng_Sm_shrew_coronavirus_isolate_Xingguo-101_ORF1ab_polyprotein
 NC_038294_1_Betacoronavirus_England_1_isolate_H123990006__complete_genome,NC_038294,England 1,Homo_sapiens,0,United_Kingdom,11-Sep-12,2012,Betacoronavirus England 1 isolate H123990006,Merbecovirus
 NC_038861_1_Transmissible_gastroenteritis_virus_complete_genome__genomic_RNA,NC_038861,Purdue,pig,0,USA,NA,NA,"Transmissible gastroenteritis virus complete genome, genomic RNA",Alphacoronavirus
 NC_039207_1_Betacoronavirus_Erinaceus_VMC_DEU_2012_isolate_ErinaceusCoV_2012_174_GER_2012__complete_genome,NC_039207,NA,Erinaceus_europaeus,0,Germany,2012,2012,Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012,Merbecovirus
-NC_045512_2_Severe_acute_respiratory_syndrome_coronavirus_2_isolate_Wuhan_Hu_1__complete_genome,NC_045512,NA,Homo_sapiens,0,China,19-Dec,2021,Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1,Sarbecovirus
+NC_045512_2_Severe_acute_respiratory_syndrome_coronavirus_2_isolate_Wuhan_Hu_1__complete_genome,NC_045512,NA,Homo_sapiens,0,China,19-Dec,2019,Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1,Sarbecovirus
 NC_046964_1_Alphacoronavirus_Bat-CoV_P_kuhlii_Italy_3398-19_2015__complete_genome,NC_046964,Bat-CoV/P.kuhlii/Italy/3398-19/2015,Pipistrellus_kuhlii,1,Italy,2015,2015,Alphacoronavirus Bat-CoV/P.kuhlii/Italy/3398-19/2015,Alphacoronavirus
 NC_048211_1_Wencheng_Sm_shrew_coronavirus_isolate_Xingguo-74_ORF1ab_polyprotein__spike_glycoprotein__envelope_protein__membrane_protein__and_nucleocapsid_protein_genes__complete_cds,NC_048211,NA,Suncus_murinus,0,China,2015,2015,"Wencheng Sm shrew coronavirus isolate Xingguo-74 ORF1ab polyprotein, spike glycoprotein, envelope protein, membrane protein, and nucleocapsid protein genes, complete cds",Alphacoronavirus
 NC_048216_1_NL63_related_bat_coronavirus_strain_BtKYNL63_9b__complete_genome,NC_048216,BtKYNL63-9b,Triaenops_afer,1,Kenya,21-Jun-10,2010,NL63-related bat coronavirus strain BtKYNL63-9b,Alphacoronavirus
-NC_048217_1_Murine_hepatitis_virus_strain_A59__complete_genome,NC_048217,A59,NA,0,NA,NA,NA,Murine hepatitis virus strain A59,Embecovirus
+NC_048217_1_Murine_hepatitis_virus_strain_A59__complete_genome,NC_048217,A59,Mus_musculus,0,USA,NA,1961,Murine hepatitis virus strain A59,Embecovirus
 Bat_CoV_R_madagascariensis_MIZ240_NODE_2_length_28980_cov_27_781642_9788,MIZ240,Madagascar-Nobecovirus,Rousettus_madagascariensis,1,Madagascar,9/11/18,2018,New-Madagascar-Nobecovirus,Nobecovirus
 BatCoV_R_madagascariensis_MIZ178_NODE_1_length_28926_cov_14_641786_5234,MIZ178,Madagascar-Nobecovirus,Rousettus_madagascariensis,1,Madagascar,4/14/18,2018,New-Madagascar-Nobecovirus,Nobecovirus
 Bat_CoV_P_rufus_AMB130_NODE_1_length_29122_cov_127_557574,AMB130,Madagascar-Nobecovirus,Pteropus_rufus,1,Madagascar,2/26/18,2018,New-Madagascar-Nobecovirus,Nobecovirus
