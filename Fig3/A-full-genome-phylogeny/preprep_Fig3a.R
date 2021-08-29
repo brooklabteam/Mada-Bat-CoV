@@ -101,8 +101,6 @@ unclass.CoV <- dplyr::select(unclass.CoV, names(alpha.CoV))
 #44 bat Unclassified CoVs
 
 
-
-
 #and get the text to download from NCBI
 all.CoV <- rbind(betaCoV, alpha.CoV, unclass.CoV) #287 genomes + 3 madagascar sequences
 accession_num <- paste(c(all.CoV$Accession), collapse = ", ")
@@ -111,29 +109,25 @@ accession_num <- paste(c(all.CoV$Accession), collapse = ", ")
 text.for.NCBI <- paste0("http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&retmode=text&id=",accession_num)
 
 #once downloaded, send to MAFFT for alignment
-
+rm(list=ls())
 #then, after alignment is ready, prepare the names for RAxML (no space, semicolon, colon, parentheses, dash, slash, comma, quote allowed in name (should just all be underscore)
 library(seqinr)
 #library(msa)
-alignment1 <- read.alignment(file = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/A-full-genome-phylogeny/alignment_fullgenomeCoVs_8_7_rename.fasta", format="fasta", forceToLower = F)
-tmp <- alignment1$nam
-#alignment1$seq[[1]]
+alignment1 <- read.alignment(file = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/A-full-genome-phylogeny/allCoVsalign825.fasta", format="fasta", forceToLower = F) #alignment_fullgenomeCoVs_8_7_rename.fasta", format="fasta", forceToLower = F)
 
-new_names <- sub("-", "_", tmp) 
-new_names <- sub("-", "_", tmp) 
-new_names <- sub("-", "_", new_names) 
-new_names <- sub("-", "_", new_names) 
-new_names <- sub("-", "_", new_names) 
-new_names <- sub("(", "_", new_names) 
-new_names <- sub("/", "_", new_names) 
-new_names <- sub(":", "_", new_names) 
-new_names <- sub(";", "_", new_names) 
-new_names <- sub(".", "_", new_names) 
-new_names <- sub(")", "_", new_names) 
-new_names <- sub(" ", "", new_names) 
+                             
+tmp <- as.list(alignment1$nam)
+
+change.spacing <- function(df){
+  df_new <- sapply(strsplit(df,"-"), function(x) x[[1]])
+  return(df_new)
+}
+
+names_new = c(unlist(lapply(tmp, change.spacing)))
+#alignment1$seq[[1]]
 
 #new_names <- sub("__", "_", new_names) 
 class(alignment1$seq)
-write.fasta(sequences = as.list(alignment1$seq), names = new_names, file.out =  "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/A-full-genome-phylogeny/RAxML_alignment_fullgenomeCoVs_8_7.fasta", as.string = T, open="w")
+write.fasta(sequences = as.list(alignment1$seq), names = names_new, file.out =  "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/Fig3/A-full-genome-phylogeny/RAxML_alignment_fullgenomeCoVs_8_25.fasta", as.string = T, open="w")
 
 #now send aboce to modeltest and eventually RAxML

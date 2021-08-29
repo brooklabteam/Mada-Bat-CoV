@@ -1,45 +1,45 @@
 Accession_Number,Species,Sequence_Type,Nuc_Completeness,Geo_Location,Country,USA,Host,Collection_Date,Year,sub_group
 MZ081376,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,5/25/20,2020,Sarbecovirus
-MZ081377,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,6/3/20,2020,
+MZ081377,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,6/3/20,2020,Sarbecovirus
 MZ081378,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,7/14/20,2020,Sarbecovirus
-MZ081379,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus sinicus,10/22/19,2019,
+MZ081379,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus sinicus,10/22/19,2019,Sarbecovirus
 MZ081380,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,4/18/20,2020,Sarbecovirus
-MZ081381,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus pusillus,5/25/20,2020,
-MZ081382,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,7/28/20,2020,
-MK211375,Coronavirus BtRs-BetaCoV/YN2018A,GenBank,complete,China,China,,Rhinolophus affinis,2016-09,2016,
-MZ081376,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,5/25/20,2020,
-MZ081377,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,6/3/20,2020,
-MZ081378,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,7/14/20,2020,
-MZ081379,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus sinicus,10/22/19,2019,
-MZ081380,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,4/18/20,2020,
-MZ081381,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus pusillus,5/25/20,2020,
-MZ081382,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,7/28/20,2020,
+MZ081381,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus pusillus,5/25/20,2020,Sarbecovirus
+MZ081382,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,7/28/20,2020,Sarbecovirus
+MK211375,Coronavirus BtRs-BetaCoV/YN2018A,GenBank,complete,China,China,,Rhinolophus affinis,2016-09,2016,Sarbecovirus
+MZ081376,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,5/25/20,2020,Sarbecovirus
+MZ081377,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,6/3/20,2020,Sarbecovirus
+MZ081378,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus malayanus,7/14/20,2020,Sarbecovirus
+MZ081379,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus sinicus,10/22/19,2019,Sarbecovirus
+MZ081380,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,4/18/20,2020,Sarbecovirus
+MZ081381,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus pusillus,5/25/20,2020,Sarbecovirus
+MZ081382,Betacoronavirus sp.,GenBank,complete,China,China,,Rhinolophus stheno,7/28/20,2020,Sarbecovirus
 MK492263,Bat coronavirus,GenBank,complete,Singapore,Singapore,,Cynopterus brachyotis,2015,2015,Nobecovirus
 NC_048212,Bat coronavirus,GenBank,complete,Cameroon,Cameroon,,Eidolon helvum,2013-12,2013,Nobecovirus
-MN535734,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis dasycneme,2016-11,2016,
-MN535731,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2014-10,2014,
-MN535732,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2014-10,2014,
-MN535733,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2018-10,2018,
-MN482243,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2015-11,2015,
-MZ218052,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2015-11,2015,
-KU182965,Bat coronavirus,GenBank,complete,China,China,,Myotis daubentonii,2012-12,2012,
-KY770851,Bat coronavirus,GenBank,complete,China,China,,Myotis davidii,2013,2013,
-KY770850,Bat coronavirus,GenBank,complete,China,China,,Myotis siligorensis,2013,2013,
-NC_034440,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Pipistrellus,2/20/13,2013,
-KX574227,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Pipistrellus,2/20/13,2013,
-MN482242,Bat coronavirus,GenBank,complete,"Denmark: Funen, Sollerup forest",Denmark,,Pipistrellus pygmaeus,2013-08,2013,
-MT726043,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Rhinolophus,5/30/13,2013,
-MT726044,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Rhinolophus,5/30/13,2013,
-MT726045,Bat coronavirus,GenBank,complete,Rwanda,Rwanda,,Rhinolophus,9/27/11,2011,
-MW703458,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus blythi,2018-08,2008,
-KY938558,Bat coronavirus,GenBank,complete,South Korea: abandoned mine,South Korea,,Rhinolophus ferrumequinum,4/17/16,2016,
-KY770860,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus ferrumequinum,2012,2012,
-KU182964,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus ferrumequinum,2013-08,2013,
-KY770858,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,2013,2013,
-KY770859,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,2013,2013,
-LC469308,Bat coronavirus,GenBank,complete,"Japan:Tokyo, Okutama",Japan,,Vespertilio sinensis,,2019,
-MG916901,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,5/19/12,2012,
-MG916902,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,9/16/12,2012,
-MG916903,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,4/17/13,2013,
-MG916904,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus affinis,6/1/13,2013,
-MW251308,Bat coronavirus RacCS203,GenBank,complete,Thailand,Thailand,,Rhinolophus acuminatus,6/19/20,2020,
+MN535734,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis dasycneme,2016-11,2016,Alphacoronavirus
+MN535731,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2014-10,2014,Alphacoronavirus
+MN535732,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2014-10,2014,Alphacoronavirus
+MN535733,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2018-10,2018,Alphacoronavirus
+MN482243,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2015-11,2015,Alphacoronavirus
+MZ218052,Bat coronavirus,GenBank,complete,Denmark: Moensted,Denmark,,Myotis daubentonii,2015-11,2015,Alphacoronavirus
+KU182965,Bat coronavirus,GenBank,complete,China,China,,Myotis daubentonii,2012-12,2012,Merbecovirus
+KY770851,Bat coronavirus,GenBank,complete,China,China,,Myotis davidii,2013,2013,Alphacoronavirus
+KY770850,Bat coronavirus,GenBank,complete,China,China,,Myotis siligorensis,2013,2013,Alphacoronavirus
+NC_034440,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Pipistrellus,2/20/13,2013,Merbecovirus
+KX574227,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Pipistrellus,2/20/13,2013,Merbecovirus
+MN482242,Bat coronavirus,GenBank,complete,"Denmark: Funen, Sollerup forest",Denmark,,Pipistrellus pygmaeus,2013-08,2013,Alphacoronavirus
+MT726043,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Rhinolophus,5/30/13,2013,Sarbecovirus
+MT726044,Bat coronavirus,GenBank,complete,Uganda,Uganda,,Rhinolophus,5/30/13,2013,Sarbecovirus
+MT726045,Bat coronavirus,GenBank,complete,Rwanda,Rwanda,,Rhinolophus,9/27/11,2011,Sarbecovirus
+MW703458,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus blythi,2018-08,2008,Sarbecovirus
+KY938558,Bat coronavirus,GenBank,complete,South Korea: abandoned mine,South Korea,,Rhinolophus ferrumequinum,4/17/16,2016,Sarbecovirus
+KY770860,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus ferrumequinum,2012,2012,Sarbecovirus
+KU182964,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus ferrumequinum,2013-08,2013,Sarbecovirus
+KY770858,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,2013,2013,Sarbecovirus
+KY770859,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,2013,2013,Sarbecovirus
+LC469308,Bat coronavirus,GenBank,complete,"Japan:Tokyo, Okutama",Japan,,Vespertilio sinensis,,2019,Merbecovirus
+MG916901,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,5/19/12,2012,Alphacoronavirus
+MG916902,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,9/16/12,2012,Alphacoronavirus
+MG916903,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus sinicus,4/17/13,2013,Alphacoronavirus
+MG916904,Bat coronavirus,GenBank,complete,China,China,,Rhinolophus affinis,6/1/13,2013,Alphacoronavirus
+MW251308,Bat coronavirus RacCS203,GenBank,complete,Thailand,Thailand,,Rhinolophus acuminatus,6/19/20,2020,Sarbecovirus
