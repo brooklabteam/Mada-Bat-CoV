@@ -12,7 +12,7 @@ homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
 setwd(paste0(homewd, "/Fig3"))
 
 #load the fig3a tree
-treeA <-  read.tree(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/3-Fig3A-raxml-output/Fig3A.raxml.supportTBE"))
+treeA <-  read.tree(file = paste0(homewd, "Fig3/A-full-genome-phylogeny/3-Fig3A-raxml-output/Fig3A.raxml.supportFBP"))
 
 #root it
 
@@ -37,7 +37,7 @@ dat$novel = 0
 dat$novel[dat$country=="Madagascar"] <- 1
 dat$novel <- as.factor(dat$novel)
 
-rooted.tree.A$node.label <- round(as.numeric(rooted.tree.A$node.label)*100, 0)
+#rooted.tree.A$node.label <- round(as.numeric(rooted.tree.A$node.label)*100, 0)
 
 #take a glance
 p <- ggtree(rooted.tree.A) %<+% dat + geom_tippoint(aes(fill=sub_group)) +
@@ -99,7 +99,7 @@ p1
 
 #### And Fig 3 B
 #load the fig3b tree
-treeB <-  read.tree(file = paste0(homewd, "Fig3/B-RdRP-phylogeny/3-Fig3B-raxml-output/Fig3B.raxml.supportTBE"))
+treeB <-  read.tree(file = paste0(homewd, "Fig3/B-RdRP-phylogeny/3-Fig3B-raxml-output/Fig3B.raxml.supportFBP"))
 
 
 #take a quick look in base R
@@ -127,7 +127,7 @@ colz = c("Sarbecovirus" = "darkorchid1", "unclassified-Betacoronavirus"= "magent
 datB$sub_group <- factor(datB$sub_group, levels = c("Embecovirus", "Sarbecovirus", "Hibecovirus", "Nobecovirus", "Merbecovirus", "Gammacoronavirus"))   
 
 
-rooted.tree.B$node.label <- round(as.numeric(rooted.tree.B$node.label)*100, 0)
+#rooted.tree.B$node.label <- round(as.numeric(rooted.tree.B$node.label)*100, 0)
 
 #take a glance in the same manner as in A
 pB <- ggtree(rooted.tree.B) %<+% datB + geom_tippoint(aes(fill=sub_group)) +

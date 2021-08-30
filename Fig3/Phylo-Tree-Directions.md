@@ -2,7 +2,7 @@
 
 ## Building a phylogenetic tree
 
-This tutorial outlines methods for building a maximum-likelihood phylogenetic tree using the program RAxML. We will build (A) a full genome phylogeny of all full genome sequences of Alpha- and Betacoronaviruses on [NCBI-Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/), fitting our new Madagascar whole genome sequences into the picture, and (B) a partial tree focused on just the RdRp gene of the virus. I outline directions below for how to build (A) first.
+This tutorial outlines methods for building a maximum-likelihood phylogenetic tree using the program RAxML. We will build (A) a full genome phylogeny of all full genome sequences of Alpha- and Betacoronaviruses on [NCBI-Virus](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/), fitting our new Madagascar whole genome sequences into the picture, (B) a partial tree focused on just the RdRp gene of the virus, and (C) four amino acid trees derived from translated alignments corresponding to the S, E, M, and N proteins of each genome. I outline directions below for how to build (A) first.
 
 ---
 
@@ -181,7 +181,7 @@ cat 20210808_Mada_Bat_CoV_RdRp_blast_feces_prot_results_100len5eval.txt | awk '{
 
 6. With the above list, I then returned to script "preprep_Fig3.R" and collected contigs which were positive hits. Using those positive contigs, I then built an MSA linking each contig in turn to its closest full genome neighbor in Geneious, then selected those which mapped to an overlapping region of the RdRp gene. I also manually went through all contigs produced from the IDseq pipeline which mapped to any coronavirus and did the same mapping exercise. All-in-all, I found seven genome segments (2x P. rufus, 4 x R. madagascariensis, 1x E. dupreanum) which included the RdRp gene, which I included in the Fig3B phylogeny (see file 'all_RR034B_samples_RdRp.fasta').
 
-7. After selecting the RdRp genomes from the Madagascar project, I combined them with (A) all the Madagascar bat RdRp genome fragments that overlapped from [Razanajatovo et al. 2015](https://doi.org/10.1186/s12985-015-0271-y) (these were the 993bp fragments starting with "KP"), (b) all the Madagascar Betacoronavirus sequences from [Joffrin et al. 2019](https://doi.org/10.1038/s41598-020-63799-7) (these I ended up deleting because they did not overlap), (c) all Nobecovirus RdRp fragments cited in Joffrin et al. 2019, (d) all near-full length Nobecoviruses available in GenBank (19), and (e) all full-length reference sequences from the other bat subgenera (a single Hibecovirus, two Sarbecoviruses, one Merbecovirus, and two Embecoviruses).
+7. After selecting the RdRp genomes from the Madagascar project, I combined them with (A) all the Madagascar bat RdRp genome fragments that overlapped from [Razanajatovo et al. 2015](https://doi.org/10.1186/s12985-015-0271-y) (these were the 993bp fragments starting with "KP"), (b) all the Madagascar Betacoronavirus sequences from [Joffrin et al. 2019](https://doi.org/10.1038/s41598-020-63799-7) (these I ended up deleting because they did not overlap), (c) all near-full length Nobecoviruses available in GenBank (19), (d) all full-length reference sequences from the other bat subgenera (a single Hibecovirus, three Sarbecoviruses, five Merbecoviruses, and eight Embecoviruses), and (e) our turkey Gammacoronavirus outgroup.
 
 Here is the script I used to download the Nobecovirus RdRp fragments:
 

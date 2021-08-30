@@ -1,116 +1,171 @@
-rm(list=ls())
+rm(list = ls())
 
 library(plyr)
 library(dplyr)
 library(ggplot2)
-library(reshape2)
+library(ggtree)
+library(ape)
+library(ggnewscale)
 
-homewd="/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV"
-setwd(paste0(homewd, "/Fig4/"))
+#load trees and make into multipanel amino acid tree plot
 
-simplot <- read.csv(file = "all_simplot.csv", header = T, stringsAsFactors = F)
-head(simplot)
+homewd = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
+setwd(paste0(homewd, "Fig4")) 
 
-#move to long
-long.sim <- melt(simplot, id.vars = c("CenterPos", "Alternate_ID", "Query"), measure.vars = c("HKU9", "Eidolon_helvum", "Alternate"))
+#load trees
+Stree  <- read.tree(file = paste0(homewd,"Fig4/4-raxml-output/S/Sgene.raxml.supportFBP"))
+Mtree  <- read.tree(file = paste0(homewd,"Fig4/4-raxml-output/M/Mgene.raxml.supportFBP"))
+Etree  <- read.tree(file = paste0(homewd,"Fig4/4-raxml-output/E/Egene.raxml.supportFBP"))
+Ntree  <- read.tree(file = paste0(homewd,"Fig4/4-raxml-output/N/Ngene.raxml.supportFBP"))
 
-head(long.sim)
-unique(long.sim$variable)
-long.sim$variable <- as.character(long.sim$variable)
-long.sim$variable[long.sim$variable=="Alternate"] <- long.sim$Alternate_ID[long.sim$variable=="Alternate"] 
-unique(long.sim$variable)
-names(long.sim)[names(long.sim)=="variable"] <- "strain"
-
-long.sim$strain[long.sim$strain=="Eidolon_helvum"] <- "Eidolon helvum"
-long.sim$strain[long.sim$strain=="Pteropus_rufus"] <- "Pteropus rufus"
-long.sim$strain[long.sim$strain=="Rousettus_madagascariensis"] <- "Rousettus madagascariensis"
-
-long.sim$strain <- factor(long.sim$strain, levels = c("HKU9", "Eidolon helvum", "Pteropus rufus", "Rousettus madagascariensis"))
-
-#and plot
-
-long.sim$value[long.sim$value<0] <- 0
-long.sim$Query[long.sim$Query=="Pteropus_rufus"] <- "Pteropus rufus"
-long.sim$Query[long.sim$Query=="Rousettus_madagascariensis"] <- "Rousettus madagascariensis"
-
-genome.df <- data.frame(position = c(284, 21400, 
-                                     21311, 25447, 
-                                     25447, 26189, 
-                                     26189, 26422, 
-                                     26422, 27114, 
-                                     27186, 28738, 
-                                     28828, 30263), 
-                        gene = rep(c("Orf1ab", "S", "NS3", "E", "M", "N", "NS7"), each=2))
-
-genome.df$gene <- factor(genome.df$gene, levels = unique(genome.df$gene))
-colz= c("HKU9"="firebrick3", "Eidolon helvum" = "royalblue", "Pteropus rufus" = "purple3", "Rousettus madagascariensis" = "forestgreen")
-p1leg <- ggplot(long.sim) + geom_line(aes(x=CenterPos, y=value, color=strain), size=1) +
-  geom_ribbon(data=genome.df, aes(x=position, ymin=-.1, ymax=-.05, fill=gene), color="black") +
-  facet_grid(Query~.) + theme_bw() + xlab("genome position") + ylab("similarity") +
-  theme(panel.grid = element_blank(), strip.text = element_text(face="italic", size=14),
-        strip.background = element_rect(fill="white"), 
-        legend.position = "right", #legend.direction = "horizontal",
-        axis.text = element_text(size=12), axis.title = element_text(size=14)) +
-  scale_color_manual(values=colz)
-p1leg
-
-leg1 <- cowplot::get_legend(p1leg)
-
-p1 <- ggplot(long.sim) + geom_line(aes(x=CenterPos, y=value, color=strain), show.legend = F, size=.7) +
-      geom_ribbon(data=genome.df, aes(x=position, ymin=-.1, ymax=-.05, fill=gene), color="black", show.legend = F) +
-      facet_grid(Query~.) + theme_bw() + xlab("genome position") + ylab("similarity") +
-      theme(panel.grid = element_blank(), strip.text = element_text(face="italic", size=14),
-            strip.background = element_rect(fill="white"),
-            axis.text = element_text(size=12), axis.title = element_text(size=14)) +
-      scale_color_manual(values=colz)
-p1
+Stree.root<- root(Stree, which(Stree$tip.label == "GammaCoV_NC_010800_1_Turkey_S"))
+Mtree.root<- root(Mtree, which(Mtree$tip.label == "GammaCoV_NC_010800_1_Turkey_M"))
+Etree.root<- root(Etree, which(Etree$tip.label == "GammaCoV_NC_010800_1_Turkey_E"))
+Ntree.root<- root(Ntree, which(Ntree$tip.label == "GammaCoV_NC_010800_1_Turkey_N"))
 
 
-#add in the bootscan
-bootplot <- read.csv(file = "all_bootscan.csv", header = T, stringsAsFactors = F)
-head(bootplot)
+#load metadata
+meta.dat <- read.csv(file = paste0(homewd,"Fig4/amino_acid_metadata_manual.csv"), header = T, stringsAsFactors = F)
+head(meta.dat)
 
-#move to long
-long.boot <- melt(bootplot, id.vars = c("CenterPos", "ID_Alternative", "Query"), measure.vars = c("HKU9", "Eidolon_helvum", "Alternative"))
+meta.dat$new_label <- NA
+meta.dat$new_label[meta.dat$strain!=""] <- paste0(meta.dat$accession_number[meta.dat$strain!=""], " | ", 
+                                                  meta.dat$strain[meta.dat$strain!=""], " | ",
+                                                  meta.dat$host[meta.dat$strain!=""], " | ",
+                                                  meta.dat$country[meta.dat$strain!=""], " | ",
+                                                  meta.dat$year[meta.dat$strain!=""])
 
-head(long.boot)
-unique(long.boot$variable)
-long.boot$variable <- as.character(long.boot$variable)
-long.boot$variable[long.boot$variable=="Alternative"] <- long.boot$ID_Alternative[long.boot$variable=="Alternative"] 
-unique(long.boot$variable)
-names(long.boot)[names(long.boot)=="variable"] <- "strain"
+meta.dat$new_label[meta.dat$strain==""] <- paste0(meta.dat$accession_number[meta.dat$strain==""], " | ", 
+                                                  meta.dat$host[meta.dat$strain==""], " | ",
+                                                  meta.dat$country[meta.dat$strain==""], " | ",
+                                                  meta.dat$year[meta.dat$strain==""])
+                                                  
+meta.dat$novel = 0
+meta.dat$novel[meta.dat$country=="Madagascar"] <- 1
+meta.dat$novel <- as.factor(meta.dat$novel)
+meta.dat$bat_host[meta.dat$bat_host==1] <- "bat host"
+meta.dat$bat_host[meta.dat$bat_host==0] <- "non-bat host"
+meta.dat$bat_host <- as.factor(meta.dat$bat_host)
+metaS <- meta.dat
+metaE <- meta.dat
+metaN <- meta.dat
+metaM <- meta.dat
+metaS$tip_label <- paste0(metaS$tip_label, "_S")
+metaE$tip_label <- paste0(metaE$tip_label, "_E")
+metaN$tip_label <- paste0(metaN$tip_label, "_N")
+metaM$tip_label <- paste0(metaM$tip_label, "_M")
 
-long.boot$strain[long.boot$strain=="Eidolon_helvum"] <- "Eidolon helvum"
-long.boot$strain[long.boot$strain=="Pteropus_rufus"] <- "Pteropus rufus"
-long.boot$strain[long.boot$strain=="Rousettus_madagascariensis"] <- "Rousettus madagascariensis"
+Sdat <- data.frame(tip_label=Stree.root$tip.label)
+Sdat <- merge(Sdat, metaS, by="tip_label", all.x = T, sort = F)
+Sdat$old_label <- Sdat$tip_label
+Sdat$tip_label <- Sdat$new_label
+Stree.root$tip.label <- Sdat$tip_label
 
-long.boot$strain <- factor(long.boot$strain, levels = c("HKU9", "Eidolon helvum", "Pteropus rufus", "Rousettus madagascariensis"))
+Edat <- data.frame(tip_label=Etree.root$tip.label)
+Edat <- merge(Edat, metaE, by="tip_label", all.x = T, sort = F)
+Edat$old_label <- Edat$tip_label
+Edat$tip_label <- Edat$new_label
+Etree.root$tip.label <- Edat$tip_label
 
-long.boot$value[long.boot$value<0] <- 0
-long.boot$Query[long.boot$Query=="Pteropus_rufus"] <- "Pteropus rufus"
-long.boot$Query[long.boot$Query=="Rousettus_madagascariensis"] <- "Rousettus madagascariensis"
+Mdat <- data.frame(tip_label=Mtree.root$tip.label)
+Mdat <- merge(Mdat, metaM, by="tip_label", all.x = T, sort = F)
+Mdat$old_label <- Mdat$tip_label
+Mdat$tip_label <- Mdat$new_label
+Mtree.root$tip.label <- Mdat$tip_label
+
+
+Ndat <- data.frame(tip_label=Ntree.root$tip.label)
+Ndat <- merge(Ndat, metaN, by="tip_label", all.x = T, sort = F)
+Ndat$old_label <- Ndat$tip_label
+Ndat$tip_label <- Ndat$new_label
+Ntree.root$tip.label <- Ndat$tip_label
+
+
+colz = c("Sarbecovirus" = "darkorchid1", "Embecovirus"="darkgoldenrod1", "Gammacoronavirus" = "black", "Hibecovirus" = "royalblue", "Nobecovirus" = "tomato", "Merbecovirus" = "mediumseagreen")
+shapez = c("bat host" =  24, "non-bat host" = 21)
+colz2 = c('1' =  "yellow", '0' = "white")
 
 
 
-p2 <- ggplot(long.boot) + geom_line(aes(x=CenterPos, y=value, color=strain), show.legend = F, size=.7) +
-  geom_ribbon(data=genome.df, aes(x=position, ymin=-10, ymax=-5, fill=gene), color="black", show.legend = F) +
-  facet_grid(Query~.) + theme_bw() + xlab("genome position") + ylab("% of Permuted Trees") +
-  theme(panel.grid = element_blank(), strip.text = element_text(face="italic", size=14),
-        strip.background = element_rect(fill="white"), 
-        axis.text = element_text(size=12), axis.title = element_text(size=14)) +
-  scale_color_manual(values=colz)
-p2
+#first, get the legend.
+
+pleg <- ggtree(Stree.root) %<+% Sdat + 
+  geom_tippoint(aes(color=subgroup, shape=bat_host)) +
+  geom_nodelab(size=1,nudge_x = -.08, nudge_y = .5) +
+  scale_color_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill() +
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=1.8, show.legend=F) +
+  scale_fill_manual(values=colz2) + 
+  theme(legend.position = "bottom", legend.title = element_blank()) +
+  xlim(c(0,4))
+pleg
+
+legall <- cowplot::get_legend(pleg)
 
 
-#and together
-Fig4left <- cowplot::plot_grid(p1,p2, nrow=1, ncol = 2, labels= c("A.", "B."), label_size = 18, label_x = -.02)
+pS <- ggtree(Stree.root) %<+% Sdat + 
+  geom_tippoint(aes(fill=subgroup, shape=bat_host), show.legend = F, size=3) +
+  geom_nodelab(size=2.5,nudge_x = -.08, nudge_y = .5) +
+  scale_fill_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill() +
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
+  scale_fill_manual(values=colz2) + 
+  #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  xlim(c(0,4.5))
+pS
 
-Fig4 <- cowplot::plot_grid(Fig4left, leg1, nrow = 1, ncol = 2, rel_widths = c(1,.2))
 
+pE <- ggtree(Etree.root) %<+% Edat + 
+  geom_tippoint(aes(fill=subgroup, shape=bat_host), show.legend = F, size=3) +
+  geom_nodelab(size=2.5,nudge_x = -.08, nudge_y = .5) +
+  scale_fill_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill() +
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
+  scale_fill_manual(values=colz2) + 
+  #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  xlim(c(0,4.5))
+pE
+
+
+pM <- ggtree(Mtree.root) %<+% Mdat + 
+  geom_tippoint(aes(fill=subgroup, shape=bat_host), show.legend = F, size=3) +
+  geom_nodelab(size=2.5,nudge_x = -.08, nudge_y = .5) +
+  scale_fill_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill() +
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
+  scale_fill_manual(values=colz2) + 
+  #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  xlim(c(0,4.5))
+pM
+
+
+pN <- ggtree(Ntree.root) %<+% Ndat + 
+  geom_tippoint(aes(fill=subgroup, shape=bat_host), show.legend = F, size=3) +
+  geom_nodelab(size=2.5,nudge_x = -.06, nudge_y = .7) +
+  scale_fill_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill() +
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
+  scale_fill_manual(values=colz2) + 
+  #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  xlim(c(0,4.5))
+pN
+
+
+#and all together
+
+pAminoAcid <- cowplot::plot_grid(pS, pE, pM, pN, nrow = 1, ncol = 4, labels = c("A.", "B.", "C.", "D."), label_size = 20)
+
+Fig4 <- cowplot::plot_grid(pAminoAcid, legall, nrow=2, ncol=1, rel_heights = c(1,.1))
 
 ggsave(file = paste0(homewd, "/final-figures/Fig4.png"),
+       plot = Fig4,
        units="mm",  
-       width=90, 
-       height=40, 
+       width=180, 
+       height=80, 
        #limitsize = F,
        scale=4)#, 
