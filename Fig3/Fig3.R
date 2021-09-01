@@ -201,6 +201,7 @@ p1 <- ggtree(rooted.tree.A) %<+% tree.dat +
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3,  show.legend=F, size=3, hjust = -.08) + 
   scale_fill_manual(values=colz2) + 
   theme(legend.position = c(.2,.85), legend.title = element_blank()) +
+  geom_treescale(fontsize=4, x=1,y=124, linesize = .5) + 
   xlim(c(0,4))
 p1
 
@@ -245,6 +246,7 @@ p2.1 <- ggtree(rooted.tree.B) %<+% datB +
               alpha=.3,  show.legend=F, size=4, hjust = -.1) + 
   scale_fill_manual(values=colz2) + 
   theme(legend.position = "right", legend.title = element_blank()) +
+  geom_treescale(fontsize=4, x=.3,y=50, linesize = .5) + 
   xlim(c(0,1.5))
 p2.1 
 
@@ -259,7 +261,7 @@ p2.3 <- p2.2 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
 p2.4 <- p2.3 %>% ggtree::rotate(node = node_flip_Embeco_Nobeco)
 
 
-Fig3 <- cowplot::plot_grid(p1.2,p2.4, ncol=2, nrow=1, labels = c("A.", "B."), label_size = 22, label_x = .03, label_y = .98)
+Fig3 <- cowplot::plot_grid(p1.2,p2.4, ncol=2, nrow=1, labels = c("(A)", "(B)"), label_size = 22, label_x = .03, label_y = .98)
 
 Fig3all <- cowplot::plot_grid(Fig3,leg.all, ncol=1, nrow=2, rel_heights = c(1,.1))
 

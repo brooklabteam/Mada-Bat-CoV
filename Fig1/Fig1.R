@@ -56,23 +56,28 @@ p1<-ggplot() +
   geom_sf(color = "lightgoldenrod1", fill = "lightgoldenrod1",data = orotl_shp)+
   coord_sf(xlim = c(42, 60), ylim = c(-26, -11.5), expand = FALSE)+
   theme_bw()+
+  theme(plot.margin = unit(c(-1,.5,-1.5,.1),"cm"))+
   xlab("Longitude") + ylab("Latitude") 
 #print(p1)
+# # 
+#   ggsave(file = paste0(homewd, "final-figures/tmp1.pdf"),
+#          plot = p1,
+#          units="mm",  
+#          width=60, 
+#          height=55, 
+#          scale=3, 
+#          dpi=300)
 # 
-#  ggsave(file = "tmp_map_1.pdf",
-#         plot = p1,
-#         units="mm",  
-#         width=40, 
-#         height=60, 
-#         scale=3, 
-#         dpi=300)
-# 
-
+  
+  
 
 #import CoV data
 dat <- read.csv(file = paste0(homewd,"/metadata/all_NGS_8_3_2021_distribute.csv"), header = T, stringsAsFactors = F )
 head(dat)
 names(dat)
+
+#only plot feces
+dat = subset(dat, sample_type=="feces")
 
 #add age class
 #clean class
@@ -137,6 +142,7 @@ p2b<-p1+geom_point(aes(x=longitude_e, y=latitude_s),color="black",size=1,data=co
   geom_text_repel(segment.colour="black")+
   theme_bw() +theme(panel.grid = element_blank(), 
                     plot.title = element_text(color="black", size=12, face="bold"),
+                    plot.margin = unit(c(-1,.5,-1.5,.1),"cm"),
                     axis.title.x = element_text(color="black", size=12),
                     axis.title.y = element_text(color="black", size=12),
                     legend.position=c(.26,.90),
@@ -248,15 +254,15 @@ p3<-ggplot() +
 
 #this is Fig1A
 p4 <- p2b+
-  annotate("segment", x=piesA$longitude_e, xend=piesA$x2,y=piesA$latitude_s,yend=piesA$y2,size=.7,alpha=.5)+ # put the lines
-  annotate("segment", x=piesJ$longitude_e, xend=piesJ$x2,y=piesJ$latitude_s,yend=piesJ$y2,size=.7,alpha=.5)+ # put the lines
-  geom_scatterpie(aes(x=x2, y=y2, r=(log10(N))), 
+  annotate("segment", x=piesA$longitude_e, xend=piesA$x2,y=piesA$latitude_s,yend=piesA$y2,size=.7)+ # put the lines
+  annotate("segment", x=piesJ$longitude_e, xend=piesJ$x2,y=piesJ$latitude_s,yend=piesJ$y2,size=.7)+ # put the lines
+  geom_scatterpie(aes(x=x2, y=y2, r=(log10(N)/1.2)), 
                           data = piesA, cols="plot_class", long_format=TRUE) +
-  geom_scatterpie(aes(x=x2, y=y2, r=(log10(N))), 
+  geom_scatterpie(aes(x=x2, y=y2, r=(log10(N)/1.2)), 
                   data = piesJ, cols="plot_class", long_format=TRUE) +
   theme_bw() +theme(panel.grid = element_blank(),
                     plot.title = element_text(color="black", size=12, face="bold"),
-                    plot.margin = unit(c(.1,.1,.2,.1),"cm"),
+                    plot.margin = unit(c(-1,.5,-1.5,.1),"cm"),
                     axis.title.x = element_text(color="black", size=12),
                     axis.title.y = element_text(color="black", size=12),
                     legend.position=c(.8,.8),
@@ -264,10 +270,10 @@ p4 <- p2b+
                     legend.title=element_blank(),
                     legend.text = element_text(size = 7.5)) +
   scale_fill_manual(values=colz) +
-  geom_scatterpie_legend(log10(c(10,100)),
+  geom_scatterpie_legend(log10(c(10,100)/1.2),
                          x=54.5, y=-23.5, 
                          n=2,
-                         labeller = function(x) paste(10^(x),"indiv"))
+                         labeller = function(x) paste(10^(x)*1.2,"indiv"))
 
 #print(p4)
 
@@ -283,6 +289,10 @@ dat$collection_date <- as.Date(dat$collection_date,format = "%m/%d/%y")
 unique(dat$roost_site) #all sites are in the moramanga area and can be treated as one
 
 #now there are some urine and some fecal samples
+#one of the urine samples is the same individual as one of the fecal samples
+#so go ahead and remove the fecal sample (negative) from consideration
+
+
 
 #get the date of the first day of every week
 dat$epiwk <- cut(dat$collection_date, "week")
@@ -294,9 +304,6 @@ dat$CoV[dat$CoV=="Y"] <- 1
 dat$CoV <- as.numeric(dat$CoV)
 
 names(dat)[names(dat)=="bat_species"] <- "species"
-
-length(dat$CoV[dat$CoV==1 & dat$sample_type=="urine"])
-#Only 2 urine positives. We assume these represent contamination of feces in urine.
 
 #and make sure it is only 1 of the same sample type per each date
 
@@ -334,7 +341,7 @@ length(dat$sample_type[dat$sample_type=="urine"])#2
 #okay to go.
 
 #summarize into prevalence by species and epiwk
-dat.sum <- ddply(dat, .(species, epiwk), summarise, N=length(CoV), pos=sum(CoV))
+dat.sum <- ddply(dat, .(species, age_class,epiwk), summarise, N=length(CoV), pos=sum(CoV))
 
 #get negatives and prevalence
 dat.sum$neg= dat.sum$N-dat.sum$pos
@@ -362,14 +369,22 @@ names(dat.sum)[names(dat.sum)=="host_genus_species"] <- "species"
 #and plot
 #here's a vector assigning colors to each species
 colz = c("Eidolon dupreanum"="steelblue1", "Pteropus rufus" = "violetred", "Rousettus madagascariensis" = "seagreen" )
+names(dat.sum)[names(dat.sum)=="age_class"] <- "age"
+dat.sum$age[dat.sum$age=="A"] <- "adult"
+dat.sum$age[dat.sum$age=="J"] <- "juvenile"
+
+shapez = c("juvenile" = 17, "adult" = 16)
 
 p1 <- ggplot(data=dat.sum) + #here is the dataset
-  geom_errorbar(aes(x=epiwk, ymin=lci, ymax=uci, color=species, group=species), size=.1) + #here we plot the uci and lci for prevalence, with lines colored by species
-  geom_point(aes(x=epiwk, y= prevalence, color=species, size=N)) + #here we plot the mean prevalence, with dot colored by species and sized based on sample size per date
+  geom_errorbar(aes(x=epiwk, ymin=lci, ymax=uci, color=species, group=age), size=.1) + #here we plot the uci and lci for prevalence, with lines colored by species
+  geom_point(aes(x=epiwk, y= prevalence, color=species,shape=age, size=N)) + #here we plot the mean prevalence, with dot colored by species and sized based on sample size per date
   ylab("CoV Prevalence") + #change the name of the y-axis
   scale_color_manual(values=colz) + #assign the colors manually using the vector above
+  scale_shape_manual(values=shapez) +
+  facet_grid(age~.) +
   theme_bw() + #some style features
   theme(panel.grid = element_blank(), legend.text = element_text(face="italic"),
+        strip.background = element_rect(fill="white"),
         axis.title.x = element_blank())  #more style features
 
 
@@ -378,39 +393,55 @@ p1
 #most information seems to be captured in plot 1, so lets keep that
 
 #or try another plot that includes the winter season for Moramanga instead
-seas.dat = cbind.data.frame(x=as.Date(c("2018-06-01","2018-09-01")), ymin=c(-1,-1), ymax=c(2,2), label="dry season")
+seas.dat1 = cbind.data.frame(x=as.Date(c("2018-06-01","2018-09-01")), ymin=c(-1,-1), ymax=c(2,2), label="dry season")
+seas.dat2 = cbind.data.frame(x=as.Date(c("2018-02-01","2018-06-01")), ymin=c(-1,-1), ymax=c(2,2), label="late-stage juveniles")
+
+#jitter dates manually
+dat.sum$epiwk_jitter <- dat.sum$epiwk
+dat.sum$epiwk_jitter[dat.sum$species=="Rousettus madagascariensis"] <- dat.sum$epiwk_jitter[dat.sum$species=="Rousettus madagascariensis"] + 1
+dat.sum$epiwk_jitter[dat.sum$species=="Eidolon dupreanum"] <- dat.sum$epiwk_jitter[dat.sum$species=="Eidolon dupreanum"] + 2
+
+text.dat = cbind.data.frame(date=c(as.Date("2018-04-10"), as.Date("2018-07-15")),y=c(.97,.97), label=c("late-stage juveniles", "dry season"), age=c("juvenile", "juvenile"))
 
 Fig1b <-  ggplot(data=dat.sum) +
-  geom_ribbon(data=seas.dat, aes(x=x, ymin=ymin, ymax=ymax), fill="cornflowerblue", alpha=.3) +
-  geom_errorbar(aes(x=epiwk, ymin=lci, ymax=uci, color=species, group=species), size=.1) + #here we plot the uci and lci for prevalence, with lines colored by species
-  geom_point(aes(x=epiwk, y= prevalence, color=species, size=N)) + #here we plot the mean prevalence, with dot colored by species and sized based on sample size per date
+  geom_ribbon(data=seas.dat1, aes(x=x, ymin=ymin, ymax=ymax), fill="cornflowerblue", alpha=.3) +
+  geom_ribbon(data=seas.dat2, aes(x=x, ymin=ymin, ymax=ymax), fill="lightgoldenrod1", alpha=.3) +
+  geom_errorbar(aes(x=epiwk_jitter, ymin=lci, ymax=uci, color=species,  group=age), size=.2) + #here we plot the uci and lci for prevalence, with lines colored by species
+  geom_point(aes(x=epiwk_jitter, y= prevalence, color=species, shape=age, size=N)) + #here we plot the mean prevalence, with dot colored by species and sized based on sample size per date
   ylab("CoV Prevalence") + #change the name of the y-axis
-  geom_text(aes(x=as.Date("2018-07-15"),y=.95, label="dry season"), size=3) +
+  geom_text(data=text.dat, aes(x=date,y=y, label=label), size=3) +
+  #geom_text(data=text.dat, aes(x=as.Date("2018-04-24"),y=.95, label="late-stage juveniles"), size=3) +
   scale_color_manual(values=colz) + #assign the colors manually using the vector above
   scale_fill_manual(values=colz) + #assign the colors manually using the vector above
+  scale_shape_manual(values=shapez) +#
+  facet_grid(age~.) +
   theme_bw() + #some style features
   coord_cartesian(ylim=c(0,1)) +
   theme(panel.grid = element_blank(), legend.text = element_text(face="italic", size = 8),
-        legend.position = c(.17,.77),
+        legend.position = c(.28,.92),
+        strip.background = element_rect(fill="white"),
+        legend.box = "horizontal",
+        legend.background = element_rect(fill="white"),
+        #legend.title = element_blank(),
         legend.spacing.y = unit(.05, "cm"),
-        plot.margin = unit(c(.2,.1,.1,.1),"cm"),
-        axis.title.x = element_blank()) #more style features
+        plot.margin = unit(c(.8,.2,.7,.3),"cm"),
+        axis.title.x = element_blank())  #more style features
 
 Fig1b
 
 
 
-
-
-
-Fig1all <- cowplot::plot_grid(Fig1a, Fig1b, nrow=2, ncol=1, labels = c("A.", "B."), label_x = 2)
+Fig1all <- cowplot::plot_grid(Fig1a, Fig1b, nrow=1, ncol=2, labels = c("(A)", "(B)"), label_x = -.01, label_y = .99)
 
 
 ggsave(file = paste0(homewd, "final-figures/Fig1.pdf"),
        plot=Fig1all,
        units="mm",  
-       width=60, 
-       height=100, 
+       width=150, 
+       height=65, 
        scale=3, 
        dpi=300)
+
+
+
 

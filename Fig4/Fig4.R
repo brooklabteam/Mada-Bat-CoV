@@ -112,6 +112,7 @@ pS <- ggtree(Stree.root) %<+% Sdat +
   new_scale_fill() +
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
   scale_fill_manual(values=colz2) + 
+  geom_treescale(fontsize=4, x=.7,y=38, linesize = .5) + 
   #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
   xlim(c(0,4.5))
 pS
@@ -125,6 +126,7 @@ pE <- ggtree(Etree.root) %<+% Edat +
   new_scale_fill() +
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
   scale_fill_manual(values=colz2) + 
+  geom_treescale(fontsize=4, x=.9,y=38, linesize = .5) + 
   #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
   xlim(c(0,4.5))
 pE
@@ -138,6 +140,7 @@ pM <- ggtree(Mtree.root) %<+% Mdat +
   new_scale_fill() +
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
   scale_fill_manual(values=colz2) + 
+  geom_treescale(width=.2, fontsize=4, x=.5,y=38, linesize = .5) + 
   #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
   xlim(c(0,4.5))
 pM
@@ -151,6 +154,7 @@ pN <- ggtree(Ntree.root) %<+% Ndat +
   new_scale_fill() +
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=3.4, show.legend=F) +
   scale_fill_manual(values=colz2) + 
+  geom_treescale(fontsize=4, x=.5,y=38, linesize = .5) + 
   #theme(legend.position = c(.2,.85), legend.title = element_blank()) +
   xlim(c(0,4.5))
 pN
@@ -158,7 +162,7 @@ pN
 
 #and all together
 
-pAminoAcid <- cowplot::plot_grid(pS, pE, pM, pN, nrow = 1, ncol = 4, labels = c("A.", "B.", "C.", "D."), label_size = 20)
+pAminoAcid <- cowplot::plot_grid(pS, pE, pM, pN, nrow = 1, ncol = 4, labels = c("(A)", "(B)", "(C)", "(D)"), label_size = 20)
 
 Fig4 <- cowplot::plot_grid(pAminoAcid, legall, nrow=2, ncol=1, rel_heights = c(1,.1))
 
