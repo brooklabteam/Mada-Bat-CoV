@@ -211,6 +211,8 @@ node_flip_Merbeco_Sarbeco1 = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label =
 node_flip_Embeco_Sarbeco1 = MRCA(rooted.tree.A, which(rooted.tree.A$tip.label == "MZ081380  |  SARSr_CoV  |  Rhinolophus_stheno  |  China  |  2020" ),which(rooted.tree.A$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
 
 p1.2 <- p1 %>% ggtree::rotate(node = node_flip_Embeco_Sarbeco1 )
+
+
 #p1.2 <- p1 %>% ggtree::rotate(node = node_flip_Merbeco_Sarbeco1)
 #p1.3 <- p1.2 %>% ggtree::rotate(node = node_flip_Embeco_Sarbeco1)
 
@@ -250,6 +252,7 @@ p2.1 <- ggtree(rooted.tree.B) %<+% datB +
   xlim(c(0,1.5))
 p2.1 
 
+#add lineage clade bars
 #great, now need to flip some of the clases to match plot on the left
 
 node_flip_Embeco_Merbeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
