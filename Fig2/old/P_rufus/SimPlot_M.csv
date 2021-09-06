@@ -1,0 +1,16 @@
+FileName: \\Mac\Home\Documents\R\R_repositories\Mada-Bat-CoV\Fig2\M-Gene-Translation-Alignment.fasta
+Window: 200 bp, Step: 20 bp, GapStrip: On, Kimura (2-parameter), T/t: 2.0
+This output generated using SimPlot v3.5.1 - software Copyright © 1997-2003 Stuart C. Ray - JHU
+
+"Status","Group","Members"
+"Ref","Rousettus_madagascariensis","Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240_-_M","Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178_-_M"
+"Ref","Eidolon_helvum","NC_048212_1_Eidolon_helvum_Cameroon_-_M"
+"Ref","MK492263_1_BatCoV92_Cynopteris_brachyotis_Singapore_-_M","MK492263_1_BatCoV92_Cynopteris_brachyotis_Singapore_-_M"
+"Query","Pteropus_rufus"
+"Ref","HKU9","NC_009021_1_HKU9_Rousettus_leschenaulti_China_-_M"
+"Ref","GCCDC1","NC_030886_GCCDC1_356_Rousettus_leschenaulti_China_-_M"
+
+
+"CenterPos","Rousettus_madagascariensis","Eidolon_helvum","MK492263_1_BatCoV92_Cynopteris_brachyotis_Singapore_-_M","HKU9","GCCDC1"
+"101","0.70","0.73","0.72","0.75","0.71"
+"121","0.72","0.74","0.71","0.75","0.74"
