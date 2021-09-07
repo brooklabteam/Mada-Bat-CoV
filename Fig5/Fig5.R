@@ -12,37 +12,34 @@ setwd(paste0(homewd, "/Fig5/"))
 #first, amino acid similarity
 
 
-simplot <- read.csv(file = paste0(homewd, "/Fig2/all_simplotAA_noInsertion.csv"), header = T, stringsAsFactors = F)
-head(simplot)
+#id.plot <- read.csv(file = paste0(homewd, "/Fig5/AA_identity_P_ruf_R_mad.csv"), header = T, stringsAsFactors = F)
 
-
+dat1 <- read.csv(file = paste0(homewd, "/Fig5/AAidentityw50s20.csv"), header = T, stringsAsFactors = F)
+dat1 <- read.csv(file = paste0(homewd, "/Fig5/AAidentityw100s20.csv"), header = T, stringsAsFactors = F)
 
 #move to long
-#long.sim <- melt(simplot, id.vars = c("CenterPos", "Alternate_ID", "Query"), measure.vars = c("HKU9", "Eidolon_helvum", "GX2018.BtCoV92", "GCCDC1", "Alternate"))
-long.sim <- melt(simplot, id.vars = c("CenterPos", "Alternate_ID", "Query"), measure.vars = c("HKU9", "Eidolon_helvum", "Alternate"))
+id.plot <- melt(dat1, id.vars = c("pointer", "Query", "Alternate_ID"), measure.vars = c("Eidolon_helvum",  "HKU9", "Alternate"))
+id.plot$variable <- as.character(id.plot$variable)
+id.plot$variable[id.plot$variable=="Alternate"] <- id.plot$Alternate_ID[id.plot$variable=="Alternate"]
+head(id.plot)
 
 
-head(long.sim)
-unique(long.sim$variable)
-long.sim$variable <- as.character(long.sim$variable)
-long.sim$variable[long.sim$variable=="Alternate"] <- long.sim$Alternate_ID[long.sim$variable=="Alternate"] 
-unique(long.sim$variable)
-names(long.sim)[names(long.sim)=="variable"] <- "strain"
+names(id.plot)[names(id.plot)=="variable"] <- "strain"
 
-long.sim$strain[long.sim$strain=="Eidolon_helvum"] <- "E. helvum bat coronavirus"
-long.sim$strain[long.sim$strain=="Pteropus_rufus"] <- "P. rufus Nobecovirus"
-long.sim$strain[long.sim$strain=="R_madagascariensis"] <- "R. madagascariensis Nobecovirus"
+id.plot$strain[id.plot$strain=="Eidolon_helvum"] <- "E. helvum bat coronavirus"
+id.plot$strain[id.plot$strain=="Pteropus_rufus"] <- "P. rufus Nobecovirus"
+id.plot$strain[id.plot$strain=="Rousettus_madagascariensis"] <- "R. madagascariensis Nobecovirus"
 
-#long.sim$strain <- factor(long.sim$strain, levels = c("HKU9", "GCCDC1", "GX2018.BtCoV92", "E. helvum bat coronavirus", "P. rufus Nobecovirus", "R. madagascariensis Nobecovirus"))
-long.sim$strain <- factor(long.sim$strain, levels = c("HKU9", "E. helvum bat coronavirus", "P. rufus Nobecovirus", "R. madagascariensis Nobecovirus"))
+#id.plot$strain <- factor(id.plot$strain, levels = c("HKU9", "GCCDC1", "GX2018.BtCoV92", "E. helvum bat coronavirus", "P. rufus Nobecovirus", "R. madagascariensis Nobecovirus"))
+id.plot$strain <- factor(id.plot$strain, levels = c("HKU9", "E. helvum bat coronavirus", "P. rufus Nobecovirus", "R. madagascariensis Nobecovirus"))
 
 
 #and plot
 
-long.sim$value[long.sim$value<0] <- 0
-long.sim$Query[long.sim$Query=="Pteropus_rufus"] <- "Pteropus rufus"
-long.sim$Query[long.sim$Query=="Rousettus_madagascariensis"] <- "Rousettus madagascariensis"
-long.sim$Query <- factor(long.sim$Query, labels = c("Pteropus rufus", "Rousettus madagascariensis"))
+id.plot$value[id.plot$value<0] <- 0
+id.plot$Query[id.plot$Query=="Pteropus_rufus"] <- "Pteropus rufus"
+id.plot$Query[id.plot$Query=="Rousettus_madagascariensis"] <- "Rousettus madagascariensis"
+id.plot$Query <- factor(id.plot$Query, labels = c("Pteropus rufus", "Rousettus madagascariensis"))
 
 # 
 # genome.df <- data.frame(position = c(1, 4316,
@@ -65,21 +62,21 @@ genome.df <- data.frame(position = c(1, 7002,
                                      9378, 9820), 
                         gene = rep(c("ORF1ab", "S", "NS3", "E", "M", "N", "NS7"), each=2))
 
-
+id.plot$value <- id.plot$value/100
 genome.df$gene <- factor(genome.df$gene, levels = unique(genome.df$gene))
 
 #colz= c("HKU9"="firebrick3", "GCCDC1"="magenta", "GX2018.BtCoV92" = "purple", "E. helvum bat coronavirus" = "royalblue", "P. rufus Nobecovirus" = "goldenrod", "R. madagascariensis Nobecovirus" = "forestgreen")
 colz= c("HKU9"="firebrick3", "E. helvum bat coronavirus" = "royalblue", "P. rufus Nobecovirus" = "goldenrod", "R. madagascariensis Nobecovirus" = "forestgreen")
 
-p1leg <- ggplot(long.sim) + geom_line(aes(x=CenterPos, y=value, color=strain), size=1) +
-  geom_ribbon(data=genome.df, aes(x=position, ymin=-.1, ymax=-.05, fill=gene), color="black") +
+p1leg <- ggplot(id.plot) + geom_line(aes(x=pointer, y=value, color=strain), size=1) +
+  geom_ribbon(data=genome.df, aes(x=position, ymin=-.1, ymax=-.05,  fill=gene), color="black") +
   facet_grid(Query~.) + theme_bw() + xlab("genome position") + ylab("similarity") +
   theme(panel.grid = element_blank(), strip.text = element_text(face="italic", size=14),
         strip.background = element_rect(fill="white"), 
         legend.position = "bottom", legend.direction = "horizontal",# legend.box = "vertical",
         legend.text = element_text(face="italic", size = 12),
         axis.text = element_text(size=12), axis.title = element_text(size=14)) +
-  scale_color_manual(values=colz) + coord_cartesian(ylim=c(-.1,1)) +
+  scale_color_manual(values=colz) + #coord_cartesian(ylim=c(-.1,1)) +
   scale_x_continuous(breaks=c(0,10000/3.055,20000/3.055,30000/3.055), labels = c(0,10000, 20000,30000))
 
 p1leg
@@ -89,7 +86,7 @@ p1leg
 
 leg1 <- cowplot::get_legend(p1leg)
 
-p1 <- ggplot(long.sim) + geom_line(aes(x=CenterPos, y=value, color=strain), show.legend = F, size=.9) +
+p1 <- ggplot(id.plot) + geom_line(aes(x=pointer, y=value, color=strain), size=1, show.legend = F) +
   geom_ribbon(data=genome.df, aes(x=position, ymin=-.1, ymax=-.05, fill=gene), color="black", show.legend = F) +
   facet_grid(~Query) + theme_bw() + xlab("genome position") + ylab("amino acid similarity") +
   theme(panel.grid = element_blank(), strip.text = element_text(face="italic", size=14),
