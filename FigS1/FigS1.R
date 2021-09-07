@@ -7,17 +7,17 @@ library(dplyr)
 homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
 
 #load txt file with coverage for each genome
-Pruf <- read.delim(file = paste0(homewd, "Fig2/P_rufus.coverage"), header=F)
+Pruf <- read.delim(file = paste0(homewd, "FigS1/P_rufus.coverage"), header=F)
 head(Pruf)
 names(Pruf) <- c("genome", "position", "read_depth")
 
 #and the others
-R_mad240 <- read.delim(file = paste0(homewd, "Fig2/R_mada_MIZ240.coverage"), header=F)
+R_mad240 <- read.delim(file = paste0(homewd, "FigS1/R_mada_MIZ240.coverage"), header=F)
 head(R_mad240)
 names(R_mad240) <- c("genome", "position", "read_depth")
 
 
-R_mad178 <- read.delim(file = paste0(homewd, "Fig2/R_mada_MIZ178.coverage"), header=F)
+R_mad178 <- read.delim(file = paste0(homewd, "FigS1/R_mada_MIZ178.coverage"), header=F)
 head(R_mad178)
 names(R_mad178) <- c("genome", "position", "read_depth")
 
@@ -35,9 +35,11 @@ all.seq$label[all.seq$label=="Pteropus rufus AMB130"] <- "(A)"
 all.seq$label[all.seq$label=="Rousettus madagascariensis MIZ178"] <- "(B)"
 all.seq$label[all.seq$label=="Rousettus madagascariensis MIZ240"] <- "(C)"
 
+text.dat = cbind.data.frame(x=rep(-60,3), y=rep(250,3), label = c("(A)", "(B)", "(C)"), sequence=c("Pteropus rufus AMB130", "Rousettus madagascariensis MIZ178", "Rousettus madagascariensis MIZ240"))
+
 p1 <- ggplot(data=all.seq) + 
+      geom_text(data=text.dat, aes(x=x, y=y, label=label),size=7) +
       geom_line(aes(x=position, y=read_depth)) + 
-      geom_label(aes(x=1,y=1, label=label)) +
       geom_ribbon(aes(x=position, ymin=0, ymax=read_depth), fill="gray") + 
       theme_bw() +
       facet_grid(sequence~.) + scale_y_log10() +
@@ -54,7 +56,7 @@ p1 <- ggplot(data=all.seq) +
 ggsave(file = paste0(homewd, "/final-figures/FigS1.png"),
        plot=p1,
        units="mm",  
-       width=95, 
-       height=70, 
+       width=75, 
+       height=90, 
        #limitsize = F,
-       scale=4)#, 
+       scale=3)#, 
