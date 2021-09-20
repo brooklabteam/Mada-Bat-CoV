@@ -40,7 +40,7 @@ dat$novel <- as.factor(dat$novel)
 #rooted.tree.A$node.label <- round(as.numeric(rooted.tree.A$node.label)*100, 0)
 
 #take a glance
-p <- ggtree(rooted.tree.A) %<+% dat + geom_tippoint(aes(fill=sub_group)) +
+p <- ggtree(rooted.tree.A) %<+% dat + geom_tippoint(aes(color=sub_group)) +
       geom_tiplab(size=1) + geom_nodelab(size=1) +
     scale_fill_manual(values=colz) + theme(legend.position = c(.2,.85), legend.title = element_blank())
 p #looks great
@@ -161,13 +161,13 @@ datB$bat_host[datB$bat_host==1] <- "bat host"
 datB$bat_host <- as.factor(datB$bat_host)
 
 datB$novel = 0
-datB$novel[datB$accession_num=="AMB130" |
-           datB$accession_num=="AMB141" |
-           datB$accession_num=="MIZ165" | 
-           datB$accession_num=="MIZ240" |
-           datB$accession_num=="MIZ178" |
-           datB$accession_num=="MIZ170" |
-           datB$accession_num=="KEL251" ] <- 1
+datB$novel[datB$accession_num=="OK020086" |
+           datB$accession_num=="OK067321" |
+           datB$accession_num=="OK067320" | 
+           datB$accession_num=="OK020089" |
+           datB$accession_num=="OK067319" |
+           datB$accession_num=="OK020087" |
+           datB$accession_num=="OK020088" ] <- 1
 
 datB$novel <- as.factor(datB$novel)
 colz2 = c('1' =  "yellow", '0' = "white")
@@ -222,14 +222,15 @@ p1.2 <- p1 %>% ggtree::rotate(node = node_flip_Embeco_Sarbeco1 )
 
 p1.2.leg <- ggtree(rooted.tree.A) %<+% tree.dat + 
   geom_tippoint(aes(color=sub_group, shape=bat_host), size=3) +
-  geom_nodelab(size=.5,nudge_x = -.04, nudge_y = .7) +
+  geom_nodelab(size=2,nudge_x = -.07, nudge_y = .9) +
   scale_fill_manual(values=colz) + 
+  scale_color_manual(values=colz) + 
   scale_shape_manual(values=shapez) + 
   new_scale_fill()+
-  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3,  show.legend=F, size=3, hjust = -.15) + 
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3,  show.legend=F, size=3, hjust = -.08) + 
   scale_fill_manual(values=colz2) + 
-  theme(legend.position = "bottom", legend.title = element_blank(),
-        legend.text = element_text(size=12), legend.direction = "horizontal") +
+  theme(legend.position = "bottom", legend.title = element_blank(), legend.text = element_text(size=12)) +
+  geom_treescale(fontsize=4, x=1,y=124, linesize = .5) + 
   xlim(c(0,4))
 p1.2.leg
 

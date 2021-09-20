@@ -1,14 +1,14 @@
 tip_label,accession_num,strain,host,bat_host,country,collection_date,collection_year,title,sub_group
-Eidolon_dupreanum_RR034B_179_KEL251,KEL251,NA,Eidolon_dupreanum,1,Madagascar,1/6/19,2019,Eidolon_dupreanum_RR034B_179_KEL251,Nobecovirus
-Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,MIZ240,NA,Rousettus_madagascariensis,1,Madagascar,9/11/18,2018,Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,Nobecovirus
-Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,MIZ178,NA,Rousettus_madagascariensis,1,Madagascar,4/14/18,2018,Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,Nobecovirus
-Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,MIZ170,NA,Rousettus_madagascariensis,1,Madagascar,4/13/18,2018,Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,Nobecovirus
-Pteropus_rufus_RR034B_010_fecRa_AMB130,AMB130,NA,Pteropus_rufus,1,Madagascar,2/26/18,2018,Pteropus_rufus_RR034B_010_fecRa_AMB130,Nobecovirus
+Eidolon_dupreanum_RR034B_179_KEL251,OK020086,NA,Eidolon_dupreanum,1,Madagascar,1/6/19,2019,Eidolon_dupreanum_RR034B_179_KEL251,Nobecovirus
+Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,OK067321,NA,Rousettus_madagascariensis,1,Madagascar,9/11/18,2018,Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,Nobecovirus
+Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,OK067320,NA,Rousettus_madagascariensis,1,Madagascar,4/14/18,2018,Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,Nobecovirus
+Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,OK020089,NA,Rousettus_madagascariensis,1,Madagascar,4/13/18,2018,Rousettus_madagascariensis_RR034B_244_fecRa_MIZ170,Nobecovirus
+Pteropus_rufus_RR034B_010_fecRa_AMB130,OK067319,NA,Pteropus_rufus,1,Madagascar,2/26/18,2018,Pteropus_rufus_RR034B_010_fecRa_AMB130,Nobecovirus
 Pteropus_rufus_KP696742_1,KP696742,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus ANK036F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696743_1,KP696743,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus ANK047F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696747_1,KP696747,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus ANK081F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696744_1_Bat_coronavirus,KP696744,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus BEM073F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
-Pteropus_rufus_RR034B_021_AMB141,AMB141,NA,Pteropus_rufus,1,Madagascar,4/16/18,2018,Pteropus_rufus_RR034B_021_AMB141,Nobecovirus
+Pteropus_rufus_RR034B_021_AMB141,OK020087,NA,Pteropus_rufus,1,Madagascar,4/16/18,2018,Pteropus_rufus_RR034B_021_AMB141,Nobecovirus
 Pteropus_rufus_KP696745_1,KP696745,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus BEM074F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696746_1,KP696746,NA,Pteropus_rufus,1,Madagascar,11-Jul,2011,"Bat coronavirus BEM077F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
 Pteropus_rufus_KP696741_1,KP696741,NA,Pteropus_rufus,1,Madagascar,10-Jun,2010,"Bat coronavirus BEM001F RNA-dependent RNA polymerase gene, partial cds",Nobecovirus
@@ -32,7 +32,7 @@ Pipistrellus_NC_009020_1_BatCoV_HKU5,NC_009020,HKU5,Pipistrellus_abramus,1,China
 Tylonycteris_sp_NC_009019_1_HKU4,NC_009019,HKU4,Tylonycteris_pachypus,1,China,NA,2013,Tylonycteris bat coronavirus HKU4,Merbecovirus
 Erinaceus_NC_039207_1_ErinaceusCoV,NC_039207,NA,Erinaceus_europaeus,0,Germany,2012,2012,Betacoronavirus Erinaceus/VMC/DEU/2012 isolate ErinaceusCoV/2012-174/GER/2012,Merbecovirus
 MG693170_1_Eidolon_helvum_Cameroon,MG693170,HKU9,Eidolon_helvum,1,Cameroon,NA,2013,NA,Nobecovirus
-Rousettus_madagascariensis_RR034B_220_fecRa_MIZ165_reversed,MIZ165,NA,Rousettus_madagascariensis,1,Madagascar,NA,2018,NA,Nobecovirus
+Rousettus_madagascariensis_RR034B_220_fecRa_MIZ165_reversed,OK020088,NA,Rousettus_madagascariensis,1,Madagascar,NA,2018,NA,Nobecovirus
 HM211099_1_HKU_9_5_1_Rousettus_leschenaulti_China,HM211099,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
 EF065514_1_HKU_9_2_Rousettus_leschenaulti_China,EF065514,HKU9,Rousettus_leschenaulti,1,China,NA,2005,NA,Nobecovirus
 HQ728482_1_Eidolon_helvum_Kenya,HQ728482,NA,Eidolon_helvum,1,Kenya,NA,2006,NA,Nobecovirus
