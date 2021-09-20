@@ -97,7 +97,7 @@ pleg <- ggtree(Stree.root) %<+% Sdat +
   new_scale_fill() +
   geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, alpha=.3, size=1.8, show.legend=F) +
   scale_fill_manual(values=colz2) + 
-  theme(legend.position = "bottom", legend.title = element_blank()) +
+  theme(legend.position = "bottom", legend.title = element_blank(), legend.text = element_text(size=10)) +
   xlim(c(0,4))
 pleg
 
