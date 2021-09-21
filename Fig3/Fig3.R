@@ -253,12 +253,44 @@ p2.1 <- ggtree(rooted.tree.B) %<+% datB +
   xlim(c(0,1.5))
 p2.1 
 
-#add lineage clade bars
+#add lineage clade labels bars
+
+#nodebase
+clade.a <- MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "EF065514  |  HKU9  |  Rousettus_leschenaulti  |  China  |  2005" ),which(rooted.tree.B$tip.label == "HM211098  |  HKU9  |  Rhinolophus_sinicus  |  China  |  2005" ))
+clade.b <- MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "OK020089  |  Rousettus_madagascariensis  |  Madagascar  |  2018" ),which(rooted.tree.B$tip.label == "MG693172  |  Eidolon_helvum  |  Cameroon  |  2013" ))
+clade.c <- MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_030886  |  GCCDC1  |  Rousettus_leschenaulti  |  China  |  2014" ),which(rooted.tree.B$tip.label == "MT350598  |  GCCDC1  |  Eonycteris_spelaea  |  Singapore  |  2016" ))
+clade.d <- MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "MK211379  |  GX2018  |  Rhinolophus_affinis  |  China  |  2016" ),which(rooted.tree.B$tip.label == "MK492263  |  BatCoV92  |  Cynopteris_brachyotis  |  Singapore  |  2015" ))
+clade.e <- MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "OK020087  |  Pteropus_rufus  |  Madagascar  |  2018" ),which(rooted.tree.B$tip.label == "OK067319  |  Pteropus_rufus  |  Madagascar  |  2018" ))
+
+
+
+
+p2.1 <- ggtree(rooted.tree.B) %<+% datB + 
+  geom_tippoint(aes(fill=sub_group, shape=bat_host), show.legend = F, size=5) +
+  geom_nodelab(size=3,nudge_x = -.03, nudge_y = .4) +
+  scale_fill_manual(values=colz) + 
+  scale_shape_manual(values=shapez) + 
+  new_scale_fill()+
+  geom_tiplab(aes(fill = novel), geom = "label", label.size = 0, 
+              alpha=.3,  show.legend=F, size=4, hjust = -.1) + 
+  scale_fill_manual(values=colz2) + 
+  theme(legend.position = "right", legend.title = element_blank()) +
+  geom_treescale(fontsize=4, x=.3,y=50, linesize = .5) + 
+  geom_cladelabel(node = clade.a, label = "HKU9", offset = 1, fontsize = 6.5, color="tomato", offset.text = .01) +
+  geom_cladelabel(node = clade.b, label = "atop(African,italic(Eidolon))", offset = .8, fontsize = 6.5, color="tomato", parse=T) +
+  geom_cladelabel(node = clade.c, label = "GCCDC1", offset = 1.05, fontsize = 6.5, color="tomato", offset.text = .01) +
+  geom_cladelabel(node = clade.d, label = "BtCoV92 /\nGX2018", offset = 1.03, fontsize = 6.5, color="tomato", offset.text = .01) +
+  geom_cladelabel(node = clade.e, label = "atop(Madagascar,italic(Pteropus))", offset = .7, fontsize = 6.5, color="tomato" , parse = T) +
+  xlim(c(0,1.8))
+p2.1 
+
+
 #great, now need to flip some of the clases to match plot on the left
 
 node_flip_Embeco_Merbeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "NC_006213  |  HCoV_OC43  |  Homo_sapiens  |  USA  |  1960"  ))
 node_flip_Sarbeco_Hibeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_025217  |  Hipposideros_pratti  |  China  |  2013" ),which(rooted.tree.B$tip.label == "NC_004718  |  SARS_CoV  |  Homo_sapiens  |  Canada  |  2003" ))
 node_flip_Embeco_Nobeco = MRCA(rooted.tree.B, which(rooted.tree.B$tip.label == "NC_019843  |  MERS  |  Homo_sapiens  |  Saudi_Arabia  |  2012" ),which(rooted.tree.B$tip.label == "EF065516  |  HKU9  |  Rousettus_leschenaulti  |  China  |  2005"   ))
+
 
 p2.2 <- p2.1 %>% ggtree::rotate(node = node_flip_Embeco_Merbeco)
 p2.3 <- p2.2 %>% ggtree::rotate(node = node_flip_Sarbeco_Hibeco)
@@ -278,3 +310,5 @@ Fig3all <- cowplot::plot_grid(Fig3,leg.all, ncol=1, nrow=2, rel_heights = c(1,.1
         height=100, 
         #limitsize = F,
         scale=4)#, 
+
+ 
