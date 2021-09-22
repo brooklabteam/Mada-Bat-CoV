@@ -1,0 +1,178 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            50
+  #sites:           261
+  #patterns:        148
+  Max. thread mem:  3 MB
+
+Output:
+  Log:           RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta.log
+  Starting tree: RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta.tree
+  Results:       RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          8/16
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM2uf+I+G4        7     -3117.4029      6813.5159         0.0000    0.8895
+       2  TIM2+I+G4          8     -3117.1432      6818.5611         5.0452    0.0714
+       3  TVM+I+G4           9     -3115.9435      6821.7262         8.2103    0.0147
+       4  TPM2uf+G4          6     -3124.4986      6822.1428         8.6269    0.0119
+       5  HKY+I+G4           6     -3125.3434      6823.8324        10.3166    0.0051
+       6  TIM2+G4            7     -3123.3506      6825.4113        11.8954    0.0023
+       7  TPM1uf+I+G4        7     -3123.3932      6825.4966        11.9807    0.0022
+       8  GTR+I+G4          10     -3115.5869      6826.5775        13.0616    0.0013
+       9  TPM3uf+I+G4        7     -3124.3249      6827.3600        13.8441    0.0009
+      10  TrN+I+G4           7     -3125.2744      6829.2590        15.7431    0.0003
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TPM2uf+I+G4
+lnL:                -3117.4029
+Frequencies:        0.2810 0.1622 0.1742 0.3826
+Subst. Rates:       2.5635 9.0611 2.5635 1.0000 9.0611 1.0000 
+Inv. sites prop:    0.3833
+Gamma shape:        0.7434
+Score:              6813.5159
+Weight:             0.8895
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0144
+Gamma-Inv:          0.9856
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.4347
+Alpha:              0.2713
+Alpha-P.Inv:        0.7438
+P.Inv-Alpha:        0.3834
+Frequencies:        0.2816 0.1619 0.1745 0.3820 
+
+Commands:
+  > phyml  -i RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m 010212 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta --model TPM2uf+I+G4
+  > paup -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta
+  > iqtree -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m TPM2uf+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM2uf+I+G4        7     -3117.4029      6442.8058         0.0000    0.4205
+       2  TVM+I+G4           9     -3115.9435      6443.8870         1.0813    0.2449
+       3  TIM2+I+G4          8     -3117.1432      6444.2864         1.4806    0.2006
+       4  GTR+I+G4          10     -3115.5869      6445.1738         2.3680    0.1287
+       5  TIM2+G4            7     -3123.3506      6454.7012        11.8954    0.0011
+       6  TPM1uf+I+G4        7     -3123.3932      6454.7865        11.9807    0.0011
+       7  TPM2uf+G4          6     -3124.4986      6454.9972        12.1914    0.0009
+       8  TIM1+I+G4          8     -3123.2850      6456.5700        13.7643    0.0004
+       9  TPM3uf+I+G4        7     -3124.3249      6456.6498        13.8441    0.0004
+      10  HKY+I+G4           6     -3125.3434      6456.6868        13.8811    0.0004
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              TPM2uf+I+G4
+lnL:                -3117.4029
+Frequencies:        0.2810 0.1622 0.1742 0.3826
+Subst. Rates:       2.5635 9.0611 2.5635 1.0000 9.0611 1.0000 
+Inv. sites prop:    0.3833
+Gamma shape:        0.7434
+Score:              6442.8058
+Weight:             0.4205
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0027
+Gamma-Inv:          0.9973
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.4348
+Alpha:              0.2708
+Alpha-P.Inv:        0.7374
+P.Inv-Alpha:        0.3833
+Frequencies:        0.2825 0.1588 0.1760 0.3826 
+
+Commands:
+  > phyml  -i RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m 010212 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta --model TPM2uf+I+G4
+  > paup -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta
+  > iqtree -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m TPM2uf+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM2uf+I+G4        7     -3117.4029      6582.8058         0.0000    0.8650
+       2  TIM2+I+G4          8     -3117.1432      6587.2864         4.4806    0.0921
+       3  TVM+I+G4           9     -3115.9435      6590.8870         8.0813    0.0152
+       4  TPM2uf+G4          6     -3124.4986      6590.9972         8.1914    0.0144
+       5  HKY+I+G4           6     -3125.3434      6592.6868         9.8811    0.0062
+       6  TIM2+G4            7     -3123.3506      6594.7012        11.8954    0.0023
+       7  TPM1uf+I+G4        7     -3123.3932      6594.7865        11.9807    0.0022
+       8  GTR+I+G4          10     -3115.5869      6596.1738        13.3680    0.0011
+       9  TPM3uf+I+G4        7     -3124.3249      6596.6498        13.8441    0.0009
+      10  TrN+I+G4           7     -3125.2744      6598.5488        15.7431    0.0003
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              TPM2uf+I+G4
+lnL:                -3117.4029
+Frequencies:        0.2810 0.1622 0.1742 0.3826
+Subst. Rates:       2.5635 9.0611 2.5635 1.0000 9.0611 1.0000 
+Inv. sites prop:    0.3833
+Gamma shape:        0.7434
+Score:              6582.8058
+Weight:             0.8650
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0169
+Gamma-Inv:          0.9831
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.4347
+Alpha:              0.2713
+Alpha-P.Inv:        0.7440
+P.Inv-Alpha:        0.3835
+Frequencies:        0.2817 0.1618 0.1746 0.3819 
+
+Commands:
+  > phyml  -i RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m 010212 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta --model TPM2uf+I+G4
+  > paup -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta
+  > iqtree -s RdRp_BEAST/AlignRdRP-Full-NoGamma-RdRp-BEAST.fasta -m TPM2uf+I+G4
+Done
