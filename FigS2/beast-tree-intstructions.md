@@ -29,5 +29,5 @@ To prepare the .xml file, we used the following parameters in tab inputs at the 
 
 ### Visualizing Bayesian timetree
 
-Output from BEAST is available in the sub-folder "beast-out". The initial 10% of MCMC iterations were removed as burn-in. Parameter convergence was assessed visually using Tracer v1.6. Once verified, we used TreeAnnotator to average across the BEAST tree output, then visualized the resulting tree in R. The script for preparation of the FigS2 timetree can be found as "FigS2.R" in this folder. 
+Output from BEAST is available in the sub-folder "beast-out". The initial 10% of MCMC iterations were removed as burn-in. Parameter convergence was assessed visually using Tracer v1.6. As has been previously reported (e.g. [Razanjatovo et al. 2015](https://virologyj.biomedcentral.com/articles/10.1186/s12985-015-0271-y)), the Bayesian Skyline tree with a relaxed molecular clock and an exponential distribution offered the best fit to the data. We thus select this data subset, we used TreeAnnotator to average across the BEAST tree output, and visualized the resulting tree in R. The script for preparation of the FigS2 timetree can be found as "FigS2.R" in this folder. 
 
