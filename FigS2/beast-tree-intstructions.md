@@ -29,5 +29,5 @@ To prepare the .xml file, we used the following parameters in tab inputs at the 
 
 ### Visualizing Bayesian timetree
 
-The initial 10% of MCMC iterations were removed as burn-in. Parameter convergence was assessed visually using Tracer v1.6. Once verified, we used TreeAnnotator to average across the BEAST tree output, then visualized the resulting tree in R. The script for preparation of the FigS2 timetree can be found as "FigS2.R" in this folder. 
+Output from BEAST is available in the sub-folder "beast-out". The initial 10% of MCMC iterations were removed as burn-in. Parameter convergence was assessed visually using Tracer v1.6. Once verified, we used TreeAnnotator to average across the BEAST tree output, then visualized the resulting tree in R. The script for preparation of the FigS2 timetree can be found as "FigS2.R" in this folder. 
 
