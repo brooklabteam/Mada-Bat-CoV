@@ -1,0 +1,41 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:AlignNobeCoVBEAST'>((((0:101.83638749010036,(4:84.65405120989186,6:84.98281833317952)26:17.590555458290666)30:55.25564635214805,((((1:0.7326256642190643,3:1.1408448423012274)29:0.14210309101475005,5:1.6117150566036393)28:95.3721025427142,(2:77.36624847568602,11:77.36624847568602)24:18.880582822262)31:25.76598964139687,7:126.31145107633117)25:35.07921290290352)27:26.193719246798793,(8:28.073941440867443,9:21.901338701141427)18:171.3844143879058)23:36.81612726206362,((10:12.542725914763887,12:5.1564245449010375)21:221.8209489883596,((13:97.57262182326278,(15:6.759575526260829,16:7.170534430370349)20:95.56099150248143)19:39.23569189921227,14:141.42749180466691)22:89.30056666010054)17:1.99299996853523)32:0.0</statenode>
+<statenode id='rateAC.s:AlignNobeCoVBEAST'>rateAC.s:AlignNobeCoVBEAST[1 1] (0.0,Infinity): 0.36453025118769855 </statenode>
+<statenode id='rateAG.s:AlignNobeCoVBEAST'>rateAG.s:AlignNobeCoVBEAST[1 1] (0.0,Infinity): 0.7340085853175833 </statenode>
+<statenode id='rateAT.s:AlignNobeCoVBEAST'>rateAT.s:AlignNobeCoVBEAST[1 1] (0.0,Infinity): 0.24604463978247426 </statenode>
+<statenode id='rateCG.s:AlignNobeCoVBEAST'>rateCG.s:AlignNobeCoVBEAST[1 1] (0.0,Infinity): 0.20016706208889523 </statenode>
+<statenode id='rateGT.s:AlignNobeCoVBEAST'>rateGT.s:AlignNobeCoVBEAST[1 1] (0.0,Infinity): 0.16240689524370217 </statenode>
+<statenode id='proportionInvariant.s:AlignNobeCoVBEAST'>proportionInvariant.s:AlignNobeCoVBEAST[1 1] (0.0,1.0): 0.09870836970724346 </statenode>
+<statenode id='gammaShape.s:AlignNobeCoVBEAST'>gammaShape.s:AlignNobeCoVBEAST[1 1] (0.001,1000.0): 0.5380394469065344 </statenode>
+<statenode id='bPopSizes.t:AlignNobeCoVBEAST'>bPopSizes.t:AlignNobeCoVBEAST[5 1] (0.0,Infinity): 354.66533536949936 417.9924841929115 373.3895070799098 385.97814515202697 383.78957027561205 </statenode>
+<statenode id='bGroupSizes.t:AlignNobeCoVBEAST'>bGroupSizes.t:AlignNobeCoVBEAST[5 1] (1,2147483647): 4 5 2 3 2 </statenode>
+<statenode id='ucedMean.c:AlignNobeCoVBEAST'>ucedMean.c:AlignNobeCoVBEAST[1 1] (-Infinity,Infinity): 0.003098685645918945 </statenode>
+<statenode id='expRateCategories.c:AlignNobeCoVBEAST'>expRateCategories.c:AlignNobeCoVBEAST[32 1] (0,31): 2 7 13 5 1 4 3 13 12 11 15 19 18 5 30 25 23 13 11 31 5 16 14 22 15 9 10 20 15 4 20 13 </statenode>
+<statenode id='freqParameter.s:AlignNobeCoVBEAST'>freqParameter.s:AlignNobeCoVBEAST[4 1] (0.0,1.0): 0.25414713864399974 0.17742998835346815 0.22438862413294336 0.34403424886958794 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"RateACScaler.s:AlignNobeCoVBEAST","p":0.7050362060073433,"accept":695,"reject":7086,"acceptFC":685,"rejectFC":7068,"rejectIv":0,"rejectOp":0},
+{"id":"RateAGScaler.s:AlignNobeCoVBEAST","p":0.671288750139786,"accept":394,"reject":7350,"acceptFC":389,"rejectFC":7331,"rejectIv":0,"rejectOp":0},
+{"id":"RateATScaler.s:AlignNobeCoVBEAST","p":0.7350652942392388,"accept":733,"reject":7023,"acceptFC":730,"rejectFC":7001,"rejectIv":0,"rejectOp":0},
+{"id":"RateCGScaler.s:AlignNobeCoVBEAST","p":0.7256782308674949,"accept":1174,"reject":6529,"acceptFC":1169,"rejectFC":6511,"rejectIv":0,"rejectOp":0},
+{"id":"RateGTScaler.s:AlignNobeCoVBEAST","p":0.7391888963093171,"accept":911,"reject":6953,"acceptFC":904,"rejectFC":6934,"rejectIv":0,"rejectOp":0},
+{"id":"proportionInvariantScaler.s:AlignNobeCoVBEAST","p":0.681470197246595,"accept":1240,"reject":6498,"acceptFC":1227,"rejectFC":6482,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:AlignNobeCoVBEAST","p":0.8200590180595088,"accept":709,"reject":7079,"acceptFC":707,"rejectFC":7067,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineTreeScaler.t:AlignNobeCoVBEAST","p":0.7754492505775917,"accept":5082,"reject":229857,"acceptFC":5069,"rejectFC":229198,"rejectIv":87096,"rejectOp":87096},
+{"id":"BayesianSkylineTreeRootScaler.t:AlignNobeCoVBEAST","p":0.8271634665157186,"accept":25946,"reject":208418,"acceptFC":25939,"rejectFC":207754,"rejectIv":28987,"rejectOp":28987},
+{"id":"BayesianSkylineUniformOperator.t:AlignNobeCoVBEAST","p":"NaN","accept":107682,"reject":2240529,"acceptFC":107305,"rejectFC":2234525,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineSubtreeSlide.t:AlignNobeCoVBEAST","p":2.3132244087565175,"accept":385526,"reject":789428,"acceptFC":384402,"rejectFC":787411,"rejectIv":56357,"rejectOp":56357},
+{"id":"BayesianSkylineNarrow.t:AlignNobeCoVBEAST","p":"NaN","accept":12065,"reject":1162094,"acceptFC":11961,"rejectFC":1158993,"rejectIv":2767,"rejectOp":2767},
+{"id":"BayesianSkylineWide.t:AlignNobeCoVBEAST","p":"NaN","accept":93,"reject":234817,"acceptFC":91,"rejectFC":234217,"rejectIv":132246,"rejectOp":132246},
+{"id":"BayesianSkylineWilsonBalding.t:AlignNobeCoVBEAST","p":"NaN","accept":23,"reject":234977,"acceptFC":21,"rejectFC":234340,"rejectIv":50167,"rejectOp":50167},
+{"id":"popSizesScaler.t:AlignNobeCoVBEAST","p":0.9996786542177435,"accept":1172699,"reject":157,"acceptFC":1169471,"rejectFC":157,"rejectIv":0,"rejectOp":0},
+{"id":"groupSizesDelta.t:AlignNobeCoVBEAST","p":19.26036040430604,"accept":55205,"reject":415042,"acceptFC":54285,"rejectFC":414714,"rejectIv":411155,"rejectOp":411155},
+{"id":"ucedMeanScaler.c:AlignNobeCoVBEAST","p":0.8733469936615853,"accept":8089,"reject":70177,"acceptFC":8080,"rejectFC":69986,"rejectIv":0,"rejectOp":0},
+{"id":"ExpCategoriesRandomWalk.c:AlignNobeCoVBEAST","p":"NaN","accept":120394,"reject":661734,"acceptFC":119982,"rejectFC":660013,"rejectIv":272747,"rejectOp":272747},
+{"id":"ExpCategoriesSwapOperator.c:AlignNobeCoVBEAST","p":"NaN","accept":35299,"reject":746553,"acceptFC":35176,"rejectFC":744482,"rejectIv":0,"rejectOp":0},
+{"id":"ExpCategoriesUniform.c:AlignNobeCoVBEAST","p":"NaN","accept":48907,"reject":732139,"acceptFC":48732,"rejectFC":730194,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperatorExp.c:AlignNobeCoVBEAST","p":0.8989596375328686,"accept":19417,"reject":215428,"acceptFC":19398,"rejectFC":214790,"rejectIv":90607,"rejectOp":90607},
+{"id":"FrequenciesExchanger.s:AlignNobeCoVBEAST","p":0.010948404709530138,"accept":1242,"reject":6608,"acceptFC":1233,"rejectFC":6601,"rejectIv":0,"rejectOp":0}
+]}
+-->
