@@ -1,0 +1,178 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            9
+  #sites:           432
+  #patterns:        24
+  Max. thread mem:  0 MB
+
+Output:
+  Log:           PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta.log
+  Starting tree: PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta.tree
+  Results:       PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          8/16
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM1uf             5      -896.0905      1913.5495         0.0000    0.1780
+       2  HKY+G4             5      -896.1137      1913.5960         0.0465    0.1739
+       3  TrN+G4             6      -893.4761      1914.3892         0.8398    0.1169
+       4  TrN+I              6      -893.6432      1914.7233         1.1739    0.0990
+       5  HKY                4      -899.7716      1914.8432         1.2937    0.0932
+       6  HKY+I              5      -896.8856      1915.1397         1.5902    0.0804
+       7  TPM1uf+G4          6      -894.0986      1915.6341         2.0846    0.0628
+       8  TPM1uf+I           6      -894.5392      1916.5154         2.9659    0.0404
+       9  TPM2uf+G4          6      -895.5659      1918.5688         5.0193    0.0145
+      10  TIM1               6      -895.5895      1918.6159         5.0665    0.0141
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TPM1uf
+lnL:                -896.0905
+Frequencies:        0.2799 0.1781 0.1959 0.3461
+Subst. Rates:       1.0000 19.8560 5.4529 5.4529 19.8560 1.0000 
+Inv. sites prop:    -
+Gamma shape:        -
+Score:              1913.5495
+Weight:             0.1780
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.2558
+Gamma:              0.4024
+Gamma-Inv:          0.0299
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6731
+Alpha:              0.2189
+Alpha-P.Inv:        0.8828
+P.Inv-Alpha:        0.6350
+Frequencies:        0.2820 0.1752 0.1958 0.3470 
+
+Commands:
+  > phyml  -i PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m 012210 -f m -v 0 -a 0 -c 1 -o tlr
+  > raxmlHPC-SSE3 -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -c 1 -m GTRCATX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta --model TPM1uf
+  > paup -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta
+  > iqtree -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m TPM1uf
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TrN+G4             6      -893.4761      1828.9523         0.0000    0.1149
+       2  TrN+I              6      -893.6432      1829.2864         0.3341    0.0972
+       3  TrN+I+G4           7      -893.0291      1830.0582         1.1059    0.0661
+       4  TIM3+G4            7      -893.0676      1830.1353         1.1830    0.0636
+       5  TPM1uf+G4          6      -894.0986      1830.1972         1.2449    0.0616
+       6  TIM2+G4            7      -893.1085      1830.2170         1.2647    0.0610
+       7  TIM1+G4            7      -893.2128      1830.4257         1.4734    0.0550
+       8  TIM2+I             7      -893.2259      1830.4518         1.4995    0.0543
+       9  TIM3+I             7      -893.2347      1830.4694         1.5171    0.0538
+      10  TPM1uf+I           6      -894.5392      1831.0784         2.1261    0.0397
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              TrN+G4
+lnL:                -893.4761
+Frequencies:        0.2853 0.1705 0.1984 0.3459
+Subst. Rates:       1.0000 9.2483 1.0000 1.0000 35.9356 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.1056
+Score:              1828.9523
+Weight:             0.1149
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.3194
+Gamma:              0.4209
+Gamma-Inv:          0.2113
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6555
+Alpha:              0.2278
+Alpha-P.Inv:        0.9265
+P.Inv-Alpha:        0.5807
+Frequencies:        0.2833 0.1728 0.1980 0.3459 
+
+Commands:
+  > phyml  -i PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m 010020 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta --model TrN+G4
+  > paup -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta
+  > iqtree -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m TrN+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TrN+G4             6      -893.4761      1830.9523         0.0000    0.1149
+       2  TrN+I              6      -893.6432      1831.2864         0.3341    0.0972
+       3  TrN+I+G4           7      -893.0291      1832.0582         1.1059    0.0661
+       4  TIM3+G4            7      -893.0676      1832.1353         1.1830    0.0636
+       5  TPM1uf+G4          6      -894.0986      1832.1972         1.2449    0.0617
+       6  TIM2+G4            7      -893.1085      1832.2170         1.2647    0.0611
+       7  TIM1+G4            7      -893.2128      1832.4257         1.4734    0.0550
+       8  TIM2+I             7      -893.2259      1832.4518         1.4995    0.0543
+       9  TIM3+I             7      -893.2347      1832.4694         1.5171    0.0538
+      10  TPM1uf+I           6      -894.5392      1833.0784         2.1261    0.0397
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              TrN+G4
+lnL:                -893.4761
+Frequencies:        0.2853 0.1705 0.1984 0.3459
+Subst. Rates:       1.0000 9.2483 1.0000 1.0000 35.9356 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.1056
+Score:              1830.9523
+Weight:             0.1149
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.3195
+Gamma:              0.4210
+Gamma-Inv:          0.2100
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6555
+Alpha:              0.2278
+Alpha-P.Inv:        0.9252
+P.Inv-Alpha:        0.5818
+Frequencies:        0.2833 0.1728 0.1980 0.3459 
+
+Commands:
+  > phyml  -i PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m 010020 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta --model TrN+G4
+  > paup -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta
+  > iqtree -s PterRdRp/Align_Madagascar_Pteropus_Subclade_RdRp_Extract.fasta -m TrN+G4
+Done

@@ -6,9 +6,9 @@ The repo contains sub-directories with scripts and data to make each figure, as 
 
 Within  the Fig. 3 sub-directory, you will find details on how to build a phylogenetic tree [here](https://github.com/brooklabteam/Mada-Bat-CoV/blob/main/Fig3/Phylo-Tree-Directions.md). This script outlines steps used to build Fig 3A and 3B, as well as the amino acid trees in Fig4.
 
-Additionally, you will find details on how to build a Bayesian phylogenetic tree using [BEAST2](http://www.beast2.org/) within the subfolder for FigS2 or linked [here](https://github.com/brooklabteam/Mada-Bat-CoV/blob/main/FigS2/beast-tree-intstructions.md).
+Additionally, you will find details on how to build a Bayesian phylogenetic tree using [BEAST2](http://www.beast2.org/) within the subfolder for 'Extra-Analyses' or linked [here](https://github.com/brooklabteam/Mada-Bat-CoV/blob/main/Extra-Analyses/beast-tree-intstructions.md). We originally hoped to estimate time to most recent common ancestor for *Nobecoviruses* broadly and the newly-defined Madagascar *Pteropus* lineage specifically, but the sampling data are not robust enough for convergence.
 
-Otherwise, all scripts to produce each figure should be self-contained and output results to the "final-figures" folder.
+Beyond the details listed above, all scripts to produce each figure should be self-contained and output results to the "final-figures" folder.
 
 
 
