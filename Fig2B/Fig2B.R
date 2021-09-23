@@ -13,7 +13,7 @@ library(ggmsa)
 
 
 homewd = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
-setwd(paste0(homewd, "FigS3")) 
+setwd(paste0(homewd, "Fig2B")) 
 
 msa = tidy_msa(msa="AllNobecoSubAlign.fasta", start = 28449, end = 31558)
 head(msa)
@@ -33,7 +33,7 @@ names(msa)[names(msa)=="character"] <- "nucleotide"
 head(msa)
 
 #get new names
-dat <- read.csv(file = paste0(homewd, "FigS3/figS3_metadata.csv"), header = T, stringsAsFactors = F)
+dat <- read.csv(file = paste0(homewd, "Fig2B/fig2B_metadata.csv"), header = T, stringsAsFactors = F)
 head(dat)
 names(dat)[names(dat)=="tip_label"] <- "name"
 
@@ -116,7 +116,7 @@ genome.plot <- ggplot(data=genome.df) +
 msa.all <- cowplot::plot_grid(genome.plot, msa.plot, nrow=2, ncol=1, rel_heights = c(.06,1))
 
 
-ggsave(file = paste0(homewd, "/final-figures/FigS3.png"),
+ggsave(file = paste0(homewd, "/final-figures/Fig2B.png"),
        plot = msa.all,
        units="mm",  
        width=180, 
