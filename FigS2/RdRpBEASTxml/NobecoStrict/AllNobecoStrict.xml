@@ -70,12 +70,12 @@ name="alignment">
             <taxonset idref="TaxonSet.AlignAllNobecoRdRp_Extract_BEAST"/>
         </tree>
         <parameter id="clockRate.c:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
         <parameter id="rateAT.s:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="rateGT.s:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
         <parameter id="gammaShape.s:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
-        <parameter id="bPopSizes.t:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" dimension="5" lower="0.0" name="stateNode">380.0</parameter>
+        <parameter id="bPopSizes.t:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" lower="0.0" name="stateNode">380.0</parameter>
         <stateNode id="bGroupSizes.t:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.IntegerParameter" dimension="5">1</stateNode>
+        <parameter id="freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
     </state>
 
     <init id="RandomTree.t:AlignAllNobecoRdRp_Extract_BEAST" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:AlignAllNobecoRdRp_Extract_BEAST" taxa="@AlignAllNobecoRdRp_Extract_BEAST">
@@ -140,10 +140,6 @@ name="alignment">
         <down idref="Tree.t:AlignAllNobecoRdRp_Extract_BEAST"/>
     </operator>
 
-    <operator id="FrequenciesExchanger.s:AlignAllNobecoRdRp_Extract_BEAST" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
-        <parameter idref="freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST"/>
-    </operator>
-
     <operator id="RateATScaler.s:AlignAllNobecoRdRp_Extract_BEAST" spec="ScaleOperator" parameter="@rateAT.s:AlignAllNobecoRdRp_Extract_BEAST" scaleFactor="0.5" weight="0.1"/>
 
     <operator id="RateGTScaler.s:AlignAllNobecoRdRp_Extract_BEAST" spec="ScaleOperator" parameter="@rateGT.s:AlignAllNobecoRdRp_Extract_BEAST" scaleFactor="0.5" weight="0.1"/>
@@ -170,6 +166,10 @@ name="alignment">
         <intparameter idref="bGroupSizes.t:AlignAllNobecoRdRp_Extract_BEAST"/>
     </operator>
 
+    <operator id="FrequenciesExchanger.s:AlignAllNobecoRdRp_Extract_BEAST" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST"/>
+    </operator>
+
     <logger id="tracelog" spec="Logger" fileName="AllNobecoStrict.log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
         <log idref="posterior"/>
         <log idref="likelihood"/>
@@ -177,13 +177,13 @@ name="alignment">
         <log idref="treeLikelihood.AlignAllNobecoRdRp_Extract_BEAST"/>
         <log id="TreeHeight.t:AlignAllNobecoRdRp_Extract_BEAST" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="clockRate.c:AlignAllNobecoRdRp_Extract_BEAST"/>
-        <log idref="freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="rateAT.s:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="rateGT.s:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="gammaShape.s:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="BayesianSkyline.t:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="bPopSizes.t:AlignAllNobecoRdRp_Extract_BEAST"/>
         <log idref="bGroupSizes.t:AlignAllNobecoRdRp_Extract_BEAST"/>
+        <log idref="freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST"/>
     </logger>
 
     <logger id="screenlog" spec="Logger" logEvery="1000">
