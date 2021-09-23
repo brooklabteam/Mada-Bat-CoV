@@ -1,0 +1,33 @@
+<itsabeastystatewerein version='2.0' sample='43464999'>
+<statenode id='Tree.t:AlignAllNobecoRdRp_Extract_BEAST'>((((((7:5.472894612189863,12:6.557826119039079)43:0.5320509264843238,11:7.089877045523403)49:5.91831382604081,26:19.772574433208067)59:72.1516592144956,(((8:5.399676797555259,9:5.399676797555259)51:7.294548188992721,(10:0.40224269338211194,13:0.40224269338211194)50:13.376913800015084)32:1.1937379529773935,29:21.60303143267611)33:70.18695563968521)48:155.138806189343,(22:6.681119845764913,24:4.67984729542424)44:238.6297678840882)53:286.2583821632679,((((((14:8.679373947932334,20:19.72996156676612)45:7.341512914907376,21:26.070201931332825)35:53.1613767847066,((1:0.6169751568422761,3:0.6169751568422761)56:10.040760106207546,5:11.657735263049823)38:58.5738434529896)47:6.787400250906131,19:80.01897896694555)61:104.2796296440213,((2:42.654943344501675,(16:15.5378770910262,23:7.5378770910262)57:35.11706625347547)54:11.415031179521932,(0:2.557118106118587,4:2.557118106118587)60:51.51285641790502)46:126.22863408694325)42:43.54364816920068,((((31:2.119069840245339,27:1.9601657306563367)52:5.2116666218293055,30:6.919777557965125)40:13.182559565653898,28:20.099597397591666)37:39.990487346203096,((6:12.046285642089018,(15:13.212879267983524,17:13.212879267983524)41:5.833406374105493)34:23.60367730116789,(18:1.1329985522778898,25:1.1329985522778898)39:41.51696439097902)36:12.694916321085728)55:176.4973775158249)58:296.7257405626128)62:0.0</statenode>
+<statenode id='rateAT.s:AlignAllNobecoRdRp_Extract_BEAST'>rateAT.s:AlignAllNobecoRdRp_Extract_BEAST[1 1] (0.0,Infinity): 0.1896608483927697 </statenode>
+<statenode id='rateGT.s:AlignAllNobecoRdRp_Extract_BEAST'>rateGT.s:AlignAllNobecoRdRp_Extract_BEAST[1 1] (0.0,Infinity): 0.08803371165364217 </statenode>
+<statenode id='gammaShape.s:AlignAllNobecoRdRp_Extract_BEAST'>gammaShape.s:AlignAllNobecoRdRp_Extract_BEAST[1 1] (0.001,1000.0): 0.22696480018441242 </statenode>
+<statenode id='bPopSizes.t:AlignAllNobecoRdRp_Extract_BEAST'>bPopSizes.t:AlignAllNobecoRdRp_Extract_BEAST[1 1] (0.0,Infinity): 225.5598334321551 </statenode>
+<statenode id='bGroupSizes.t:AlignAllNobecoRdRp_Extract_BEAST'>bGroupSizes.t:AlignAllNobecoRdRp_Extract_BEAST[5 1] (1,2147483647): 2 1 2 25 1 </statenode>
+<statenode id='ucedMean.c:AlignAllNobecoRdRp_Extract_BEAST'>ucedMean.c:AlignAllNobecoRdRp_Extract_BEAST[1 1] (-Infinity,Infinity): 8.572691904797892E-4 </statenode>
+<statenode id='expRateCategories.c:AlignAllNobecoRdRp_Extract_BEAST'>expRateCategories.c:AlignAllNobecoRdRp_Extract_BEAST[62 1] (0,61): 37 61 36 29 18 0 11 3 9 19 10 5 3 47 59 18 45 27 54 47 56 35 52 36 48 19 7 51 23 15 4 38 54 59 19 61 9 18 35 20 11 13 48 17 28 59 18 47 55 47 32 50 17 6 20 51 3 25 18 43 54 16 </statenode>
+<statenode id='freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST'>freqParameter.s:AlignAllNobecoRdRp_Extract_BEAST[4 1] (0.0,1.0): 0.2682811600597713 0.15462106379030166 0.20292816233769348 0.3741696138122338 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"RateATScaler.s:AlignAllNobecoRdRp_Extract_BEAST","p":0.4312526991086083,"accept":7684,"reject":26556,"acceptFC":7679,"rejectFC":26544,"rejectIv":0,"rejectOp":0},
+{"id":"RateGTScaler.s:AlignAllNobecoRdRp_Extract_BEAST","p":0.3052880673235716,"accept":9612,"reject":24508,"acceptFC":9603,"rejectFC":24496,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:AlignAllNobecoRdRp_Extract_BEAST","p":0.5065541541927365,"accept":7704,"reject":26397,"acceptFC":7697,"rejectFC":26379,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineTreeScaler.t:AlignAllNobecoRdRp_Extract_BEAST","p":0.5904890116116567,"accept":66810,"reject":958459,"acceptFC":66808,"rejectFC":957829,"rejectIv":345072,"rejectOp":345072},
+{"id":"BayesianSkylineTreeRootScaler.t:AlignAllNobecoRdRp_Extract_BEAST","p":0.41759328160495657,"accept":185687,"reject":837924,"acceptFC":185640,"rejectFC":837344,"rejectIv":162625,"rejectOp":162625},
+{"id":"BayesianSkylineUniformOperator.t:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":4050401,"reject":6190382,"acceptFC":4048188,"rejectFC":6186162,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineSubtreeSlide.t:AlignAllNobecoRdRp_Extract_BEAST","p":34.46464142853214,"accept":1306933,"reject":3806542,"acceptFC":1306322,"rejectFC":3803852,"rejectIv":1470050,"rejectOp":1470050},
+{"id":"BayesianSkylineNarrow.t:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":1288661,"reject":3832243,"acceptFC":1288143,"rejectFC":3829541,"rejectIv":256208,"rejectOp":256208},
+{"id":"BayesianSkylineWide.t:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":6658,"reject":1016895,"acceptFC":6652,"rejectFC":1016238,"rejectIv":619608,"rejectOp":619608},
+{"id":"BayesianSkylineWilsonBalding.t:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":5625,"reject":1016778,"acceptFC":5618,"rejectFC":1016155,"rejectIv":128013,"rejectOp":128013},
+{"id":"popSizesScaler.t:AlignAllNobecoRdRp_Extract_BEAST","p":0.9990073570550306,"accept":5112353,"reject":3650,"acceptFC":5109087,"rejectFC":3650,"rejectIv":0,"rejectOp":0},
+{"id":"groupSizesDelta.t:AlignAllNobecoRdRp_Extract_BEAST","p":278.5124343741862,"accept":53056,"reject":1992173,"acceptFC":52027,"rejectFC":1991954,"rejectIv":1992173,"rejectOp":1992173},
+{"id":"ucedMeanScaler.c:AlignAllNobecoRdRp_Extract_BEAST","p":0.5503934072795867,"accept":72515,"reject":268282,"acceptFC":72476,"rejectFC":268109,"rejectIv":0,"rejectOp":0},
+{"id":"ExpCategoriesRandomWalk.c:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":2145987,"reject":1268129,"acceptFC":2144729,"rejectFC":1267227,"rejectIv":1174998,"rejectOp":1174998},
+{"id":"ExpCategoriesSwapOperator.c:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":1367800,"reject":2041790,"acceptFC":1367204,"rejectFC":2040157,"rejectIv":0,"rejectOp":0},
+{"id":"ExpCategoriesUniform.c:AlignAllNobecoRdRp_Extract_BEAST","p":"NaN","accept":1838700,"reject":1571638,"acceptFC":1837881,"rejectFC":1570277,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperatorExp.c:AlignAllNobecoRdRp_Extract_BEAST","p":0.5298013923058487,"accept":69574,"reject":953066,"acceptFC":69571,"rejectFC":952437,"rejectIv":620139,"rejectOp":620139},
+{"id":"FrequenciesExchanger.s:AlignAllNobecoRdRp_Extract_BEAST","p":0.0676286618925763,"accept":9853,"reject":23975,"acceptFC":9841,"rejectFC":23967,"rejectIv":0,"rejectOp":0}
+]}
+-->
