@@ -84,15 +84,15 @@ nodeall <- MRCA(tree, which(tree$tip.label == "KP696747  |  Pteropus_rufus  |  M
 orig.date <- round(node.sub$nodetime[nodeall],0)
 Pruf.date <- round(node.sub$nodetime[nodePruf],0)
 new.nodel.lab <- rep(NA, nrow(node.sub))
-new.nodel.lab[nodeall] <- orig.date
-new.nodel.lab[nodePruf] <- Pruf.date
+new.nodel.lab[nodeall] <- paste0("~",orig.date)
+new.nodel.lab[nodePruf] <- paste0("~",Pruf.date)
 
 
 p3 <-ggtree(tree, mrsd=mrsd.dat) %<+% dat.sub + geom_tippoint(aes(color=clade), size=3) +
   geom_tiplab(size=3, nudge_x=5) + geom_nodelab(size=2,nudge_x = -15, nudge_y = .7) +
-  geom_nodelab(aes(label=new.nodel.lab), size=2,nudge_x = -25, nudge_y = -.7,  color="firebrick", fontface=2, geom="label", fill="white") +
+  geom_nodelab(aes(label=new.nodel.lab), size=3,nudge_x = -25, nudge_y = -.7,  color="firebrick", fontface=2, geom="label", fill="white") +
   theme_tree2() +
-  theme(legend.position = c(.1,.85),
+  theme(legend.position = c(.2,.85),
         plot.margin = unit(c(2,20,2,3), "lines")) +
   coord_cartesian(clip = "off")
 
@@ -104,3 +104,4 @@ ggsave(file = paste0(homewd, "/final-figures/FigS2.png"),
        height=60, 
        #limitsize = F,
        scale=3)#, 
+
