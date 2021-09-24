@@ -1,0 +1,175 @@
+--------------------------------------------------------------------------------
+ModelTest-NG vx.y.z
+
+Input data:
+  MSA:        AAS/S-Translation-Alignment.fasta
+  Tree:       Maximum likelihood
+    file:           -
+  #taxa:            38
+  #sites:           1725
+  #patterns:        1550
+  Max. thread mem:  139 MB
+
+Output:
+  Log:           AAS/S-Translation-Alignment.fasta.log
+  Starting tree: AAS/S-Translation-Alignment.fasta.tree
+  Results:       AAS/S-Translation-Alignment.fasta.out
+
+Selection options:
+  # protein matrices: 19
+  # protein models:   152
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: false
+    #categories:     4
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.01
+
+Additional options:
+  verbosity:        very low
+  threads:          8/16
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  WAG+I+G4+F        21    -52532.1357    105764.8517         0.0000    1.0000
+       2  WAG+G4+F          20    -52589.2062    105871.5397       106.6880    0.0000
+       3  LG+I+G4+F         21    -52612.9000    105926.3804       161.5288    0.0000
+       4  LG+G4+F           20    -52675.4567    106044.0407       279.1890    0.0000
+       5  VT+I+G4+F         21    -52729.2516    106159.0836       394.2319    0.0000
+       6  BLOSUM62+I+G4+F   21    -52779.3786    106259.3376       494.4859    0.0000
+       7  VT+G4+F           20    -52790.9044    106274.9361       510.0845    0.0000
+       8  BLOSUM62+G4+F     20    -52839.3851    106371.8976       607.0459    0.0000
+       9  PMB+I+G4+F        21    -52849.4742    106399.5286       634.6770    0.0000
+      10  LG+I+G4            2    -52932.2431    106423.4598       658.6082    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              WAG+I+G4+F
+lnL:                -52532.1357
+Frequencies:        0.0685 0.0313 0.0734 0.0464 0.0344 0.0440 0.0286 0.0630 0.0133 0.0524 0.0897 0.0342 0.0165 0.0526 0.0461 0.0871 0.0747 0.0095 0.0528 0.0815
+Inv. sites prop:    0.0644
+Gamma shape:        1.2815
+Score:              105764.8517
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.8771
+Alpha-P.Inv:        1.2815
+P.Inv-Alpha:        0.0644
+Frequencies:        0.0685 0.0313 0.0734 0.0464 0.0344 0.0440 0.0286 0.0630 0.0133 0.0524 0.0897 0.0342 0.0165 0.0526 0.0461 0.0871 0.0747 0.0095 0.0528 0.0815 
+
+Commands:
+  > phyml  -i AAS/S-Translation-Alignment.fasta -d aa -m WAG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s AAS/S-Translation-Alignment.fasta -m PROTGAMMAIWAGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa AAS/S-Translation-Alignment.fasta --model WAG+I+G4+F
+  > paup -s AAS/S-Translation-Alignment.fasta
+  > iqtree -s AAS/S-Translation-Alignment.fasta -m WAG+I+G4+F
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  WAG+I+G4+F        21    -52532.1357    105252.2713         0.0000    1.0000
+       2  WAG+G4+F          20    -52589.2062    105364.4123       112.1410    0.0000
+       3  LG+I+G4+F         21    -52612.9000    105413.8001       161.5288    0.0000
+       4  LG+G4+F           20    -52675.4567    105536.9133       284.6420    0.0000
+       5  VT+I+G4+F         21    -52729.2516    105646.5032       394.2319    0.0000
+       6  BLOSUM62+I+G4+F   21    -52779.3786    105746.7572       494.4859    0.0000
+       7  VT+G4+F           20    -52790.9044    105767.8088       515.5374    0.0000
+       8  BLOSUM62+G4+F     20    -52839.3851    105864.7703       612.4989    0.0000
+       9  PMB+I+G4+F        21    -52849.4742    105886.9483       634.6770    0.0000
+      10  RTREV+I+G4+F      21    -52884.3944    105956.7888       704.5175    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              WAG+I+G4+F
+lnL:                -52532.1357
+Frequencies:        0.0685 0.0313 0.0734 0.0464 0.0344 0.0440 0.0286 0.0630 0.0133 0.0524 0.0897 0.0342 0.0165 0.0526 0.0461 0.0871 0.0747 0.0095 0.0528 0.0815
+Inv. sites prop:    0.0644
+Gamma shape:        1.2815
+Score:              105252.2713
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.8771
+Alpha-P.Inv:        1.2815
+P.Inv-Alpha:        0.0644
+Frequencies:        0.0685 0.0313 0.0734 0.0464 0.0344 0.0440 0.0286 0.0630 0.0133 0.0524 0.0897 0.0342 0.0165 0.0526 0.0461 0.0871 0.0747 0.0095 0.0528 0.0815 
+
+Commands:
+  > phyml  -i AAS/S-Translation-Alignment.fasta -d aa -m WAG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s AAS/S-Translation-Alignment.fasta -m PROTGAMMAIWAGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa AAS/S-Translation-Alignment.fasta --model WAG+I+G4+F
+  > paup -s AAS/S-Translation-Alignment.fasta
+  > iqtree -s AAS/S-Translation-Alignment.fasta -m WAG+I+G4+F
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  WAG+I+G4+F        21    -52532.1357    105262.2713         0.0000    1.0000
+       2  WAG+G4+F          20    -52589.2062    105374.4123       112.1410    0.0000
+       3  LG+I+G4+F         21    -52612.9000    105423.8001       161.5288    0.0000
+       4  LG+G4+F           20    -52675.4567    105546.9133       284.6420    0.0000
+       5  VT+I+G4+F         21    -52729.2516    105656.5032       394.2319    0.0000
+       6  BLOSUM62+I+G4+F   21    -52779.3786    105756.7572       494.4859    0.0000
+       7  VT+G4+F           20    -52790.9044    105777.8088       515.5374    0.0000
+       8  BLOSUM62+G4+F     20    -52839.3851    105874.7703       612.4989    0.0000
+       9  PMB+I+G4+F        21    -52849.4742    105896.9483       634.6770    0.0000
+      10  RTREV+I+G4+F      21    -52884.3944    105966.7888       704.5175    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              WAG+I+G4+F
+lnL:                -52532.1357
+Frequencies:        0.0685 0.0313 0.0734 0.0464 0.0344 0.0440 0.0286 0.0630 0.0133 0.0524 0.0897 0.0342 0.0165 0.0526 0.0461 0.0871 0.0747 0.0095 0.0528 0.0815
+Inv. sites prop:    0.0644
+Gamma shape:        1.2815
+Score:              105262.2713
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              -
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              -
+Alpha:              0.8771
+Alpha-P.Inv:        1.2815
+P.Inv-Alpha:        0.0644
+Frequencies:        0.0685 0.0313 0.0734 0.0464 0.0344 0.0440 0.0286 0.0630 0.0133 0.0524 0.0897 0.0342 0.0165 0.0526 0.0461 0.0871 0.0747 0.0095 0.0528 0.0815 
+
+Commands:
+  > phyml  -i AAS/S-Translation-Alignment.fasta -d aa -m WAG -f e -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s AAS/S-Translation-Alignment.fasta -m PROTGAMMAIWAGF -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa AAS/S-Translation-Alignment.fasta --model WAG+I+G4+F
+  > paup -s AAS/S-Translation-Alignment.fasta
+  > iqtree -s AAS/S-Translation-Alignment.fasta -m WAG+I+G4+F
+Done
