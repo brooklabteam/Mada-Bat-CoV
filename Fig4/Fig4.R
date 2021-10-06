@@ -6,16 +6,18 @@ library(ggtree)
 library(ape)
 library(ggnewscale)
 library(lubridate)
+library(rBt)
+
 
 #make Bayesian timetree from Nobecovirus relaxed molecular clock model
 
 #first, read in the tree
 
-homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
+homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV"
 setwd(paste0(homewd, "/Fig4"))
 
 tree <- read.annot.beast(file = paste0(homewd, "/Fig4/beast-out/AllNobeco/NobecoRelaxed/AvgNobecoRelaxedNexus"))
-tree <- read.annot.beast(file = paste0(homewd, "/Fig4/beast-out/old/NobecoRelaxed/AvgNobecoRelaxedNexus"))
+#tree <- read.annot.beast(file = paste0(homewd, "/Fig4/beast-out/AllNobeco/NobecoStrict/AvgNobecoStrictNexus.trees"))
 
 tree$node.label <- round(tree$posterior,2)
 treedat <- cbind.data.frame(tip_name = tree$tip.label)
@@ -99,8 +101,8 @@ dat.sub$clade[dat.sub$clade=="African Eidolon"] <- "African~italic(Eidolon)"
 dat.sub$clade[dat.sub$clade=="Madagascar Pteropus"] <- "Madagascar~italic(Pteropus)"
 
 p3 <-ggtree(tree, mrsd=mrsd.dat) %<+% dat.sub + geom_tippoint(aes(color=clade), size=3) +
-  geom_tiplab(size=3, nudge_x=5) + geom_nodelab(size=2.5,nudge_x = -15, nudge_y = .7) +
-  geom_nodelab(aes(label=new.nodel.lab), size=3,nudge_x = -60, nudge_y = -1.1,  color="firebrick", fontface=2, geom="label", fill="white") +
+  geom_tiplab(size=3, nudge_x=5) + geom_nodelab(size=2.5,nudge_x = -21, nudge_y = .7) +
+  geom_nodelab(aes(label=new.nodel.lab), size=3,nudge_x = -66, nudge_y = -1.1,  color="firebrick", fontface=2, geom="label", fill="white") +
   #theme_tree2() +
   geom_treescale(fontsize=3, x=1300,y=22, linesize = .5, width=200,label="years") + 
   scale_color_discrete(labels=c(parse(text="African~italic(Eidolon)"), "BtCoV92 / GX2018", "GCCDC1", "HKU9", parse(text="Madagascar~italic(Pteropus)"))) +
