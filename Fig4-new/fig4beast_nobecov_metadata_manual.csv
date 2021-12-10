@@ -1,0 +1,21 @@
+tip_label,accession_num,strain,host,bat_host,country,collection_date,collection_year,title,sub_group
+EF065514_1_HKU_9_2_Rousettus_leschenaulti_China,EF065514,HKU9,Rousettus_leschenaulti,1,China,2005-07-31,2005,Bat coronavirus HKU9-2,Nobecovirus
+EF065515_1_HKU_9_3_Rousettus_leschenaulti_China,EF065515,HKU9,Rousettus_leschenaulti,1,China,2005-07-31,2005,Bat coronavirus HKU9-3,Nobecovirus
+EF065516_1_HKU_9_4_Rousettus_leschenaulti_China,EF065516,HKU9,Rousettus_leschenaulti,1,China,2005-07-31,2005,Bat coronavirus HKU9-4,Nobecovirus
+HM211098_1_HKU_9_5_1_Rhinolphus_sinicus_China,HM211098,HKU9,Rhinolophus_sinicus,1,China,2005-12-11,2005,Bat coronavirus HKU9-5-1,Nobecovirus
+HM211099_1_HKU_9_5_1_Rousettus_leschenaulti_China,HM211099,HKU9,Rousettus_leschenaulti,1,China,2005-12-11,2005,Bat coronavirus HKU9-5-2,Nobecovirus
+HM211100_1_HKU_9_10_1_Rousettus_leschenaulti_China,HM211100,HKU9,Rousettus_leschenaulti,1,China,2006-04-10,2006,Bat coronavirus HKU9-10-1,Nobecovirus
+MG693169_1_Eidolon_helvum_Cameroon,MG693169,NA,Eidolon_helvum,1,Cameroon,2013-07-31,2013,NA,Nobecovirus
+MG693170_1_Eidolon_helvum_Cameroon,MG693170,HKU9,Eidolon_helvum,1,Cameroon,2013-07-31,2013,NA,Nobecovirus
+MG693171_1_Eidolon_helvum_Cameroon,MG693171,NA,Eidolon_helvum,1,Cameroon,2013-07-31,2013,NA,Nobecovirus
+MG693172_1_Eidolon_helvum_Cameroon,MG693172,NA,Eidolon_helvum,1,Cameroon,2013-07-31,2013,NA,Nobecovirus
+MG762674_1_HKU9_Rousettus_sp_China,MG762674,HKU9,Rousettus_sp.,1,China,2009-11-01,2009,Rousettus bat coronavirus HKU9 isolate Rousettus spp/Jinghong/2009,Nobecovirus
+MK211379_1_GX2018_Rhinolophus_affinis_China,MK211379,GX2018,Rhinolophus_affinis,1,China,2021-09-16,2016,Coronavirus BtRt-BetaCoV/GX2018,Nobecovirus
+MK492263_1_BatCoV92_Cynopteris_brachyotis_Singapore,MK492263,BtCoV92,Cynopterus_brachyotis,1,Singapore,2015-07-31,2015,NA,Nobecovirus
+MT350598_1_GCCDC1_Eonycteris_spelaea_Singapore,MT350598,GCCDC1,Eonycteris_spelaea,1,Singapore,2021-10-16,2016,Rousettus bat coronavirus GCCDC1,Nobecovirus
+NC_009021_1_HKU9_Rousettus_leschenaulti_China,NC_009021,HKU9,Rousettus_leschenaulti,1,China,2005-07-31,2005,Rousettus bat coronavirus HKU9,Nobecovirus
+NC_030886_GCCDC1_356_Rousettus_leschenaulti_China,NC_030886,GCCDC1,Rousettus_leschenaulti,1,China,2014-05-28,2014,Rousettus bat coronavirus isolate GCCDC1 356,Nobecovirus
+NC_048212_1_Eidolon_helvum_Cameroon,NC_048212,NA,Eidolon_helvum,1,Cameroon,2013-07-31,2013,NA,Nobecovirus
+Pteropus_rufus_RR034B_010_fecRa_AMB130,OK067319,NA,Pteropus_rufus,1,Madagascar,2018-02-26,2018,New-Madagascar-Nobecovirus,Nobecovirus
+Rousettus_madagascariensis_RR034B_232_fecRa_MIZ178,OK067320,NA,Rousettus_madagascariensis,1,Madagascar,2018-04-14,2018,New-Madagascar-Nobecovirus,Nobecovirus
+Rousettus_madagascariensis_RR034B_288_fecRa_MIZ240,OK067321,NA,Rousettus_madagascariensis,1,Madagascar,2018-09-11,2018,New-Madagascar-Nobecovirus,Nobecovirus
