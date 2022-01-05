@@ -14,10 +14,10 @@ library(treeio)
 
 #first, read in the tree
 
-homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV"
-setwd(paste0(homewd, "/Fig4-new"))
+homewd= "/Users/carabrook/Developer/Mada-Bat-CoV"
+setwd(paste0(homewd, "/Fig4"))
 
-tree <- read.beast(file = paste0(homewd, "/Fig4-new/nobecoRecombAVG.tree"))
+tree <- read.beast(file = paste0(homewd, "/Fig4/nobecoRecombAVG.tree"))
 
 
 treedat <- cbind.data.frame(tip_name = tree@phylo$tip.label)
@@ -95,16 +95,19 @@ nodePruf <- MRCA(tree, which(tree@phylo$tip.label == "OK067319  |  Pteropus_rufu
 nodeRous <- MRCA(tree, which(tree@phylo$tip.label == "OK067320  |  Rousettus_madagascariensis  |  Madagascar  |  2018"),which(tree@phylo$tip.label == "HM211099  |  HKU9  |  Rousettus_leschenaulti  |  China  |  2005"))
 #nodeall <- MRCA(tree, which(tree$tip.label == "KP696747  |  Pteropus_rufus  |  Madagascar  |  2011"),which(tree$tip.label == "MK211379  |  GX2018  |  Rhinolophus_affinis  |  China  |  2016"))
 #orig.date <- round(node.sub$nodetime[nodeall],0)
-Pruf.date <- round(node.sub$nodetime[nodePruf],0)
+Pruf.date <- round(node.sub$nodetime[nodePruf],0) #date that P ruf branches off from everything else
 recent.age <- year(mrsd.dat) + yday(mrsd.dat)/365
-Pruf.mean <- round(recent.age-tree@data$height[35],0)
-Pruf.uci <- round(recent.age-tree@data$height_range[35][[1]][1],0)
-Pruf.lci <- round(recent.age-tree@data$height_range[35][[1]][2],0)
+Pruf.mean <- round(recent.age-tree@data$height[35],0) #sane as above--date that P. ruf branches off -
+#this is taking the P. ruf tip and subtracting the branch length from present to get its position
+Pruf.uci <- round(recent.age-tree@data$height_0.95_HPD[35][[1]][1],0)
+Pruf.lci <- round(recent.age-tree@data$height_0.95_HPD[35][[1]][2],0)
+#should be close to the lengths: tree@data$length_0.95_HPD[35] (does not have it)
 Pruf.date <- paste0("~", Pruf.mean, "\n[", Pruf.lci, "-", Pruf.uci, "]")#from FigTree
 
 Rous.mean <- round(recent.age-tree@data$height[33],0)
-Rous.uci <- round(recent.age-tree@data$height_range[33][[1]][1],0)
-Rous.lci <- round(recent.age-tree@data$height_range[33][[1]][2],0)
+Rous.date <- round(node.sub$nodetime[nodeRous],0)#they are the same--we're good
+Rous.uci <- round(recent.age-tree@data$height_0.95_HPD[33][[1]][1],0)
+Rous.lci <- round(recent.age-tree@data$height_0.95_HPD[33][[1]][2],0)
 Rous.date <- paste0("~", Rous.mean, "\n[", Rous.lci, "-", Rous.uci, "]")#from FigTree
 
 
@@ -125,13 +128,13 @@ colz2 = c('yes' =  "yellow", 'no' = "white")
 p3 <-ggtree(tree, mrsd=mrsd.dat) %<+% dat.sub + geom_tippoint(aes(color=clade), size=3) +
   #geom_tiplab(size=3, nudge_x=5) + 
   geom_nodelab(size=2.5,nudge_x = -21, nudge_y = .7) +
-  geom_nodelab(aes(label=new.nodel.lab), size=4,nudge_x = -50, nudge_y = -1,  color="firebrick", fontface=2, geom="label", fill="white") +
+  geom_nodelab(aes(label=new.nodel.lab), size=4,nudge_x = -55, nudge_y = -1,  color="firebrick", fontface=2, geom="label", fill="white") +
   theme_tree2() +
   #geom_treescale(fontsize=3, x=1300,y=22, linesize = .5, width=200,label="years") + 
   scale_color_discrete(labels=c(parse(text="African~italic(Eidolon)"), "BtCoV92 / GX2018", "GCCDC1", "HKU9", parse(text="Madagascar~italic(Pteropus)"))) +
   theme(legend.position = c(.2,.6), 
         plot.margin = unit(c(.2,20,2,3), "lines")) +
-  coord_cartesian(clip = "off", xlim=c(1600, 2050)) + 
+  coord_cartesian(clip = "off", xlim=c(1600, 2150)) + 
   #geom_range(range='length_0.95_HPD', color='red', alpha=.6, size=2) +
   geom_nodepoint(aes(fill=posterior), shape=21, color="black", size=2, stroke=.1) +
   scale_fill_continuous(low="yellow", high="red") +
@@ -152,7 +155,7 @@ ggsave(file = paste0(homewd, "/final-figures/Fig4.png"),
 
 #and the version that includes  the recombinant clade
 
-tree <- read.beast(file = paste0(homewd, "/Fig4-new/nobecoAllAVG.tree"))
+tree <- read.beast(file = paste0(homewd, "/Fig4/nobecoAllAVG.tree"))
 
 
 treedat <- cbind.data.frame(tip_name = tree@phylo$tip.label)
@@ -239,6 +242,7 @@ Pruf.date <- paste0("~", Pruf.mean, "\n[", Pruf.lci, "-", Pruf.uci, "]")#from Fi
 
 
 Rous.mean <- round(recent.age-tree@data$height[which(tree@data$height==sort(tree@data$height)[length(tree@data$height)-1])],0)
+Rous.date <- round(node.sub$nodetime[nodeRous],0)
 Rous.uci <- round(recent.age-tree@data$height_range[which(tree@data$height==sort(tree@data$height)[length(tree@data$height)-1])][[1]][1],0)
 Rous.lci <- round(recent.age-tree@data$height_range[which(tree@data$height==sort(tree@data$height)[length(tree@data$height)-1])][[1]][2],0)
 Rous.date <- paste0("~", Rous.mean, "\n[", Rous.lci, "-", Rous.uci, "]")#from FigTree
@@ -268,7 +272,7 @@ p3 <-ggtree(tree, mrsd=mrsd.dat) %<+% dat.sub + geom_tippoint(aes(color=clade), 
   scale_color_discrete(labels=c(parse(text="African~italic(Eidolon)"), "BtCoV92 / GX2018", "GCCDC1", "HKU9", parse(text="Madagascar~italic(Pteropus)"))) +
   theme(legend.position = c(.18,.7), 
         plot.margin = unit(c(.2,20,2,3), "lines")) +
-  coord_cartesian(clip = "off", xlim=c(1600, 2050)) + 
+  coord_cartesian(clip = "off", xlim=c(1600, 2150)) + 
   #geom_range(range='length_0.95_HPD', color='red', alpha=.6, size=2) +
   geom_nodepoint(aes(fill=posterior), shape=21, color="black", size=2, stroke=.1) +
   scale_fill_continuous(low="yellow", high="red") +
