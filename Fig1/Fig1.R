@@ -30,7 +30,7 @@ library(ggrepel)
 #####################################################################
 # Set wd to data on this computer. Also ID homewd, assuming that 
 # Mada-GIS is cloned to the same series of sub-folders
-homewd = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/" 
+homewd = "/Users/carabrook/Developer/Mada-Bat-CoV/" 
 #should be wherever "Mada-Bat-CoV" is stored on your home computer
 basewd = paste(strsplit(homewd, "/")[[1]][1:6], collapse = "/")
 mapwd = paste0(basewd, "/", "Mada-GIS")
