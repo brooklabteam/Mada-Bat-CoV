@@ -6,8 +6,8 @@ library(seqinr)
 
 
 #set wd
-homewd = "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV"
-setwd(paste0(homewd, "/Fig4-new/"))
+homewd = "/Users/carabrook/Developer/Mada-Bat-CoV"
+setwd(paste0(homewd, "/Fig4/"))
 
 #load the dataset and query
 dat <- read.csv(file = "fig4beast_nobecov_metadata_manual.csv", header = T, stringsAsFactors = F)
@@ -15,7 +15,7 @@ dat <- read.csv(file = "fig4beast_nobecov_metadata_manual.csv", header = T, stri
 head(dat)
 
 #now, get the fasta file 
-fasta.dat <- read.fasta(file= paste0(homewd,"/Fig4-new/1-genomes-and-alignments/fullgenome-Nobeco.fasta"), forceDNAtolower = F, as.string = T)
+fasta.dat <- read.fasta(file= paste0(homewd,"/Fig4/1-genomes-and-alignments/fullgenome-Nobeco.fasta"), forceDNAtolower = F, as.string = T)
 
 names(fasta.dat)
 
