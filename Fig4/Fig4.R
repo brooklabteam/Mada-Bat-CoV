@@ -131,7 +131,7 @@ p3 <-ggtree(tree, mrsd=mrsd.dat) %<+% dat.sub + geom_tippoint(aes(color=clade), 
   geom_nodelab(aes(label=new.nodel.lab), size=4,nudge_x = -55, nudge_y = -1,  color="firebrick", fontface=2, geom="label", fill="white") +
   theme_tree2() +
   #geom_treescale(fontsize=3, x=1300,y=22, linesize = .5, width=200,label="years") + 
-  scale_color_discrete(labels=c(parse(text="African~italic(Eidolon)"), "BtCoV92 / GX2018", "GCCDC1", "HKU9", parse(text="Madagascar~italic(Pteropus)"))) +
+  scale_color_discrete(labels=c(parse(text="African~italic(Eidolon)"), "BtCoV92 / GX2018", "HKU9", parse(text="Madagascar~italic(Pteropus)"))) +
   theme(legend.position = c(.2,.6), 
         plot.margin = unit(c(.2,20,2,3), "lines")) +
   coord_cartesian(clip = "off", xlim=c(1600, 2150)) + 
