@@ -7,7 +7,7 @@ library(ggtree)
 library(ape)
 library(ggnewscale)
 
-homewd= "/Users/caraebrook/Documents/R/R_repositories/Mada-Bat-CoV/"
+homewd= "/Users/carabrook/Developer/Mada-Bat-CoV/"
 
 setwd(paste0(homewd, "/Fig3"))
 
@@ -42,7 +42,7 @@ dat$novel <- as.factor(dat$novel)
 #take a glance
 p <- ggtree(rooted.tree.A) %<+% dat + geom_tippoint(aes(color=sub_group)) +
       geom_tiplab(size=1) + geom_nodelab(size=1) +
-    scale_fill_manual(values=colz) + theme(legend.position = c(.2,.85), legend.title = element_blank())
+    scale_color_manual(values=colz) + theme(legend.position = c(.2,.85), legend.title = element_blank())
 p #looks great
 
 #now get new tip labels
